@@ -1,0 +1,3 @@
+[submodule "FF_UAV_public"]
+	path = FF_UAV_public
+	url = https://github.com/uol-eps-mech-idro/FF_UAV_public.git
