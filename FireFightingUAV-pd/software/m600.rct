@@ -1,0 +1,111 @@
+diagram m600
+
+//
+// Flight controller
+//
+
+// Drone flight controller API
+interface M600Flight {
+	//
+	// Navigation commands
+	//
+	// These all correspond to the blocking forms of DJI::OSDK::Control::[name]
+	// (and the similar newer versions in DJI::OSDK::FlightController).
+	//
+	// We are currently abstracting over whether we need closed loops to
+	// monitor the progress of these commands, as well as errors, etc.
+	//
+	
+	fcTakeoffCall() // DJI::OSDK::Control::takeoff
+	fcGoHomeCall()  // DJI::OSDK::Control::goHome
+	fcLandCall()    // DJI::OSDK::Control::land
+	
+	// Not sure yet exactly what this abstracts over, maybe a 1-waypoint mission?
+	fcWaypointCall(pos: Position)
+	
+	// Intended to be a RELATIVE movement.
+	//
+	// Corresponds to: https://developer.dji.com/onboard-api-reference/classDJI_1_1OSDK_1_1Control.html#a1f2c5a277f091fb5fb5b39baf6f6fa0f
+	// with the flags set as per positionAndYawCtrl modulo using FRU instead of NEU.
+	fcMoveRelativeCall(movement: RelativeMotion)
+}
+
+operation fcTakeoffCall() { terminates }
+operation fcGoHomeCall() { terminates }
+operation fcLandCall() { terminates }
+operation fcWaypointCall(pos: Position) { terminates }
+operation fcMoveRelativeCall(movement: RelativeMotion) { terminates }
+
+//
+// Telemetry
+//
+// A battery telemetry message.
+//
+// https://developer.dji.com/onboard-api-reference/structDJI_1_1OSDK_1_1BatteryWholeInfo.html
+//
+// (there is also
+// https://developer.dji.com/onboard-api-reference/structDJI_1_1OSDK_1_1Telemetry_1_1Battery.html#details 
+// but we don't appear to be using that)
+datatype Battery {
+	// Removed capacity, voltage, and current to trim down states FDR must consider.
+	// TODO(@MattWindsor91): do we actually need anything other than percentage?
+	//capacity: nat
+	//voltage: int
+	//current: int
+	percentage: nat
+}
+
+// Events corresponding to flight control calls.
+interface M600FlightEvents {
+	// Acquired control authority.
+	//
+	// This corresponds to the callback from DJI::OSDK::Control,
+	// with the initial call elided.
+	event fcControlAuth
+	
+	//
+	// Return signals for navigation commands
+	//
+	// These are currently (2022-03-09) modelled as fully blocking events
+	// with the assumption that the UAV has moved to the correct position
+	// by the time they fire from the platform.  This may need revisiting
+	// eventually; the suggestion from the sample code
+	// (https://github.com/dji-sdk/Onboard-SDK/blob/master/sample/platform/linux/flight-control/main.cpp)
+	// is that we need closed loops in the software.
+	//
+	
+	event fcTakeoffRet // Return from fcTakeoffCall
+	event fcGoHomeRet  // Return from fcGoHomeCall
+	event fcLandRet    // Return from fcLandCall
+
+	// Waypoint has been reached.
+	//
+	// This corresponds to
+	// WaypointV2MissionOperator::getCurrentState() returning
+	// DJIWaypointV2MissionState::DJIWaypointV2MissionStateFinishedMission.
+	//
+	// See:
+	//   https://developer.dji.com/onboard-api-reference/classDJI_1_1OSDK_1_1WaypointV2MissionOperator.html#a34f43945acf6042f71333bc0aff178e2
+	//   https://developer.dji.com/onboard-api-reference/namespaceDJI_1_1OSDK.html#a017211f46775544a35da4e6bd1cc732a
+	//
+	// NOTE (@MattWindsor91): as of 2022-03-03 I haven't found a direct
+	// WaypointV1 correspondence to this event, but I think there's some
+	// invocation of the waypoint callbacks that can convey the 'finished'
+	// event.
+	event fcWaypointFinishedMission
+	
+	// Successful return for fcMoveRelative.
+	event fcMoveRelativeRet
+}
+
+// Events corresponding to flight telemetry topics.
+interface M600TelemetryEvents {
+	// No telemetry topics are used yet.  This will likely change as we make
+	// the model more concrete.
+}
+
+// Events corresponding to battery telemetry topics.
+interface M600BatteryTelemetryEvents {
+	// The battery ROS topic.
+	event batteryInfo: Battery
+}

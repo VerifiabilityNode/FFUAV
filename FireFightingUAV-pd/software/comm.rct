@@ -1,0 +1,130 @@
+// Communications interfaces used between state machines and controllers.
+diagram comm
+
+import datatypes::*
+
+// Interface shared by FireDetect and VisualNav, for forwarding frames captured
+// from the depth camera and sending fire position events.
+interface FireVisualEvents {
+	// TODO(@MattWindsor91): incorporate information from Bilal's email of 8 Nov
+	
+	// Sends information about the wall distance to the visual nav.
+	event wallMetrics: WallMetrics
+}
+
+// Interface shared by VisualNav and Planning.
+//
+// This contains enable/disable events for isolating the visual navigation
+// system whenever we are 
+interface VisualPlanningEvents {
+	//
+	// From Planning to Visual
+	//
+	
+	// Visual navigation should turn on/off now.
+	event vnavEnable : boolean
+	
+	//
+	// From Visual to Planning
+	//
+	
+	// Status of visual navigation, used to acknowledge vnavEnabled.
+	// (since 2022-09-06: removed in favour of vnavIn)
+	// (since 2022-09-05: no longer just a boolean for 'fire is in the centre of the camera').
+	// (since 2022-06-10: previously we were only using gimbalAimed for this.)
+}
+
+// Interface for events shared by Flight and Planning.
+interface FlightPlanningEvents {
+	//
+	// Navigation commands
+	//
+	
+	// Provides a top-level navigation command.
+	event navCommand: NavCommand
+	
+	// Provides a waypoint.
+	event waypoint: Position
+	
+	//
+	// Aircraft status and telemetry
+	//
+	
+	// High level aircraft status.
+	event uavStatus: AircraftStatus
+}
+
+// Interface of events shared by spray/aim and planning.
+interface SprayAimPlanningEvents {
+	//
+	// From Gimbal to Planning
+	//
+	
+	// Communicates the current status of the gimbal.
+	// 2022-09-06: changed from typeless event gimbalAimed.
+	event gimbalStatus : GimbalStatus
+}
+
+// Interface of events communicating battery information to planning
+interface BatteryPlanningEvents {	
+	// Goes from OK to MissionCritical when the battery has gone mission critical,
+	// and to SafetyCritical when it has gone safety critical.
+	// 2022-09-05: this used to be an untyped trigger, but has changed to
+	// admit async polling.
+	// NOTE(@MattWindsor91 2022-12-12): readded safety for parity with Hugo's model.
+	// NOTE(@MattWindsor91 2023-01-23): merged into a tri-state event.
+	event batteryStatus : BatteryStatus
+	// TODO(@MattWindsor91): question P3: should this be more low-level?
+}
+
+//
+// Topic subscriptions
+//
+
+interface FireSubscriber {
+	// Receives fire information.
+	event fireIn : FireTarget
+}
+// Added 2023-02-03.
+// In the implementation, this may be merged with FireSubscriber.
+interface FireStatusSubscriber {
+	// Receives fire status information.
+	event fireStatusIn : FireStatus
+}
+interface SpraySubscriber {
+	// Receives spray commands.
+	event sprayIn : PumpStatus
+}
+interface WaterSubscriber {
+	// Receives the current status of the water monitor.
+	event waterIn : WaterStatus
+}
+interface VNavSubscriber {
+	// Receives the current output of the visual navigator.
+	event vnavIn : VNavOutput
+}
+
+// Interface shared by AimCtrl and MainCtrl with regards to spraying and aiming.
+//
+// This represents communications over the serial line.
+//
+// NOTE(@MattWindsor91, 2022-08-31):
+// We abstract away the existence of a ROS serial node, and so the
+// division of labour between that and spray/aim is presently unclear.
+interface InterCtrlSprayAimEvents {
+	//
+	// MainCtrl -> AimCtrl
+	//
+
+	// Requests that the pump goes on or off.
+	event pump : PumpStatus
+	// Requests that the gimbal move to the given angle.
+	event gimbalReq : AngleReq
+	
+	//
+	// AimCtrl -> MainCtrl
+	//
+	
+	// Confirms that the angle has been set (returning the sequential ID sent as part of the request).
+	event gimbalAck : nat
+}

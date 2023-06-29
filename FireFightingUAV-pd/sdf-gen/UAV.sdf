@@ -1,0 +1,2643 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+		<model name="UAV">
+			<self_collide>true</self_collide>
+			<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+			<!-- Start of parts of the pmodel UAV -->
+				<!-- Start of declarations for part "UAV::drone" -->
+					<!-- Start of parts of part "UAV::drone" -->
+					<!-- Start of declarations for part "UAV::drone::LeftLeg" -->
+						<!-- Start of parts of part "UAV::drone::LeftLeg" -->
+						<!-- End of parts of part "UAV::drone::LeftLeg" -->
+						
+						<!-- Start of links of part "UAV::drone::LeftLeg" -->
+						<!-- link full name is UAV::drone::LeftLeg::gear -->
+						<link name="1-gear">
+								<pose>0.16811999898880714 0.0 -0.023349999859556547 0.0 -0.17452777756585014 0.0</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::LeftLeg::gear::leg -->
+								<collision name="1--leg">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.12654999450109905 0.0 -3.1414999961853027 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.012499999720603228</radius>
+											<length>0.2530999890021981</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="1--leg">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.12654999450109905 0.0 -3.1414999961853027 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.012499999720603228</radius>
+											<length>0.2530999890021981</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::LeftLeg::gear::foot -->
+								<collision name="2--foot">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.2530999890021981 1.5707499980926514 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.00899999956041575</radius>
+											<length>0.11249999748542905</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="2--foot">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.2530999890021981 1.5707499980926514 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.00899999956041575</radius>
+											<length>0.11249999748542905</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::LeftLeg" -->
+						
+						<!-- Start of joints of part "UAV::drone::LeftLeg" -->
+						<!-- End of joints of part "UAV::drone::LeftLeg" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::LeftLeg" -->
+						<!-- fixed joint full name is UAV::drone::LeftLeg::gear::fixedJoint::UAV::drone::Hub from UAV::drone::LeftLeg::gear to UAV::drone::Hub -->
+						<joint name="3-fixedJoint" type="fixed">
+							<parent>1-gear</parent>
+							<child>2-Hub</child>
+							<axis><xyz>0 0 1</xyz></axis>
+						</joint>
+						
+						<!-- End of fixed connections of part "UAV::drone::LeftLeg" -->
+					<!-- End of declarations for part "UAV::drone::LeftLeg" -->
+					<!-- Start of declarations for part "UAV::drone::RightLeg" -->
+						<!-- Start of parts of part "UAV::drone::RightLeg" -->
+						<!-- End of parts of part "UAV::drone::RightLeg" -->
+						
+						<!-- Start of links of part "UAV::drone::RightLeg" -->
+						<!-- link full name is UAV::drone::RightLeg::gear -->
+						<link name="4-gear">
+								<pose>-0.16811999898880714 0.0 -0.023349999859556547 0.0 -0.17452777756585014 3.1414999961853027</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::RightLeg::gear::leg -->
+								<collision name="3--leg">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.12654999450109905 0.0 -3.1414999961853027 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.012499999720603228</radius>
+											<length>0.2530999890021981</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="3--leg">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.12654999450109905 0.0 -3.1414999961853027 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.012499999720603228</radius>
+											<length>0.2530999890021981</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::RightLeg::gear::foot -->
+								<collision name="4--foot">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.2530999890021981 1.5707499980926514 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.00899999956041575</radius>
+											<length>0.11249999748542905</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="4--foot">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.0 0.0 -0.2530999890021981 1.5707499980926514 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.00899999956041575</radius>
+											<length>0.11249999748542905</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::RightLeg" -->
+						
+						<!-- Start of joints of part "UAV::drone::RightLeg" -->
+						<!-- End of joints of part "UAV::drone::RightLeg" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::RightLeg" -->
+						<!-- fixed joint full name is UAV::drone::RightLeg::gear::fixedJoint::UAV::drone::Hub from UAV::drone::RightLeg::gear to UAV::drone::Hub -->
+						<joint name="5-fixedJoint" type="fixed">
+							<parent>4-gear</parent>
+							<child>2-Hub</child>
+							<axis><xyz>0 0 1</xyz></axis>
+						</joint>
+						
+						<!-- End of fixed connections of part "UAV::drone::RightLeg" -->
+					<!-- End of declarations for part "UAV::drone::RightLeg" -->
+					<!-- Start of declarations for part "UAV::drone::arm::1" -->
+						<!-- Start of parts of part "UAV::drone::arm::1" -->
+						<!-- End of parts of part "UAV::drone::arm::1" -->
+						
+						<!-- Start of links of part "UAV::drone::arm::1" -->
+						<!-- link full name is UAV::drone::arm::1::arm -->
+						<link name="6-arm">
+								<pose>0.08406449630933237 0.14559359367861882 0.0 0.0 -0.13962222205268013 1.0471666653951008</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::arm::1::arm::Pole -->
+								<collision name="5--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="5--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::arm::1::arm::MotorHolder -->
+								<collision name="6--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="6--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::arm::1" -->
+						
+						<!-- Start of joints of part "UAV::drone::arm::1" -->
+						<!-- End of joints of part "UAV::drone::arm::1" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::arm::1" -->
+						
+						<!-- End of fixed connections of part "UAV::drone::arm::1" -->
+					<!-- End of declarations for part "UAV::drone::arm::1" -->
+					<!-- Start of declarations for part "UAV::drone::arm::2" -->
+						<!-- Start of parts of part "UAV::drone::arm::2" -->
+						<!-- End of parts of part "UAV::drone::arm::2" -->
+						
+						<!-- Start of links of part "UAV::drone::arm::2" -->
+						<!-- link full name is UAV::drone::arm::2::arm -->
+						<link name="7-arm">
+								<pose>-0.0840510056239875 0.1456013822516563 0.0 0.0 -0.13962222205268013 2.0943333307902017</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::arm::2::arm::Pole -->
+								<collision name="7--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="7--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::arm::2::arm::MotorHolder -->
+								<collision name="8--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="8--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::arm::2" -->
+						
+						<!-- Start of joints of part "UAV::drone::arm::2" -->
+						<!-- End of joints of part "UAV::drone::arm::2" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::arm::2" -->
+						
+						<!-- End of fixed connections of part "UAV::drone::arm::2" -->
+					<!-- End of declarations for part "UAV::drone::arm::2" -->
+					<!-- Start of declarations for part "UAV::drone::arm::3" -->
+						<!-- Start of parts of part "UAV::drone::arm::3" -->
+						<!-- End of parts of part "UAV::drone::arm::3" -->
+						
+						<!-- Start of links of part "UAV::drone::arm::3" -->
+						<!-- link full name is UAV::drone::arm::3::arm -->
+						<link name="8-arm">
+								<pose>-0.16811999826711888 1.557756272695912E-5 0.0 0.0 -0.13962222205268013 3.1414999961853027</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::arm::3::arm::Pole -->
+								<collision name="9--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="9--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::arm::3::arm::MotorHolder -->
+								<collision name="10--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="10--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::arm::3" -->
+						
+						<!-- Start of joints of part "UAV::drone::arm::3" -->
+						<!-- End of joints of part "UAV::drone::arm::3" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::arm::3" -->
+						
+						<!-- End of fixed connections of part "UAV::drone::arm::3" -->
+					<!-- End of declarations for part "UAV::drone::arm::3" -->
+					<!-- Start of declarations for part "UAV::drone::arm::4" -->
+						<!-- Start of parts of part "UAV::drone::arm::4" -->
+						<!-- End of parts of part "UAV::drone::arm::4" -->
+						
+						<!-- Start of links of part "UAV::drone::arm::4" -->
+						<!-- link full name is UAV::drone::arm::4::arm -->
+						<link name="9-arm">
+								<pose>-0.08407798627295038 -0.1455858038556029 0.0 0.0 -0.13962222205268013 4.188666661580403</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::arm::4::arm::Pole -->
+								<collision name="11--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="11--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::arm::4::arm::MotorHolder -->
+								<collision name="12--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="12--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::arm::4" -->
+						
+						<!-- Start of joints of part "UAV::drone::arm::4" -->
+						<!-- End of joints of part "UAV::drone::arm::4" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::arm::4" -->
+						
+						<!-- End of fixed connections of part "UAV::drone::arm::4" -->
+					<!-- End of declarations for part "UAV::drone::arm::4" -->
+					<!-- Start of declarations for part "UAV::drone::arm::5" -->
+						<!-- Start of parts of part "UAV::drone::arm::5" -->
+						<!-- End of parts of part "UAV::drone::arm::5" -->
+						
+						<!-- Start of links of part "UAV::drone::arm::5" -->
+						<!-- link full name is UAV::drone::arm::5::arm -->
+						<link name="10-arm">
+								<pose>0.08403751421703155 -0.14560916957464848 0.0 0.0 -0.13962222205268013 5.235833326975504</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::arm::5::arm::Pole -->
+								<collision name="13--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="13--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::arm::5::arm::MotorHolder -->
+								<collision name="14--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="14--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::arm::5" -->
+						
+						<!-- Start of joints of part "UAV::drone::arm::5" -->
+						<!-- End of joints of part "UAV::drone::arm::5" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::arm::5" -->
+						
+						<!-- End of fixed connections of part "UAV::drone::arm::5" -->
+					<!-- End of declarations for part "UAV::drone::arm::5" -->
+					<!-- Start of declarations for part "UAV::drone::arm::6" -->
+						<!-- Start of parts of part "UAV::drone::arm::6" -->
+						<!-- End of parts of part "UAV::drone::arm::6" -->
+						
+						<!-- Start of links of part "UAV::drone::arm::6" -->
+						<!-- link full name is UAV::drone::arm::6::arm -->
+						<link name="11-arm">
+								<pose>0.16811999610205408 -3.115512532017872E-5 0.0 0.0 -0.13962222205268013 6.2829999923706055</pose>
+								<inertial>
+									<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+									<inertia>
+										<ixx>1.0</ixx>
+										<ixy>0.0</ixy>
+										<ixz>0.0</ixz>
+										<iyy>1.0</iyy>
+										<iyz>0.0</iyz>
+										<izz>1.0</izz>
+									</inertia>
+									<mass>1.0</mass>
+								</inertial>
+								<!-- body full name is UAV::drone::arm::6::arm::Pole -->
+								<collision name="15--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="15--Pole">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.129949995950982 0.0 0.0 0.0 -1.5707499980926514 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.013999999448657041</radius>
+											<length>0.259899991901964</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+								<!-- body full name is UAV::drone::arm::6::arm::MotorHolder -->
+								<collision name="16--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</collision>
+								<visual name="16--MotorHolder">
+									<laser_retro>0.0</laser_retro>
+									<pose>0.295899990143627 0.0 0.0 0.0 0.0 0.0</pose>
+									<geometry>
+										<cylinder>
+											<radius>0.035999998241663</radius>
+											<length>0.027999998897314082</length>
+										</cylinder>
+									</geometry>
+									<surface>
+										<bounce>
+											<restitution_coefficient>0.0</restitution_coefficient>
+											<threshold>100000.0</threshold>
+										</bounce>
+										<friction>
+											<ode>
+												<mu>1.0</mu>
+												<mu2>1.0</mu2>
+												<fdir1>0.0 0.0 0.0</fdir1>
+												<slip1>0.0</slip1>
+												<slip2>0.0</slip2>
+											</ode>
+											<torsional>
+												<coefficient>1.0</coefficient>
+												<surface_radius>0.0</surface_radius>
+											</torsional>
+										</friction>
+									</surface>
+								</visual>
+						</link>	
+						<!-- End of links of part "UAV::drone::arm::6" -->
+						
+						<!-- Start of joints of part "UAV::drone::arm::6" -->
+						<!-- End of joints of part "UAV::drone::arm::6" -->
+						
+						<!-- Start of fixed connections of part "UAV::drone::arm::6" -->
+						
+						<!-- End of fixed connections of part "UAV::drone::arm::6" -->
+					<!-- End of declarations for part "UAV::drone::arm::6" -->
+					<!-- End of parts of part "UAV::drone" -->
+					
+					<!-- Start of links of part "UAV::drone" -->
+					<!-- link full name is UAV::drone::Hub -->
+					<link name="2-Hub">
+							<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>9.600000381469727</mass>
+							</inertial>
+							<!-- body full name is UAV::drone::Hub::Hub -->
+							<collision name="17--Hub">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.16811999898880714</radius>
+										<length>0.046699999719113094</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="17--Hub">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.16811999898880714</radius>
+										<length>0.046699999719113094</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- WARNING: Annotation not found for the sensor IMU. The SDF generator relies on annotations to specify aspects of the 
+							  	 sensor that are accounted for in the equations. --> If you wish to reflect these aspects in SDF,
+							     please add an appropriate annotation to the sensor. --> 
+							<!-- WARNING: Annotation not found for the sensor GPS. The SDF generator relies on annotations to specify aspects of the 
+							  	 sensor that are accounted for in the equations. --> If you wish to reflect these aspects in SDF,
+							     please add an appropriate annotation to the sensor. --> 
+							<!-- WARNING: Annotation not found for the sensor CurrentBattery. The SDF generator relies on annotations to specify aspects of the 
+							  	 sensor that are accounted for in the equations. --> If you wish to reflect these aspects in SDF,
+							     please add an appropriate annotation to the sensor. --> 
+							<!-- WARNING: Annotation not found for the actuator Transmitter. RoboSim actuators have no explicit counterparts in SDF, 
+								 so the generator must rely on annotations to produce something meaningful in SDF. If you wish to reflect these aspects in SDF,
+								 please add an appropriate annotation to the actuator. -->
+					</link>	
+					<!-- link full name is UAV::drone::MainFrame -->
+					<link name="12-MainFrame">
+							<pose>0.0 0.0 -0.08615000055395061 0.0 0.0 0.0</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>1.0</mass>
+							</inertial>
+							<!-- body full name is UAV::drone::MainFrame::MainFrameBody::-1 -->
+							<collision name="18--MainFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.07459999871402978 0.0 0.0 -1.5707499980926514 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.006000000104308123</radius>
+										<length>0.3240000080168244</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="18--MainFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.07459999871402978 0.0 0.0 -1.5707499980926514 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.006000000104308123</radius>
+										<length>0.3240000080168244</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::MainFrameBody::1 -->
+							<collision name="19--MainFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.07459999871402978 0.0 0.0 -1.5707499980926514 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.006000000104308123</radius>
+										<length>0.3240000080168244</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="19--MainFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.07459999871402978 0.0 0.0 -1.5707499980926514 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.006000000104308123</radius>
+										<length>0.3240000080168244</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::SideFrameBody::-1 -->
+							<collision name="20--SideFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 -0.1620000040084122 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.14919999742805956 0.007599999734759333 0.006799999919533728</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="20--SideFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 -0.1620000040084122 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.14919999742805956 0.007599999734759333 0.006799999919533728</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::SideFrameBody::1 -->
+							<collision name="21--SideFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.1620000040084122 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.14919999742805956 0.007599999734759333 0.006799999919533728</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="21--SideFrameBody">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.1620000040084122 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.14919999742805956 0.007599999734759333 0.006799999919533728</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::Pole::1 -->
+							<collision name="22--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.07456046311406014 0.1291368209377475 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="22--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.07456046311406014 0.1291368209377475 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::Pole::2 -->
+							<collision name="23--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.0745515473213832 0.1291419682894703 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="23--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.0745515473213832 0.1291419682894703 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::Pole::4 -->
+							<collision name="24--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.07457242827662981 -0.12912991180442235 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="24--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.07457242827662981 -0.12912991180442235 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::drone::MainFrame::Pole::5 -->
+							<collision name="25--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.07453958104178053 -0.12914887548796863 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="25--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.07453958104178053 -0.12914887548796863 0.03140000034719703 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.06280000069439406</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+					</link>	
+					<!-- End of links of part "UAV::drone" -->
+					
+					<!-- Start of joints of part "UAV::drone" -->
+					<!-- End of joints of part "UAV::drone" -->
+					
+					<!-- Start of fixed connections of part "UAV::drone" -->
+					<!-- fixed joint full name is UAV::drone::MainFrame::fixedJoint::UAV::payload::Attachment::1 from UAV::drone::MainFrame to UAV::payload::Attachment::1 -->
+					<joint name="14-fixedJoint" type="fixed">
+						<parent>12-MainFrame</parent>
+						<child>13-Attachment</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::MainFrame::fixedJoint::UAV::payload::Attachment::0 from UAV::drone::MainFrame to UAV::payload::Attachment::0 -->
+					<joint name="16-fixedJoint" type="fixed">
+						<parent>12-MainFrame</parent>
+						<child>15-Attachment</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					
+					<!-- fixed joint full name is UAV::drone::Hub::fixedJoint::UAV::drone::arm::6::arm from UAV::drone::Hub to UAV::drone::arm::6::arm -->
+					<joint name="17-fixedJoint" type="fixed">
+						<parent>2-Hub</parent>
+						<child>11-arm</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::Hub::fixedJoint::UAV::drone::arm::5::arm from UAV::drone::Hub to UAV::drone::arm::5::arm -->
+					<joint name="18-fixedJoint" type="fixed">
+						<parent>2-Hub</parent>
+						<child>10-arm</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::Hub::fixedJoint::UAV::drone::arm::4::arm from UAV::drone::Hub to UAV::drone::arm::4::arm -->
+					<joint name="19-fixedJoint" type="fixed">
+						<parent>2-Hub</parent>
+						<child>9-arm</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::Hub::fixedJoint::UAV::drone::arm::3::arm from UAV::drone::Hub to UAV::drone::arm::3::arm -->
+					<joint name="20-fixedJoint" type="fixed">
+						<parent>2-Hub</parent>
+						<child>8-arm</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::Hub::fixedJoint::UAV::drone::arm::2::arm from UAV::drone::Hub to UAV::drone::arm::2::arm -->
+					<joint name="21-fixedJoint" type="fixed">
+						<parent>2-Hub</parent>
+						<child>7-arm</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::Hub::fixedJoint::UAV::drone::arm::1::arm from UAV::drone::Hub to UAV::drone::arm::1::arm -->
+					<joint name="22-fixedJoint" type="fixed">
+						<parent>2-Hub</parent>
+						<child>6-arm</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::drone::MainFrame::fixedJoint::UAV::drone::Hub from UAV::drone::MainFrame to UAV::drone::Hub -->
+					<joint name="23-fixedJoint" type="fixed">
+						<parent>12-MainFrame</parent>
+						<child>2-Hub</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- End of fixed connections of part "UAV::drone" -->
+				<!-- End of declarations for part "UAV::drone" -->
+				<!-- Start of declarations for part "UAV::payload" -->
+					<!-- Start of parts of part "UAV::payload" -->
+					<!-- End of parts of part "UAV::payload" -->
+					
+					<!-- Start of links of part "UAV::payload" -->
+					<!-- link full name is UAV::payload::Pole -->
+					<link name="24-Pole">
+							<pose>0.0 0.3379999848157169 -0.12603999929040666 0.0 -1.5707499980926514 1.5707499980926514</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>1.5755999982357025</mass>
+							</inertial>
+							<!-- body full name is UAV::payload::Pole::Pole -->
+							<collision name="26--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.009999999776482582</radius>
+										<length>0.9999999776482582</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="26--Pole">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.009999999776482582</radius>
+										<length>0.9999999776482582</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::payload::Pole::LeftPole -->
+							<collision name="27--LeftPole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.016105999586597086 -0.014999999664723873 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.9999999776482582</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="27--LeftPole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.016105999586597086 -0.014999999664723873 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.9999999776482582</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::payload::Pole::RightPole -->
+							<collision name="28--RightPole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.016105999586597086 0.014999999664723873 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.9999999776482582</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="28--RightPole">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.016105999586597086 0.014999999664723873 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.004999999888241291</radius>
+										<length>0.9999999776482582</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::payload::Pole::GimbalMount -->
+							<collision name="29--GimbalMount">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.023780998652108032 0.0 -0.47999998927116394 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.03474999826960268 0.05899999963492153 0.03999999910593033</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="29--GimbalMount">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.023780998652108032 0.0 -0.47999998927116394 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.03474999826960268 0.05899999963492153 0.03999999910593033</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::payload::Pole::WaterTank -->
+							<collision name="30--WaterTank">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.03999999910593033 0.0 0.3240000080168244 0.0 1.5707499980926514 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.3240000080168244 0.09999999776482582 0.03999999910593033</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="30--WaterTank">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.03999999910593033 0.0 0.3240000080168244 0.0 1.5707499980926514 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.3240000080168244 0.09999999776482582 0.03999999910593033</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- WARNING: Annotation not found for the sensor RealSense. The SDF generator relies on annotations to specify aspects of the 
+							  	 sensor that are accounted for in the equations. --> If you wish to reflect these aspects in SDF,
+							     please add an appropriate annotation to the sensor. --> 
+							<!-- WARNING: Annotation not found for the sensor ThermalCamera. The SDF generator relies on annotations to specify aspects of the 
+							  	 sensor that are accounted for in the equations. --> If you wish to reflect these aspects in SDF,
+							     please add an appropriate annotation to the sensor. --> 
+							<!-- WARNING: Annotation not found for the sensor RgbCamera. The SDF generator relies on annotations to specify aspects of the 
+							  	 sensor that are accounted for in the equations. --> If you wish to reflect these aspects in SDF,
+							     please add an appropriate annotation to the sensor. --> 
+							<!-- WARNING: Annotation not found for the actuator GCS. RoboSim actuators have no explicit counterparts in SDF, 
+								 so the generator must rely on annotations to produce something meaningful in SDF. If you wish to reflect these aspects in SDF,
+								 please add an appropriate annotation to the actuator. -->
+					</link>	
+					<!-- link full name is UAV::payload::GimballPitchBase -->
+					<link name="25-GimballPitchBase">
+							<pose>0.0 0.8179999740868809 -0.1705399987725913 0.0 -0.0 0.0</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>0.01850000023841858</mass>
+							</inertial>
+							<!-- body full name is UAV::payload::GimballPitchBase::Base -->
+							<collision name="31--Base">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.019999999552965164 0.019999999552965164 0.009999999776482582</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="31--Base">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.019999999552965164 0.019999999552965164 0.009999999776482582</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+					</link>	
+					<!-- link full name is UAV::payload::Dispenser -->
+					<link name="26-Dispenser">
+							<pose>0.0 0.8179999740868809 -0.17553999866083259 0.0 -0.0 0.0</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>0.01850000023841858</mass>
+							</inertial>
+							<!-- body full name is UAV::payload::Dispenser::DispenserBase -->
+							<collision name="32--DispenserBase">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 -0.019999999552965164 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.019999999552965164 0.019999999552965164 0.009999999776482582</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="32--DispenserBase">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.0 0.0 -0.019999999552965164 0.0 0.0 0.0</pose>
+								<geometry>
+									<box> 
+										<size>0.019999999552965164 0.019999999552965164 0.009999999776482582</size>
+									</box>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- WARNING: Annotation not found for the actuator Nozzle. RoboSim actuators have no explicit counterparts in SDF, 
+								 so the generator must rely on annotations to produce something meaningful in SDF. If you wish to reflect these aspects in SDF,
+								 please add an appropriate annotation to the actuator. -->
+					</link>	
+					<!-- link full name is UAV::payload::Attachment::0 -->
+					<link name="15-Attachment">
+							<pose>0.0 -0.1620000040084122 -0.10909530363642497 0.0 -0.0 0.0</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>0.10000000149011612</mass>
+							</inertial>
+							<!-- body full name is UAV::payload::Attachment::0::Left -->
+							<collision name="33--Left">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.03749999916180968 0.0 0.0 0.0 1.995155155658722 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="33--Left">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.03749999916180968 0.0 0.0 0.0 1.995155155658722 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::payload::Attachment::0::Right -->
+							<collision name="34--Right">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.03749999916180968 0.0 0.0 0.0 1.995155155658722 3.1414999961853027</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="34--Right">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.03749999916180968 0.0 0.0 0.0 1.995155155658722 3.1414999961853027</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+					</link>	
+					<!-- link full name is UAV::payload::Attachment::1 -->
+					<link name="13-Attachment">
+							<pose>0.0 0.1620000040084122 -0.10909530363642497 0.0 -0.0 0.0</pose>
+							<inertial>
+								<pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+								<inertia>
+									<ixx>1.0</ixx>
+									<ixy>0.0</ixy>
+									<ixz>0.0</ixz>
+									<iyy>1.0</iyy>
+									<iyz>0.0</iyz>
+									<izz>1.0</izz>
+								</inertia>
+								<mass>0.10000000149011612</mass>
+							</inertial>
+							<!-- body full name is UAV::payload::Attachment::1::Left -->
+							<collision name="35--Left">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.03749999916180968 0.0 0.0 0.0 1.995155155658722 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="35--Left">
+								<laser_retro>0.0</laser_retro>
+								<pose>-0.03749999916180968 0.0 0.0 0.0 1.995155155658722 0.0</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+							<!-- body full name is UAV::payload::Attachment::1::Right -->
+							<collision name="36--Right">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.03749999916180968 0.0 0.0 0.0 1.995155155658722 3.1414999961853027</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</collision>
+							<visual name="36--Right">
+								<laser_retro>0.0</laser_retro>
+								<pose>0.03749999916180968 0.0 0.0 0.0 1.995155155658722 3.1414999961853027</pose>
+								<geometry>
+									<cylinder>
+										<radius>0.0019099156809148092</radius>
+										<length>0.08229999358281503</length>
+									</cylinder>
+								</geometry>
+								<surface>
+									<bounce>
+										<restitution_coefficient>0.0</restitution_coefficient>
+										<threshold>100000.0</threshold>
+									</bounce>
+									<friction>
+										<ode>
+											<mu>1.0</mu>
+											<mu2>1.0</mu2>
+											<fdir1>0.0 0.0 0.0</fdir1>
+											<slip1>0.0</slip1>
+											<slip2>0.0</slip2>
+										</ode>
+										<torsional>
+											<coefficient>1.0</coefficient>
+											<surface_radius>0.0</surface_radius>
+										</torsional>
+									</friction>
+								</surface>
+							</visual>
+					</link>	
+					<!-- End of links of part "UAV::payload" -->
+					
+					<!-- Start of joints of part "UAV::payload" -->
+					<!-- Full name of joint: UAV::payload::Pole::GimballPan from UAV::payload::Pole to UAV::payload::GimballPitchBase-->
+					<joint name="27-GimballPan" type="revolute">
+						<pose>2.2237725506533557E-5 -1.1027730514312495E-6 0.020696763079025043 0.0 -1.5707499980926514 1.5707499980926514</pose>
+						<parent>24-Pole</parent>
+						<child>25-GimballPitchBase</child>
+						<!-- WARNING: The SDF generator relies on annotations of the joint 27-GimballPan to specify in SDF aspects of the joint that are
+							 accounted for in the equations. -->
+						<axis>
+							<xyz>1 0 0</xyz>
+						</axis>
+						<!-- WARNING: Annotation not found for the actuator PanMotor. RoboSim actuators have no explicit counterparts in SDF, 
+							 so the generator must rely on annotations to produce something meaningful in SDF. If you wish to reflect these aspects in SDF,
+							 please add an appropriate annotation to the actuator. -->
+					</joint>
+					<!-- Full name of joint: UAV::payload::GimballPitchBase::GimballPitch from UAV::payload::GimballPitchBase to UAV::payload::Dispenser-->
+					<joint name="28-GimballPitch" type="revolute">
+						<pose>0.0 0.0 0.004999999888241291 0.0 -0.0 0.0</pose>
+						<parent>25-GimballPitchBase</parent>
+						<child>26-Dispenser</child>
+						<!-- WARNING: The SDF generator relies on annotations of the joint 28-GimballPitch to specify in SDF aspects of the joint that are
+							 accounted for in the equations. -->
+						<axis>
+							<xyz>1 0 0</xyz>
+						</axis>
+						<!-- WARNING: Annotation not found for the actuator PitchMotor. RoboSim actuators have no explicit counterparts in SDF, 
+							 so the generator must rely on annotations to produce something meaningful in SDF. If you wish to reflect these aspects in SDF,
+							 please add an appropriate annotation to the actuator. -->
+					</joint>
+					<!-- End of joints of part "UAV::payload" -->
+					
+					<!-- Start of fixed connections of part "UAV::payload" -->
+					
+					<!-- fixed joint full name is UAV::payload::Attachment::1::fixedJoint::UAV::payload::Pole from UAV::payload::Attachment::1 to UAV::payload::Pole -->
+					<joint name="29-fixedJoint" type="fixed">
+						<parent>13-Attachment</parent>
+						<child>24-Pole</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- fixed joint full name is UAV::payload::Attachment::0::fixedJoint::UAV::payload::Pole from UAV::payload::Attachment::0 to UAV::payload::Pole -->
+					<joint name="30-fixedJoint" type="fixed">
+						<parent>15-Attachment</parent>
+						<child>24-Pole</child>
+						<axis><xyz>0 0 1</xyz></axis>
+					</joint>
+					<!-- End of fixed connections of part "UAV::payload" -->
+				<!-- End of declarations for part "UAV::payload" -->
+			<!-- End of parts of the pmodel UAV -->
+			
+			<!-- Start of links of the pmodel UAV -->
+			<!-- End of links of the pmodel UAV -->
+			
+			<!-- Start of joints of the pmodel UAV -->
+			<!-- End of joints of the pmodel UAV -->
+			
+			<!-- Start of fixed connections of the pmodel UAV -->
+			<!-- End of fixed connections of the pmodel UAV -->
+		</model>
+</sdf>

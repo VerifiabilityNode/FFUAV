@@ -1,0 +1,26 @@
+target F: system of module FirefightingUAV
+
+sequence group Pump for F:
+	use module as M
+	use context as C
+
+	sequence OffBeforeOn for M and C:
+		loop as L:
+			anything except op pumpOn until op pumpOff
+			then anything except op pumpOff until op pumpOn
+
+assertion NoPumpOffBeforePumpOn: Pump::OffBeforeOn is not observed
+assertion NoPumpOffBeforePumpOn2: Pump::OffBeforeOn holds
+
+target M: module FirefightingUAV
+
+sequence group Demo for M:
+	use component FirefightingUAV::AnArduino as A
+	use component FirefightingUAV::ARaspberryPi as R
+
+	sequence GimbalPosition for A and R:
+		loop:
+			anything until event gimbalYaw(any) from R to A
+			then anything until event gimbalPitch(any) from R to A
+			then anything until event gimbalYawAck from A to R
+			then anything until event gimbalPitchAck from A to R

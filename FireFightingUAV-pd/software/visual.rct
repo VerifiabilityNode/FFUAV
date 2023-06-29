@@ -1,0 +1,119 @@
+// The visual navigation state machine.
+diagram visual
+
+import comm::*
+import datatypes::*
+import rsd435i::*
+import fire::*
+
+
+// Checks whether a positive/negative delta is within a tolerance value.
+function deltaInTolerance(d: real, tol: real): boolean {
+	precondition
+		0 <= tol
+	postcondition
+		result == (-tol <= d < tol)
+}
+
+// Checks whether a motion delta is within tolerance values.
+function motionInTolerance(m: RelativeMotion, vec_tol: real, yaw_tol: real): boolean {
+	precondition
+		0 <= vec_tol /\ 0 <= yaw_tol
+	postcondition
+		result == deltaInTolerance(m.dx, vec_tol) /\ deltaInTolerance(m.dy, vec_tol) /\ deltaInTolerance(m.dz, vec_tol) /\ deltaInTolerance(m.dyaw, yaw_tol)
+}
+
+stm VisualNav {
+	// We rely on the fire STM performing all of the image processing, and just
+	// handle the translation from points to commands. 
+	uses FireVisualEvents
+	uses FireSubscriber
+	uses VisualPlanningEvents
+	
+	// 2022-09-05 : make visual navigation a multi-subscriber publisher
+	event vnavFOut : VNavOutput
+	event vnavPOut : VNavOutput
+	
+	// 2022-09-05: added enabled and polling to check for enabledness
+	// 2023-01-26: renamed out to outp because 'out' is a specific thing in CSP semantics
+	var tgt : FireTarget, wm : WallMetrics, outp : VNavOutput, enabled : boolean, centred : boolean
+	
+	const
+		CENTRE_TOL : real, // tolerance for being at the centre of the fire (distance delta)
+		YAW_TOL    : real, // tolerance in yaw skewness (angle delta)
+		TRACK_DIST : real, // tracking distance, generally 4m
+		SCAN_DIST  : real  // scanning distance, generally 6m
+	
+	initial I
+	transition Init { from I to Inactive }
+	
+	// NOTE(@MattWindsor91 2022-05-23): added inactive/active states to capture
+	// Bilal/Shival's previous assertion that it is the visual navigation that
+	// is turned on and off; this also ensures that we only do visual nav
+	// adjustments when we are NOT doing waypoint movements.
+	state Inactive {
+		entry outp.stat = VNavStatus::Offline; vnavFOut!outp; vnavPOut!outp
+	}
+	
+	transition Activate { from Inactive to Active condition enabled }
+	transition Deactivate { from Active to Inactive condition not enabled }
+	
+	transition IPoll   { from Inactive to Inactive trigger vnavEnable?enabled }
+	
+	transition IgnoreW { from Inactive to Inactive trigger wallMetrics?wm }
+	transition IgnoreF { from Inactive to Inactive trigger fireIn?tgt }
+	
+	state Active {		
+		initial I
+		
+		transition Init { from I to Poll }
+			
+		state Poll {}
+		
+		transition WW { from Poll to Wall trigger wallMetrics?wm }
+		
+		state Wall {
+			entry
+				outp.rpos.dyaw = calcYawDelta(wm)
+		}
+		transition WF { from Wall to FIsValid trigger fireIn?tgt }
+			
+		// added 2022-05-20: validity checking in visual nav
+		junction FIsValid
+		transition FValid    { from FIsValid to Fire   condition tgt.stat == FireStatus::Tracked }
+		transition FNotValid { from FIsValid to NoFire condition tgt.stat != FireStatus::Tracked }
+		
+		state Fire {
+			// Move towards tracking distance.
+			
+			entry
+				outp.rpos.dx = tgt.distance - TRACK_DIST;
+				// TODO(@MattWindsor91): is this mapping correct?
+				// eg: right = y <- x; up/down (need to check) = z <- y.
+				outp.rpos.dy = tgt.dx;
+				outp.rpos.dz = tgt.dy;
+				outp.stat = if motionInTolerance(outp.rpos, CENTRE_TOL, YAW_TOL) then VNavStatus::Centred else VNavStatus::NotCentred end
+		}
+		
+		state NoFire {
+			// Move back towards scanning distance.
+			
+			entry
+				outp.rpos.dx = tgt.distance - SCAN_DIST;
+				outp.rpos.dy = 0;
+				outp.rpos.dz = 0;
+				// keep yaw setpoint as previous so we keep turning
+				outp.stat = VNavStatus::NotCentred
+		}
+		
+		transition FCommit { from Fire   to Commit }
+		transition NCommit { from NoFire to Commit }
+		
+		junction Commit
+	
+		transition Loop { from Commit to Poll action vnavFOut!outp; vnavPOut!outp }
+		
+		// 2022-09-05.  Assuming we don't need to poll while handling vnav.
+		transition APoll { from Poll to Poll trigger vnavEnable?enabled }
+	}
+}

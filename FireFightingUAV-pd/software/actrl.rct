@@ -1,0 +1,80 @@
+// The arm controller (Arduino).
+diagram actrl
+
+import spray::*
+
+controller ArmCtrl {
+	// ArmCtrl <-> Platform
+	requires Pump
+	requires Gimbal
+
+	uses InterCtrlSprayAimEvents
+	
+	// The arm controller runs one program only, which handles both spray and
+	// aim concerns.  This is to enforce the ability to implement this program
+	// sequentially at deployment.
+	stm ArmProg {
+		// Base timing for gimbal turning.
+		const GIMBAL_BASE_DELAY: nat
+		
+		// See above note.
+		requires Pump
+		requires Gimbal
+		uses InterCtrlSprayAimEvents
+		
+		// Current status of gimbal.
+		var angle : AngleReq, lastPitch : nat, lastYaw : nat, delay : nat
+		// Current status of pump.
+		var pstatus : PumpStatus, pumping : boolean = false
+		
+		initial I
+		
+		state Idle {}
+			
+		transition Init { from I to Idle }
+		
+		//
+		// Gimbal
+		//
+		
+		// TODO(@MattWindsor91): we may need to make it so that we check
+		// water-out in these states.
+		// TODO(@MattWindsor91): calculate angle delay.
+		state SetYaw {
+			entry gimbalWritePan(angle.angle)
+		}
+		state SetPitch {
+			entry gimbalWriteTilt(angle.angle)
+		}
+		junction SetAngle
+		junction AckAngle
+		
+		transition GimbalAngle    { from Idle     to SetAngle trigger gimbalReq?angle }
+		transition GimbalYaw      { from SetAngle to SetYaw   condition angle.typ == AngleType::Yaw }
+		transition GimbalPitch    { from SetAngle to SetPitch condition angle.typ == AngleType::Pitch }
+		transition GimbalYawAck   { from SetYaw   to AckAngle condition sinceEntry(SetYaw) <= angleDelay(lastYaw, angle.angle, GIMBAL_BASE_DELAY) }
+		transition GimbalPitchAck { from SetPitch to AckAngle condition sinceEntry(SetYaw) <= angleDelay(lastYaw, angle.angle, GIMBAL_BASE_DELAY) }
+		transition GimbalAck      { from AckAngle to Idle     action gimbalAck!(angle.id) }
+	
+		//
+		// Spray
+		//
+		
+		junction HandleSpray
+		transition ReadSpray { from Idle        to HandleSpray trigger pump?pstatus }
+		transition SprayOn   { from HandleSpray to Idle        condition pstatus == PumpStatus::On  /\ not pumping action pumpOn();  pumping = true  }
+		transition SprayOff  { from HandleSpray to Idle        condition pstatus == PumpStatus::Off /\     pumping action pumpOff(); pumping = false }
+	}
+	
+	//
+	// Event connections
+	//
+	
+	connection ArmCtrl on pump        to ArmProg on pump
+	connection ArmCtrl on gimbalReq   to ArmProg on gimbalReq
+	connection ArmProg on gimbalAck   to ArmCtrl on gimbalAck
+}
+
+function angleDelay(lastAngle : nat, thisAngle : nat, scale : nat) : nat {
+	precondition 0 <= lastAngle /\ lastAngle <= 180 /\ 0 <= thisAngle /\ thisAngle <= 180
+}

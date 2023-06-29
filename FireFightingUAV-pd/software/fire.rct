@@ -1,0 +1,87 @@
+// The fire detection image processing state machine.
+diagram fire
+
+import comm::*
+import datatypes::*
+import mlx90640::*
+import rsd435i::*
+
+stm FireDetect {
+	requires MLX90640
+	uses MLX90640Events
+	
+	requires RealSenseD435i
+	uses RealSenseD435iEvents
+	
+	// Publishing fire topic
+	event firePOut : FireStatus // in the implementation this may be a FireTarget too.
+	event fireSOut : FireTarget
+	event fireVOut : FireTarget
+	
+	event wallMetrics : WallMetrics
+	
+	var fp: FireTarget, fs: FireStatus, wm: WallMetrics, checkDone: boolean
+	var gotD: boolean, gotH: boolean, gotR: boolean
+	
+	// Heat, depth, superimposed frames
+	var rgb: RgbFrame, d: Frame, t: Frame, super: SuperimposedFrame
+
+	// Indices for various points in the frame
+	const LEFT_X: nat, CENTRE_X: nat, RIGHT_X: nat, CENTRE_Y: nat
+
+	initial I
+
+	transition II { from I to Idle action gotD=false; gotH=false; gotR=false }
+	
+	state Idle {}
+	
+	transition IT { from Idle to Idle trigger mlxHeatmap?t action gotH=true }
+	transition ID { from Idle to Idle trigger rsDepthFrame?d action gotD=true }
+	transition IR { from Idle to Idle trigger rsRgbFrame?rgb action gotD=true }		
+	transition IS { from Idle to Superimpose condition gotH /\ gotD /\ gotR }
+	
+	// TODO (@MattWindsor91, 2022-05-12): superimpose RGB frame
+	state Superimpose { entry super = superimpose(rgb, d, t) }
+	
+	transition SW { from Superimpose to CheckWall }
+	
+	state CheckFire {
+		// 2022-09-02: greatly simplified this.
+		entry fp = calcFireTarget(super); fp.distance = wm.centreDist; firePOut!(fp.stat); fireSOut!fp; fireVOut!fp
+	}
+	
+	transition WF { from CheckWall to CheckFire }
+	
+	// Assumption (2022-05-12): the visual navigation unit is responsible
+	// for deciding which of the wall/fire data to use.
+	
+	state CheckWall { /*
+		entry
+			// wm = calcWallMetrics(super, LEFT_X, CENTRE_X, RIGHT_X, CENTRE_Y);
+			wm.leftDist = (super.contents)[LEFT_X, CENTRE_Y].d;
+			wm.centreDist = (super.contents)[CENTRE_X, CENTRE_Y].d;
+			wm.rightDist = (super.contents)[RIGHT_X, CENTRE_Y].d;
+			wallMetrics!wm */
+	}
+	
+	transition FI { from CheckFire to Idle action gotD=false; gotH = false; gotR = false}
+	
+	// 2022-05-12: allow frames to arrive in any order.
+	
+}
+
+function calcFireTarget(f: SuperimposedFrame): FireTarget {
+	// NOTE(@MattWindsor91 2022-05-18): This is currently a complete black box.
+}
+
+function superimpose(rgb: RgbFrame, d: Frame, t: Frame): SuperimposedFrame {
+	// TODO(@MattWindsor91): this is provisional; we probably need a way of
+	// expressing shifting
+/* 	postcondition
+		// Each pixel in the superimposition is the superimposition of the
+		// pixels of the frames
+		forall i: nat, j: nat @
+			(result.contents)[i,j].rgb == rgb[i,j] /\
+			(result.contents)[i,j].d == d[i,j] /\
+			(result.contents)[i,j].t == t[i,j] */
+}

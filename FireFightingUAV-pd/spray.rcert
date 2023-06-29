@@ -1,0 +1,53 @@
+specification group SAim
+	target = state machine Aim with
+		GIMBAL_FLOOD_DELAY set to 1
+	
+	actors = { target as T, world as W }
+
+specification group SSpray
+	target = state machine Spray
+	
+	actors = { target as T, world as W }
+	
+	//sequence onThenOut
+	//	actors T, W
+	//	W->>T: event monitorOn
+
+specification group SWaterMonitor
+	target = state machine WaterMonitor with
+		INITIAL_WATER_LEVEL set to 2
+		WATER_FLOW set to 1
+	
+	actors = { target as T, world as W }
+	
+	//sequence onThenOut
+	//	actors T, W
+	//	W->>T: event monitorOn
+
+assertion group AAim
+	assertion Det: target of SAim is deterministic
+	assertion Dlf: target of SAim is deadlock-free
+	assertion Tlf: target of SAim is not timelock-free
+	assertion Term: target of SAim does not terminate
+
+assertion group ASpray
+	assertion Det: target of SSpray is deterministic
+	assertion Dlf: target of SSpray is deadlock-free
+	assertion Tlf: target of SSpray is not timelock-free
+
+assertion group AWaterMonitor
+	assertion Det: target of SWaterMonitor is deterministic
+	assertion Dlf: target of SWaterMonitor is deadlock-free
+	assertion Tlf: target of SWaterMonitor is not timelock-free
+
+specification group SArduino
+	target = controller Arduino with
+		GIMBAL_FLOOD_DELAY set to 1
+		INITIAL_WATER_LEVEL set to 2
+		WATER_FLOW set to 1
+
+assertion group AArduino
+	assertion Det: target of SArduino is deterministic
+	assertion Dlf: target of SArduino is deadlock-free
+	assertion Tlf: target of SArduino is not timelock-free
+		

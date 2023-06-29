@@ -1,0 +1,12 @@
+diagram pump
+
+// Pump for water
+interface Pump {
+	// Switches the pump on.
+	pumpOn()
+	// Switches the pump off.
+	pumpOff()
+}
+
+operation pumpOn() { terminates }
+operation pumpOff() { terminates }

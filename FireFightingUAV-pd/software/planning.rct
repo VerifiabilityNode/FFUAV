@@ -1,0 +1,263 @@
+// The planning and decision making state machine.
+diagram planning
+
+import comm::*
+import datatypes::*
+import gcs::*
+
+stm Planning {
+	requires GCS
+	
+	uses GCSMissionEvents
+	
+	uses FlightPlanningEvents
+	uses BatteryPlanningEvents
+	uses SprayAimPlanningEvents
+	uses VisualPlanningEvents
+	uses FireStatusSubscriber
+	uses WaterSubscriber
+	uses VNavSubscriber
+
+	// Publishing spray topic
+	event sprayMOut : PumpStatus
+	event spraySOut : PumpStatus
+	
+	//
+	// Constants
+	//
+	
+	// Pre-defined waypoints
+	const WALL_WP: Position, SEARCH_WPS: Seq(Position), NUM_SEARCH_WPS: nat
+	
+	// Timeouts
+	const FIRE_TO: nat, INIT_TO: nat
+	
+	//
+	// Variables
+	//
+	
+	// Event caches
+	var vnav : VNavOutput
+	var astat : AircraftStatus
+	var gstat : GimbalStatus
+	var wstat : WaterStatus = WaterStatus::Ok // currently optimistic, this may change
+	var fstat : FireStatus = FireStatus::NoFire // pessimistic
+	var bstat : BatteryStatus = BatteryStatus::SafetyCritical // pessimistic
+	
+	// Search
+	var searchPos : nat = 0
+	
+	initial I
+	
+	state Connect {		
+		initial I
+		state Poll {}
+		transition IW { from I to Poll }
+		transition PollS { from Poll to Poll trigger uavStatus?astat }
+		transition PollB { from Poll to Poll trigger batteryStatus?bstat }
+	}
+	transition On { from I to Connect }
+	transition ConnectOK { from Connect to Connected condition astat == AircraftStatus::Connected action missionStatus!MissionStatus::Connected }
+	transition ConnectTO { from Connect to SwitchedOff condition INIT_TO < sinceEntry(Connect) action missionStatus!MissionStatus::ConnectTimeout }	
+
+	state Connected {
+		initial I
+		
+		// Changed 2023-01-26: we need to have a known good battery before takeoff.
+		transition Start { from I to WaitForBatteryOk }
+
+		state TakeOffAndClimb {
+			entry missionStatus!MissionStatus::TakingOff; navCommand!NavCommand::TakeOff
+			
+			initial I
+			state Poll {}
+			transition IW { from I to Poll }
+			transition PollS { from Poll to Poll trigger uavStatus?astat }
+			transition PollB { from Poll to Poll trigger batteryStatus?bstat }
+			// No point checking for water level here, we can assume that it's non-empty to start with.
+		}
+		// TODO(@MattWindsor91): conditional on preflight checks passing
+		transition TOFW { from TakeOffAndClimb to Mission condition astat == AircraftStatus::AtAltitude }
+		
+		state Mission {
+			exit vnavEnable!false
+			
+			initial I	
+			state FlyToWall {
+				entry missionStatus!MissionStatus::FlyingToWall; waypoint!WALL_WP
+				
+				initial I
+				state Poll {}
+				transition IW { from I to Poll }
+				transition PollS { from Poll to Poll trigger uavStatus?astat }
+				transition PollB { from Poll to Poll trigger batteryStatus?bstat }
+				// No point checking for water level here, we can assume that it's non-empty to start with.
+				// Also no need to look at fire status, vnav status, gimbal status, etc.
+			}	
+			transition Init { from I to FlyToWall }
+		
+			// This version of the search state was inserted 2022-08-30.
+			state Search {
+				entry vnavEnable!true; missionStatus!MissionStatus::Searching
+				
+				initial I
+				
+				// Added polling 2022-09-02 to accommodate streamlined fire info handling.
+				junction AtPoint
+				state Moving {}
+				
+				transition Init       { from I        to Enabling }
+				transition StartPoint { from AtPoint  to Moving  condition searchPos < NUM_SEARCH_WPS action waypoint!(SEARCH_WPS[searchPos]) }
+				transition NextPoint  { from Moving   to AtPoint condition astat == AircraftStatus::AtWaypoint action searchPos = searchPos + 1 }
+				transition PollS      { from Moving   to Moving  trigger   uavStatus?astat }
+				transition PollF      { from Moving   to Moving  trigger   fireStatusIn?fstat }
+				transition PollW      { from Moving   to Moving  trigger   waterIn?wstat }
+				transition PollB      { from Moving   to Moving  trigger   batteryStatus?bstat }
+				// 2022-09-06: trying to make sure the gimbal status is accurate if we recapture the fire
+				transition PollG      { from Moving   to Moving  trigger   gimbalStatus?gstat }
+				
+				// Added 2022-09-06 to ensure blocking while vnav enables itself.
+				state Enabling {}
+				transition Enabled    { from Enabling to AtPoint condition vnav.stat != VNavStatus::Offline }
+				transition EPollV     { from Enabling to Enabling trigger vnavIn?vnav }
+				// No need to track the fire Enabling, we're not doing anything with that information.
+				transition EPollW 	  { from Enabling to Enabling trigger waterIn?wstat   }
+				transition EPollB 	  { from Enabling to Enabling trigger batteryStatus?bstat }
+				// 2022-09-06: trying to make sure the gimbal status is accurate if we recapture the fire
+				transition EPollG 	  { from Enabling to Enabling trigger gimbalStatus?gstat }
+			}
+
+			// NOTE(@MattWindsor91): as of 2022-05-03, fire detection enable used to happen here.
+			// It previously used to happen at the start of the mission,
+			// but discussion with Shival and Hugo suggests it should happen in a more granular fashion.
+			transition FWSE { from FlyToWall to Search condition astat == AircraftStatus::AtWaypoint }
+		
+			state TrackFire {
+				entry missionStatus!MissionStatus::DetectedFire
+				
+				initial I
+				state Poll {}
+				transition Init  { from I    to Poll                             }
+				transition PollF { from Poll to Poll trigger fireStatusIn?fstat  }
+				transition PollW { from Poll to Poll trigger waterIn?wstat       }
+				transition PollB { from Poll to Poll trigger batteryStatus?bstat }
+				// 2022-09-06: trying to make sure the gimbal status is accurate if we recapture the fire
+				transition PollG { from Poll to Poll trigger gimbalStatus?gstat  }
+			}
+			transition SETF { from Search    to TrackFire  condition fstat != FireStatus::NoFire }
+			transition TFSE { from TrackFire to LosingFire condition fstat == FireStatus::NoFire }		
+			
+			state Spray {
+				entry
+					missionStatus!MissionStatus::TrackingFire
+				
+				initial I
+				
+				state Wait {}
+				transition Init { from I to Wait }
+				
+				state Spraying {
+					entry sprayMOut!PumpStatus::On; spraySOut!PumpStatus::On; missionStatus!MissionStatus::Spraying
+					exit sprayMOut!PumpStatus::Off; spraySOut!PumpStatus::Off
+					
+					initial I
+					state Poll {}
+					transition Init { from I to Poll }
+					
+					transition PollF { from Poll to Poll trigger fireStatusIn?fstat }
+					transition PollW { from Poll to Poll trigger waterIn?wstat }
+					transition PollB { from Poll to Poll trigger batteryStatus?bstat }
+					
+					/* Removed 2022-09-05: my (Matt) understanding of RoboChart async semantics is that this isn't a problem.
+					// In case the implementation of visual/gimbal stutters.
+					transition GimbalOkConsume { from Loop to Loop trigger gimbalAimed }
+					transition PosOkConsume    { from Loop to Loop trigger fireCentred }
+					*/
+				}
+				// Assuming that gimbal aim adjustments aren't going to be sent here.
+				transition DoSpray  { from Wait to Spraying condition gstat == GimbalStatus::Tracking /\ vnav.stat == VNavStatus::Centred }
+				transition PollG    { from Wait to Wait trigger gimbalStatus?gstat  }
+				transition PollV    { from Wait to Wait trigger vnavIn?vnav         }
+				transition PollF 	{ from Wait to Wait trigger fireStatusIn?fstat  }
+				transition PollW 	{ from Wait to Wait trigger waterIn?wstat       }
+				transition PollB    { from Wait to Wait trigger batteryStatus?bstat }
+			}		
+			transition TFSP { from TrackFire to Spray condition fstat == FireStatus::Tracked }	
+			transition SPTF { from Spray to TrackFire condition fstat != FireStatus::Tracked }		
+			
+			// NOTE(@MattWindsor91): added 2022-05-20 after discussion w/Pedro and Shival
+			state LosingFire {
+				entry missionStatus!MissionStatus::LostTracking
+				
+				initial I
+				state Poll {}
+				transition Init  { from I    to Poll                         }
+				transition PollF { from Poll to Poll trigger fireStatusIn?fstat  }
+				transition PollW { from Poll to Poll trigger waterIn?wstat       }
+				transition PollB { from Poll to Poll trigger batteryStatus?bstat }
+				// 2022-09-06: trying to make sure the gimbal status is accurate if we recapture the fire
+				transition PollG { from Poll to Poll trigger gimbalStatus?gstat  }
+			}
+			transition RegainedFire { from LosingFire to TrackFire condition fstat != FireStatus::NoFire }
+			transition LostFire { from LosingFire to Search condition FIRE_TO < sinceEntry(LosingFire) }
+			
+		}
+	
+		state GoHome {
+			entry missionStatus!MissionStatus::GoingHome; navCommand!NavCommand::GoHome
+			
+			initial I
+			state Poll {}
+			transition IW { from I to Poll }
+			transition PollS { from Poll to Poll trigger uavStatus?astat }
+			// No need to poll water or battery here
+		}
+	
+		// Go home if we have run out of search waypoints.
+		transition SPRT { from Mission to GoHome condition NUM_SEARCH_WPS <= searchPos action missionStatus!MissionStatus::SearchComplete }
+			
+		state Land {
+			entry missionStatus!MissionStatus::Landing; navCommand!NavCommand::Land
+			
+			initial I
+			state Poll {}
+			transition IW { from I to Poll }
+			transition PollS { from Poll to Poll trigger uavStatus?astat }
+			// No need to poll water or battery here
+		}
+	
+		transition Retreated { from GoHome to Land condition astat == AircraftStatus::AtHome }
+	
+		// TODO(@MattWindsor91): disarming command	
+		state Disarm {
+			entry missionStatus!MissionStatus::Disarming
+			
+			initial I
+			state Poll {}
+			transition IW { from I to Poll }
+			transition PollS { from Poll to Poll trigger uavStatus?astat }
+			// No need to poll water or battery here
+		}
+		transition Landed { from Land to Disarm condition astat == AircraftStatus::Landed }
+	
+		// TODO(@MattWindsor91): how do we handle issues in takeoff?
+		transition BatMS { from Mission to GoHome condition bstat == BatteryStatus::MissionCritical action missionStatus!MissionStatus::BatteryError }
+		transition WatMS { from Mission to GoHome condition wstat == WaterStatus::Low action missionStatus!MissionStatus::WaterError   }
+	
+		// Added 2023-01-26
+		state WaitForBatteryOk {
+		}
+		transition PollBOk { from WaitForBatteryOk to WaitForBatteryOk trigger batteryStatus?bstat }
+		transition BOkPass { from WaitForBatteryOk to TakeOffAndClimb condition bstat == BatteryStatus::Ok }
+		
+		transition BatteryUnsafe { from Mission to Land condition bstat == BatteryStatus::SafetyCritical action missionStatus!MissionStatus::BatteryUnsafe }
+	}
+
+	final SwitchedOff
+	// TODO(@MattWindsor91): P11: do we need to model switching off the UAV?
+	transition SwitchOff { from Connected to SwitchedOff condition astat == AircraftStatus::Disarmed }
+	
+	// NOTE(@MattWindsor91 2022-05-16): removed, see comm.rct
+	// TODO(@MattWindsor91 2022-05-13): do we send a GCS signal here?
+	//transition OutOfBattery { from Connected to SwitchedOff trigger batteryUnsafe }
+}
