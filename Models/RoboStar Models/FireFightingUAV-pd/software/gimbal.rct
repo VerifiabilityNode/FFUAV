@@ -1,0 +1,18 @@
+diagram gimbal
+
+// 2-axis gimbal for nozzle.
+//
+// These two calls correspond to the Arduino servo library's 'write' operation,
+// taking angles in degrees (assume 0 = full left/up, 180 = full right/down)
+//
+// See: https://www.arduino.cc/reference/en/libraries/servo/
+interface Gimbal {
+	// Write an angle to the pan servo. 
+	gimbalWritePan(angle: int)
+	
+	// Write an angle to the tilt servo.
+	gimbalWriteTilt(angle: int)
+}
+
+operation gimbalWritePan(angle: int) { terminates }
+operation gimbalWriteTilt(angle: int) { terminates }

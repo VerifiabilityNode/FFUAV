@@ -1,0 +1,101 @@
+// The flight controller state machine.
+diagram flight
+
+import comm::*
+import datatypes::*
+import m600::*
+import gcs::*
+
+stm Flight {
+	requires M600Flight
+	requires GCS
+
+	// Flight control acks etc
+	uses M600FlightEvents
+	// Telemetry input
+	uses M600TelemetryEvents
+	// Override input and status output
+	uses GCSControlEvents	
+	
+	uses FlightPlanningEvents
+	uses VNavSubscriber
+
+	const CLIMB_LIFT: real // Height lift required to begin missions.
+	const DELAY_DISARM: int
+	const HOME: Position // temporary
+
+	// Temporary storage for channel inputs
+	var h : real, cmd : NavCommand, vnav : VNavOutput, wp : Position
+	var start : Position, gotStart : boolean = false
+
+	initial I
+
+	transition II { from I to Connect }
+
+	state Connect {}
+	transition CI { from Connect to Waiting trigger fcControlAuth action uavStatus!AircraftStatus::Connected }
+
+	state Waiting {
+	}
+
+	junction ProcessingCommand
+	
+	//
+	// Waypoints
+	//
+	transition GotWaypoint { from Waiting to Waypoint trigger waypoint?wp }
+	state Waypoint {
+		entry if not gotStart then start = wp; gotStart = true end; fcWaypointCall(wp)
+	}
+	transition WaypointOff { from Waypoint to Waiting }
+	transition WaypointNotify { from Waiting to Waiting trigger fcWaypointFinishedMission action uavStatus!AircraftStatus::AtWaypoint }
+	
+	//
+	// Relative positioning
+	//
+	transition GotRelative { from Waiting to Relative trigger vnavIn?vnav }
+	state Relative {
+		entry fcMoveRelativeCall(vnav.rpos)
+	}
+	transition RelativeOff { from Relative to Waiting }
+	
+	
+	transition Command { from Waiting to ProcessingCommand trigger navCommand?cmd }
+	transition CoTO { from ProcessingCommand to TakingOff condition cmd == NavCommand::TakeOff }
+	transition CoRH { from ProcessingCommand to GoHome    condition cmd == NavCommand::GoHome  }
+	transition CoLD { from ProcessingCommand to Landing   condition cmd == NavCommand::Land    }
+
+	state TakingOff {
+		entry fcTakeoffCall()
+	}
+	transition TakenOff { from TakingOff to Climbing trigger fcTakeoffRet action uavStatus!AircraftStatus::TakenOff }
+	
+	state Climbing {
+		// Use of HOME here is temporary
+		entry wp = HOME; wp.alt = wp.alt + CLIMB_LIFT; fcWaypointCall(wp)
+	}
+	transition Climbed { from Climbing to Waiting trigger fcWaypointFinishedMission action uavStatus!AircraftStatus::AtAltitude }
+	
+	junction GoHome
+	transition GoHomeW  { from GoHome to BackToStart condition gotStart }
+	transition GoHomeNW { from GoHome to GoingHome condition not gotStart }
+	
+	state BackToStart {
+		entry fcWaypointCall(start)
+	}
+	transition GoHomeWD { from BackToStart to GoingHome trigger fcWaypointFinishedMission }
+	
+	state Landing {
+		entry fcLandCall()
+	}
+	
+	final Disarmed
+	
+	transition Landed { from Landing to Disarmed trigger fcLandRet action uavStatus!AircraftStatus::Landed; wait(DELAY_DISARM); uavStatus!AircraftStatus::Disarmed }
+
+	state GoingHome {
+		entry fcGoHomeCall()
+	}
+	transition ReturnedHome { from GoingHome to Waiting trigger fcWaypointFinishedMission action uavStatus!AircraftStatus::AtHome }
+}
+

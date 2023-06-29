@@ -1,0 +1,28 @@
+// This diagram captures the interface to the thermal camera.
+diagram mlx90640
+
+// Operation interface
+interface MLX90640 {
+	// NOTE (@MattWindsor91): 2022-05-10:
+	// removed mlxInit{Call, Ret} and mlxError as they are now abstracted away.
+	
+	// MLX90640_SetResolution, MLX90640_Set{Interleaved,Chess}Mode, MLX90640_SetRefreshRate, MLX90640_DumpEE, MLX90640_ExtractParameters
+	// mlxInitCall()
+}
+
+//operation mlxInitCall() { terminates }
+//operation mlxCalculateToCall(ta: real, emissivity: real)                   { terminates }
+
+interface MLX90640Events {
+	// NOTE (@MattWindsor91): 2022-05-10:
+	// removed mlxInit{Call, Ret} and mlxError as they are now abstracted away.
+	
+	// Return of mlxInit
+	//event mlxInitRet
+	// Error in initialisation or frame-getting
+	//event mlxError
+	
+	// MLX90640_GetFrameData, MLX90640_CalculateTo, etc.
+	// Also, as of 2022-03-10, abstracting over frame post-processing from 32x24.
+	event mlxHeatmap: Frame
+}

@@ -1,0 +1,197 @@
+// Datatypes used in the design (not mappings of the platform).
+diagram datatypes
+
+// Message telling the spray aim and control machine, as well as the visual nav,
+// where the fire is.
+record FireTarget {
+	// TODO(@MattWindsor91): this is provisional.
+	stat     : FireStatus // True if this message actually describes a fire.
+	distance : real // Distance to the centre of the depth camera, in metres.
+	// TODO(@MattWindsor91 2022-05-18): Or is this the average of left/centre/right dist?
+	
+	// NOTE(@MattWindsor91 2022-05-18): I'm assuming that the fire detection
+	// STM is responsible for translating from pixel distances to metre
+	// distances given information about the field of view of the camera and
+	// the distance.
+	
+	dx : real // Relative X coordinate (+ = right) of the fire on the wall, in metres.
+	dy : real // Relative Y coordinate (+ = up) of the fire on the wall, in metres.
+}
+
+// Message containing the distances to the extremities of the wall (all in metres).
+//
+// The points computed are arbitrary, but equally spaced out on either side of
+// the centre of the frame.
+//
+// The idea here is that we're not necessarily interested in the actual
+// distances so much as the left-centre/right-centre skew.
+datatype WallMetrics {
+	// TODO(@MattWindsor91): this is provisional.
+	leftDist  : real // Distance to a known point on the left of the depth camera image.
+	centreDist: real // Distance to the centre of the depth camera.
+	rightDist : real // Distance to a known point on the right of the depth camera image.
+}
+
+// Latitude/longitude/altitude/heading position, used for waypoints.
+datatype Position {
+	lat: real
+	lon: real
+	alt: real
+	heading: real
+}
+
+// A RGB pixel.
+datatype Rgb {
+	r: real // red
+	g: real // green
+	b: real // blue
+}
+
+// A superimposed pixel.
+datatype Superimpose {
+	rgb: Rgb
+	d: real // depth
+	t: real // thermal
+}
+
+// Size-regulated frame
+datatype Frame {
+	// NOTE (@MattWindsor91): both MLX and RealSense return C float arrays.
+	contents: real//matrix(real, 4, 3)//matrix(real, 960, 720)
+}
+
+// As Frame but with RGB information
+datatype RgbFrame {
+	contents: real//matrix(Rgb, 4, 3)// matrix(Rgb, 960, 720)
+}
+
+// Superimposed frame, containing RGB, thermal, and depth information.
+datatype SuperimposedFrame {
+	contents: real//matrix(Superimpose, 4, 3)//matrix(Superimpose, 960, 720)
+}
+
+// A relative (FRU) motion.
+//
+// Added: 2022-05-13
+//
+// Corresponds to: https://developer.dji.com/onboard-api-reference/structDJI_1_1OSDK_1_1Control_1_1CtrlData.html
+// (with hardcoded flags corresponding to those set by positionAndYawCtrl)
+datatype RelativeMotion {
+	dx  : real // X delta (front?)
+	dy  : real // Y delta (right?)
+	dz  : real // Z delta (up?)
+	dyaw: real // Yaw delta
+}
+
+// The classification of a fire.
+enumeration FireStatus {
+	NoFire   // We did not see a fire here.
+	Detected // We think there's a fire, but we're too far away to box it.
+	Tracked  // We were able to box the fire and locate the centre of it.  (We might not yet be at the centre; see VNavStatus).
+}
+
+// Statuses of the pump.
+enumeration PumpStatus {
+	Off // Pump is off, or should be off.
+	On  // Pump is on, or should be on.
+}
+
+// Statuses of a water monitor.
+//
+// Added: 2022-09-05
+enumeration WaterStatus {
+	Ok  // Monitor reporting no issue.
+	Low // Monitor reporting a low quantity.
+}
+
+// Statuses of a battery monitor.
+//
+// Added: 2023-01-12
+enumeration BatteryStatus {
+	Ok              // Monitor reporting no issue.
+	MissionCritical // Monitor reporting mission-critical levels of low battery.
+	SafetyCritical  // Monitor reporting safety-critical levels of low battery.
+}
+
+// Output of the visual navigator, subscribed to by flight control and planning.
+datatype VNavOutput {
+	stat : VNavStatus     // Status of the visual navigation system.
+	rpos : RelativeMotion // Relative motion (only useful if VNavStatus!=Offline)
+}
+
+// Statuses of visual navigation.
+//
+// Added: 2022-09-05
+enumeration VNavStatus {
+	Offline    // Visual navigation isn't doing anything right now.
+	NotCentred // Visual navigation is NOT at the centre of a fire.
+	Centred    // Visual navigation IS at the centre of a fire.
+}
+
+// Statuses of a gimbal angle.
+//
+// Added: 2022-09-05
+enumeration GimbalStatus {
+	Idle     // Gimbal IS NOT trying to track a fire.
+	OOB      // Gimbal IS trying to track a fire, but is out of bounds.
+	Tracking // Gimbal IS trying to track a fire, and is in-bounds to do so.
+	
+	// TODO(@MattWindsor91): currently Tracking just means we're out of the dead zone, it might be that we need to change this to a much narrower tolerance.
+}
+
+// Statuses of the UAV itself.
+//
+// Moved here: 2022-09-05
+enumeration AircraftStatus {
+	// The UAV is connected.
+	Connected
+	// Takeoff has succeeded, but we have not yet climbed to the initial altitude.
+	TakenOff
+	// We failed to take off.
+	TakeoffError
+	// Takeoff has succeeded and we are at the initial altitude.
+	AtAltitude
+	// We are within tolerance of the requested waypoint.
+	AtWaypoint
+	// We are within tolerance of the home position.
+	AtHome
+	// We have landed.
+	Landed
+	// We failed to land.
+	LandError
+	// We have disconnected from the UAV.
+	Disarmed
+}
+
+// Interface for top-level navigation commands.
+//
+// Waypoint direction goes through Waypoint.
+//
+// Moved here: 2022-09-05
+enumeration NavCommand {
+	// Take off and reach an initial altitude.
+	TakeOff
+	// Return to the home position.
+	GoHome
+	// Land the UAV (abstracting away any sort of confirmation from the GCS).
+	Land
+}
+
+// Pairs angle with sequential ID and type..
+// Added: 2022-09-06
+datatype AngleReq {
+	// Angle type (pitch or yaw)
+	typ   : AngleType
+	// Angle (0-180)
+	angle : nat
+	// ID of this request, used for acknowledgements.
+	id    : nat
+}
+
+// Angle type.
+enumeration AngleType {
+	// Pitch angle.
+	Pitch
+	// Yaw angle.
+	Yaw
+}

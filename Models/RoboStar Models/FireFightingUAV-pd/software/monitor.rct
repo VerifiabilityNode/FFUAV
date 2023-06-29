@@ -1,0 +1,97 @@
+// Battery and water monitors.
+diagram monitor
+
+// Battery monitor.
+//
+// Subscribes continuously to the battery topic and signals if the battery goes
+// below mission or safety criticality thresholds.
+stm BatteryMonitor {
+	uses BatteryPlanningEvents
+	uses M600BatteryTelemetryEvents
+	
+	const BATTERY_MISSION_THRESHOLD: nat, BATTERY_SAFETY_THRESHOLD: nat, BATTERY_POLL_DELAY: nat
+	var battery: Battery
+
+	initial I
+	
+	state Polling {
+	}
+		
+	transition Init { from I to Polling }
+	
+	junction CheckM
+	junction CheckS
+	junction Waiting
+	
+	transition Polled { from Polling to CheckM trigger batteryInfo?battery }
+	
+	transition BatteryMO { from CheckM to Waiting condition battery.percentage >  BATTERY_MISSION_THRESHOLD
+		                                          action batteryStatus!BatteryStatus::Ok
+	}
+	transition BatteryML { from CheckM to CheckS  condition battery.percentage <= BATTERY_MISSION_THRESHOLD
+	}
+	
+	transition BatterySO { from CheckS to Waiting condition battery.percentage >  BATTERY_SAFETY_THRESHOLD
+		                                          action batteryStatus!BatteryStatus::MissionCritical
+	}
+	transition BatterySL { from CheckS to Waiting condition battery.percentage <= BATTERY_SAFETY_THRESHOLD
+		                                          action batteryStatus!BatteryStatus::SafetyCritical
+	}
+
+	transition Wait { from Waiting to Polling action wait(BATTERY_POLL_DELAY) }
+}
+
+// Water level monitor.
+//
+// Subscribes to the spray status topic, switching between 'on' and 'off'
+// states.  While 'on' it periodically drains a water amount; when it goes to
+// zero, it publishes the fact that the water level has gone low and finishes.
+stm WaterMonitor {
+	uses SpraySubscriber
+	
+	// Publishing water topic (added 2022-08-31, refined 2022-09-05)
+	event waterLowPOut : WaterStatus
+	event waterLowSOut : WaterStatus
+	
+	const INITIAL_WATER_LEVEL: real, WATER_FLOW: real
+	const TIME_PER_UNIT: nat = 1
+
+	var pstatus : PumpStatus
+	var water: real = INITIAL_WATER_LEVEL
+	
+	initial I
+	
+	state Active {
+		initial I
+	
+		state Off {
+			initial I
+			state Check {}
+			
+			transition Init { from I to Check }
+			transition Read { from Check to Check trigger sprayIn?pstatus }
+		}
+		
+		state On {
+			initial I
+			state Check {}
+			
+			transition Init { from I to Check }
+			transition Read { from Check to Check trigger sprayIn?pstatus }
+		}
+
+		transition Init { from I to Off action waterLowPOut!WaterStatus::Ok; waterLowSOut!WaterStatus::Ok }
+
+	
+		transition SwitchOn { from Off to On condition pstatus == PumpStatus::On /\ 0 < water }
+		transition SwitchOff { from On to Off condition pstatus == PumpStatus::Off /\ sinceEntry(On) < TIME_PER_UNIT /\ 0 < water }
+		
+		transition Tick { from On to On condition TIME_PER_UNIT <= sinceEntry(On) /\ 0 < water action water = water - WATER_FLOW }
+	}	
+
+	final F
+	
+	transition Init { from I to Active }
+
+	transition Out { from Active to F condition water <= 0 action waterLowPOut!WaterStatus::Low; waterLowSOut!WaterStatus::Low }
+}

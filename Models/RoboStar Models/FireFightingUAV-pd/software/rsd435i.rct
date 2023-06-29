@@ -1,0 +1,31 @@
+// Interfaces for the RealSense D435i RGB and depth camera.
+diagram rsd435i
+
+// Operations
+interface RealSenseD435i {
+	// Nothing here yet.
+	// NOTE(@MattWindsor91): there used to be rsGetDistanceCall here, but we
+	// now model that directly in the frameset.
+}
+
+interface RealSenseD435iEvents {
+	// A depth frame is available.
+	// Abstracts over wait_for_frames, with the event timeout modelling any
+	// explicit timeout.
+	//
+	// Also, as of 2022-03-10, abstracts over post-processing.
+	event rsDepthFrame: Frame
+	
+	// An RGB frame is available.
+	// As above.
+	//
+	// Since: 2022-05-13
+	event rsRgbFrame: RgbFrame
+	
+	// NOTE(@MattWindsor91): as of 2022-05-10 we don't model errors.
+	
+	// Any error returned through a
+	// Abstracts over the rs2_error** pointer in the C API, and presumably
+	// exceptions in C++.
+	// event rsError
+}

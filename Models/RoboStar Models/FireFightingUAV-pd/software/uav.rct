@@ -1,0 +1,77 @@
+diagram uav
+
+import actrl::ACtrl
+import ctrl::Ctrl
+import controller_comm::*
+
+// Importing platform interfaces
+import gcs::*
+import m600::*
+import mlx90640::*
+import gimbal::*
+import pump::*
+import rsd435i::*
+
+module FirefightingUAV {
+
+	robotic platform Platform {
+		provides M600Flight
+		
+		provides GCS
+		provides Gimbal
+		provides MLX90640
+		provides RealSenseD435i
+		provides Pump
+		
+		uses M600FlightEvents
+		uses M600TelemetryEvents
+		uses M600BatteryTelemetryEvents	
+		uses MLX90640Events
+		uses RealSenseD435iEvents
+		
+		uses GCSMissionEvents
+		uses GCSControlEvents
+	}
+
+	//
+	// MAIN CONTROLLER
+	//
+
+	cref RMainCtrl = MainCtrl
+
+	// M600FlightEvents
+	connection Platform     on fcTakeoffRet              to RMainCtrl on fcTakeoffRet              (_async)
+	connection Platform     on fcGoHomeRet               to RMainCtrl on fcGoHomeRet               (_async)
+	connection Platform     on fcLandRet                 to RMainCtrl on fcLandRet                 (_async)
+	connection Platform     on fcControlAuth             to RMainCtrl on fcControlAuth             (_async)
+	connection Platform     on fcWaypointFinishedMission to RMainCtrl on fcWaypointFinishedMission (_async)
+	connection Platform     on fcMoveRelativeRet         to RMainCtrl on fcMoveRelativeRet         (_async)
+
+	// M600TelemetryEvents
+	connection Platform     on batteryInfo       to RMainCtrl on batteryInfo       (_async)
+	
+	// MLX90640Events
+	connection Platform     on mlxHeatmap        to RMainCtrl on mlxHeatmap        (_async)
+	
+	// RealSenseD435iEvents
+	connection Platform     on rsDepthFrame      to RMainCtrl on rsDepthFrame      (_async)
+	connection Platform     on rsRgbFrame        to RMainCtrl on rsRgbFrame        (_async)
+	
+	// GCSMissionEventrs
+	connection RMainCtrl on missionStatus     to Platform     on missionStatus     (_async)
+	
+	//
+	// ARM CONTROLLER
+	//
+	
+	cref RArmCtrl = ArmCtrl
+	
+	//
+	// INTER-CONTROLLER CONNECTIONS
+	//
+			
+	// InterCtrlSprayAimEvents
+	connection RMainCtrl on pump           to RArmCtrl  on pump           (_async)
+	connection RMainCtrl on gimbalReq      to RArmCtrl  on gimbalReq      (_async)
+	connection RArmCtrl  on gimbalAck      to RMainCtrl on gimbalAck      (_async)
+}
