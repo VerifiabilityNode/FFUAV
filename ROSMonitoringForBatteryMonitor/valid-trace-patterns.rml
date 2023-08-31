@@ -1,0 +1,28 @@
+// Event types for checking indices:
+acc(i) matches {topic: 'input_accepted', input_msg_id: i};
+acc matches acc(_);
+
+out(i) matches {topic: 'battery_status', input_msg_id: i};
+
+
+// Event types for checking trace patterns:
+inOK matches {topic: 'input_accepted', percentage: val} with val > 0.4 && val <= 1;
+inMC matches {topic: 'input_accepted', percentage: val} with val > 0.3 && val <= 0.4;
+inSC matches {topic: 'input_accepted', percentage: val} with val >= 0 && val <= 0.3;
+inINVALID matches {topic: 'input_accepted', percentage: val} with val < 0 || val > 1;
+
+outOK matches {topic: 'battery_status', status: 1};
+outMC matches {topic: 'battery_status', status: 2};
+outSC matches {topic: 'battery_status', status: 3};
+outINVALID matches {topic: 'battery_status', status: 4};
+
+// Main expression:
+Main = CorrectIndices /\ (CompatibleOut*)!;
+
+// Definitions:
+AccID<i> = (acc(i) AccID<i+1>) \/ empty;
+OutID<i> = (out(i) OutID<i+1>) \/ empty;
+
+CorrectIndices = (acc >> (acc(1) AccID<2>) : (out(1) OutID<2>));
+
+CompatibleOut = ((inOK outOK) \/ (inMC outMC) \/ (inSC outSC) \/ (inINVALID outINVALID));
