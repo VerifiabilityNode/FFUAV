@@ -3,10 +3,10 @@
 match(_event, acc(I)) :- deep_subdict(_{'input_msg_id':I,'topic':"/battery_monitor/input_accepted"}, _event).
 match(_event, acc) :- match(_event, acc(_)).
 match(_event, out(I)) :- deep_subdict(_{'input_msg_id':I,'topic':"/battery_monitor/battery_status"}, _event).
-match(_event, inOK) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ','((Val>0.4), (Val=<1)).
-match(_event, inMC) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ','((Val>0.3), (Val=<0.4)).
-match(_event, inSC) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ','((Val>=0), (Val=<0.3)).
-match(_event, inINVALID) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ;((Val<0), (Val>1)).
+match(_event, inOK) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ','((Val>40), (Val=<100)).
+match(_event, inMC) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ','((Val>30), (Val=<40)).
+match(_event, inSC) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ','((Val>=0), (Val=<30)).
+match(_event, inINVALID) :- deep_subdict(_{'percentage':Val,'topic':"/battery_monitor/input_accepted"}, _event), ;((Val<0), (Val>100)).
 match(_event, outOK) :- deep_subdict(_{'status':1,'topic':"/battery_monitor/battery_status"}, _event).
 match(_event, outMC) :- deep_subdict(_{'status':2,'topic':"/battery_monitor/battery_status"}, _event).
 match(_event, outSC) :- deep_subdict(_{'status':3,'topic':"/battery_monitor/battery_status"}, _event).
