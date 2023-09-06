@@ -6,9 +6,9 @@ out(i) matches {topic: 'battery_status', input_msg_id: i};
 
 
 // Event types for checking trace patterns:
-inOK matches {topic: 'input_accepted', percentage: val} with val > 0.4 && val <= 1;
-inMC matches {topic: 'input_accepted', percentage: val} with val > 0.3 && val <= 0.4;
-inSC matches {topic: 'input_accepted', percentage: val} with val >= 0 && val <= 0.3;
+inOK matches {topic: 'input_accepted', percentage: val} with val > 40 && val <= 100;
+inMC matches {topic: 'input_accepted', percentage: val} with val > 30 && val <= 40;
+inSC matches {topic: 'input_accepted', percentage: val} with val >= 0 && val <= 30;
 inINVALID matches {topic: 'input_accepted', percentage: val} with val < 0 || val > 1;
 
 outOK matches {topic: 'battery_status', status: 1};
