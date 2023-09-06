@@ -27,7 +27,7 @@ void BatteryCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
 {
   uav_msgs::InputAccepted msg2;
   msg2.data = true;
-  msg2.percentage = msg->percentage;
+  msg2.percentage = {(int8_t)round(msg->percentage*100)};
   msg2.input_msg_id = input_id; //msg->header.seq;
   input_status_pub.publish(msg2);
   
