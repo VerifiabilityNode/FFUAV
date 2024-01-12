@@ -1,0 +1,7 @@
+
+<launch>
+        
+<node pkg="monitor" type="battery_ros_mon_online.py" name="battery_ros_mon_online" output="screen"/>
+            
+</launch>
+        

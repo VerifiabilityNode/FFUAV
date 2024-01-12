@@ -3,12 +3,12 @@
 
 #include <ros/ros.h>
 
-#include "sensor_msgs/BatteryState.h"
 #include "std_msgs/Bool.h"
 #include "std_msgs/String.h"
 
 #include "uav_msgs/BatteryStatus.h"
 #include "uav_msgs/InputAccepted.h"
+#include "uav_msgs/BatteryPercentage.h"
 
 ros::Publisher battery_status_pub;
 ros::Publisher input_status_pub;
@@ -20,27 +20,24 @@ std::atomic<int8_t> mission_threshold {-1};
 constexpr int8_t kMaxBatteryLevel {100};
 //min percentage level for the battery, technically drones should never return number smaller than 0 but it doesnt hurt to make this code safe
 constexpr int8_t kMinBatteryLevel {0};
-std::atomic<uint32_t> input_id {1};
-std::atomic<uint32_t> output_id {1};
 
-void BatteryCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
+void BatteryCallback(const uav_msgs::BatteryPercentage::ConstPtr& msg)
 {
   uav_msgs::InputAccepted msg2;
   msg2.data = true;
-  msg2.percentage = {(int8_t)round(msg->percentage*100)};
-  msg2.input_msg_id = input_id; //msg->header.seq;
+  msg2.input_msg_id = msg->input_msg_id;
+  msg2.stamp = ros::Time::now();
   input_status_pub.publish(msg2);
-  
-  input_id = input_id + 1;
+
+  ROS_INFO("input accepted at %d secs and %d nsecs", msg2.stamp.sec, msg2.stamp.nsec); //** Maryam added to print the input accepted stamp
+
 
   uav_msgs::BatteryStatus output_msg;
-  output_msg.input_msg_id = output_id; //msg->header.seq;
+  output_msg.input_msg_id = msg->input_msg_id;
   output_msg.status = uav_msgs::BatteryStatus::UNSET;
 
-  output_id = output_id + 1;
-
   if ((safety_threshold != -1) && (mission_threshold != -1)) { //the thresholds must be set for the status to be published
-    int8_t current_battery {(int8_t)round(msg->percentage*100)};
+    int8_t current_battery = msg->percentage;
 
     if ((current_battery > mission_threshold) && (current_battery <= kMaxBatteryLevel)){
       output_msg.status = uav_msgs::BatteryStatus::OK;
@@ -50,10 +47,14 @@ void BatteryCallback(const sensor_msgs::BatteryState::ConstPtr& msg)
       output_msg.status = uav_msgs::BatteryStatus::SAFETY_CRITICAL;
     } else {
       ROS_ERROR("Invalid battery reading.");
-      output_msg.status = uav_msgs::BatteryStatus::BATTERY_READING_OUT_OF_SCOPE;
+    }
+    if (output_msg.status != uav_msgs::BatteryStatus::UNSET) {
+      output_msg.stamp = ros::Time::now();
+      battery_status_pub.publish(output_msg);
+      ROS_INFO("status at %d secs and %d nsecs is %d", output_msg.stamp.sec, output_msg.stamp.nsec, output_msg.status); //** Maryam added to print the input stamp and status 
+
     }
   }
-  battery_status_pub.publish(output_msg);
 }
 
 int8_t LoadThreshold(ros::NodeHandle nh, std::string threshold_name) {
@@ -88,7 +89,7 @@ int main(int argc, char **argv)
   input_status_pub = nh.advertise<uav_msgs::InputAccepted>("input_accepted",1000);
   battery_status_pub = nh.advertise<uav_msgs::BatteryStatus>("battery_status", 1000);
 
-  ros::Subscriber battery_sub = nh.subscribe("/fcs/battery_state", 10, BatteryCallback);
+  ros::Subscriber battery_sub = nh.subscribe("/fcs_interface/battery_state", 10, BatteryCallback);
 
   ROS_INFO("Battery monitor is running");
 

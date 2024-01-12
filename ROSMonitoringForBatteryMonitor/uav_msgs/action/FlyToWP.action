@@ -1,0 +1,8 @@
+#goal definition
+uav_msgs/GpsLocationWithPrecision goal
+---
+#result definition
+bool in_location
+---
+#feedback
+sensor_msgs/NavSatFix current_location
