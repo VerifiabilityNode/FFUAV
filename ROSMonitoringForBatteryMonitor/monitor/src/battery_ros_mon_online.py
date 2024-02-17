@@ -26,30 +26,6 @@ data_dict = dict() #time stamp of msg **publication** mapped to raw data
 def getTime(d): #given the message in form of a dictionary, calculates time in nanoseconds
 	return pow(10,9) * d['stamp']['secs'] + d['stamp']['nsecs']
 
-def interleaveBuffers(): # called by addToBuffer, sorts bufferred msgs according to time stamps and sends them to oracle in that order
-	global buffers, msgs_dict, data_dict
-	time_seq = sorted(msgs_dict)
-	for t in time_seq:
-		d = msgs_dict[t]
-		data = data_dict[t]
-		d['time'] = rospy.get_time()
-		ws_lock.acquire()
-		while d['time'] in dict_msgs:
-			d['time'] += 0.01
-		ws.send(json.dumps(d)) #<<<<<<<<<< message passed to oracle here
-		dict_msgs[d['time']] = data
-		ws_lock.release()	
-	
-	#reset the buffers
-	max_time_stamp = max(map(eval,buffers['/battery_monitor/battery_status'])) #find last status msg
-	msgs_temp = copy(msgs_dict) 
-	data_temp = copy(data_dict)
-	buffers_temp = copy(buffers)
-	
-	buffers = {top:[t for t in buffers_temp[top] if eval(t) > max_time_stamp] for top in topics}
-	msgs_dict = {t:msg for t, msg in msgs_temp.items() if eval(t) > max_time_stamp}
-	data_dict = {t:data for t, data in data_temp.items() if eval(t) > max_time_stamp}
-
 def sendEarliestMsgToOracle():
 	global buffers, msgs_dict, data_dict
 	min_time = min(list(msgs_dict.keys()))
