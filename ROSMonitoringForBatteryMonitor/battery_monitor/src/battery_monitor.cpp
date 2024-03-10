@@ -29,9 +29,6 @@ void BatteryCallback(const uav_msgs::BatteryPercentage::ConstPtr& msg)
   msg2.stamp = ros::Time::now();
   input_status_pub.publish(msg2);
 
-  ROS_INFO("input accepted at %d secs and %d nsecs", msg2.stamp.sec, msg2.stamp.nsec); //** Maryam added to print the input accepted stamp
-
-
   uav_msgs::BatteryStatus output_msg;
   output_msg.input_msg_id = msg->input_msg_id;
   output_msg.status = uav_msgs::BatteryStatus::UNSET;
@@ -51,8 +48,6 @@ void BatteryCallback(const uav_msgs::BatteryPercentage::ConstPtr& msg)
     if (output_msg.status != uav_msgs::BatteryStatus::UNSET) {
       output_msg.stamp = ros::Time::now();
       battery_status_pub.publish(output_msg);
-      ROS_INFO("status at %d secs and %d nsecs is %d", output_msg.stamp.sec, output_msg.stamp.nsec, output_msg.status); //** Maryam added to print the input stamp and status 
-
     }
   }
 }

@@ -5,6 +5,7 @@ set(MSG_DEPS
   std_msgs
   actionlib_msgs
   sensor_msgs
+  geometry_msgs
 )
 
 find_package(catkin REQUIRED COMPONENTS
@@ -16,23 +17,9 @@ find_package(catkin REQUIRED COMPONENTS
 set(MSG_FILES
   BatteryStatus.msg
   InputAccepted.msg
-  SpecialMovement.msg
   BatteryPercentage.msg
-  PumpStatus.msg
-  GimbalStatus.msg
-  GpsLocationWithPrecision.msg
 )
 
-add_service_files(
-  FILES
-  EnableMission.srv
-  DisableMission.srv
-)
-
-add_action_files(
-  DIRECTORY action
-  FILES FlyToWP.action SpecialMovement.action Spray.action
-)
 
 add_message_files(DIRECTORY msg FILES ${MSG_FILES})
 
