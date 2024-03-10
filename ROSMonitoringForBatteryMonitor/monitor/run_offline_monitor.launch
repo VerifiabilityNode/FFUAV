@@ -1,0 +1,3 @@
+<launch>
+<node pkg="monitor" type="battery_ros_monitor_offline.py" name="battery_ros_monitor_offline" output="screen"/>
+</launch>

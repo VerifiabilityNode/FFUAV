@@ -9,14 +9,14 @@ from rospy_message_converter import message_converter
 from monitor.msg import *
 from std_msgs.msg import *
 
-from uav_msgs.msg import InputAccepted
-from uav_msgs.msg import BatteryPercentage
 from uav_msgs.msg import BatteryStatus
+from uav_msgs.msg import BatteryPercentage
+from uav_msgs.msg import InputAccepted
 
 ws_lock = Lock()
-dict_msgs = {}
 pub_dict = {}
 srv_type_dict = dict()
+topics_to_republish = []
 msg_dict = { '/battery_monitor/battery_status' : "uav_msgs/BatteryStatus",  '/battery_monitor/input_accepted' : "uav_msgs/InputAccepted",  '/fcs_interface/battery_state' : "uav_msgs/BatteryPercentage"}
 
 topics_to_reorder = ["/battery_monitor/battery_status", "/battery_monitor/input_accepted", "/fcs_interface/battery_state"]
@@ -47,19 +47,13 @@ def logEarliestMsg():
 	d = msgs_dict[min_time]
 
 	d['time'] = rospy.get_time()
-	while d['time'] in dict_msgs:
-		d['time'] += 0.01
-	ws.send(json.dumps(d))
-	dict_msgs[d['time']] = data_dict[min_time]
-	msg = ws.recv()
+	logging(d)
 	for topic in topics_to_reorder:
 		if min_time in buffers[topic]:
 			buffers[topic].remove(min_time)
 			break
 	msgs_dict.pop(min_time)
 	data_dict.pop(min_time)
-
-	return on_message_topic(msg)
 
 
 def callback__battery_monitor_battery_status(data):
@@ -95,10 +89,10 @@ def monitor():
 	global pub_error, pub_verdict
 	with open(log, 'w') as log_file:
 		log_file.write('')
-	rospy.init_node('battery_ros_monitor_online', anonymous=True, disable_signals=True)
+	rospy.init_node('battery_ros_monitor_offline', anonymous=True, disable_signals=True)
 	rospy.on_shutdown(shutdownhook) 
-	pub_error = rospy.Publisher(name = 'battery_ros_monitor_online/monitor_error', data_class = MonitorError, latch = True, queue_size = 1000)
-	pub_verdict = rospy.Publisher(name = 'battery_ros_monitor_online/monitor_verdict', data_class = String, latch = True, queue_size = 1000)
+	pub_error = rospy.Publisher(name = 'battery_ros_monitor_offline/monitor_error', data_class = MonitorError, latch = True, queue_size = 1000)
+	pub_verdict = rospy.Publisher(name = 'battery_ros_monitor_offline/monitor_verdict', data_class = String, latch = True, queue_size = 1000)
 
 
 	rospy.Subscriber('/battery_monitor/battery_status', BatteryStatus, callback__battery_monitor_battery_status)
@@ -121,9 +115,11 @@ def on_message_topic(message):
 		else:
 			logging(json_dict)
 			rospy.loginfo('The event ' + message + ' is consistent and republished')
+			del json_dict['topic']
+			del json_dict['time']
+			ROS_message = message_converter.convert_dictionary_to_ros_message(msg_dict[topic], json_dict)
 			if topic in pub_dict:
-				pub_dict[topic].publish(msg)
-			del dict_msgs[json_dict['time']]
+				pub_dict[topic].publish(ROS_message)
 	else:
 		logging(json_dict)
 		rospy.loginfo('The event ' + message + ' is inconsistent.')
@@ -133,9 +129,13 @@ def on_message_topic(message):
 			ws.close()
 			exit(0)
 		if actions[topic][0] != 'filter':
+			del json_dict['topic']
+			del json_dict['time']
+			del json_dict['error']
+			del json_dict['spec']
+			ROS_message = message_converter.convert_dictionary_to_ros_message(msg_dict[topic], json_dict)
 			if topic in pub_dict:
-				pub_dict[topic].publish(msg)
-			del dict_msgs[json_dict['time']]
+				pub_dict[topic].publish(ROS_message)
 	publish_verdict(verdict)
 
 def on_message_service_request(message):
@@ -235,16 +235,12 @@ def logging(json_dict):
 
 def main(argv):
 	global log, actions, ws
-	log = '/home/robotlab/ServiceExtension/battery_monitor_ws/log_online.txt' 
+	log = '/home/robotlab/ServiceExtension/battery_monitor_ws/log_offline.txt' 
 	actions = {
-		'/battery_monitor/battery_status' : ('log', 1), 
-		'/battery_monitor/input_accepted' : ('log', 1), 
-		'/fcs_interface/battery_state' : ('log', 1)
+		'/battery_monitor/battery_status' : ('log', 0), 
+		'/battery_monitor/input_accepted' : ('log', 0), 
+		'/fcs_interface/battery_state' : ('log', 0)
 	}
-	websocket.enableTrace(True)
-	ws = websocket.WebSocket()
-	ws.connect('ws://127.0.0.1:8080')
-	rospy.loginfo('Websocket is open')
 	monitor()
 	rospy.spin()
 
