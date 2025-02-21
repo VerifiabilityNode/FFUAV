@@ -1,0 +1,305 @@
+rc BM associated to BatteryMonitor {
+t0 :batteryStatus.out. BatteryStatus :: Ok
+t1 :batteryStatus.out. BatteryStatus :: MissionCritical
+t2 :batteryStatus.out. BatteryStatus :: SafetyCritical
+t3 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: Ok
+t4 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t5 :batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 0 |)
+t6 :batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 1 |)
+t7 :batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 2 |)
+t8 :batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 3 |)
+t9 :batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 4 |)
+t10 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t11 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t12 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t13 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: Ok
+t14 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t15 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 0 |)
+t16 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 1 |)
+t17 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 2 |)
+t18 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 3 |)
+t19 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 4 |)
+t20 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t21 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t22 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t23 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: Ok
+t24 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t25 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 0 |)
+t26 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 1 |)
+t27 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 2 |)
+t28 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 3 |)
+t29 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 4 |)
+t30 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t31 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t32 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t33 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: Ok
+t34 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t35 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 0 |)
+t36 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 1 |)
+t37 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 2 |)
+t38 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 3 |)
+t39 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 4 |)
+t40 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t41 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t42 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t43 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: Ok
+t44 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t45 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 0 |)
+t46 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 1 |)
+t47 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 2 |)
+t48 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 3 |)
+t49 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 4 |)
+t50 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t51 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t52 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t53 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t54 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t55 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 0 |)
+t56 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 1 |)
+t57 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 2 |)
+t58 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 3 |)
+t59 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 4 |)
+t60 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: Ok
+t61 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: MissionCritical
+t62 :batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t63 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: Ok
+t64 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t65 :batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 0 |)
+t66 :batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 1 |)
+t67 :batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 2 |)
+t68 :batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 3 |)
+t69 :batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 4 |)
+t70 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t71 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t72 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t73 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: Ok
+t74 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t75 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 0 |)
+t76 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 1 |)
+t77 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 2 |)
+t78 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 3 |)
+t79 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 4 |)
+t80 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t81 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t82 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t83 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: Ok
+t84 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t85 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 0 |)
+t86 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 1 |)
+t87 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 2 |)
+t88 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 3 |)
+t89 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 4 |)
+t90 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t91 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t92 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t93 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: Ok
+t94 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t95 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 0 |)
+t96 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 1 |)
+t97 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 2 |)
+t98 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 3 |)
+t99 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 4 |)
+t100 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t101 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t102 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t103 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: Ok
+t104 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t105 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 0 |)
+t106 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 1 |)
+t107 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 2 |)
+t108 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 3 |)
+t109 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 4 |)
+t110 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t111 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t112 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t113 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t114 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t115 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 0 |)
+t116 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 1 |)
+t117 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 2 |)
+t118 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 3 |)
+t119 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 4 |)
+t120 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: Ok
+t121 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: MissionCritical
+t122 :batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t123 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: Ok
+t124 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t125 :batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 0 |)
+t126 :batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 1 |)
+t127 :batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 2 |)
+t128 :batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 3 |)
+t129 :batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 4 |)
+t130 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t131 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t132 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t133 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: Ok
+t134 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t135 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 0 |)
+t136 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 1 |)
+t137 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 2 |)
+t138 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 3 |)
+t139 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 4 |)
+t140 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t141 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t142 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t143 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: Ok
+t144 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t145 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 0 |)
+t146 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 1 |)
+t147 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 2 |)
+t148 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 3 |)
+t149 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 4 |)
+t150 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t151 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t152 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t153 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: Ok
+t154 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t155 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 0 |)
+t156 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 1 |)
+t157 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 2 |)
+t158 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 3 |)
+t159 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 4 |)
+t160 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t161 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t162 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t163 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: Ok
+t164 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t165 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 0 |)
+t166 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 1 |)
+t167 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 2 |)
+t168 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 3 |)
+t169 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 4 |)
+t170 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t171 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t172 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t173 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t174 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t175 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 0 |)
+t176 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 1 |)
+t177 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 2 |)
+t178 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 3 |)
+t179 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 4 |)
+t180 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: Ok
+t181 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: MissionCritical
+t182 :batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t183 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: Ok
+t184 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t185 :batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 0 |)
+t186 :batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 1 |)
+t187 :batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 2 |)
+t188 :batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 3 |)
+t189 :batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 4 |)
+t190 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t191 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t192 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t193 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: Ok
+t194 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t195 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 0 |)
+t196 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 1 |)
+t197 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 2 |)
+t198 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 3 |)
+t199 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 4 |)
+t200 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t201 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t202 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t203 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: Ok
+t204 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t205 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 0 |)
+t206 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 1 |)
+t207 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 2 |)
+t208 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 3 |)
+t209 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 4 |)
+t210 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t211 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t212 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t213 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: Ok
+t214 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t215 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 0 |)
+t216 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 1 |)
+t217 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 2 |)
+t218 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 3 |)
+t219 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 4 |)
+t220 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t221 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t222 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t223 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: Ok
+t224 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t225 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 0 |)
+t226 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 1 |)
+t227 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 2 |)
+t228 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 3 |)
+t229 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 4 |)
+t230 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t231 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t232 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t233 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t234 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t235 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 0 |)
+t236 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 1 |)
+t237 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 2 |)
+t238 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 3 |)
+t239 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 4 |)
+t240 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: Ok
+t241 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: MissionCritical
+t242 :batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t243 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t244 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t245 :batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 0 |)
+t246 :batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 1 |)
+t247 :batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 2 |)
+t248 :batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 3 |)
+t249 :batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 4 |)
+t250 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: Ok
+t251 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: MissionCritical
+t252 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t253 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: Ok
+t254 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t255 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 0 |)
+t256 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 1 |)
+t257 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 2 |)
+t258 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 3 |)
+t259 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryState.in. Battery (| percentage = 4 |)
+t260 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t261 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t262 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 0 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t263 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: Ok
+t264 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t265 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 0 |)
+t266 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 1 |)
+t267 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 2 |)
+t268 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 3 |)
+t269 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryState.in. Battery (| percentage = 4 |)
+t270 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: Ok
+t271 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t272 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 1 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t273 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: Ok
+t274 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t275 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 0 |)
+t276 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 1 |)
+t277 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 2 |)
+t278 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 3 |)
+t279 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryState.in. Battery (| percentage = 4 |)
+t280 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t281 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t282 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 2 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t283 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: Ok
+t284 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t285 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 0 |)
+t286 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 1 |)
+t287 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 2 |)
+t288 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 3 |)
+t289 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryState.in. Battery (| percentage = 4 |)
+t290 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: Ok
+t291 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: MissionCritical
+t292 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 3 |) ,batteryStatus.out. BatteryStatus :: MissionCritical ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t293 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: MissionCritical
+t294 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: SafetyCritical
+t295 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 0 |)
+t296 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 1 |)
+t297 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 2 |)
+t298 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 3 |)
+t299 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryState.in. Battery (| percentage = 4 |)
+t300 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: Ok
+t301 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: MissionCritical
+t302 :batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryState.in. Battery (| percentage = 4 |) ,batteryStatus.out. BatteryStatus :: Ok ,batteryStatus.out. BatteryStatus :: SafetyCritical
+}

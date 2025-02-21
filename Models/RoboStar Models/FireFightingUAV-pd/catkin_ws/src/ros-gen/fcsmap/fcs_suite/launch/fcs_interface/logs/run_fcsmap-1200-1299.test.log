@@ -1,0 +1,2458 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-800411.log
+[ INFO] [1739561718.663465176]: Starting the FCS_Interface.
+[ INFO] [1739561719.740057098]: FCS_Interface getting ready...
+[ INFO] [1739561720.159448114]: Activated drone successfully.
+[ INFO] [1739561720.959660878]: Obtained SDK control authority successfully
+[ INFO] [1739561721.061887882]: Waiting to obtain first gps reading
+[ INFO] [1739561721.162196876]: Waiting to obtain first gps reading
+[ INFO] [1739561721.265648765]: Waiting to obtain first gps reading
+[ INFO] [1739561721.365777817]: Waiting to obtain first gps reading
+[ INFO] [1739561721.466064231]: Waiting to obtain first gps reading
+[ INFO] [1739561721.566210723]: Waiting to obtain first gps reading
+[ INFO] [1739561721.666663310]: Waiting to obtain first gps reading
+[ INFO] [1739561721.766876852]: Waiting to obtain first gps reading
+[ INFO] [1739561721.867074586]: Waiting to obtain first gps reading
+[ INFO] [1739561721.967247858]: Waiting to obtain first gps reading
+[ INFO] [1739561722.067779483]: Waiting to obtain first gps reading
+[ INFO] [1739561722.168206207]: Waiting to obtain first gps reading
+[ INFO] [1739561722.269810035]: Waiting to obtain first gps reading
+[ INFO] [1739561722.382118989]: Waiting to obtain first gps reading
+[ INFO] [1739561722.482332092]: Waiting to obtain first gps reading
+[ INFO] [1739561722.582687768]: Waiting to obtain first gps reading
+[ INFO] [1739561722.682954700]: Waiting to obtain first gps reading
+[ INFO] [1739561722.783080810]: Waiting to obtain first gps reading
+[ INFO] [1739561722.883410574]: Waiting to obtain first gps reading
+[ INFO] [1739561722.983556687]: Waiting to obtain first gps reading
+[ INFO] [1739561723.084019781]: Waiting to obtain first gps reading
+[ INFO] [1739561723.184177392]: Waiting to obtain first gps reading
+[ INFO] [1739561723.284424276]: Waiting to obtain first gps reading
+[ INFO] [1739561723.384630540]: Waiting to obtain first gps reading
+[ INFO] [1739561723.484890914]: Waiting to obtain first gps reading
+[ INFO] [1739561723.584996295]: Waiting to obtain first gps reading
+[ INFO] [1739561723.685499659]: Waiting to obtain first gps reading
+[ INFO] [1739561723.785932954]: Waiting to obtain first gps reading
+[ INFO] [1739561723.888222297]: Waiting to obtain first gps reading
+[ INFO] [1739561723.988441899]: Waiting to obtain first gps reading
+[ INFO] [1739561724.617906512]: Starting the FCS_Interface.
+[ INFO] [1739561725.736710468]: FCS_Interface getting ready...
+[ INFO] [1739561726.167130463]: Activated drone successfully.
+[ INFO] [1739561726.970472087]: Obtained SDK control authority successfully
+[ INFO] [1739561727.073959205]: Waiting to obtain first gps reading
+[ INFO] [1739561727.174160298]: Waiting to obtain first gps reading
+[ INFO] [1739561727.274870272]: Waiting to obtain first gps reading
+[ INFO] [1739561727.375146785]: Waiting to obtain first gps reading
+[ INFO] [1739561727.475676281]: Waiting to obtain first gps reading
+[ INFO] [1739561727.575924294]: Waiting to obtain first gps reading
+[ INFO] [1739561727.676656830]: Waiting to obtain first gps reading
+[ INFO] [1739561727.777048404]: Waiting to obtain first gps reading
+[ INFO] [1739561727.877405057]: Waiting to obtain first gps reading
+[ INFO] [1739561727.977666909]: Waiting to obtain first gps reading
+[ INFO] [1739561728.078328235]: Waiting to obtain first gps reading
+[ INFO] [1739561728.178602428]: Waiting to obtain first gps reading
+[ INFO] [1739561728.279078742]: Waiting to obtain first gps reading
+[ INFO] [1739561728.379354166]: Waiting to obtain first gps reading
+[ INFO] [1739561728.479931989]: Waiting to obtain first gps reading
+[ INFO] [1739561728.580346414]: Waiting to obtain first gps reading
+[ INFO] [1739561728.680856598]: Waiting to obtain first gps reading
+[ INFO] [1739561728.781134253]: Waiting to obtain first gps reading
+[ INFO] [1739561728.881600887]: Waiting to obtain first gps reading
+[ INFO] [1739561728.981886501]: Waiting to obtain first gps reading
+[ INFO] [1739561729.082838547]: Waiting to obtain first gps reading
+[ INFO] [1739561729.183054112]: Waiting to obtain first gps reading
+[ INFO] [1739561729.283463276]: Waiting to obtain first gps reading
+[ INFO] [1739561729.383683099]: Waiting to obtain first gps reading
+[ INFO] [1739561729.484345406]: Waiting to obtain first gps reading
+[ INFO] [1739561729.584473657]: Waiting to obtain first gps reading
+[ INFO] [1739561729.687053612]: Waiting to obtain first gps reading
+[ INFO] [1739561729.789115695]: Waiting to obtain first gps reading
+[ INFO] [1739561729.893116367]: Waiting to obtain first gps reading
+[ INFO] [1739561730.008398808]: Waiting to obtain first gps reading
+[ INFO] [1739561730.108858153]: Waiting to obtain first gps reading
+[ INFO] [1739561730.609882329]: Starting the FCS_Interface.
+[ INFO] [1739561731.691194392]: FCS_Interface getting ready...
+[ INFO] [1739561732.185001749]: Activated drone successfully.
+[ INFO] [1739561733.785007226]: Obtained SDK control authority successfully
+[ INFO] [1739561733.885151387]: Waiting to obtain first gps reading
+[ INFO] [1739561733.985281979]: Waiting to obtain first gps reading
+[ INFO] [1739561734.085819814]: Waiting to obtain first gps reading
+[ INFO] [1739561734.185945617]: Waiting to obtain first gps reading
+[ INFO] [1739561734.286205530]: Waiting to obtain first gps reading
+[ INFO] [1739561734.386327452]: Waiting to obtain first gps reading
+[ INFO] [1739561734.487477199]: Waiting to obtain first gps reading
+[ INFO] [1739561734.587833932]: Waiting to obtain first gps reading
+[ INFO] [1739561734.687974083]: Waiting to obtain first gps reading
+[ INFO] [1739561734.788535799]: Waiting to obtain first gps reading
+[ INFO] [1739561734.888821412]: Waiting to obtain first gps reading
+[ INFO] [1739561734.989024295]: Waiting to obtain first gps reading
+[ INFO] [1739561735.094276623]: Waiting to obtain first gps reading
+[ INFO] [1739561735.194487917]: Waiting to obtain first gps reading
+[ INFO] [1739561735.300336309]: Waiting to obtain first gps reading
+[ INFO] [1739561735.400621612]: Waiting to obtain first gps reading
+[ INFO] [1739561735.501303218]: Waiting to obtain first gps reading
+[ INFO] [1739561735.602334355]: Waiting to obtain first gps reading
+[ INFO] [1739561735.702934900]: Waiting to obtain first gps reading
+[ INFO] [1739561735.803745856]: Waiting to obtain first gps reading
+[ INFO] [1739561735.920347133]: Waiting to obtain first gps reading
+[ INFO] [1739561736.020874897]: Waiting to obtain first gps reading
+[ INFO] [1739561736.430334832]: Starting the FCS_Interface.
+[ INFO] [1739561737.593469062]: FCS_Interface getting ready...
+[ INFO] [1739561738.011594334]: Activated drone successfully.
+[ INFO] [1739561739.211296364]: Obtained SDK control authority successfully
+[ INFO] [1739561739.311596960]: Waiting to obtain first gps reading
+[ INFO] [1739561739.412165144]: Waiting to obtain first gps reading
+[ INFO] [1739561739.512872231]: Waiting to obtain first gps reading
+[ INFO] [1739561739.613232344]: Waiting to obtain first gps reading
+[ INFO] [1739561739.713618298]: Waiting to obtain first gps reading
+[ INFO] [1739561739.813875080]: Waiting to obtain first gps reading
+[ INFO] [1739561739.914058615]: Waiting to obtain first gps reading
+[ INFO] [1739561740.014246257]: Waiting to obtain first gps reading
+[ INFO] [1739561740.115387316]: Waiting to obtain first gps reading
+[ INFO] [1739561740.216688585]: Waiting to obtain first gps reading
+[ INFO] [1739561740.317220791]: Waiting to obtain first gps reading
+[ INFO] [1739561740.417379032]: Waiting to obtain first gps reading
+[ INFO] [1739561740.517727507]: Waiting to obtain first gps reading
+[ INFO] [1739561740.617965481]: Waiting to obtain first gps reading
+[ INFO] [1739561740.718280944]: Waiting to obtain first gps reading
+[ INFO] [1739561740.818615648]: Waiting to obtain first gps reading
+[ INFO] [1739561740.919140862]: Waiting to obtain first gps reading
+[ INFO] [1739561741.019537816]: Waiting to obtain first gps reading
+[ INFO] [1739561741.120287172]: Waiting to obtain first gps reading
+[ INFO] [1739561741.220719527]: Waiting to obtain first gps reading
+[ INFO] [1739561741.321372680]: Waiting to obtain first gps reading
+[ INFO] [1739561741.421560754]: Waiting to obtain first gps reading
+[ INFO] [1739561741.523280354]: Waiting to obtain first gps reading
+[ INFO] [1739561741.623535588]: Waiting to obtain first gps reading
+[ INFO] [1739561741.725437099]: Waiting to obtain first gps reading
+[ INFO] [1739561741.826225285]: Waiting to obtain first gps reading
+[ INFO] [1739561741.927056637]: Waiting to obtain first gps reading
+[ INFO] [1739561742.428631219]: Starting the FCS_Interface.
+[ INFO] [1739561743.501160887]: FCS_Interface getting ready...
+[ INFO] [1739561744.018447174]: Activated drone successfully.
+[ INFO] [1739561745.219394838]: Obtained SDK control authority successfully
+[ INFO] [1739561745.320418605]: Waiting to obtain first gps reading
+[ INFO] [1739561745.434286128]: Waiting to obtain first gps reading
+[ INFO] [1739561745.534995313]: Waiting to obtain first gps reading
+[ INFO] [1739561745.635239947]: Waiting to obtain first gps reading
+[ INFO] [1739561745.736038384]: Waiting to obtain first gps reading
+[ INFO] [1739561745.847676504]: Waiting to obtain first gps reading
+[ INFO] [1739561745.948477890]: Waiting to obtain first gps reading
+[ INFO] [1739561746.071024587]: Waiting to obtain first gps reading
+[ INFO] [1739561746.171542002]: Waiting to obtain first gps reading
+[ INFO] [1739561746.271853195]: Waiting to obtain first gps reading
+[ INFO] [1739561746.372408159]: Waiting to obtain first gps reading
+[ INFO] [1739561746.472600123]: Waiting to obtain first gps reading
+[ INFO] [1739561746.573048477]: Waiting to obtain first gps reading
+[ INFO] [1739561746.673191920]: Waiting to obtain first gps reading
+[ INFO] [1739561746.773621414]: Waiting to obtain first gps reading
+[ INFO] [1739561746.874063279]: Waiting to obtain first gps reading
+[ INFO] [1739561746.974532862]: Waiting to obtain first gps reading
+[ INFO] [1739561747.074835545]: Waiting to obtain first gps reading
+[ INFO] [1739561747.175589761]: Waiting to obtain first gps reading
+[ INFO] [1739561747.275751443]: Waiting to obtain first gps reading
+[ INFO] [1739561747.380776642]: Waiting to obtain first gps reading
+[ INFO] [1739561747.481466286]: Waiting to obtain first gps reading
+[ INFO] [1739561747.582008871]: Waiting to obtain first gps reading
+[ INFO] [1739561747.682187694]: Waiting to obtain first gps reading
+[ INFO] [1739561747.782811939]: Waiting to obtain first gps reading
+[ INFO] [1739561747.882905471]: Waiting to obtain first gps reading
+[ INFO] [1739561748.496971712]: Starting the FCS_Interface.
+[ INFO] [1739561749.681152498]: FCS_Interface getting ready...
+[ INFO] [1739561750.111948485]: Activated drone successfully.
+[ INFO] [1739561751.309881447]: Obtained SDK control authority successfully
+[ INFO] [1739561751.410240711]: Waiting to obtain first gps reading
+[ INFO] [1739561751.511052747]: Waiting to obtain first gps reading
+[ INFO] [1739561751.611433181]: Waiting to obtain first gps reading
+[ INFO] [1739561751.712064366]: Waiting to obtain first gps reading
+[ INFO] [1739561751.812715792]: Waiting to obtain first gps reading
+[ INFO] [1739561751.913194986]: Waiting to obtain first gps reading
+[ INFO] [1739561752.014334153]: Waiting to obtain first gps reading
+[ INFO] [1739561752.115133849]: Waiting to obtain first gps reading
+[ INFO] [1739561752.215630883]: Waiting to obtain first gps reading
+[ INFO] [1739561752.316002458]: Waiting to obtain first gps reading
+[ INFO] [1739561752.416199500]: Waiting to obtain first gps reading
+[ INFO] [1739561752.516816274]: Waiting to obtain first gps reading
+[ INFO] [1739561752.617171357]: Waiting to obtain first gps reading
+[ INFO] [1739561752.717327240]: Waiting to obtain first gps reading
+[ INFO] [1739561752.817864024]: Waiting to obtain first gps reading
+[ INFO] [1739561752.917928895]: Waiting to obtain first gps reading
+[ INFO] [1739561753.018139780]: Waiting to obtain first gps reading
+[ INFO] [1739561753.118406544]: Waiting to obtain first gps reading
+[ INFO] [1739561753.219144178]: Waiting to obtain first gps reading
+[ INFO] [1739561753.319499732]: Waiting to obtain first gps reading
+[ INFO] [1739561753.419631154]: Waiting to obtain first gps reading
+[ INFO] [1739561753.520216231]: Waiting to obtain first gps reading
+[ INFO] [1739561753.620810846]: Waiting to obtain first gps reading
+[ INFO] [1739561753.721016668]: Waiting to obtain first gps reading
+[ INFO] [1739561753.821833955]: Waiting to obtain first gps reading
+[ INFO] [1739561753.922266439]: Waiting to obtain first gps reading
+[ INFO] [1739561754.373760870]: Starting the FCS_Interface.
+[ INFO] [1739561755.573025387]: FCS_Interface getting ready...
+[ INFO] [1739561756.438124254]: Activated drone successfully.
+[ INFO] [1739561757.241978721]: Obtained SDK control authority successfully
+[ INFO] [1739561757.345104428]: Waiting to obtain first gps reading
+[ INFO] [1739561757.445276912]: Waiting to obtain first gps reading
+[ INFO] [1739561757.546173128]: Waiting to obtain first gps reading
+[ INFO] [1739561757.646469313]: Waiting to obtain first gps reading
+[ INFO] [1739561757.747108059]: Waiting to obtain first gps reading
+[ INFO] [1739561757.847549611]: Waiting to obtain first gps reading
+[ INFO] [1739561757.948633710]: Waiting to obtain first gps reading
+[ INFO] [1739561758.049402657]: Waiting to obtain first gps reading
+[ INFO] [1739561758.150048923]: Waiting to obtain first gps reading
+[ INFO] [1739561758.250252466]: Waiting to obtain first gps reading
+[ INFO] [1739561758.350711409]: Waiting to obtain first gps reading
+[ INFO] [1739561758.451076733]: Waiting to obtain first gps reading
+[ INFO] [1739561758.552011269]: Waiting to obtain first gps reading
+[ INFO] [1739561758.652592243]: Waiting to obtain first gps reading
+[ INFO] [1739561758.753032059]: Waiting to obtain first gps reading
+[ INFO] [1739561758.853460933]: Waiting to obtain first gps reading
+[ INFO] [1739561758.953868096]: Waiting to obtain first gps reading
+[ INFO] [1739561759.054885032]: Waiting to obtain first gps reading
+[ INFO] [1739561759.155422647]: Waiting to obtain first gps reading
+[ INFO] [1739561759.255757230]: Waiting to obtain first gps reading
+[ INFO] [1739561759.356883447]: Waiting to obtain first gps reading
+[ INFO] [1739561759.457727492]: Waiting to obtain first gps reading
+[ INFO] [1739561759.558674838]: Waiting to obtain first gps reading
+[ INFO] [1739561759.659002972]: Waiting to obtain first gps reading
+[ INFO] [1739561759.759497826]: Waiting to obtain first gps reading
+[ INFO] [1739561759.859810580]: Waiting to obtain first gps reading
+[ INFO] [1739561760.484335326]: Starting the FCS_Interface.
+[ INFO] [1739561761.700128320]: FCS_Interface getting ready...
+[ INFO] [1739561762.511351622]: Activated drone successfully.
+[ INFO] [1739561763.711027915]: Obtained SDK control authority successfully
+[ INFO] [1739561763.811660960]: Waiting to obtain first gps reading
+[ INFO] [1739561763.912003203]: Waiting to obtain first gps reading
+[ INFO] [1739561764.012506778]: Waiting to obtain first gps reading
+[ INFO] [1739561764.112985022]: Waiting to obtain first gps reading
+[ INFO] [1739561764.213831529]: Waiting to obtain first gps reading
+[ INFO] [1739561764.314349464]: Waiting to obtain first gps reading
+[ INFO] [1739561764.414977868]: Waiting to obtain first gps reading
+[ INFO] [1739561764.515309212]: Waiting to obtain first gps reading
+[ INFO] [1739561764.615785067]: Waiting to obtain first gps reading
+[ INFO] [1739561764.716324950]: Waiting to obtain first gps reading
+[ INFO] [1739561764.817073137]: Waiting to obtain first gps reading
+[ INFO] [1739561764.917374169]: Waiting to obtain first gps reading
+[ INFO] [1739561765.017998334]: Waiting to obtain first gps reading
+[ INFO] [1739561765.118400648]: Waiting to obtain first gps reading
+[ INFO] [1739561765.219186544]: Waiting to obtain first gps reading
+[ INFO] [1739561765.319580307]: Waiting to obtain first gps reading
+[ INFO] [1739561765.420382363]: Waiting to obtain first gps reading
+[ INFO] [1739561765.520571157]: Waiting to obtain first gps reading
+[ INFO] [1739561765.621081921]: Waiting to obtain first gps reading
+[ INFO] [1739561765.727203673]: Waiting to obtain first gps reading
+[ INFO] [1739561765.828190380]: Waiting to obtain first gps reading
+[ INFO] [1739561765.929559620]: Waiting to obtain first gps reading
+[ INFO] [1739561766.353668809]: Starting the FCS_Interface.
+[ INFO] [1739561767.424301800]: FCS_Interface getting ready...
+[ INFO] [1739561767.911768215]: Activated drone successfully.
+[ INFO] [1739561769.498904359]: Obtained SDK control authority successfully
+[ INFO] [1739561769.599372613]: Waiting to obtain first gps reading
+[ INFO] [1739561769.699920648]: Waiting to obtain first gps reading
+[ INFO] [1739561769.800537043]: Waiting to obtain first gps reading
+[ INFO] [1739561769.900703016]: Waiting to obtain first gps reading
+[ INFO] [1739561770.000921608]: Waiting to obtain first gps reading
+[ INFO] [1739561770.101070642]: Waiting to obtain first gps reading
+[ INFO] [1739561770.201946777]: Waiting to obtain first gps reading
+[ INFO] [1739561770.302341661]: Waiting to obtain first gps reading
+[ INFO] [1739561770.403535149]: Waiting to obtain first gps reading
+[ INFO] [1739561770.503759012]: Waiting to obtain first gps reading
+[ INFO] [1739561770.605010011]: Waiting to obtain first gps reading
+[ INFO] [1739561770.705551334]: Waiting to obtain first gps reading
+[ INFO] [1739561770.805880728]: Waiting to obtain first gps reading
+[ INFO] [1739561770.905999759]: Waiting to obtain first gps reading
+[ INFO] [1739561771.006170931]: Waiting to obtain first gps reading
+[ INFO] [1739561771.106349123]: Waiting to obtain first gps reading
+[ INFO] [1739561771.206633537]: Waiting to obtain first gps reading
+[ INFO] [1739561771.307545123]: Waiting to obtain first gps reading
+[ INFO] [1739561771.408729380]: Waiting to obtain first gps reading
+[ INFO] [1739561771.509644906]: Waiting to obtain first gps reading
+[ INFO] [1739561771.611228348]: Waiting to obtain first gps reading
+[ INFO] [1739561772.313254979]: Starting the FCS_Interface.
+[ INFO] [1739561773.465548521]: FCS_Interface getting ready...
+[ INFO] [1739561773.879836832]: Activated drone successfully.
+[ INFO] [1739561774.679910098]: Obtained SDK control authority successfully
+[ INFO] [1739561774.781184206]: Waiting to obtain first gps reading
+[ INFO] [1739561774.881845381]: Waiting to obtain first gps reading
+[ INFO] [1739561774.982770687]: Waiting to obtain first gps reading
+[ INFO] [1739561775.083241071]: Waiting to obtain first gps reading
+[ INFO] [1739561775.183918467]: Waiting to obtain first gps reading
+[ INFO] [1739561775.284818193]: Waiting to obtain first gps reading
+[ INFO] [1739561775.385457799]: Waiting to obtain first gps reading
+[ INFO] [1739561775.485679061]: Waiting to obtain first gps reading
+[ INFO] [1739561775.586526838]: Waiting to obtain first gps reading
+[ INFO] [1739561775.686967871]: Waiting to obtain first gps reading
+[ INFO] [1739561775.787430935]: Waiting to obtain first gps reading
+[ INFO] [1739561775.887658948]: Waiting to obtain first gps reading
+[ INFO] [1739561775.988895605]: Waiting to obtain first gps reading
+[ INFO] [1739561776.089153569]: Waiting to obtain first gps reading
+[ INFO] [1739561776.189802074]: Waiting to obtain first gps reading
+[ INFO] [1739561776.290478729]: Waiting to obtain first gps reading
+[ INFO] [1739561776.391260014]: Waiting to obtain first gps reading
+[ INFO] [1739561776.491981579]: Waiting to obtain first gps reading
+[ INFO] [1739561776.592904885]: Waiting to obtain first gps reading
+[ INFO] [1739561776.693487661]: Waiting to obtain first gps reading
+[ INFO] [1739561776.793858154]: Waiting to obtain first gps reading
+[ INFO] [1739561776.893979777]: Waiting to obtain first gps reading
+[ INFO] [1739561776.994162250]: Waiting to obtain first gps reading
+[ INFO] [1739561777.094401283]: Waiting to obtain first gps reading
+[ INFO] [1739561777.195298879]: Waiting to obtain first gps reading
+[ INFO] [1739561777.296427406]: Waiting to obtain first gps reading
+[ INFO] [1739561777.397951226]: Waiting to obtain first gps reading
+[ INFO] [1739561777.498334560]: Waiting to obtain first gps reading
+[ INFO] [1739561777.598961334]: Waiting to obtain first gps reading
+[ INFO] [1739561777.700912477]: Waiting to obtain first gps reading
+[ INFO] [1739561778.328770278]: Starting the FCS_Interface.
+[ INFO] [1739561779.584991529]: FCS_Interface getting ready...
+[ INFO] [1739561780.439586355]: Activated drone successfully.
+[ INFO] [1739561781.640109714]: Obtained SDK control authority successfully
+[ INFO] [1739561781.743784765]: Waiting to obtain first gps reading
+[ INFO] [1739561781.844067848]: Waiting to obtain first gps reading
+[ INFO] [1739561781.944490632]: Waiting to obtain first gps reading
+[ INFO] [1739561782.047794823]: Waiting to obtain first gps reading
+[ INFO] [1739561782.148470966]: Waiting to obtain first gps reading
+[ INFO] [1739561782.248911621]: Waiting to obtain first gps reading
+[ INFO] [1739561782.349272034]: Waiting to obtain first gps reading
+[ INFO] [1739561782.449562757]: Waiting to obtain first gps reading
+[ INFO] [1739561782.550630005]: Waiting to obtain first gps reading
+[ INFO] [1739561782.651247150]: Waiting to obtain first gps reading
+[ INFO] [1739561782.752043474]: Waiting to obtain first gps reading
+[ INFO] [1739561782.852570040]: Waiting to obtain first gps reading
+[ INFO] [1739561782.953068413]: Waiting to obtain first gps reading
+[ INFO] [1739561783.053437847]: Waiting to obtain first gps reading
+[ INFO] [1739561783.153886352]: Waiting to obtain first gps reading
+[ INFO] [1739561783.254240066]: Waiting to obtain first gps reading
+[ INFO] [1739561783.354620570]: Waiting to obtain first gps reading
+[ INFO] [1739561783.455017923]: Waiting to obtain first gps reading
+[ INFO] [1739561783.557077877]: Waiting to obtain first gps reading
+[ INFO] [1739561783.657305200]: Waiting to obtain first gps reading
+[ INFO] [1739561783.757760974]: Waiting to obtain first gps reading
+[ INFO] [1739561783.858060617]: Waiting to obtain first gps reading
+[ INFO] [1739561783.958638691]: Waiting to obtain first gps reading
+[ INFO] [1739561784.426801528]: Starting the FCS_Interface.
+[ INFO] [1739561785.705199098]: FCS_Interface getting ready...
+[ INFO] [1739561786.563398796]: Activated drone successfully.
+[ INFO] [1739561787.761969440]: Obtained SDK control authority successfully
+[ INFO] [1739561787.862683817]: Waiting to obtain first gps reading
+[ INFO] [1739561787.963074211]: Waiting to obtain first gps reading
+[ INFO] [1739561788.063879218]: Waiting to obtain first gps reading
+[ INFO] [1739561788.164554792]: Waiting to obtain first gps reading
+[ INFO] [1739561788.265459390]: Waiting to obtain first gps reading
+[ INFO] [1739561788.365767013]: Waiting to obtain first gps reading
+[ INFO] [1739561788.466595970]: Waiting to obtain first gps reading
+[ INFO] [1739561788.566812882]: Waiting to obtain first gps reading
+[ INFO] [1739561788.667345476]: Waiting to obtain first gps reading
+[ INFO] [1739561788.768069821]: Waiting to obtain first gps reading
+[ INFO] [1739561788.869029018]: Waiting to obtain first gps reading
+[ INFO] [1739561788.969348892]: Waiting to obtain first gps reading
+[ INFO] [1739561789.070258608]: Waiting to obtain first gps reading
+[ INFO] [1739561789.175734987]: Waiting to obtain first gps reading
+[ INFO] [1739561789.276708345]: Waiting to obtain first gps reading
+[ INFO] [1739561789.377023068]: Waiting to obtain first gps reading
+[ INFO] [1739561789.478629369]: Waiting to obtain first gps reading
+[ INFO] [1739561789.579016222]: Waiting to obtain first gps reading
+[ INFO] [1739561789.682209640]: Waiting to obtain first gps reading
+[ INFO] [1739561789.782686444]: Waiting to obtain first gps reading
+[ INFO] [1739561789.884607565]: Waiting to obtain first gps reading
+[ INFO] [1739561790.484175452]: Starting the FCS_Interface.
+[ INFO] [1739561791.707058058]: FCS_Interface getting ready...
+[ INFO] [1739561792.153904806]: Activated drone successfully.
+[ INFO] [1739561793.353421117]: Obtained SDK control authority successfully
+[ INFO] [1739561793.470253134]: Waiting to obtain first gps reading
+[ INFO] [1739561793.570669137]: Waiting to obtain first gps reading
+[ INFO] [1739561793.675313234]: Waiting to obtain first gps reading
+[ INFO] [1739561793.775615547]: Waiting to obtain first gps reading
+[ INFO] [1739561793.876202782]: Waiting to obtain first gps reading
+[ INFO] [1739561793.976435006]: Waiting to obtain first gps reading
+[ INFO] [1739561794.076863409]: Waiting to obtain first gps reading
+[ INFO] [1739561794.177033261]: Waiting to obtain first gps reading
+[ INFO] [1739561794.277312394]: Waiting to obtain first gps reading
+[ INFO] [1739561794.378021259]: Waiting to obtain first gps reading
+[ INFO] [1739561794.478363383]: Waiting to obtain first gps reading
+[ INFO] [1739561794.578549904]: Waiting to obtain first gps reading
+[ INFO] [1739561794.679046189]: Waiting to obtain first gps reading
+[ INFO] [1739561794.779604194]: Waiting to obtain first gps reading
+[ INFO] [1739561794.880347588]: Waiting to obtain first gps reading
+[ INFO] [1739561794.981112763]: Waiting to obtain first gps reading
+[ INFO] [1739561795.081515227]: Waiting to obtain first gps reading
+[ INFO] [1739561795.182242253]: Waiting to obtain first gps reading
+[ INFO] [1739561795.283062469]: Waiting to obtain first gps reading
+[ INFO] [1739561795.383376913]: Waiting to obtain first gps reading
+[ INFO] [1739561795.484706963]: Waiting to obtain first gps reading
+[ INFO] [1739561795.585012944]: Waiting to obtain first gps reading
+[ INFO] [1739561795.686330833]: Waiting to obtain first gps reading
+[ INFO] [1739561795.786556416]: Waiting to obtain first gps reading
+[ INFO] [1739561795.889257062]: Waiting to obtain first gps reading
+[ INFO] [1739561795.989560106]: Waiting to obtain first gps reading
+[ INFO] [1739561796.422207311]: Starting the FCS_Interface.
+[ INFO] [1739561797.569922727]: FCS_Interface getting ready...
+[ INFO] [1739561798.086522312]: Activated drone successfully.
+[ INFO] [1739561799.285760428]: Obtained SDK control authority successfully
+[ INFO] [1739561799.386040101]: Waiting to obtain first gps reading
+[ INFO] [1739561799.486607116]: Waiting to obtain first gps reading
+[ INFO] [1739561799.587279109]: Waiting to obtain first gps reading
+[ INFO] [1739561799.688070767]: Waiting to obtain first gps reading
+[ INFO] [1739561799.788451672]: Waiting to obtain first gps reading
+[ INFO] [1739561799.888654374]: Waiting to obtain first gps reading
+[ INFO] [1739561799.988885667]: Waiting to obtain first gps reading
+[ INFO] [1739561800.089056761]: Waiting to obtain first gps reading
+[ INFO] [1739561800.189265093]: Waiting to obtain first gps reading
+[ INFO] [1739561800.289417386]: Waiting to obtain first gps reading
+[ INFO] [1739561800.389636949]: Waiting to obtain first gps reading
+[ INFO] [1739561800.489814761]: Waiting to obtain first gps reading
+[ INFO] [1739561800.590265627]: Waiting to obtain first gps reading
+[ INFO] [1739561800.690394280]: Waiting to obtain first gps reading
+[ INFO] [1739561800.791084566]: Waiting to obtain first gps reading
+[ INFO] [1739561800.891713611]: Waiting to obtain first gps reading
+[ INFO] [1739561800.992057056]: Waiting to obtain first gps reading
+[ INFO] [1739561801.092400668]: Waiting to obtain first gps reading
+[ INFO] [1739561801.192714052]: Waiting to obtain first gps reading
+[ INFO] [1739561801.292827704]: Waiting to obtain first gps reading
+[ INFO] [1739561801.393268858]: Waiting to obtain first gps reading
+[ INFO] [1739561801.493893724]: Waiting to obtain first gps reading
+[ INFO] [1739561801.594179577]: Waiting to obtain first gps reading
+[ INFO] [1739561801.694721421]: Waiting to obtain first gps reading
+[ INFO] [1739561801.795024675]: Waiting to obtain first gps reading
+[ INFO] [1739561802.389322945]: Starting the FCS_Interface.
+[ INFO] [1739561803.625612992]: FCS_Interface getting ready...
+[ INFO] [1739561804.087943302]: Activated drone successfully.
+[ INFO] [1739561805.286365327]: Obtained SDK control authority successfully
+[ INFO] [1739561805.387089583]: Waiting to obtain first gps reading
+[ INFO] [1739561805.487534958]: Waiting to obtain first gps reading
+[ INFO] [1739561805.588210112]: Waiting to obtain first gps reading
+[ INFO] [1739561805.699473522]: Waiting to obtain first gps reading
+[ INFO] [1739561805.800237797]: Waiting to obtain first gps reading
+[ INFO] [1739561805.900467360]: Waiting to obtain first gps reading
+[ INFO] [1739561806.002023580]: Waiting to obtain first gps reading
+[ INFO] [1739561806.102536074]: Waiting to obtain first gps reading
+[ INFO] [1739561806.203061237]: Waiting to obtain first gps reading
+[ INFO] [1739561806.304504688]: Waiting to obtain first gps reading
+[ INFO] [1739561806.404908372]: Waiting to obtain first gps reading
+[ INFO] [1739561806.505125245]: Waiting to obtain first gps reading
+[ INFO] [1739561806.605962291]: Waiting to obtain first gps reading
+[ INFO] [1739561806.706344994]: Waiting to obtain first gps reading
+[ INFO] [1739561806.806954049]: Waiting to obtain first gps reading
+[ INFO] [1739561806.907294272]: Waiting to obtain first gps reading
+[ INFO] [1739561807.007867956]: Waiting to obtain first gps reading
+[ INFO] [1739561807.108832444]: Waiting to obtain first gps reading
+[ INFO] [1739561807.209415580]: Waiting to obtain first gps reading
+[ INFO] [1739561807.309873853]: Waiting to obtain first gps reading
+[ INFO] [1739561807.411020542]: Waiting to obtain first gps reading
+[ INFO] [1739561807.511429955]: Waiting to obtain first gps reading
+[ INFO] [1739561807.613509928]: Waiting to obtain first gps reading
+[ INFO] [1739561807.713888242]: Waiting to obtain first gps reading
+[ INFO] [1739561807.814511396]: Waiting to obtain first gps reading
+[ INFO] [1739561808.303416528]: Starting the FCS_Interface.
+[ INFO] [1739561809.557381427]: FCS_Interface getting ready...
+[ INFO] [1739561810.025075398]: Activated drone successfully.
+[ INFO] [1739561811.619635828]: Obtained SDK control authority successfully
+[ INFO] [1739561811.721073296]: Waiting to obtain first gps reading
+[ INFO] [1739561811.821369040]: Waiting to obtain first gps reading
+[ INFO] [1739561811.923818375]: Waiting to obtain first gps reading
+[ INFO] [1739561812.023918758]: Waiting to obtain first gps reading
+[ INFO] [1739561812.124186031]: Waiting to obtain first gps reading
+[ INFO] [1739561812.224371644]: Waiting to obtain first gps reading
+[ INFO] [1739561812.324591516]: Waiting to obtain first gps reading
+[ INFO] [1739561812.424761579]: Waiting to obtain first gps reading
+[ INFO] [1739561812.525521744]: Waiting to obtain first gps reading
+[ INFO] [1739561812.626459031]: Waiting to obtain first gps reading
+[ INFO] [1739561812.727342986]: Waiting to obtain first gps reading
+[ INFO] [1739561812.827866601]: Waiting to obtain first gps reading
+[ INFO] [1739561812.928643007]: Waiting to obtain first gps reading
+[ INFO] [1739561813.028972550]: Waiting to obtain first gps reading
+[ INFO] [1739561813.129842458]: Waiting to obtain first gps reading
+[ INFO] [1739561813.230249681]: Waiting to obtain first gps reading
+[ INFO] [1739561813.330889458]: Waiting to obtain first gps reading
+[ INFO] [1739561813.431377913]: Waiting to obtain first gps reading
+[ INFO] [1739561813.532870751]: Waiting to obtain first gps reading
+[ INFO] [1739561813.634263271]: Waiting to obtain first gps reading
+[ INFO] [1739561813.736200003]: Waiting to obtain first gps reading
+[ INFO] [1739561813.842454037]: Waiting to obtain first gps reading
+[ INFO] [1739561813.946872582]: Waiting to obtain first gps reading
+[ INFO] [1739561814.484721715]: Starting the FCS_Interface.
+[ INFO] [1739561815.705319714]: FCS_Interface getting ready...
+[ INFO] [1739561816.200291680]: Activated drone successfully.
+[ INFO] [1739561817.402846089]: Obtained SDK control authority successfully
+[ INFO] [1739561817.504717171]: Waiting to obtain first gps reading
+[ INFO] [1739561817.604924595]: Waiting to obtain first gps reading
+[ INFO] [1739561817.705526830]: Waiting to obtain first gps reading
+[ INFO] [1739561817.805736923]: Waiting to obtain first gps reading
+[ INFO] [1739561817.906380878]: Waiting to obtain first gps reading
+[ INFO] [1739561818.008869713]: Waiting to obtain first gps reading
+[ INFO] [1739561818.109434068]: Waiting to obtain first gps reading
+[ INFO] [1739561818.209773543]: Waiting to obtain first gps reading
+[ INFO] [1739561818.310445108]: Waiting to obtain first gps reading
+[ INFO] [1739561818.410824642]: Waiting to obtain first gps reading
+[ INFO] [1739561818.511434966]: Waiting to obtain first gps reading
+[ INFO] [1739561818.611846047]: Waiting to obtain first gps reading
+[ INFO] [1739561818.712464074]: Waiting to obtain first gps reading
+[ INFO] [1739561818.814323245]: Waiting to obtain first gps reading
+[ INFO] [1739561818.914872000]: Waiting to obtain first gps reading
+[ INFO] [1739561819.015090153]: Waiting to obtain first gps reading
+[ INFO] [1739561819.115627658]: Waiting to obtain first gps reading
+[ INFO] [1739561819.216628136]: Waiting to obtain first gps reading
+[ INFO] [1739561819.317088600]: Waiting to obtain first gps reading
+[ INFO] [1739561819.417305572]: Waiting to obtain first gps reading
+[ INFO] [1739561819.517657517]: Waiting to obtain first gps reading
+[ INFO] [1739561819.617872350]: Waiting to obtain first gps reading
+[ INFO] [1739561819.718950927]: Waiting to obtain first gps reading
+[ INFO] [1739561819.819475782]: Waiting to obtain first gps reading
+[ INFO] [1739561819.922355098]: Waiting to obtain first gps reading
+[ INFO] [1739561820.029540196]: Waiting to obtain first gps reading
+[ INFO] [1739561820.481908353]: Starting the FCS_Interface.
+[ INFO] [1739561821.528330109]: FCS_Interface getting ready...
+[ INFO] [1739561822.483871410]: Activated drone successfully.
+[ INFO] [1739561823.681288424]: Obtained SDK control authority successfully
+[ INFO] [1739561823.781860038]: Waiting to obtain first gps reading
+[ INFO] [1739561823.882031471]: Waiting to obtain first gps reading
+[ INFO] [1739561823.982550115]: Waiting to obtain first gps reading
+[ INFO] [1739561824.082911708]: Waiting to obtain first gps reading
+[ INFO] [1739561824.183844534]: Waiting to obtain first gps reading
+[ INFO] [1739561824.285034974]: Waiting to obtain first gps reading
+[ INFO] [1739561824.386067571]: Waiting to obtain first gps reading
+[ INFO] [1739561824.486410005]: Waiting to obtain first gps reading
+[ INFO] [1739561824.586864449]: Waiting to obtain first gps reading
+[ INFO] [1739561824.687186572]: Waiting to obtain first gps reading
+[ INFO] [1739561824.787750328]: Waiting to obtain first gps reading
+[ INFO] [1739561824.888139171]: Waiting to obtain first gps reading
+[ INFO] [1739561824.988552425]: Waiting to obtain first gps reading
+[ INFO] [1739561825.088764807]: Waiting to obtain first gps reading
+[ INFO] [1739561825.193672814]: Waiting to obtain first gps reading
+[ INFO] [1739561825.294459271]: Waiting to obtain first gps reading
+[ INFO] [1739561825.394924855]: Waiting to obtain first gps reading
+[ INFO] [1739561825.495124259]: Waiting to obtain first gps reading
+[ INFO] [1739561825.595651033]: Waiting to obtain first gps reading
+[ INFO] [1739561825.701726837]: Waiting to obtain first gps reading
+[ INFO] [1739561825.813423387]: Waiting to obtain first gps reading
+[ INFO] [1739561826.398488474]: Starting the FCS_Interface.
+[ INFO] [1739561827.492943868]: FCS_Interface getting ready...
+[ INFO] [1739561827.990821124]: Activated drone successfully.
+[ INFO] [1739561829.588374352]: Obtained SDK control authority successfully
+[ INFO] [1739561829.688963428]: Waiting to obtain first gps reading
+[ INFO] [1739561829.789127962]: Waiting to obtain first gps reading
+[ INFO] [1739561829.889623620]: Waiting to obtain first gps reading
+[ INFO] [1739561829.990216632]: Waiting to obtain first gps reading
+[ INFO] [1739561830.090655087]: Waiting to obtain first gps reading
+[ INFO] [1739561830.191050282]: Waiting to obtain first gps reading
+[ INFO] [1739561830.291765489]: Waiting to obtain first gps reading
+[ INFO] [1739561830.291883259]: Started FCS_Interface.
+[ INFO] [1739561832.335262084]: Starting the FCS_Interface.
+[ INFO] [1739561833.449549550]: FCS_Interface getting ready...
+[ INFO] [1739561833.957452361]: Activated drone successfully.
+[ INFO] [1739561834.750694881]: Obtained SDK control authority successfully
+[ INFO] [1739561834.851006576]: Waiting to obtain first gps reading
+[ INFO] [1739561834.952958238]: Waiting to obtain first gps reading
+[ INFO] [1739561835.053186439]: Waiting to obtain first gps reading
+[ INFO] [1739561835.153326950]: Waiting to obtain first gps reading
+[ INFO] [1739561835.256202198]: Waiting to obtain first gps reading
+[ INFO] [1739561835.356525610]: Waiting to obtain first gps reading
+[ INFO] [1739561835.458043060]: Waiting to obtain first gps reading
+[ INFO] [1739561835.458103750]: Started FCS_Interface.
+[ INFO] [1739561838.225909106]: Starting the FCS_Interface.
+[ INFO] [1739561839.437043526]: FCS_Interface getting ready...
+[ INFO] [1739561839.921078622]: Activated drone successfully.
+[ INFO] [1739561841.117815949]: Obtained SDK control authority successfully
+[ INFO] [1739561841.218887467]: Waiting to obtain first gps reading
+[ INFO] [1739561841.319046090]: Waiting to obtain first gps reading
+[ INFO] [1739561841.419748465]: Waiting to obtain first gps reading
+[ INFO] [1739561841.521206564]: Waiting to obtain first gps reading
+[ INFO] [1739561841.621792280]: Waiting to obtain first gps reading
+[ INFO] [1739561841.730420735]: Waiting to obtain first gps reading
+[ INFO] [1739561841.830970357]: Waiting to obtain first gps reading
+[ INFO] [1739561841.831066247]: Started FCS_Interface.
+[ INFO] [1739561844.240999097]: Starting the FCS_Interface.
+[ INFO] [1739561845.377899110]: FCS_Interface getting ready...
+[ INFO] [1739561846.214899394]: Activated drone successfully.
+[ INFO] [1739561847.413964699]: Obtained SDK control authority successfully
+[ INFO] [1739561847.514672634]: Waiting to obtain first gps reading
+[ INFO] [1739561847.615249118]: Waiting to obtain first gps reading
+[ INFO] [1739561847.716816408]: Waiting to obtain first gps reading
+[ INFO] [1739561847.817153442]: Waiting to obtain first gps reading
+[ INFO] [1739561847.917719176]: Waiting to obtain first gps reading
+[ INFO] [1739561848.018001529]: Waiting to obtain first gps reading
+[ INFO] [1739561848.118636124]: Waiting to obtain first gps reading
+[ INFO] [1739561848.118730704]: Started FCS_Interface.
+[ INFO] [1739561850.243344791]: Starting the FCS_Interface.
+[ INFO] [1739561851.465581330]: FCS_Interface getting ready...
+[ INFO] [1739561852.332556519]: Activated drone successfully.
+[ INFO] [1739561853.131657940]: Obtained SDK control authority successfully
+[ INFO] [1739561853.233248021]: Waiting to obtain first gps reading
+[ INFO] [1739561853.334605812]: Waiting to obtain first gps reading
+[ INFO] [1739561853.435049856]: Waiting to obtain first gps reading
+[ INFO] [1739561853.537914163]: Waiting to obtain first gps reading
+[ INFO] [1739561853.643000902]: Waiting to obtain first gps reading
+[ INFO] [1739561853.743110321]: Waiting to obtain first gps reading
+[ INFO] [1739561853.843406645]: Waiting to obtain first gps reading
+[ INFO] [1739561853.943610098]: Waiting to obtain first gps reading
+[ INFO] [1739561854.043872700]: Waiting to obtain first gps reading
+[ INFO] [1739561854.144115105]: Waiting to obtain first gps reading
+[ INFO] [1739561854.244406038]: Waiting to obtain first gps reading
+[ INFO] [1739561854.344719391]: Waiting to obtain first gps reading
+[ INFO] [1739561854.445089425]: Waiting to obtain first gps reading
+[ INFO] [1739561854.545231668]: Waiting to obtain first gps reading
+[ INFO] [1739561854.645529462]: Waiting to obtain first gps reading
+[ INFO] [1739561854.746155347]: Waiting to obtain first gps reading
+[ INFO] [1739561854.846684523]: Waiting to obtain first gps reading
+[ INFO] [1739561854.947344689]: Waiting to obtain first gps reading
+[ INFO] [1739561855.047793443]: Waiting to obtain first gps reading
+[ INFO] [1739561855.148019836]: Waiting to obtain first gps reading
+[ INFO] [1739561855.248550931]: Waiting to obtain first gps reading
+[ INFO] [1739561855.349321887]: Waiting to obtain first gps reading
+[ INFO] [1739561855.449876372]: Waiting to obtain first gps reading
+[ INFO] [1739561855.550193674]: Waiting to obtain first gps reading
+[ INFO] [1739561855.650837479]: Waiting to obtain first gps reading
+[ INFO] [1739561855.751789734]: Waiting to obtain first gps reading
+[ INFO] [1739561856.315451441]: Starting the FCS_Interface.
+[ INFO] [1739561857.565259340]: FCS_Interface getting ready...
+[ INFO] [1739561858.037792287]: Activated drone successfully.
+[ INFO] [1739561858.841546526]: Obtained SDK control authority successfully
+[ INFO] [1739561858.942494193]: Waiting to obtain first gps reading
+[ INFO] [1739561859.042905707]: Waiting to obtain first gps reading
+[ INFO] [1739561859.154227479]: Waiting to obtain first gps reading
+[ INFO] [1739561859.254503810]: Waiting to obtain first gps reading
+[ INFO] [1739561859.355473457]: Waiting to obtain first gps reading
+[ INFO] [1739561859.455772010]: Waiting to obtain first gps reading
+[ INFO] [1739561859.557117151]: Waiting to obtain first gps reading
+[ INFO] [1739561859.657568424]: Waiting to obtain first gps reading
+[ INFO] [1739561859.758195440]: Waiting to obtain first gps reading
+[ INFO] [1739561859.858545202]: Waiting to obtain first gps reading
+[ INFO] [1739561859.959668608]: Waiting to obtain first gps reading
+[ INFO] [1739561860.060139882]: Waiting to obtain first gps reading
+[ INFO] [1739561860.161040099]: Waiting to obtain first gps reading
+[ INFO] [1739561860.261493324]: Waiting to obtain first gps reading
+[ INFO] [1739561860.361998567]: Waiting to obtain first gps reading
+[ INFO] [1739561860.462132139]: Waiting to obtain first gps reading
+[ INFO] [1739561860.563209055]: Waiting to obtain first gps reading
+[ INFO] [1739561860.664143263]: Waiting to obtain first gps reading
+[ INFO] [1739561860.764664969]: Waiting to obtain first gps reading
+[ INFO] [1739561860.864870894]: Waiting to obtain first gps reading
+[ INFO] [1739561860.965183904]: Waiting to obtain first gps reading
+[ INFO] [1739561861.065446666]: Waiting to obtain first gps reading
+[ INFO] [1739561861.165973301]: Waiting to obtain first gps reading
+[ INFO] [1739561861.266271314]: Waiting to obtain first gps reading
+[ INFO] [1739561861.367518142]: Waiting to obtain first gps reading
+[ INFO] [1739561861.467835135]: Waiting to obtain first gps reading
+[ INFO] [1739561861.569483443]: Waiting to obtain first gps reading
+[ INFO] [1739561861.669682567]: Waiting to obtain first gps reading
+[ INFO] [1739561861.785337327]: Waiting to obtain first gps reading
+[ INFO] [1739561861.885618309]: Waiting to obtain first gps reading
+[ INFO] [1739561862.538255849]: Starting the FCS_Interface.
+[ INFO] [1739561863.807969813]: FCS_Interface getting ready...
+[ INFO] [1739561864.622285401]: Activated drone successfully.
+[ INFO] [1739561865.822427355]: Obtained SDK control authority successfully
+[ INFO] [1739561865.923272590]: Waiting to obtain first gps reading
+[ INFO] [1739561866.023992825]: Waiting to obtain first gps reading
+[ INFO] [1739561866.124622781]: Waiting to obtain first gps reading
+[ INFO] [1739561866.224802134]: Waiting to obtain first gps reading
+[ INFO] [1739561866.325498171]: Waiting to obtain first gps reading
+[ INFO] [1739561866.425671383]: Waiting to obtain first gps reading
+[ INFO] [1739561866.526628238]: Waiting to obtain first gps reading
+[ INFO] [1739561866.629038725]: Waiting to obtain first gps reading
+[ INFO] [1739561866.729547658]: Waiting to obtain first gps reading
+[ INFO] [1739561866.829715709]: Waiting to obtain first gps reading
+[ INFO] [1739561866.930097233]: Waiting to obtain first gps reading
+[ INFO] [1739561867.030345067]: Waiting to obtain first gps reading
+[ INFO] [1739561867.131229482]: Waiting to obtain first gps reading
+[ INFO] [1739561867.231412704]: Waiting to obtain first gps reading
+[ INFO] [1739561867.332057281]: Waiting to obtain first gps reading
+[ INFO] [1739561867.432563024]: Waiting to obtain first gps reading
+[ INFO] [1739561867.533413310]: Waiting to obtain first gps reading
+[ INFO] [1739561867.635272321]: Waiting to obtain first gps reading
+[ INFO] [1739561867.736041986]: Waiting to obtain first gps reading
+[ INFO] [1739561867.836795111]: Waiting to obtain first gps reading
+[ INFO] [1739561867.937267876]: Waiting to obtain first gps reading
+[ INFO] [1739561868.543358019]: Starting the FCS_Interface.
+[ INFO] [1739561869.653255271]: FCS_Interface getting ready...
+[ INFO] [1739561870.548457827]: Activated drone successfully.
+[ INFO] [1739561871.349174331]: Obtained SDK control authority successfully
+[ INFO] [1739561871.450023438]: Waiting to obtain first gps reading
+[ INFO] [1739561871.550349221]: Waiting to obtain first gps reading
+[ INFO] [1739561871.650905524]: Waiting to obtain first gps reading
+[ INFO] [1739561871.751113736]: Waiting to obtain first gps reading
+[ INFO] [1739561871.851350609]: Waiting to obtain first gps reading
+[ INFO] [1739561871.951564742]: Waiting to obtain first gps reading
+[ INFO] [1739561872.051879116]: Waiting to obtain first gps reading
+[ INFO] [1739561872.152373794]: Waiting to obtain first gps reading
+[ INFO] [1739561872.252661225]: Waiting to obtain first gps reading
+[ INFO] [1739561872.354038604]: Waiting to obtain first gps reading
+[ INFO] [1739561872.455196602]: Waiting to obtain first gps reading
+[ INFO] [1739561872.555693054]: Waiting to obtain first gps reading
+[ INFO] [1739561872.658962222]: Waiting to obtain first gps reading
+[ INFO] [1739561872.759240104]: Waiting to obtain first gps reading
+[ INFO] [1739561872.860009891]: Waiting to obtain first gps reading
+[ INFO] [1739561872.961514111]: Waiting to obtain first gps reading
+[ INFO] [1739561873.062201855]: Waiting to obtain first gps reading
+[ INFO] [1739561873.162567780]: Waiting to obtain first gps reading
+[ INFO] [1739561873.263435835]: Waiting to obtain first gps reading
+[ INFO] [1739561873.363663750]: Waiting to obtain first gps reading
+[ INFO] [1739561873.464492556]: Waiting to obtain first gps reading
+[ INFO] [1739561873.564693169]: Waiting to obtain first gps reading
+[ INFO] [1739561873.666141977]: Waiting to obtain first gps reading
+[ INFO] [1739561873.767350273]: Waiting to obtain first gps reading
+[ INFO] [1739561873.887443656]: Waiting to obtain first gps reading
+[ INFO] [1739561873.990522974]: Waiting to obtain first gps reading
+[ INFO] [1739561874.572619765]: Starting the FCS_Interface.
+[ INFO] [1739561875.766487435]: FCS_Interface getting ready...
+[ INFO] [1739561876.636394478]: Activated drone successfully.
+[ INFO] [1739561877.837022344]: Obtained SDK control authority successfully
+[ INFO] [1739561877.937835417]: Waiting to obtain first gps reading
+[ INFO] [1739561878.039626890]: Waiting to obtain first gps reading
+[ INFO] [1739561878.140181262]: Waiting to obtain first gps reading
+[ INFO] [1739561878.240379256]: Waiting to obtain first gps reading
+[ INFO] [1739561878.341327984]: Waiting to obtain first gps reading
+[ INFO] [1739561878.445335627]: Waiting to obtain first gps reading
+[ INFO] [1739561878.545786513]: Waiting to obtain first gps reading
+[ INFO] [1739561878.645973544]: Waiting to obtain first gps reading
+[ INFO] [1739561878.746649029]: Waiting to obtain first gps reading
+[ INFO] [1739561878.846874262]: Waiting to obtain first gps reading
+[ INFO] [1739561878.948343840]: Waiting to obtain first gps reading
+[ INFO] [1739561879.048934907]: Waiting to obtain first gps reading
+[ INFO] [1739561879.150127232]: Waiting to obtain first gps reading
+[ INFO] [1739561879.251319832]: Waiting to obtain first gps reading
+[ INFO] [1739561879.352122697]: Waiting to obtain first gps reading
+[ INFO] [1739561879.453650817]: Waiting to obtain first gps reading
+[ INFO] [1739561879.554398894]: Waiting to obtain first gps reading
+[ INFO] [1739561879.655539303]: Waiting to obtain first gps reading
+[ INFO] [1739561879.758284658]: Waiting to obtain first gps reading
+[ INFO] [1739561879.858489043]: Waiting to obtain first gps reading
+[ INFO] [1739561879.958825677]: Waiting to obtain first gps reading
+[ INFO] [1739561880.059060689]: Waiting to obtain first gps reading
+[ INFO] [1739561880.705857173]: Starting the FCS_Interface.
+[ INFO] [1739561881.912801076]: FCS_Interface getting ready...
+[ INFO] [1739561882.398169612]: Activated drone successfully.
+[ INFO] [1739561883.192242335]: Obtained SDK control authority successfully
+[ INFO] [1739561883.292896260]: Waiting to obtain first gps reading
+[ INFO] [1739561883.393086731]: Waiting to obtain first gps reading
+[ INFO] [1739561883.494305350]: Waiting to obtain first gps reading
+[ INFO] [1739561883.594512293]: Waiting to obtain first gps reading
+[ INFO] [1739561883.696551356]: Waiting to obtain first gps reading
+[ INFO] [1739561883.797259603]: Waiting to obtain first gps reading
+[ INFO] [1739561883.897735798]: Waiting to obtain first gps reading
+[ INFO] [1739561883.998029871]: Waiting to obtain first gps reading
+[ INFO] [1739561884.098804787]: Waiting to obtain first gps reading
+[ INFO] [1739561884.199015980]: Waiting to obtain first gps reading
+[ INFO] [1739561884.299845137]: Waiting to obtain first gps reading
+[ INFO] [1739561884.400531804]: Waiting to obtain first gps reading
+[ INFO] [1739561884.500903020]: Waiting to obtain first gps reading
+[ INFO] [1739561884.601231763]: Waiting to obtain first gps reading
+[ INFO] [1739561884.701637486]: Waiting to obtain first gps reading
+[ INFO] [1739561884.801920119]: Waiting to obtain first gps reading
+[ INFO] [1739561884.902433845]: Waiting to obtain first gps reading
+[ INFO] [1739561885.002594606]: Waiting to obtain first gps reading
+[ INFO] [1739561885.103491478]: Waiting to obtain first gps reading
+[ INFO] [1739561885.203756931]: Waiting to obtain first gps reading
+[ INFO] [1739561885.304969751]: Waiting to obtain first gps reading
+[ INFO] [1739561885.405546864]: Waiting to obtain first gps reading
+[ INFO] [1739561885.506116050]: Waiting to obtain first gps reading
+[ INFO] [1739561885.607079598]: Waiting to obtain first gps reading
+[ INFO] [1739561885.710477827]: Waiting to obtain first gps reading
+[ INFO] [1739561885.810742741]: Waiting to obtain first gps reading
+[ INFO] [1739561885.917272117]: Waiting to obtain first gps reading
+[ INFO] [1739561886.026075034]: Waiting to obtain first gps reading
+[ INFO] [1739561886.128641848]: Waiting to obtain first gps reading
+[ INFO] [1739561886.597073954]: Starting the FCS_Interface.
+[ INFO] [1739561887.810668546]: FCS_Interface getting ready...
+[ INFO] [1739561888.266064183]: Activated drone successfully.
+[ INFO] [1739561889.468316491]: Obtained SDK control authority successfully
+[ INFO] [1739561889.569188067]: Waiting to obtain first gps reading
+[ INFO] [1739561889.669465278]: Waiting to obtain first gps reading
+[ INFO] [1739561889.770032975]: Waiting to obtain first gps reading
+[ INFO] [1739561889.873089273]: Waiting to obtain first gps reading
+[ INFO] [1739561889.979905429]: Waiting to obtain first gps reading
+[ INFO] [1739561890.083473799]: Waiting to obtain first gps reading
+[ INFO] [1739561890.186186816]: Waiting to obtain first gps reading
+[ INFO] [1739561890.286399288]: Waiting to obtain first gps reading
+[ INFO] [1739561890.391024194]: Waiting to obtain first gps reading
+[ INFO] [1739561890.491192269]: Waiting to obtain first gps reading
+[ INFO] [1739561890.591586283]: Waiting to obtain first gps reading
+[ INFO] [1739561890.691744995]: Waiting to obtain first gps reading
+[ INFO] [1739561890.792646942]: Waiting to obtain first gps reading
+[ INFO] [1739561890.893039366]: Waiting to obtain first gps reading
+[ INFO] [1739561890.993635579]: Waiting to obtain first gps reading
+[ INFO] [1739561891.093908242]: Waiting to obtain first gps reading
+[ INFO] [1739561891.195784283]: Waiting to obtain first gps reading
+[ INFO] [1739561891.296293467]: Waiting to obtain first gps reading
+[ INFO] [1739561891.399799918]: Waiting to obtain first gps reading
+[ INFO] [1739561891.500025970]: Waiting to obtain first gps reading
+[ INFO] [1739561891.600961144]: Waiting to obtain first gps reading
+[ INFO] [1739561891.701388999]: Waiting to obtain first gps reading
+[ INFO] [1739561891.801875983]: Waiting to obtain first gps reading
+[ INFO] [1739561891.902438799]: Waiting to obtain first gps reading
+[ INFO] [1739561892.003144253]: Waiting to obtain first gps reading
+[ INFO] [1739561892.104124709]: Waiting to obtain first gps reading
+[ INFO] [1739561892.209366887]: Waiting to obtain first gps reading
+[ INFO] [1739561892.567444018]: Starting the FCS_Interface.
+[ INFO] [1739561893.783675564]: FCS_Interface getting ready...
+[ INFO] [1739561894.231054071]: Activated drone successfully.
+[ INFO] [1739561895.829538017]: Obtained SDK control authority successfully
+[ INFO] [1739561895.930019761]: Waiting to obtain first gps reading
+[ INFO] [1739561896.030954298]: Waiting to obtain first gps reading
+[ INFO] [1739561896.131384342]: Waiting to obtain first gps reading
+[ INFO] [1739561896.231769204]: Waiting to obtain first gps reading
+[ INFO] [1739561896.332724691]: Waiting to obtain first gps reading
+[ INFO] [1739561896.432888724]: Waiting to obtain first gps reading
+[ INFO] [1739561896.533230187]: Waiting to obtain first gps reading
+[ INFO] [1739561896.633448520]: Waiting to obtain first gps reading
+[ INFO] [1739561896.733842943]: Waiting to obtain first gps reading
+[ INFO] [1739561896.834003857]: Waiting to obtain first gps reading
+[ INFO] [1739561896.934450952]: Waiting to obtain first gps reading
+[ INFO] [1739561897.034683615]: Waiting to obtain first gps reading
+[ INFO] [1739561897.135147419]: Waiting to obtain first gps reading
+[ INFO] [1739561897.235416460]: Waiting to obtain first gps reading
+[ INFO] [1739561897.335761724]: Waiting to obtain first gps reading
+[ INFO] [1739561897.436860160]: Waiting to obtain first gps reading
+[ INFO] [1739561897.537416785]: Waiting to obtain first gps reading
+[ INFO] [1739561897.637636276]: Waiting to obtain first gps reading
+[ INFO] [1739561897.738239990]: Waiting to obtain first gps reading
+[ INFO] [1739561897.838834985]: Waiting to obtain first gps reading
+[ INFO] [1739561897.939385050]: Waiting to obtain first gps reading
+[ INFO] [1739561898.039579522]: Waiting to obtain first gps reading
+[ INFO] [1739561898.666091197]: Starting the FCS_Interface.
+[ INFO] [1739561899.871757649]: FCS_Interface getting ready...
+[ INFO] [1739561900.751352743]: Activated drone successfully.
+[ INFO] [1739561901.549152336]: Obtained SDK control authority successfully
+[ INFO] [1739561901.650305744]: Waiting to obtain first gps reading
+[ INFO] [1739561901.751894603]: Waiting to obtain first gps reading
+[ INFO] [1739561901.852541278]: Waiting to obtain first gps reading
+[ INFO] [1739561901.954554290]: Waiting to obtain first gps reading
+[ INFO] [1739561902.055184995]: Waiting to obtain first gps reading
+[ INFO] [1739561902.155469529]: Waiting to obtain first gps reading
+[ INFO] [1739561902.256798147]: Waiting to obtain first gps reading
+[ INFO] [1739561902.357380642]: Waiting to obtain first gps reading
+[ INFO] [1739561902.457727177]: Waiting to obtain first gps reading
+[ INFO] [1739561902.558083410]: Waiting to obtain first gps reading
+[ INFO] [1739561902.658475454]: Waiting to obtain first gps reading
+[ INFO] [1739561902.758571837]: Waiting to obtain first gps reading
+[ INFO] [1739561902.858765140]: Waiting to obtain first gps reading
+[ INFO] [1739561902.959791516]: Waiting to obtain first gps reading
+[ INFO] [1739561903.059905189]: Waiting to obtain first gps reading
+[ INFO] [1739561903.160031510]: Waiting to obtain first gps reading
+[ INFO] [1739561903.260295055]: Waiting to obtain first gps reading
+[ INFO] [1739561903.360418048]: Waiting to obtain first gps reading
+[ INFO] [1739561903.460596949]: Waiting to obtain first gps reading
+[ INFO] [1739561903.560711521]: Waiting to obtain first gps reading
+[ INFO] [1739561903.660918424]: Waiting to obtain first gps reading
+[ INFO] [1739561903.761017566]: Waiting to obtain first gps reading
+[ INFO] [1739561903.861690721]: Waiting to obtain first gps reading
+[ INFO] [1739561903.962624888]: Waiting to obtain first gps reading
+[ INFO] [1739561904.063087512]: Waiting to obtain first gps reading
+[ INFO] [1739561904.163429295]: Waiting to obtain first gps reading
+[ INFO] [1739561904.647621504]: Starting the FCS_Interface.
+[ INFO] [1739561905.815060200]: FCS_Interface getting ready...
+[ INFO] [1739561906.308738599]: Activated drone successfully.
+[ INFO] [1739561907.911135084]: Obtained SDK control authority successfully
+[ INFO] [1739561908.011766788]: Waiting to obtain first gps reading
+[ INFO] [1739561908.111985882]: Waiting to obtain first gps reading
+[ INFO] [1739561908.212461928]: Waiting to obtain first gps reading
+[ INFO] [1739561908.312795011]: Waiting to obtain first gps reading
+[ INFO] [1739561908.413573478]: Waiting to obtain first gps reading
+[ INFO] [1739561908.513978914]: Waiting to obtain first gps reading
+[ INFO] [1739561908.614422248]: Waiting to obtain first gps reading
+[ INFO] [1739561908.714955633]: Waiting to obtain first gps reading
+[ INFO] [1739561908.816187269]: Waiting to obtain first gps reading
+[ INFO] [1739561908.916639934]: Waiting to obtain first gps reading
+[ INFO] [1739561909.018796558]: Waiting to obtain first gps reading
+[ INFO] [1739561909.119384332]: Waiting to obtain first gps reading
+[ INFO] [1739561909.220312797]: Waiting to obtain first gps reading
+[ INFO] [1739561909.320549412]: Waiting to obtain first gps reading
+[ INFO] [1739561909.421068517]: Waiting to obtain first gps reading
+[ INFO] [1739561909.521787771]: Waiting to obtain first gps reading
+[ INFO] [1739561909.622116874]: Waiting to obtain first gps reading
+[ INFO] [1739561909.722597768]: Waiting to obtain first gps reading
+[ INFO] [1739561909.822892362]: Waiting to obtain first gps reading
+[ INFO] [1739561909.923074403]: Waiting to obtain first gps reading
+[ INFO] [1739561910.023421747]: Waiting to obtain first gps reading
+[ INFO] [1739561910.627442959]: Starting the FCS_Interface.
+[ INFO] [1739561911.758766037]: FCS_Interface getting ready...
+[ INFO] [1739561912.195674355]: Activated drone successfully.
+[ INFO] [1739561913.397960441]: Obtained SDK control authority successfully
+[ INFO] [1739561913.498393897]: Waiting to obtain first gps reading
+[ INFO] [1739561913.598616508]: Waiting to obtain first gps reading
+[ INFO] [1739561913.699248575]: Waiting to obtain first gps reading
+[ INFO] [1739561913.799454957]: Waiting to obtain first gps reading
+[ INFO] [1739561913.899928161]: Waiting to obtain first gps reading
+[ INFO] [1739561914.000271155]: Waiting to obtain first gps reading
+[ INFO] [1739561914.100790730]: Waiting to obtain first gps reading
+[ INFO] [1739561914.201070384]: Waiting to obtain first gps reading
+[ INFO] [1739561914.301599689]: Waiting to obtain first gps reading
+[ INFO] [1739561914.401761542]: Waiting to obtain first gps reading
+[ INFO] [1739561914.502396947]: Waiting to obtain first gps reading
+[ INFO] [1739561914.602633620]: Waiting to obtain first gps reading
+[ INFO] [1739561914.703089255]: Waiting to obtain first gps reading
+[ INFO] [1739561914.803601009]: Waiting to obtain first gps reading
+[ INFO] [1739561914.904207624]: Waiting to obtain first gps reading
+[ INFO] [1739561915.004771987]: Waiting to obtain first gps reading
+[ INFO] [1739561915.105257864]: Waiting to obtain first gps reading
+[ INFO] [1739561915.205570258]: Waiting to obtain first gps reading
+[ INFO] [1739561915.305937950]: Waiting to obtain first gps reading
+[ INFO] [1739561915.406156444]: Waiting to obtain first gps reading
+[ INFO] [1739561915.506787829]: Waiting to obtain first gps reading
+[ INFO] [1739561915.607134182]: Waiting to obtain first gps reading
+[ INFO] [1739561915.707532375]: Waiting to obtain first gps reading
+[ INFO] [1739561915.808789293]: Waiting to obtain first gps reading
+[ INFO] [1739561915.919074317]: Waiting to obtain first gps reading
+[ INFO] [1739561916.019234370]: Waiting to obtain first gps reading
+[ INFO] [1739561916.127088733]: Waiting to obtain first gps reading
+[ INFO] [1739561916.578145023]: Starting the FCS_Interface.
+[ INFO] [1739561917.785187197]: FCS_Interface getting ready...
+[ INFO] [1739561918.266838751]: Activated drone successfully.
+[ INFO] [1739561919.064806705]: Obtained SDK control authority successfully
+[ INFO] [1739561919.165331459]: Waiting to obtain first gps reading
+[ INFO] [1739561919.266190995]: Waiting to obtain first gps reading
+[ INFO] [1739561919.366618389]: Waiting to obtain first gps reading
+[ INFO] [1739561919.467138573]: Waiting to obtain first gps reading
+[ INFO] [1739561919.567844438]: Waiting to obtain first gps reading
+[ INFO] [1739561919.669146287]: Waiting to obtain first gps reading
+[ INFO] [1739561919.769401130]: Waiting to obtain first gps reading
+[ INFO] [1739561919.869533724]: Waiting to obtain first gps reading
+[ INFO] [1739561919.969739307]: Waiting to obtain first gps reading
+[ INFO] [1739561920.070556202]: Waiting to obtain first gps reading
+[ INFO] [1739561920.171026256]: Waiting to obtain first gps reading
+[ INFO] [1739561920.271566611]: Waiting to obtain first gps reading
+[ INFO] [1739561920.372436346]: Waiting to obtain first gps reading
+[ INFO] [1739561920.473035091]: Waiting to obtain first gps reading
+[ INFO] [1739561920.573817638]: Waiting to obtain first gps reading
+[ INFO] [1739561920.674496713]: Waiting to obtain first gps reading
+[ INFO] [1739561920.775263539]: Waiting to obtain first gps reading
+[ INFO] [1739561920.876207975]: Waiting to obtain first gps reading
+[ INFO] [1739561920.976872240]: Waiting to obtain first gps reading
+[ INFO] [1739561921.077344333]: Waiting to obtain first gps reading
+[ INFO] [1739561921.177921678]: Waiting to obtain first gps reading
+[ INFO] [1739561921.278533923]: Waiting to obtain first gps reading
+[ INFO] [1739561921.379084068]: Waiting to obtain first gps reading
+[ INFO] [1739561921.479619662]: Waiting to obtain first gps reading
+[ INFO] [1739561921.580756661]: Waiting to obtain first gps reading
+[ INFO] [1739561921.681515536]: Waiting to obtain first gps reading
+[ INFO] [1739561921.782608695]: Waiting to obtain first gps reading
+[ INFO] [1739561921.882926428]: Waiting to obtain first gps reading
+[ INFO] [1739561921.984657318]: Waiting to obtain first gps reading
+[ INFO] [1739561922.084857202]: Waiting to obtain first gps reading
+[ INFO] [1739561922.709090526]: Starting the FCS_Interface.
+[ INFO] [1739561923.943582077]: FCS_Interface getting ready...
+[ INFO] [1739561924.771187314]: Activated drone successfully.
+[ INFO] [1739561925.975883770]: Obtained SDK control authority successfully
+[ INFO] [1739561926.076221603]: Waiting to obtain first gps reading
+[ INFO] [1739561926.176434756]: Waiting to obtain first gps reading
+[ INFO] [1739561926.276753431]: Waiting to obtain first gps reading
+[ INFO] [1739561926.376970094]: Waiting to obtain first gps reading
+[ INFO] [1739561926.477355638]: Waiting to obtain first gps reading
+[ INFO] [1739561926.577764921]: Waiting to obtain first gps reading
+[ INFO] [1739561926.678208654]: Waiting to obtain first gps reading
+[ INFO] [1739561926.780142398]: Waiting to obtain first gps reading
+[ INFO] [1739561926.880776073]: Waiting to obtain first gps reading
+[ INFO] [1739561926.981118616]: Waiting to obtain first gps reading
+[ INFO] [1739561927.081727780]: Waiting to obtain first gps reading
+[ INFO] [1739561927.182674028]: Waiting to obtain first gps reading
+[ INFO] [1739561927.282945581]: Waiting to obtain first gps reading
+[ INFO] [1739561927.383217314]: Waiting to obtain first gps reading
+[ INFO] [1739561927.483758000]: Waiting to obtain first gps reading
+[ INFO] [1739561927.584631466]: Waiting to obtain first gps reading
+[ INFO] [1739561927.685114259]: Waiting to obtain first gps reading
+[ INFO] [1739561927.785452505]: Waiting to obtain first gps reading
+[ INFO] [1739561927.886724143]: Waiting to obtain first gps reading
+[ INFO] [1739561927.987278737]: Waiting to obtain first gps reading
+[ INFO] [1739561928.088814817]: Waiting to obtain first gps reading
+[ INFO] [1739561928.189571753]: Waiting to obtain first gps reading
+[ INFO] [1739561928.291366553]: Waiting to obtain first gps reading
+[ INFO] [1739561928.395058002]: Waiting to obtain first gps reading
+[ INFO] [1739561928.901711485]: Starting the FCS_Interface.
+[ INFO] [1739561930.165902155]: FCS_Interface getting ready...
+[ INFO] [1739561930.591014451]: Activated drone successfully.
+[ INFO] [1739561931.791738127]: Obtained SDK control authority successfully
+[ INFO] [1739561931.892713584]: Waiting to obtain first gps reading
+[ INFO] [1739561931.992922598]: Waiting to obtain first gps reading
+[ INFO] [1739561932.093374591]: Waiting to obtain first gps reading
+[ INFO] [1739561932.193718075]: Waiting to obtain first gps reading
+[ INFO] [1739561932.294004628]: Waiting to obtain first gps reading
+[ INFO] [1739561932.394180291]: Waiting to obtain first gps reading
+[ INFO] [1739561932.494945987]: Waiting to obtain first gps reading
+[ INFO] [1739561932.595794983]: Waiting to obtain first gps reading
+[ INFO] [1739561932.697531463]: Waiting to obtain first gps reading
+[ INFO] [1739561932.798243818]: Waiting to obtain first gps reading
+[ INFO] [1739561932.899283877]: Waiting to obtain first gps reading
+[ INFO] [1739561933.000389034]: Waiting to obtain first gps reading
+[ INFO] [1739561933.100786399]: Waiting to obtain first gps reading
+[ INFO] [1739561933.201566565]: Waiting to obtain first gps reading
+[ INFO] [1739561933.302792413]: Waiting to obtain first gps reading
+[ INFO] [1739561933.403440796]: Waiting to obtain first gps reading
+[ INFO] [1739561933.504780835]: Waiting to obtain first gps reading
+[ INFO] [1739561933.605249609]: Waiting to obtain first gps reading
+[ INFO] [1739561933.705882333]: Waiting to obtain first gps reading
+[ INFO] [1739561933.806355699]: Waiting to obtain first gps reading
+[ INFO] [1739561933.906876714]: Waiting to obtain first gps reading
+[ INFO] [1739561934.007273578]: Waiting to obtain first gps reading
+[ INFO] [1739561934.111309881]: Waiting to obtain first gps reading
+[ INFO] [1739561934.211569983]: Waiting to obtain first gps reading
+[ INFO] [1739561934.313189983]: Waiting to obtain first gps reading
+[ INFO] [1739561934.413501487]: Waiting to obtain first gps reading
+[ INFO] [1739561934.520405355]: Waiting to obtain first gps reading
+[ INFO] [1739561935.246232229]: Starting the FCS_Interface.
+[ INFO] [1739561936.484785910]: FCS_Interface getting ready...
+[ INFO] [1739561936.945533638]: Activated drone successfully.
+[ INFO] [1739561938.145493404]: Obtained SDK control authority successfully
+[ INFO] [1739561938.245960309]: Waiting to obtain first gps reading
+[ INFO] [1739561938.346669065]: Waiting to obtain first gps reading
+[ INFO] [1739561938.447014079]: Waiting to obtain first gps reading
+[ INFO] [1739561938.547331922]: Waiting to obtain first gps reading
+[ INFO] [1739561938.648229609]: Waiting to obtain first gps reading
+[ INFO] [1739561938.748590543]: Waiting to obtain first gps reading
+[ INFO] [1739561938.849231088]: Waiting to obtain first gps reading
+[ INFO] [1739561938.949587251]: Waiting to obtain first gps reading
+[ INFO] [1739561939.049863185]: Waiting to obtain first gps reading
+[ INFO] [1739561939.150017758]: Waiting to obtain first gps reading
+[ INFO] [1739561939.250582571]: Waiting to obtain first gps reading
+[ INFO] [1739561939.350803724]: Waiting to obtain first gps reading
+[ INFO] [1739561939.451280228]: Waiting to obtain first gps reading
+[ INFO] [1739561939.551504802]: Waiting to obtain first gps reading
+[ INFO] [1739561939.651842307]: Waiting to obtain first gps reading
+[ INFO] [1739561939.752773104]: Waiting to obtain first gps reading
+[ INFO] [1739561939.853458688]: Waiting to obtain first gps reading
+[ INFO] [1739561939.953783111]: Waiting to obtain first gps reading
+[ INFO] [1739561940.054071714]: Waiting to obtain first gps reading
+[ INFO] [1739561940.154280857]: Waiting to obtain first gps reading
+[ INFO] [1739561940.254664072]: Waiting to obtain first gps reading
+[ INFO] [1739561940.354852045]: Waiting to obtain first gps reading
+[ INFO] [1739561940.455594911]: Waiting to obtain first gps reading
+[ INFO] [1739561940.556662197]: Waiting to obtain first gps reading
+[ INFO] [1739561940.657519934]: Waiting to obtain first gps reading
+[ INFO] [1739561940.758223150]: Waiting to obtain first gps reading
+[ INFO] [1739561940.858814164]: Waiting to obtain first gps reading
+[ INFO] [1739561941.515726815]: Starting the FCS_Interface.
+[ INFO] [1739561942.790560361]: FCS_Interface getting ready...
+[ INFO] [1739561943.237367818]: Activated drone successfully.
+[ INFO] [1739561944.037231940]: Obtained SDK control authority successfully
+[ INFO] [1739561944.138209776]: Waiting to obtain first gps reading
+[ INFO] [1739561944.238862561]: Waiting to obtain first gps reading
+[ INFO] [1739561944.339584336]: Waiting to obtain first gps reading
+[ INFO] [1739561944.439960488]: Waiting to obtain first gps reading
+[ INFO] [1739561944.541244678]: Waiting to obtain first gps reading
+[ INFO] [1739561944.641695243]: Waiting to obtain first gps reading
+[ INFO] [1739561944.742111006]: Waiting to obtain first gps reading
+[ INFO] [1739561944.842938151]: Waiting to obtain first gps reading
+[ INFO] [1739561944.943445206]: Waiting to obtain first gps reading
+[ INFO] [1739561945.043921180]: Waiting to obtain first gps reading
+[ INFO] [1739561945.144396163]: Waiting to obtain first gps reading
+[ INFO] [1739561945.244619227]: Waiting to obtain first gps reading
+[ INFO] [1739561945.345081691]: Waiting to obtain first gps reading
+[ INFO] [1739561945.445468824]: Waiting to obtain first gps reading
+[ INFO] [1739561945.545917249]: Waiting to obtain first gps reading
+[ INFO] [1739561945.646165914]: Waiting to obtain first gps reading
+[ INFO] [1739561945.746929119]: Waiting to obtain first gps reading
+[ INFO] [1739561945.847453824]: Waiting to obtain first gps reading
+[ INFO] [1739561945.961161958]: Waiting to obtain first gps reading
+[ INFO] [1739561946.061315861]: Waiting to obtain first gps reading
+[ INFO] [1739561946.176369570]: Waiting to obtain first gps reading
+[ INFO] [1739561946.276731153]: Waiting to obtain first gps reading
+[ INFO] [1739561946.377967172]: Waiting to obtain first gps reading
+[ INFO] [1739561946.478434796]: Waiting to obtain first gps reading
+[ INFO] [1739561946.579338763]: Waiting to obtain first gps reading
+[ INFO] [1739561946.681302174]: Waiting to obtain first gps reading
+[ INFO] [1739561946.782393172]: Waiting to obtain first gps reading
+[ INFO] [1739561946.882676415]: Waiting to obtain first gps reading
+[ INFO] [1739561947.368983374]: Starting the FCS_Interface.
+[ INFO] [1739561948.587473890]: FCS_Interface getting ready...
+[ INFO] [1739561949.018015002]: Activated drone successfully.
+[ INFO] [1739561950.214143706]: Obtained SDK control authority successfully
+[ INFO] [1739561950.314835612]: Waiting to obtain first gps reading
+[ INFO] [1739561950.415070256]: Waiting to obtain first gps reading
+[ INFO] [1739561950.515771040]: Waiting to obtain first gps reading
+[ INFO] [1739561950.616125693]: Waiting to obtain first gps reading
+[ INFO] [1739561950.717869704]: Waiting to obtain first gps reading
+[ INFO] [1739561950.818507819]: Waiting to obtain first gps reading
+[ INFO] [1739561950.919024483]: Waiting to obtain first gps reading
+[ INFO] [1739561951.019252265]: Waiting to obtain first gps reading
+[ INFO] [1739561951.120200133]: Waiting to obtain first gps reading
+[ INFO] [1739561951.220456976]: Waiting to obtain first gps reading
+[ INFO] [1739561951.320719388]: Waiting to obtain first gps reading
+[ INFO] [1739561951.420838910]: Waiting to obtain first gps reading
+[ INFO] [1739561951.521080662]: Waiting to obtain first gps reading
+[ INFO] [1739561951.621187904]: Waiting to obtain first gps reading
+[ INFO] [1739561951.721787518]: Waiting to obtain first gps reading
+[ INFO] [1739561951.822113752]: Waiting to obtain first gps reading
+[ INFO] [1739561951.922484305]: Waiting to obtain first gps reading
+[ INFO] [1739561952.023250502]: Waiting to obtain first gps reading
+[ INFO] [1739561952.123688816]: Waiting to obtain first gps reading
+[ INFO] [1739561952.224463442]: Waiting to obtain first gps reading
+[ INFO] [1739561952.324604974]: Waiting to obtain first gps reading
+[ INFO] [1739561952.424699797]: Waiting to obtain first gps reading
+[ INFO] [1739561952.525667355]: Waiting to obtain first gps reading
+[ INFO] [1739561952.625848447]: Waiting to obtain first gps reading
+[ INFO] [1739561952.726653063]: Waiting to obtain first gps reading
+[ INFO] [1739561952.826778496]: Waiting to obtain first gps reading
+[ INFO] [1739561952.926944579]: Waiting to obtain first gps reading
+[ INFO] [1739561953.464490348]: Starting the FCS_Interface.
+[ INFO] [1739561954.608124702]: FCS_Interface getting ready...
+[ INFO] [1739561955.044670640]: Activated drone successfully.
+[ INFO] [1739561955.845294745]: Obtained SDK control authority successfully
+[ INFO] [1739561955.945627658]: Waiting to obtain first gps reading
+[ INFO] [1739561956.046278625]: Waiting to obtain first gps reading
+[ INFO] [1739561956.146791098]: Waiting to obtain first gps reading
+[ INFO] [1739561956.246982273]: Waiting to obtain first gps reading
+[ INFO] [1739561956.347194204]: Waiting to obtain first gps reading
+[ INFO] [1739561956.447330916]: Waiting to obtain first gps reading
+[ INFO] [1739561956.547564138]: Waiting to obtain first gps reading
+[ INFO] [1739561956.647783250]: Waiting to obtain first gps reading
+[ INFO] [1739561956.750549486]: Waiting to obtain first gps reading
+[ INFO] [1739561956.870543800]: Waiting to obtain first gps reading
+[ INFO] [1739561956.970923384]: Waiting to obtain first gps reading
+[ INFO] [1739561957.071279097]: Waiting to obtain first gps reading
+[ INFO] [1739561957.171519631]: Waiting to obtain first gps reading
+[ INFO] [1739561957.271797684]: Waiting to obtain first gps reading
+[ INFO] [1739561957.372004277]: Waiting to obtain first gps reading
+[ INFO] [1739561957.472460692]: Waiting to obtain first gps reading
+[ INFO] [1739561957.572744135]: Waiting to obtain first gps reading
+[ INFO] [1739561957.673357841]: Waiting to obtain first gps reading
+[ INFO] [1739561957.773523794]: Waiting to obtain first gps reading
+[ INFO] [1739561957.873676206]: Waiting to obtain first gps reading
+[ INFO] [1739561957.973951659]: Waiting to obtain first gps reading
+[ INFO] [1739561958.074094352]: Waiting to obtain first gps reading
+[ INFO] [1739561958.174390546]: Waiting to obtain first gps reading
+[ INFO] [1739561958.274521139]: Waiting to obtain first gps reading
+[ INFO] [1739561958.374787002]: Waiting to obtain first gps reading
+[ INFO] [1739561958.475374958]: Waiting to obtain first gps reading
+[ INFO] [1739561958.575554710]: Waiting to obtain first gps reading
+[ INFO] [1739561958.676717658]: Waiting to obtain first gps reading
+[ INFO] [1739561958.776906781]: Waiting to obtain first gps reading
+[ INFO] [1739561958.890832294]: Waiting to obtain first gps reading
+[ INFO] [1739561958.991337310]: Waiting to obtain first gps reading
+[ INFO] [1739561959.517137165]: Starting the FCS_Interface.
+[ INFO] [1739561960.703717791]: FCS_Interface getting ready...
+[ INFO] [1739561961.543167106]: Activated drone successfully.
+[ INFO] [1739561963.144514561]: Obtained SDK control authority successfully
+[ INFO] [1739561963.245355396]: Waiting to obtain first gps reading
+[ INFO] [1739561963.360054123]: Waiting to obtain first gps reading
+[ INFO] [1739561963.466058267]: Waiting to obtain first gps reading
+[ INFO] [1739561963.566340550]: Waiting to obtain first gps reading
+[ INFO] [1739561963.671005625]: Waiting to obtain first gps reading
+[ INFO] [1739561963.780650865]: Waiting to obtain first gps reading
+[ INFO] [1739561963.888989981]: Waiting to obtain first gps reading
+[ INFO] [1739561964.009027176]: Waiting to obtain first gps reading
+[ INFO] [1739561964.110150933]: Waiting to obtain first gps reading
+[ INFO] [1739561964.235473674]: Waiting to obtain first gps reading
+[ INFO] [1739561964.336862363]: Waiting to obtain first gps reading
+[ INFO] [1739561964.437125296]: Waiting to obtain first gps reading
+[ INFO] [1739561964.538428893]: Waiting to obtain first gps reading
+[ INFO] [1739561964.639166699]: Waiting to obtain first gps reading
+[ INFO] [1739561964.741642943]: Waiting to obtain first gps reading
+[ INFO] [1739561964.843134393]: Waiting to obtain first gps reading
+[ INFO] [1739561964.948657152]: Waiting to obtain first gps reading
+[ INFO] [1739561965.049986659]: Waiting to obtain first gps reading
+[ INFO] [1739561965.810135179]: Starting the FCS_Interface.
+[ INFO] [1739561967.016992276]: FCS_Interface getting ready...
+[ INFO] [1739561967.494817670]: Activated drone successfully.
+[ INFO] [1739561968.692497022]: Obtained SDK control authority successfully
+[ INFO] [1739561968.792890066]: Waiting to obtain first gps reading
+[ INFO] [1739561968.893111729]: Waiting to obtain first gps reading
+[ INFO] [1739561968.993574474]: Waiting to obtain first gps reading
+[ INFO] [1739561969.103257295]: Waiting to obtain first gps reading
+[ INFO] [1739561969.204581435]: Waiting to obtain first gps reading
+[ INFO] [1739561969.304740777]: Waiting to obtain first gps reading
+[ INFO] [1739561969.405265383]: Waiting to obtain first gps reading
+[ INFO] [1739561969.505523716]: Waiting to obtain first gps reading
+[ INFO] [1739561969.609295858]: Waiting to obtain first gps reading
+[ INFO] [1739561969.709636822]: Waiting to obtain first gps reading
+[ INFO] [1739561969.812658228]: Waiting to obtain first gps reading
+[ INFO] [1739561969.913307223]: Waiting to obtain first gps reading
+[ INFO] [1739561970.013986789]: Waiting to obtain first gps reading
+[ INFO] [1739561970.122934798]: Waiting to obtain first gps reading
+[ INFO] [1739561970.223927794]: Waiting to obtain first gps reading
+[ INFO] [1739561970.324526829]: Waiting to obtain first gps reading
+[ INFO] [1739561970.425543836]: Waiting to obtain first gps reading
+[ INFO] [1739561970.525854489]: Waiting to obtain first gps reading
+[ INFO] [1739561970.626286263]: Waiting to obtain first gps reading
+[ INFO] [1739561970.726625546]: Waiting to obtain first gps reading
+[ INFO] [1739561970.827201701]: Waiting to obtain first gps reading
+[ INFO] [1739561970.929355165]: Waiting to obtain first gps reading
+[ INFO] [1739561971.030139060]: Waiting to obtain first gps reading
+[ INFO] [1739561971.130693625]: Waiting to obtain first gps reading
+[ INFO] [1739561971.238504886]: Waiting to obtain first gps reading
+[ INFO] [1739561972.089430872]: Starting the FCS_Interface.
+[ INFO] [1739561973.380614215]: FCS_Interface getting ready...
+[ INFO] [1739561974.234655606]: Activated drone successfully.
+[ INFO] [1739561975.037829922]: Obtained SDK control authority successfully
+[ INFO] [1739561975.138121076]: Waiting to obtain first gps reading
+[ INFO] [1739561975.238372909]: Waiting to obtain first gps reading
+[ INFO] [1739561975.338590661]: Waiting to obtain first gps reading
+[ INFO] [1739561975.438694243]: Waiting to obtain first gps reading
+[ INFO] [1739561975.538785384]: Waiting to obtain first gps reading
+[ INFO] [1739561975.638974737]: Waiting to obtain first gps reading
+[ INFO] [1739561975.739130091]: Waiting to obtain first gps reading
+[ INFO] [1739561975.839213841]: Waiting to obtain first gps reading
+[ INFO] [1739561975.943213154]: Waiting to obtain first gps reading
+[ INFO] [1739561976.048232421]: Waiting to obtain first gps reading
+[ INFO] [1739561976.149590280]: Waiting to obtain first gps reading
+[ INFO] [1739561976.251528563]: Waiting to obtain first gps reading
+[ INFO] [1739561976.352358149]: Waiting to obtain first gps reading
+[ INFO] [1739561976.456297000]: Waiting to obtain first gps reading
+[ INFO] [1739561976.575608922]: Waiting to obtain first gps reading
+[ INFO] [1739561976.675848396]: Waiting to obtain first gps reading
+[ INFO] [1739561976.776465439]: Waiting to obtain first gps reading
+[ INFO] [1739561976.876680612]: Waiting to obtain first gps reading
+[ INFO] [1739561976.977801260]: Waiting to obtain first gps reading
+[ INFO] [1739561977.078132974]: Waiting to obtain first gps reading
+[ INFO] [1739561977.179108051]: Waiting to obtain first gps reading
+[ INFO] [1739561977.280863791]: Waiting to obtain first gps reading
+[ INFO] [1739561977.382026269]: Waiting to obtain first gps reading
+[ INFO] [1739561977.482184122]: Waiting to obtain first gps reading
+[ INFO] [1739561977.582794467]: Waiting to obtain first gps reading
+[ INFO] [1739561978.108616555]: Starting the FCS_Interface.
+[ INFO] [1739561979.321654206]: FCS_Interface getting ready...
+[ INFO] [1739561979.822607059]: Activated drone successfully.
+[ INFO] [1739561980.628032214]: Obtained SDK control authority successfully
+[ INFO] [1739561980.728898169]: Waiting to obtain first gps reading
+[ INFO] [1739561980.829149764]: Waiting to obtain first gps reading
+[ INFO] [1739561980.929905359]: Waiting to obtain first gps reading
+[ INFO] [1739561981.030422872]: Waiting to obtain first gps reading
+[ INFO] [1739561981.130926277]: Waiting to obtain first gps reading
+[ INFO] [1739561981.231103218]: Waiting to obtain first gps reading
+[ INFO] [1739561981.331814594]: Waiting to obtain first gps reading
+[ INFO] [1739561981.433753286]: Waiting to obtain first gps reading
+[ INFO] [1739561981.534288641]: Waiting to obtain first gps reading
+[ INFO] [1739561981.638376495]: Waiting to obtain first gps reading
+[ INFO] [1739561981.738741638]: Waiting to obtain first gps reading
+[ INFO] [1739561981.839015071]: Waiting to obtain first gps reading
+[ INFO] [1739561981.939407765]: Waiting to obtain first gps reading
+[ INFO] [1739561982.048500703]: Waiting to obtain first gps reading
+[ INFO] [1739561982.154635017]: Waiting to obtain first gps reading
+[ INFO] [1739561982.254833609]: Waiting to obtain first gps reading
+[ INFO] [1739561982.355533844]: Waiting to obtain first gps reading
+[ INFO] [1739561982.455828639]: Waiting to obtain first gps reading
+[ INFO] [1739561982.557380959]: Waiting to obtain first gps reading
+[ INFO] [1739561982.657571832]: Waiting to obtain first gps reading
+[ INFO] [1739561982.758462790]: Waiting to obtain first gps reading
+[ INFO] [1739561982.859052386]: Waiting to obtain first gps reading
+[ INFO] [1739561982.959558694]: Waiting to obtain first gps reading
+[ INFO] [1739561983.060122524]: Waiting to obtain first gps reading
+[ INFO] [1739561983.160785664]: Waiting to obtain first gps reading
+[ INFO] [1739561983.262223150]: Waiting to obtain first gps reading
+[ INFO] [1739561983.363532708]: Waiting to obtain first gps reading
+[ INFO] [1739561983.464921888]: Waiting to obtain first gps reading
+[ INFO] [1739561983.569234133]: Waiting to obtain first gps reading
+[ INFO] [1739561983.675681587]: Waiting to obtain first gps reading
+[ INFO] [1739561984.165031164]: Starting the FCS_Interface.
+[ INFO] [1739561985.382860832]: FCS_Interface getting ready...
+[ INFO] [1739561985.856744675]: Activated drone successfully.
+[ INFO] [1739561987.052844479]: Obtained SDK control authority successfully
+[ INFO] [1739561987.153208803]: Waiting to obtain first gps reading
+[ INFO] [1739561987.253375037]: Waiting to obtain first gps reading
+[ INFO] [1739561987.353908791]: Waiting to obtain first gps reading
+[ INFO] [1739561987.455250591]: Waiting to obtain first gps reading
+[ INFO] [1739561987.555551234]: Waiting to obtain first gps reading
+[ INFO] [1739561987.655684886]: Waiting to obtain first gps reading
+[ INFO] [1739561987.756179540]: Waiting to obtain first gps reading
+[ INFO] [1739561987.857176806]: Waiting to obtain first gps reading
+[ INFO] [1739561987.958400134]: Waiting to obtain first gps reading
+[ INFO] [1739561988.058555696]: Waiting to obtain first gps reading
+[ INFO] [1739561988.159035689]: Waiting to obtain first gps reading
+[ INFO] [1739561988.259438523]: Waiting to obtain first gps reading
+[ INFO] [1739561988.359776888]: Waiting to obtain first gps reading
+[ INFO] [1739561988.459991940]: Waiting to obtain first gps reading
+[ INFO] [1739561988.570242785]: Waiting to obtain first gps reading
+[ INFO] [1739561988.672239368]: Waiting to obtain first gps reading
+[ INFO] [1739561988.772963822]: Waiting to obtain first gps reading
+[ INFO] [1739561988.890566933]: Waiting to obtain first gps reading
+[ INFO] [1739561988.995974954]: Waiting to obtain first gps reading
+[ INFO] [1739561989.136641203]: Waiting to obtain first gps reading
+[ INFO] [1739561989.238044582]: Waiting to obtain first gps reading
+[ INFO] [1739561989.338470345]: Waiting to obtain first gps reading
+[ INFO] [1739561989.439864485]: Waiting to obtain first gps reading
+[ INFO] [1739561989.541476165]: Waiting to obtain first gps reading
+[ INFO] [1739561989.653869440]: Waiting to obtain first gps reading
+[ INFO] [1739561990.488135191]: Starting the FCS_Interface.
+[ INFO] [1739561991.681323539]: FCS_Interface getting ready...
+[ INFO] [1739561992.125764713]: Activated drone successfully.
+[ INFO] [1739561992.921183776]: Obtained SDK control authority successfully
+[ INFO] [1739561993.022124732]: Waiting to obtain first gps reading
+[ INFO] [1739561993.130491866]: Waiting to obtain first gps reading
+[ INFO] [1739561993.230959060]: Waiting to obtain first gps reading
+[ INFO] [1739561993.331124492]: Waiting to obtain first gps reading
+[ INFO] [1739561993.432354941]: Waiting to obtain first gps reading
+[ INFO] [1739561993.532999904]: Waiting to obtain first gps reading
+[ INFO] [1739561993.635955561]: Waiting to obtain first gps reading
+[ INFO] [1739561993.737310799]: Waiting to obtain first gps reading
+[ INFO] [1739561993.837571104]: Waiting to obtain first gps reading
+[ INFO] [1739561993.945178893]: Waiting to obtain first gps reading
+[ INFO] [1739561994.045500616]: Waiting to obtain first gps reading
+[ INFO] [1739561994.153595039]: Waiting to obtain first gps reading
+[ INFO] [1739561994.253914433]: Waiting to obtain first gps reading
+[ INFO] [1739561994.354163406]: Waiting to obtain first gps reading
+[ INFO] [1739561994.459144534]: Waiting to obtain first gps reading
+[ INFO] [1739561994.559498527]: Waiting to obtain first gps reading
+[ INFO] [1739561994.660220054]: Waiting to obtain first gps reading
+[ INFO] [1739561994.760436556]: Waiting to obtain first gps reading
+[ INFO] [1739561994.861001620]: Waiting to obtain first gps reading
+[ INFO] [1739561994.961180094]: Waiting to obtain first gps reading
+[ INFO] [1739561995.062109170]: Waiting to obtain first gps reading
+[ INFO] [1739561995.165746440]: Waiting to obtain first gps reading
+[ INFO] [1739561995.266454186]: Waiting to obtain first gps reading
+[ INFO] [1739561995.366889359]: Waiting to obtain first gps reading
+[ INFO] [1739561995.468586631]: Waiting to obtain first gps reading
+[ INFO] [1739561995.569578798]: Waiting to obtain first gps reading
+[ INFO] [1739561995.670674435]: Waiting to obtain first gps reading
+[ INFO] [1739561995.770887728]: Waiting to obtain first gps reading
+[ INFO] [1739561995.878175087]: Waiting to obtain first gps reading
+[ INFO] [1739561996.407004234]: Starting the FCS_Interface.
+[ INFO] [1739561997.646388350]: FCS_Interface getting ready...
+[ INFO] [1739561998.119900944]: Activated drone successfully.
+[ INFO] [1739561998.929048986]: Obtained SDK control authority successfully
+[ INFO] [1739561999.036792478]: Waiting to obtain first gps reading
+[ INFO] [1739561999.142116516]: Waiting to obtain first gps reading
+[ INFO] [1739561999.242942961]: Waiting to obtain first gps reading
+[ INFO] [1739561999.343279154]: Waiting to obtain first gps reading
+[ INFO] [1739561999.448449841]: Waiting to obtain first gps reading
+[ INFO] [1739561999.548615514]: Waiting to obtain first gps reading
+[ INFO] [1739561999.649010098]: Waiting to obtain first gps reading
+[ INFO] [1739561999.757636624]: Waiting to obtain first gps reading
+[ INFO] [1739561999.858433089]: Waiting to obtain first gps reading
+[ INFO] [1739561999.958897173]: Waiting to obtain first gps reading
+[ INFO] [1739562000.062334843]: Waiting to obtain first gps reading
+[ INFO] [1739562000.176352367]: Waiting to obtain first gps reading
+[ INFO] [1739562000.285981487]: Waiting to obtain first gps reading
+[ INFO] [1739562000.386376522]: Waiting to obtain first gps reading
+[ INFO] [1739562000.486921146]: Waiting to obtain first gps reading
+[ INFO] [1739562000.587424411]: Waiting to obtain first gps reading
+[ INFO] [1739562000.688056057]: Waiting to obtain first gps reading
+[ INFO] [1739562000.788297609]: Waiting to obtain first gps reading
+[ INFO] [1739562000.889049735]: Waiting to obtain first gps reading
+[ INFO] [1739562000.989520509]: Waiting to obtain first gps reading
+[ INFO] [1739562001.089789862]: Waiting to obtain first gps reading
+[ INFO] [1739562001.190078355]: Waiting to obtain first gps reading
+[ INFO] [1739562001.290373588]: Waiting to obtain first gps reading
+[ INFO] [1739562001.390575679]: Waiting to obtain first gps reading
+[ INFO] [1739562001.490926122]: Waiting to obtain first gps reading
+[ INFO] [1739562001.591226186]: Waiting to obtain first gps reading
+[ INFO] [1739562001.691533710]: Waiting to obtain first gps reading
+[ INFO] [1739562001.791687602]: Waiting to obtain first gps reading
+[ INFO] [1739562001.892415338]: Waiting to obtain first gps reading
+[ INFO] [1739562002.440862388]: Starting the FCS_Interface.
+[ INFO] [1739562003.670254710]: FCS_Interface getting ready...
+[ INFO] [1739562004.123539900]: Activated drone successfully.
+[ INFO] [1739562004.921845367]: Obtained SDK control authority successfully
+[ INFO] [1739562005.022101540]: Waiting to obtain first gps reading
+[ INFO] [1739562005.126311645]: Waiting to obtain first gps reading
+[ INFO] [1739562005.226503735]: Waiting to obtain first gps reading
+[ INFO] [1739562005.326749888]: Waiting to obtain first gps reading
+[ INFO] [1739562005.427156151]: Waiting to obtain first gps reading
+[ INFO] [1739562005.527508153]: Waiting to obtain first gps reading
+[ INFO] [1739562005.628193519]: Waiting to obtain first gps reading
+[ INFO] [1739562005.728650803]: Waiting to obtain first gps reading
+[ INFO] [1739562005.828927876]: Waiting to obtain first gps reading
+[ INFO] [1739562005.929074168]: Waiting to obtain first gps reading
+[ INFO] [1739562006.029476502]: Waiting to obtain first gps reading
+[ INFO] [1739562006.129636675]: Waiting to obtain first gps reading
+[ INFO] [1739562006.234157979]: Waiting to obtain first gps reading
+[ INFO] [1739562006.334887885]: Waiting to obtain first gps reading
+[ INFO] [1739562006.441352549]: Waiting to obtain first gps reading
+[ INFO] [1739562006.541529832]: Waiting to obtain first gps reading
+[ INFO] [1739562006.642064646]: Waiting to obtain first gps reading
+[ INFO] [1739562006.742471601]: Waiting to obtain first gps reading
+[ INFO] [1739562006.842719114]: Waiting to obtain first gps reading
+[ INFO] [1739562006.942868799]: Waiting to obtain first gps reading
+[ INFO] [1739562007.043189112]: Waiting to obtain first gps reading
+[ INFO] [1739562007.143936867]: Waiting to obtain first gps reading
+[ INFO] [1739562007.244469402]: Waiting to obtain first gps reading
+[ INFO] [1739562007.344741635]: Waiting to obtain first gps reading
+[ INFO] [1739562007.445389800]: Waiting to obtain first gps reading
+[ INFO] [1739562007.546192866]: Waiting to obtain first gps reading
+[ INFO] [1739562007.647162753]: Waiting to obtain first gps reading
+[ INFO] [1739562007.747556077]: Waiting to obtain first gps reading
+[ INFO] [1739562007.848269303]: Waiting to obtain first gps reading
+[ INFO] [1739562007.950199834]: Waiting to obtain first gps reading
+[ INFO] [1739562008.468513857]: Starting the FCS_Interface.
+[ INFO] [1739562009.611170025]: FCS_Interface getting ready...
+[ INFO] [1739562010.084043767]: Activated drone successfully.
+[ INFO] [1739562011.281153231]: Obtained SDK control authority successfully
+[ INFO] [1739562011.381965487]: Waiting to obtain first gps reading
+[ INFO] [1739562011.482660421]: Waiting to obtain first gps reading
+[ INFO] [1739562011.583017264]: Waiting to obtain first gps reading
+[ INFO] [1739562011.683300926]: Waiting to obtain first gps reading
+[ INFO] [1739562011.783568900]: Waiting to obtain first gps reading
+[ INFO] [1739562011.883927943]: Waiting to obtain first gps reading
+[ INFO] [1739562011.984963900]: Waiting to obtain first gps reading
+[ INFO] [1739562012.085116863]: Waiting to obtain first gps reading
+[ INFO] [1739562012.185861900]: Waiting to obtain first gps reading
+[ INFO] [1739562012.286200574]: Waiting to obtain first gps reading
+[ INFO] [1739562012.399686895]: Waiting to obtain first gps reading
+[ INFO] [1739562012.500998144]: Waiting to obtain first gps reading
+[ INFO] [1739562012.601949301]: Waiting to obtain first gps reading
+[ INFO] [1739562012.702463905]: Waiting to obtain first gps reading
+[ INFO] [1739562012.803470212]: Waiting to obtain first gps reading
+[ INFO] [1739562012.904039977]: Waiting to obtain first gps reading
+[ INFO] [1739562013.011523136]: Waiting to obtain first gps reading
+[ INFO] [1739562013.111774639]: Waiting to obtain first gps reading
+[ INFO] [1739562013.214666737]: Waiting to obtain first gps reading
+[ INFO] [1739562013.315268940]: Waiting to obtain first gps reading
+[ INFO] [1739562013.416111427]: Waiting to obtain first gps reading
+[ INFO] [1739562013.517965287]: Waiting to obtain first gps reading
+[ INFO] [1739562013.618956755]: Waiting to obtain first gps reading
+[ INFO] [1739562013.719201398]: Waiting to obtain first gps reading
+[ INFO] [1739562013.821008287]: Waiting to obtain first gps reading
+[ INFO] [1739562014.391884469]: Starting the FCS_Interface.
+[ INFO] [1739562015.634783092]: FCS_Interface getting ready...
+[ INFO] [1739562016.060940431]: Activated drone successfully.
+[ INFO] [1739562016.860795555]: Obtained SDK control authority successfully
+[ INFO] [1739562016.961593792]: Waiting to obtain first gps reading
+[ INFO] [1739562017.062426398]: Waiting to obtain first gps reading
+[ INFO] [1739562017.180134710]: Waiting to obtain first gps reading
+[ INFO] [1739562017.280349583]: Waiting to obtain first gps reading
+[ INFO] [1739562017.381158889]: Waiting to obtain first gps reading
+[ INFO] [1739562017.481674103]: Waiting to obtain first gps reading
+[ INFO] [1739562017.582332439]: Waiting to obtain first gps reading
+[ INFO] [1739562017.682490891]: Waiting to obtain first gps reading
+[ INFO] [1739562017.782960614]: Waiting to obtain first gps reading
+[ INFO] [1739562017.883137277]: Waiting to obtain first gps reading
+[ INFO] [1739562017.983586312]: Waiting to obtain first gps reading
+[ INFO] [1739562018.084054766]: Waiting to obtain first gps reading
+[ INFO] [1739562018.229201499]: Waiting to obtain first gps reading
+[ INFO] [1739562018.329873594]: Waiting to obtain first gps reading
+[ INFO] [1739562018.430555928]: Waiting to obtain first gps reading
+[ INFO] [1739562018.530749887]: Waiting to obtain first gps reading
+[ INFO] [1739562018.631788759]: Waiting to obtain first gps reading
+[ INFO] [1739562018.731950899]: Waiting to obtain first gps reading
+[ INFO] [1739562018.832478104]: Waiting to obtain first gps reading
+[ INFO] [1739562018.932667015]: Waiting to obtain first gps reading
+[ INFO] [1739562019.037054930]: Waiting to obtain first gps reading
+[ INFO] [1739562019.137584626]: Waiting to obtain first gps reading
+[ INFO] [1739562019.237976070]: Waiting to obtain first gps reading
+[ INFO] [1739562019.338198265]: Waiting to obtain first gps reading
+[ INFO] [1739562019.438720211]: Waiting to obtain first gps reading
+[ INFO] [1739562019.539286505]: Waiting to obtain first gps reading
+[ INFO] [1739562019.640916945]: Waiting to obtain first gps reading
+[ INFO] [1739562019.742755086]: Waiting to obtain first gps reading
+[ INFO] [1739562019.843210880]: Waiting to obtain first gps reading
+[ INFO] [1739562019.943493393]: Waiting to obtain first gps reading
+[ INFO] [1739562020.384666491]: Starting the FCS_Interface.
+[ INFO] [1739562021.491771887]: FCS_Interface getting ready...
+[ INFO] [1739562021.940621796]: Activated drone successfully.
+[ INFO] [1739562022.746030517]: Obtained SDK control authority successfully
+[ INFO] [1739562022.851007834]: Waiting to obtain first gps reading
+[ INFO] [1739562022.951605700]: Waiting to obtain first gps reading
+[ INFO] [1739562023.051963190]: Waiting to obtain first gps reading
+[ INFO] [1739562023.170622508]: Waiting to obtain first gps reading
+[ INFO] [1739562023.274483420]: Waiting to obtain first gps reading
+[ INFO] [1739562023.374688371]: Waiting to obtain first gps reading
+[ INFO] [1739562023.475044524]: Waiting to obtain first gps reading
+[ INFO] [1739562023.575373948]: Waiting to obtain first gps reading
+[ INFO] [1739562023.677335300]: Waiting to obtain first gps reading
+[ INFO] [1739562023.777548133]: Waiting to obtain first gps reading
+[ INFO] [1739562023.878209558]: Waiting to obtain first gps reading
+[ INFO] [1739562023.979517196]: Waiting to obtain first gps reading
+[ INFO] [1739562024.079989740]: Waiting to obtain first gps reading
+[ INFO] [1739562024.180325283]: Waiting to obtain first gps reading
+[ INFO] [1739562024.287378292]: Waiting to obtain first gps reading
+[ INFO] [1739562024.391011063]: Waiting to obtain first gps reading
+[ INFO] [1739562024.491637399]: Waiting to obtain first gps reading
+[ INFO] [1739562024.592709476]: Waiting to obtain first gps reading
+[ INFO] [1739562024.693556033]: Waiting to obtain first gps reading
+[ INFO] [1739562024.817469056]: Waiting to obtain first gps reading
+[ INFO] [1739562024.918297781]: Waiting to obtain first gps reading
+[ INFO] [1739562025.018487425]: Waiting to obtain first gps reading
+[ INFO] [1739562025.119011798]: Waiting to obtain first gps reading
+[ INFO] [1739562025.231115131]: Waiting to obtain first gps reading
+[ INFO] [1739562025.336520752]: Waiting to obtain first gps reading
+[ INFO] [1739562025.437199878]: Waiting to obtain first gps reading
+[ INFO] [1739562025.537513011]: Waiting to obtain first gps reading
+[ INFO] [1739562025.637640734]: Waiting to obtain first gps reading
+[ INFO] [1739562025.745275544]: Waiting to obtain first gps reading
+[ INFO] [1739562025.847250327]: Waiting to obtain first gps reading
+[ INFO] [1739562025.947778751]: Waiting to obtain first gps reading
+[ INFO] [1739562026.627545533]: Starting the FCS_Interface.
+[ INFO] [1739562027.876808746]: FCS_Interface getting ready...
+[ INFO] [1739562028.342814399]: Activated drone successfully.
+[ INFO] [1739562029.541373924]: Obtained SDK control authority successfully
+[ INFO] [1739562029.642131020]: Waiting to obtain first gps reading
+[ INFO] [1739562029.742353822]: Waiting to obtain first gps reading
+[ INFO] [1739562029.842555945]: Waiting to obtain first gps reading
+[ INFO] [1739562029.942842858]: Waiting to obtain first gps reading
+[ INFO] [1739562030.043055152]: Waiting to obtain first gps reading
+[ INFO] [1739562030.143766468]: Waiting to obtain first gps reading
+[ INFO] [1739562030.245094887]: Waiting to obtain first gps reading
+[ INFO] [1739562030.345553021]: Waiting to obtain first gps reading
+[ INFO] [1739562030.446506358]: Waiting to obtain first gps reading
+[ INFO] [1739562030.546874922]: Waiting to obtain first gps reading
+[ INFO] [1739562030.647112633]: Waiting to obtain first gps reading
+[ INFO] [1739562030.747209926]: Waiting to obtain first gps reading
+[ INFO] [1739562030.847467228]: Waiting to obtain first gps reading
+[ INFO] [1739562030.952064553]: Waiting to obtain first gps reading
+[ INFO] [1739562031.053682493]: Waiting to obtain first gps reading
+[ INFO] [1739562031.154082037]: Waiting to obtain first gps reading
+[ INFO] [1739562031.255271645]: Waiting to obtain first gps reading
+[ INFO] [1739562031.385807233]: Waiting to obtain first gps reading
+[ INFO] [1739562031.486282528]: Waiting to obtain first gps reading
+[ INFO] [1739562031.591973619]: Waiting to obtain first gps reading
+[ INFO] [1739562031.692770284]: Waiting to obtain first gps reading
+[ INFO] [1739562031.793015767]: Waiting to obtain first gps reading
+[ INFO] [1739562031.893637391]: Waiting to obtain first gps reading
+[ INFO] [1739562031.994038073]: Waiting to obtain first gps reading
+[ INFO] [1739562032.105615154]: Waiting to obtain first gps reading
+[ INFO] [1739562032.627596507]: Starting the FCS_Interface.
+[ INFO] [1739562033.822498492]: FCS_Interface getting ready...
+[ INFO] [1739562034.297181654]: Activated drone successfully.
+[ INFO] [1739562035.097654983]: Obtained SDK control authority successfully
+[ INFO] [1739562035.198106568]: Waiting to obtain first gps reading
+[ INFO] [1739562035.298276820]: Waiting to obtain first gps reading
+[ INFO] [1739562035.399042846]: Waiting to obtain first gps reading
+[ INFO] [1739562035.499320920]: Waiting to obtain first gps reading
+[ INFO] [1739562035.599949134]: Waiting to obtain first gps reading
+[ INFO] [1739562035.700233558]: Waiting to obtain first gps reading
+[ INFO] [1739562035.800784054]: Waiting to obtain first gps reading
+[ INFO] [1739562035.901102357]: Waiting to obtain first gps reading
+[ INFO] [1739562036.001564901]: Waiting to obtain first gps reading
+[ INFO] [1739562036.101980356]: Waiting to obtain first gps reading
+[ INFO] [1739562036.202563390]: Waiting to obtain first gps reading
+[ INFO] [1739562036.306838882]: Waiting to obtain first gps reading
+[ INFO] [1739562036.407716527]: Waiting to obtain first gps reading
+[ INFO] [1739562036.508261871]: Waiting to obtain first gps reading
+[ INFO] [1739562036.611475539]: Waiting to obtain first gps reading
+[ INFO] [1739562036.711813954]: Waiting to obtain first gps reading
+[ INFO] [1739562036.812820360]: Waiting to obtain first gps reading
+[ INFO] [1739562036.916690490]: Waiting to obtain first gps reading
+[ INFO] [1739562037.017523446]: Waiting to obtain first gps reading
+[ INFO] [1739562037.122754765]: Waiting to obtain first gps reading
+[ INFO] [1739562037.223468920]: Waiting to obtain first gps reading
+[ INFO] [1739562037.340487518]: Waiting to obtain first gps reading
+[ INFO] [1739562037.440882552]: Waiting to obtain first gps reading
+[ INFO] [1739562037.541450207]: Waiting to obtain first gps reading
+[ INFO] [1739562037.642608925]: Waiting to obtain first gps reading
+[ INFO] [1739562037.743469990]: Waiting to obtain first gps reading
+[ INFO] [1739562037.844644478]: Waiting to obtain first gps reading
+[ INFO] [1739562037.944967552]: Waiting to obtain first gps reading
+[ INFO] [1739562038.052430873]: Waiting to obtain first gps reading
+[ INFO] [1739562038.764205146]: Starting the FCS_Interface.
+[ INFO] [1739562039.968340506]: FCS_Interface getting ready...
+[ INFO] [1739562040.385321930]: Activated drone successfully.
+[ INFO] [1739562041.599160421]: Obtained SDK control authority successfully
+[ INFO] [1739562041.699779246]: Waiting to obtain first gps reading
+[ INFO] [1739562041.800940484]: Waiting to obtain first gps reading
+[ INFO] [1739562041.902966876]: Waiting to obtain first gps reading
+[ INFO] [1739562042.003314869]: Waiting to obtain first gps reading
+[ INFO] [1739562042.103796014]: Waiting to obtain first gps reading
+[ INFO] [1739562042.204013928]: Waiting to obtain first gps reading
+[ INFO] [1739562042.316214722]: Waiting to obtain first gps reading
+[ INFO] [1739562042.433821085]: Waiting to obtain first gps reading
+[ INFO] [1739562042.534154948]: Waiting to obtain first gps reading
+[ INFO] [1739562042.635860809]: Waiting to obtain first gps reading
+[ INFO] [1739562042.748395146]: Waiting to obtain first gps reading
+[ INFO] [1739562042.848665790]: Waiting to obtain first gps reading
+[ INFO] [1739562042.957331426]: Waiting to obtain first gps reading
+[ INFO] [1739562043.064308855]: Waiting to obtain first gps reading
+[ INFO] [1739562043.164765997]: Waiting to obtain first gps reading
+[ INFO] [1739562043.265282601]: Waiting to obtain first gps reading
+[ INFO] [1739562043.365951595]: Waiting to obtain first gps reading
+[ INFO] [1739562043.466546400]: Waiting to obtain first gps reading
+[ INFO] [1739562043.567157647]: Waiting to obtain first gps reading
+[ INFO] [1739562043.667650221]: Waiting to obtain first gps reading
+[ INFO] [1739562043.768359606]: Waiting to obtain first gps reading
+[ INFO] [1739562043.869781285]: Waiting to obtain first gps reading
+[ INFO] [1739562043.970927683]: Waiting to obtain first gps reading
+[ INFO] [1739562044.071743089]: Waiting to obtain first gps reading
+[ INFO] [1739562044.173109669]: Waiting to obtain first gps reading
+[ INFO] [1739562044.277405182]: Waiting to obtain first gps reading
+[ INFO] [1739562044.884720150]: Starting the FCS_Interface.
+[ INFO] [1739562046.192888986]: FCS_Interface getting ready...
+[ INFO] [1739562046.623593321]: Activated drone successfully.
+[ INFO] [1739562047.821215035]: Obtained SDK control authority successfully
+[ INFO] [1739562047.921346829]: Waiting to obtain first gps reading
+[ INFO] [1739562048.021498130]: Waiting to obtain first gps reading
+[ INFO] [1739562048.121761734]: Waiting to obtain first gps reading
+[ INFO] [1739562048.225212554]: Waiting to obtain first gps reading
+[ INFO] [1739562048.339528700]: Waiting to obtain first gps reading
+[ INFO] [1739562048.439683323]: Waiting to obtain first gps reading
+[ INFO] [1739562048.539878377]: Waiting to obtain first gps reading
+[ INFO] [1739562048.642667743]: Waiting to obtain first gps reading
+[ INFO] [1739562048.749079139]: Waiting to obtain first gps reading
+[ INFO] [1739562048.849271792]: Waiting to obtain first gps reading
+[ INFO] [1739562048.949647055]: Waiting to obtain first gps reading
+[ INFO] [1739562049.049745957]: Waiting to obtain first gps reading
+[ INFO] [1739562049.149960520]: Waiting to obtain first gps reading
+[ INFO] [1739562049.250148334]: Waiting to obtain first gps reading
+[ INFO] [1739562049.350403286]: Waiting to obtain first gps reading
+[ INFO] [1739562049.450748079]: Waiting to obtain first gps reading
+[ INFO] [1739562049.551056062]: Waiting to obtain first gps reading
+[ INFO] [1739562049.651174254]: Waiting to obtain first gps reading
+[ INFO] [1739562049.751489388]: Waiting to obtain first gps reading
+[ INFO] [1739562049.851627610]: Waiting to obtain first gps reading
+[ INFO] [1739562049.952014833]: Waiting to obtain first gps reading
+[ INFO] [1739562050.053572102]: Waiting to obtain first gps reading
+[ INFO] [1739562050.153950967]: Waiting to obtain first gps reading
+[ INFO] [1739562050.254603590]: Waiting to obtain first gps reading
+[ INFO] [1739562050.707432579]: Starting the FCS_Interface.
+[ INFO] [1739562051.777027400]: FCS_Interface getting ready...
+[ INFO] [1739562052.285775325]: Activated drone successfully.
+[ INFO] [1739562053.086217380]: Obtained SDK control authority successfully
+[ INFO] [1739562053.187182448]: Waiting to obtain first gps reading
+[ INFO] [1739562053.287578730]: Waiting to obtain first gps reading
+[ INFO] [1739562053.388342384]: Waiting to obtain first gps reading
+[ INFO] [1739562053.488942480]: Waiting to obtain first gps reading
+[ INFO] [1739562053.589763206]: Waiting to obtain first gps reading
+[ INFO] [1739562053.690170759]: Waiting to obtain first gps reading
+[ INFO] [1739562053.790820063]: Waiting to obtain first gps reading
+[ INFO] [1739562053.891089816]: Waiting to obtain first gps reading
+[ INFO] [1739562053.991842731]: Waiting to obtain first gps reading
+[ INFO] [1739562054.092274674]: Waiting to obtain first gps reading
+[ INFO] [1739562054.192858048]: Waiting to obtain first gps reading
+[ INFO] [1739562054.293132923]: Waiting to obtain first gps reading
+[ INFO] [1739562054.393671927]: Waiting to obtain first gps reading
+[ INFO] [1739562054.493940860]: Waiting to obtain first gps reading
+[ INFO] [1739562054.594802818]: Waiting to obtain first gps reading
+[ INFO] [1739562054.695225572]: Waiting to obtain first gps reading
+[ INFO] [1739562054.795827618]: Waiting to obtain first gps reading
+[ INFO] [1739562054.896817384]: Waiting to obtain first gps reading
+[ INFO] [1739562054.997551430]: Waiting to obtain first gps reading
+[ INFO] [1739562055.097756674]: Waiting to obtain first gps reading
+[ INFO] [1739562055.198468918]: Waiting to obtain first gps reading
+[ INFO] [1739562055.298741421]: Waiting to obtain first gps reading
+[ INFO] [1739562055.399739089]: Waiting to obtain first gps reading
+[ INFO] [1739562055.499956852]: Waiting to obtain first gps reading
+[ INFO] [1739562055.601215991]: Waiting to obtain first gps reading
+[ INFO] [1739562055.702134527]: Waiting to obtain first gps reading
+[ INFO] [1739562055.803514856]: Waiting to obtain first gps reading
+[ INFO] [1739562055.903784611]: Waiting to obtain first gps reading
+[ INFO] [1739562056.008704588]: Waiting to obtain first gps reading
+[ INFO] [1739562056.108984660]: Waiting to obtain first gps reading
+[ INFO] [1739562056.215744605]: Waiting to obtain first gps reading
+[ INFO] [1739562056.878578959]: Starting the FCS_Interface.
+[ INFO] [1739562058.123457647]: FCS_Interface getting ready...
+[ INFO] [1739562058.568577226]: Activated drone successfully.
+[ INFO] [1739562060.187251120]: Obtained SDK control authority successfully
+[ INFO] [1739562060.287823116]: Waiting to obtain first gps reading
+[ INFO] [1739562060.387945859]: Waiting to obtain first gps reading
+[ INFO] [1739562060.488331713]: Waiting to obtain first gps reading
+[ INFO] [1739562060.588591408]: Waiting to obtain first gps reading
+[ INFO] [1739562060.688881992]: Waiting to obtain first gps reading
+[ INFO] [1739562060.789017024]: Waiting to obtain first gps reading
+[ INFO] [1739562060.889521687]: Waiting to obtain first gps reading
+[ INFO] [1739562060.989776460]: Waiting to obtain first gps reading
+[ INFO] [1739562061.090201024]: Waiting to obtain first gps reading
+[ INFO] [1739562061.190399345]: Waiting to obtain first gps reading
+[ INFO] [1739562061.294735638]: Waiting to obtain first gps reading
+[ INFO] [1739562061.395085923]: Waiting to obtain first gps reading
+[ INFO] [1739562061.496737393]: Waiting to obtain first gps reading
+[ INFO] [1739562061.596997467]: Waiting to obtain first gps reading
+[ INFO] [1739562061.697412279]: Waiting to obtain first gps reading
+[ INFO] [1739562061.798107785]: Waiting to obtain first gps reading
+[ INFO] [1739562061.934470496]: Waiting to obtain first gps reading
+[ INFO] [1739562062.034876459]: Waiting to obtain first gps reading
+[ INFO] [1739562062.137972687]: Waiting to obtain first gps reading
+[ INFO] [1739562062.238594472]: Waiting to obtain first gps reading
+[ INFO] [1739562062.343288238]: Waiting to obtain first gps reading
+[ INFO] [1739562062.913088630]: Starting the FCS_Interface.
+[ INFO] [1739562064.079473915]: FCS_Interface getting ready...
+[ INFO] [1739562064.947786497]: Activated drone successfully.
+[ INFO] [1739562066.147568390]: Obtained SDK control authority successfully
+[ INFO] [1739562066.254282045]: Waiting to obtain first gps reading
+[ INFO] [1739562066.369688055]: Waiting to obtain first gps reading
+[ INFO] [1739562066.473395135]: Waiting to obtain first gps reading
+[ INFO] [1739562066.579841099]: Waiting to obtain first gps reading
+[ INFO] [1739562066.680555853]: Waiting to obtain first gps reading
+[ INFO] [1739562066.794388466]: Waiting to obtain first gps reading
+[ INFO] [1739562066.894630639]: Waiting to obtain first gps reading
+[ INFO] [1739562066.994774221]: Waiting to obtain first gps reading
+[ INFO] [1739562067.095116203]: Waiting to obtain first gps reading
+[ INFO] [1739562067.195311696]: Waiting to obtain first gps reading
+[ INFO] [1739562067.295486768]: Waiting to obtain first gps reading
+[ INFO] [1739562067.395787151]: Waiting to obtain first gps reading
+[ INFO] [1739562067.496633796]: Waiting to obtain first gps reading
+[ INFO] [1739562067.597269750]: Waiting to obtain first gps reading
+[ INFO] [1739562067.703492024]: Waiting to obtain first gps reading
+[ INFO] [1739562067.807158425]: Waiting to obtain first gps reading
+[ INFO] [1739562067.913178007]: Waiting to obtain first gps reading
+[ INFO] [1739562068.013410631]: Waiting to obtain first gps reading
+[ INFO] [1739562068.114455596]: Waiting to obtain first gps reading
+[ INFO] [1739562068.214863740]: Waiting to obtain first gps reading
+[ INFO] [1739562068.315226054]: Waiting to obtain first gps reading
+[ INFO] [1739562068.864487897]: Starting the FCS_Interface.
+[ INFO] [1739562070.051743045]: FCS_Interface getting ready...
+[ INFO] [1739562070.469356910]: Activated drone successfully.
+[ INFO] [1739562071.668856177]: Obtained SDK control authority successfully
+[ INFO] [1739562071.769474902]: Waiting to obtain first gps reading
+[ INFO] [1739562071.869732694]: Waiting to obtain first gps reading
+[ INFO] [1739562071.970084567]: Waiting to obtain first gps reading
+[ INFO] [1739562072.071207085]: Waiting to obtain first gps reading
+[ INFO] [1739562072.171563640]: Waiting to obtain first gps reading
+[ INFO] [1739562072.271764602]: Waiting to obtain first gps reading
+[ INFO] [1739562072.373599532]: Waiting to obtain first gps reading
+[ INFO] [1739562072.474062246]: Waiting to obtain first gps reading
+[ INFO] [1739562072.582618202]: Waiting to obtain first gps reading
+[ INFO] [1739562072.682910152]: Waiting to obtain first gps reading
+[ INFO] [1739562072.783637499]: Waiting to obtain first gps reading
+[ INFO] [1739562072.883833802]: Waiting to obtain first gps reading
+[ INFO] [1739562072.984755348]: Waiting to obtain first gps reading
+[ INFO] [1739562073.085083552]: Waiting to obtain first gps reading
+[ INFO] [1739562073.185675048]: Waiting to obtain first gps reading
+[ INFO] [1739562073.286004811]: Waiting to obtain first gps reading
+[ INFO] [1739562073.394764216]: Waiting to obtain first gps reading
+[ INFO] [1739562073.495348214]: Waiting to obtain first gps reading
+[ INFO] [1739562073.596515911]: Waiting to obtain first gps reading
+[ INFO] [1739562073.696828684]: Waiting to obtain first gps reading
+[ INFO] [1739562073.797681800]: Waiting to obtain first gps reading
+[ INFO] [1739562073.898579626]: Waiting to obtain first gps reading
+[ INFO] [1739562073.999037351]: Waiting to obtain first gps reading
+[ INFO] [1739562074.099876949]: Waiting to obtain first gps reading
+[ INFO] [1739562074.201647541]: Waiting to obtain first gps reading
+[ INFO] [1739562074.302940449]: Waiting to obtain first gps reading
+[ INFO] [1739562074.403373094]: Waiting to obtain first gps reading
+[ INFO] [1739562074.938117770]: Starting the FCS_Interface.
+[ INFO] [1739562076.045766428]: FCS_Interface getting ready...
+[ INFO] [1739562076.539179703]: Activated drone successfully.
+[ INFO] [1739562077.748908655]: Obtained SDK control authority successfully
+[ INFO] [1739562077.849218321]: Waiting to obtain first gps reading
+[ INFO] [1739562077.950062266]: Waiting to obtain first gps reading
+[ INFO] [1739562078.050277349]: Waiting to obtain first gps reading
+[ INFO] [1739562078.150549940]: Waiting to obtain first gps reading
+[ INFO] [1739562078.251430656]: Waiting to obtain first gps reading
+[ INFO] [1739562078.351578048]: Waiting to obtain first gps reading
+[ INFO] [1739562078.451875020]: Waiting to obtain first gps reading
+[ INFO] [1739562078.552537826]: Waiting to obtain first gps reading
+[ INFO] [1739562078.653214831]: Waiting to obtain first gps reading
+[ INFO] [1739562078.757027873]: Waiting to obtain first gps reading
+[ INFO] [1739562078.876184402]: Waiting to obtain first gps reading
+[ INFO] [1739562078.976353084]: Waiting to obtain first gps reading
+[ INFO] [1739562079.078720407]: Waiting to obtain first gps reading
+[ INFO] [1739562079.179354891]: Waiting to obtain first gps reading
+[ INFO] [1739562079.279744174]: Waiting to obtain first gps reading
+[ INFO] [1739562079.383475395]: Waiting to obtain first gps reading
+[ INFO] [1739562079.483700758]: Waiting to obtain first gps reading
+[ INFO] [1739562079.583859082]: Waiting to obtain first gps reading
+[ INFO] [1739562079.684506294]: Waiting to obtain first gps reading
+[ INFO] [1739562079.784666607]: Waiting to obtain first gps reading
+[ INFO] [1739562079.884897722]: Waiting to obtain first gps reading
+[ INFO] [1739562079.985431920]: Waiting to obtain first gps reading
+[ INFO] [1739562080.085778752]: Waiting to obtain first gps reading
+[ INFO] [1739562080.186541718]: Waiting to obtain first gps reading
+[ INFO] [1739562080.286929803]: Waiting to obtain first gps reading
+[ INFO] [1739562080.674791778]: Starting the FCS_Interface.
+[ INFO] [1739562081.880902858]: FCS_Interface getting ready...
+[ INFO] [1739562082.478308813]: Activated drone successfully.
+[ INFO] [1739562083.677997568]: Obtained SDK control authority successfully
+[ INFO] [1739562083.778897154]: Waiting to obtain first gps reading
+[ INFO] [1739562083.879220026]: Waiting to obtain first gps reading
+[ INFO] [1739562083.979834362]: Waiting to obtain first gps reading
+[ INFO] [1739562084.080174244]: Waiting to obtain first gps reading
+[ INFO] [1739562084.181097561]: Waiting to obtain first gps reading
+[ INFO] [1739562084.281374925]: Waiting to obtain first gps reading
+[ INFO] [1739562084.382271343]: Waiting to obtain first gps reading
+[ INFO] [1739562084.482484566]: Waiting to obtain first gps reading
+[ INFO] [1739562084.583347203]: Waiting to obtain first gps reading
+[ INFO] [1739562084.683824148]: Waiting to obtain first gps reading
+[ INFO] [1739562084.784845946]: Waiting to obtain first gps reading
+[ INFO] [1739562084.885860945]: Waiting to obtain first gps reading
+[ INFO] [1739562084.986410519]: Waiting to obtain first gps reading
+[ INFO] [1739562085.086721102]: Waiting to obtain first gps reading
+[ INFO] [1739562085.187336569]: Waiting to obtain first gps reading
+[ INFO] [1739562085.287884243]: Waiting to obtain first gps reading
+[ INFO] [1739562085.388451437]: Waiting to obtain first gps reading
+[ INFO] [1739562085.488688361]: Waiting to obtain first gps reading
+[ INFO] [1739562085.589163135]: Waiting to obtain first gps reading
+[ INFO] [1739562085.689685520]: Waiting to obtain first gps reading
+[ INFO] [1739562085.790210293]: Waiting to obtain first gps reading
+[ INFO] [1739562085.892926920]: Waiting to obtain first gps reading
+[ INFO] [1739562085.993940656]: Waiting to obtain first gps reading
+[ INFO] [1739562086.097558868]: Waiting to obtain first gps reading
+[ INFO] [1739562086.197983890]: Waiting to obtain first gps reading
+[ INFO] [1739562086.298245022]: Waiting to obtain first gps reading
+[ INFO] [1739562086.768424939]: Starting the FCS_Interface.
+[ INFO] [1739562088.092197876]: FCS_Interface getting ready...
+[ INFO] [1739562088.660678165]: Activated drone successfully.
+[ INFO] [1739562089.460683743]: Obtained SDK control authority successfully
+[ INFO] [1739562089.561370077]: Waiting to obtain first gps reading
+[ INFO] [1739562089.661665550]: Waiting to obtain first gps reading
+[ INFO] [1739562089.762495325]: Waiting to obtain first gps reading
+[ INFO] [1739562089.863055339]: Waiting to obtain first gps reading
+[ INFO] [1739562089.964626947]: Waiting to obtain first gps reading
+[ INFO] [1739562090.065535133]: Waiting to obtain first gps reading
+[ INFO] [1739562090.166774632]: Waiting to obtain first gps reading
+[ INFO] [1739562090.266985874]: Waiting to obtain first gps reading
+[ INFO] [1739562090.367176256]: Waiting to obtain first gps reading
+[ INFO] [1739562090.484620437]: Waiting to obtain first gps reading
+[ INFO] [1739562090.587072253]: Waiting to obtain first gps reading
+[ INFO] [1739562090.691194407]: Waiting to obtain first gps reading
+[ INFO] [1739562090.804637197]: Waiting to obtain first gps reading
+[ INFO] [1739562090.904798140]: Waiting to obtain first gps reading
+[ INFO] [1739562091.019906119]: Waiting to obtain first gps reading
+[ INFO] [1739562091.132545665]: Waiting to obtain first gps reading
+[ INFO] [1739562091.233349212]: Waiting to obtain first gps reading
+[ INFO] [1739562091.335291953]: Waiting to obtain first gps reading
+[ INFO] [1739562091.437203323]: Waiting to obtain first gps reading
+[ INFO] [1739562091.537579148]: Waiting to obtain first gps reading
+[ INFO] [1739562091.638883465]: Waiting to obtain first gps reading
+[ INFO] [1739562091.739431760]: Waiting to obtain first gps reading
+[ INFO] [1739562091.839737855]: Waiting to obtain first gps reading
+[ INFO] [1739562091.939917188]: Waiting to obtain first gps reading
+[ INFO] [1739562092.041371428]: Waiting to obtain first gps reading
+[ INFO] [1739562092.142449525]: Waiting to obtain first gps reading
+[ INFO] [1739562092.242783438]: Waiting to obtain first gps reading
+[ INFO] [1739562092.351943168]: Waiting to obtain first gps reading
+[ INFO] [1739562092.452240036]: Waiting to obtain first gps reading
+[ INFO] [1739562093.275842184]: Starting the FCS_Interface.
+[ INFO] [1739562094.527959098]: FCS_Interface getting ready...
+[ INFO] [1739562095.533357123]: Activated drone successfully.
+[ INFO] [1739562096.734083003]: Obtained SDK control authority successfully
+[ INFO] [1739562096.835102738]: Waiting to obtain first gps reading
+[ INFO] [1739562096.935205389]: Waiting to obtain first gps reading
+[ INFO] [1739562097.035510694]: Waiting to obtain first gps reading
+[ INFO] [1739562097.137369995]: Waiting to obtain first gps reading
+[ INFO] [1739562097.237598167]: Waiting to obtain first gps reading
+[ INFO] [1739562097.337726470]: Waiting to obtain first gps reading
+[ INFO] [1739562097.438149864]: Waiting to obtain first gps reading
+[ INFO] [1739562097.538387304]: Waiting to obtain first gps reading
+[ INFO] [1739562097.638959334]: Waiting to obtain first gps reading
+[ INFO] [1739562097.739137974]: Waiting to obtain first gps reading
+[ INFO] [1739562097.839953630]: Waiting to obtain first gps reading
+[ INFO] [1739562097.941648511]: Waiting to obtain first gps reading
+[ INFO] [1739562098.042108543]: Waiting to obtain first gps reading
+[ INFO] [1739562098.143902238]: Waiting to obtain first gps reading
+[ INFO] [1739562098.244825891]: Waiting to obtain first gps reading
+[ INFO] [1739562098.345131556]: Waiting to obtain first gps reading
+[ INFO] [1739562098.446306044]: Waiting to obtain first gps reading
+[ INFO] [1739562098.551182971]: Waiting to obtain first gps reading
+[ INFO] [1739562098.673189703]: Waiting to obtain first gps reading
+[ INFO] [1739562099.207686678]: Starting the FCS_Interface.
+[ INFO] [1739562100.412941493]: FCS_Interface getting ready...
+[ INFO] [1739562100.877191880]: Activated drone successfully.
+[ INFO] [1739562101.674508639]: Obtained SDK control authority successfully
+[ INFO] [1739562101.774837391]: Waiting to obtain first gps reading
+[ INFO] [1739562101.875064974]: Waiting to obtain first gps reading
+[ INFO] [1739562101.975463858]: Waiting to obtain first gps reading
+[ INFO] [1739562102.075720162]: Waiting to obtain first gps reading
+[ INFO] [1739562102.176702787]: Waiting to obtain first gps reading
+[ INFO] [1739562102.276981781]: Waiting to obtain first gps reading
+[ INFO] [1739562102.377898677]: Waiting to obtain first gps reading
+[ INFO] [1739562102.478155920]: Waiting to obtain first gps reading
+[ INFO] [1739562102.581456989]: Waiting to obtain first gps reading
+[ INFO] [1739562102.681591562]: Waiting to obtain first gps reading
+[ INFO] [1739562102.782048635]: Waiting to obtain first gps reading
+[ INFO] [1739562102.882225349]: Waiting to obtain first gps reading
+[ INFO] [1739562103.002829786]: Waiting to obtain first gps reading
+[ INFO] [1739562103.103022607]: Waiting to obtain first gps reading
+[ INFO] [1739562103.209302501]: Waiting to obtain first gps reading
+[ INFO] [1739562103.309466433]: Waiting to obtain first gps reading
+[ INFO] [1739562103.413963698]: Waiting to obtain first gps reading
+[ INFO] [1739562103.514424232]: Waiting to obtain first gps reading
+[ INFO] [1739562103.615938430]: Waiting to obtain first gps reading
+[ INFO] [1739562103.716440944]: Waiting to obtain first gps reading
+[ INFO] [1739562103.817340511]: Waiting to obtain first gps reading
+[ INFO] [1739562103.917823655]: Waiting to obtain first gps reading
+[ INFO] [1739562104.020172730]: Waiting to obtain first gps reading
+[ INFO] [1739562104.120384013]: Waiting to obtain first gps reading
+[ INFO] [1739562104.223668774]: Waiting to obtain first gps reading
+[ INFO] [1739562104.324867561]: Waiting to obtain first gps reading
+[ INFO] [1739562104.425620697]: Waiting to obtain first gps reading
+[ INFO] [1739562104.526297202]: Waiting to obtain first gps reading
+[ INFO] [1739562104.626842307]: Waiting to obtain first gps reading
+[ INFO] [1739562105.183119645]: Starting the FCS_Interface.
+[ INFO] [1739562106.404072897]: FCS_Interface getting ready...
+[ INFO] [1739562106.825178290]: Activated drone successfully.
+[ INFO] [1739562108.025021708]: Obtained SDK control authority successfully
+[ INFO] [1739562108.133186052]: Waiting to obtain first gps reading
+[ INFO] [1739562108.241691308]: Waiting to obtain first gps reading
+[ INFO] [1739562108.342129962]: Waiting to obtain first gps reading
+[ INFO] [1739562108.442357505]: Waiting to obtain first gps reading
+[ INFO] [1739562108.551664946]: Waiting to obtain first gps reading
+[ INFO] [1739562108.652031350]: Waiting to obtain first gps reading
+[ INFO] [1739562108.753307017]: Waiting to obtain first gps reading
+[ INFO] [1739562108.853471380]: Waiting to obtain first gps reading
+[ INFO] [1739562108.953855024]: Waiting to obtain first gps reading
+[ INFO] [1739562109.055562445]: Waiting to obtain first gps reading
+[ INFO] [1739562109.156033369]: Waiting to obtain first gps reading
+[ INFO] [1739562109.261251856]: Waiting to obtain first gps reading
+[ INFO] [1739562109.361513089]: Waiting to obtain first gps reading
+[ INFO] [1739562109.461646223]: Waiting to obtain first gps reading
+[ INFO] [1739562109.562157257]: Waiting to obtain first gps reading
+[ INFO] [1739562109.663123673]: Waiting to obtain first gps reading
+[ INFO] [1739562109.763492526]: Waiting to obtain first gps reading
+[ INFO] [1739562109.863710299]: Waiting to obtain first gps reading
+[ INFO] [1739562109.967870153]: Waiting to obtain first gps reading
+[ INFO] [1739562110.072151408]: Waiting to obtain first gps reading
+[ INFO] [1739562110.173496196]: Waiting to obtain first gps reading
+[ INFO] [1739562110.273980909]: Waiting to obtain first gps reading
+[ INFO] [1739562110.375243628]: Waiting to obtain first gps reading
+[ INFO] [1739562110.475464381]: Waiting to obtain first gps reading
+[ INFO] [1739562110.578402477]: Waiting to obtain first gps reading
+[ INFO] [1739562110.678495151]: Waiting to obtain first gps reading
+[ INFO] [1739562110.778717442]: Waiting to obtain first gps reading
+[ INFO] [1739562111.236038365]: Starting the FCS_Interface.
+[ INFO] [1739562112.358291872]: FCS_Interface getting ready...
+[ INFO] [1739562113.213430706]: Activated drone successfully.
+[ INFO] [1739562114.013540051]: Obtained SDK control authority successfully
+[ INFO] [1739562114.114293486]: Waiting to obtain first gps reading
+[ INFO] [1739562114.214465419]: Waiting to obtain first gps reading
+[ INFO] [1739562114.315349577]: Waiting to obtain first gps reading
+[ INFO] [1739562114.415550681]: Waiting to obtain first gps reading
+[ INFO] [1739562114.516959460]: Waiting to obtain first gps reading
+[ INFO] [1739562114.641959340]: Waiting to obtain first gps reading
+[ INFO] [1739562114.742450115]: Waiting to obtain first gps reading
+[ INFO] [1739562114.844263085]: Waiting to obtain first gps reading
+[ INFO] [1739562114.944860010]: Waiting to obtain first gps reading
+[ INFO] [1739562115.045747097]: Waiting to obtain first gps reading
+[ INFO] [1739562115.146227622]: Waiting to obtain first gps reading
+[ INFO] [1739562115.246809476]: Waiting to obtain first gps reading
+[ INFO] [1739562115.347760373]: Waiting to obtain first gps reading
+[ INFO] [1739562115.447932625]: Waiting to obtain first gps reading
+[ INFO] [1739562115.549052943]: Waiting to obtain first gps reading
+[ INFO] [1739562115.649132216]: Waiting to obtain first gps reading
+[ INFO] [1739562115.749298647]: Waiting to obtain first gps reading
+[ INFO] [1739562115.849405650]: Waiting to obtain first gps reading
+[ INFO] [1739562115.952324206]: Waiting to obtain first gps reading
+[ INFO] [1739562116.052524418]: Waiting to obtain first gps reading
+[ INFO] [1739562116.153021984]: Waiting to obtain first gps reading
+[ INFO] [1739562116.253499508]: Waiting to obtain first gps reading
+[ INFO] [1739562116.354101093]: Waiting to obtain first gps reading
+[ INFO] [1739562116.454401316]: Waiting to obtain first gps reading
+[ INFO] [1739562116.569098165]: Waiting to obtain first gps reading
+[ INFO] [1739562117.213293431]: Starting the FCS_Interface.
+[ INFO] [1739562118.381317928]: FCS_Interface getting ready...
+[ INFO] [1739562118.792756644]: Activated drone successfully.
+[ INFO] [1739562119.995073828]: Obtained SDK control authority successfully
+[ INFO] [1739562120.095536953]: Waiting to obtain first gps reading
+[ INFO] [1739562120.195716466]: Waiting to obtain first gps reading
+[ INFO] [1739562120.296188929]: Waiting to obtain first gps reading
+[ INFO] [1739562120.396403380]: Waiting to obtain first gps reading
+[ INFO] [1739562120.497820280]: Waiting to obtain first gps reading
+[ INFO] [1739562120.599331871]: Waiting to obtain first gps reading
+[ INFO] [1739562120.699907733]: Waiting to obtain first gps reading
+[ INFO] [1739562120.800156316]: Waiting to obtain first gps reading
+[ INFO] [1739562120.900540659]: Waiting to obtain first gps reading
+[ INFO] [1739562121.005952320]: Waiting to obtain first gps reading
+[ INFO] [1739562121.107504088]: Waiting to obtain first gps reading
+[ INFO] [1739562121.208827005]: Waiting to obtain first gps reading
+[ INFO] [1739562121.309355789]: Waiting to obtain first gps reading
+[ INFO] [1739562121.411873033]: Waiting to obtain first gps reading
+[ INFO] [1739562121.518526729]: Waiting to obtain first gps reading
+[ INFO] [1739562121.621882780]: Waiting to obtain first gps reading
+[ INFO] [1739562121.722752167]: Waiting to obtain first gps reading
+[ INFO] [1739562121.823184199]: Waiting to obtain first gps reading
+[ INFO] [1739562121.930132957]: Waiting to obtain first gps reading
+[ INFO] [1739562122.031100194]: Waiting to obtain first gps reading
+[ INFO] [1739562122.135618448]: Waiting to obtain first gps reading
+[ INFO] [1739562122.236291264]: Waiting to obtain first gps reading
+[ INFO] [1739562122.337356951]: Waiting to obtain first gps reading
+[ INFO] [1739562122.437800534]: Waiting to obtain first gps reading
+[ INFO] [1739562122.540768280]: Waiting to obtain first gps reading
+[ INFO] [1739562122.647480608]: Waiting to obtain first gps reading
+[ INFO] [1739562123.301386234]: Starting the FCS_Interface.
+[ INFO] [1739562124.409125454]: FCS_Interface getting ready...
+[ INFO] [1739562124.859800382]: Activated drone successfully.
+[ INFO] [1739562126.059745192]: Obtained SDK control authority successfully
+[ INFO] [1739562126.162836070]: Waiting to obtain first gps reading
+[ INFO] [1739562126.264030898]: Waiting to obtain first gps reading
+[ INFO] [1739562126.365463867]: Waiting to obtain first gps reading
+[ INFO] [1739562126.465827891]: Waiting to obtain first gps reading
+[ INFO] [1739562126.567456081]: Waiting to obtain first gps reading
+[ INFO] [1739562126.667868633]: Waiting to obtain first gps reading
+[ INFO] [1739562126.769006641]: Waiting to obtain first gps reading
+[ INFO] [1739562126.869801057]: Waiting to obtain first gps reading
+[ INFO] [1739562126.970445803]: Waiting to obtain first gps reading
+[ INFO] [1739562127.072467505]: Waiting to obtain first gps reading
+[ INFO] [1739562127.173040210]: Waiting to obtain first gps reading
+[ INFO] [1739562127.273446553]: Waiting to obtain first gps reading
+[ INFO] [1739562127.374196739]: Waiting to obtain first gps reading
+[ INFO] [1739562127.474552202]: Waiting to obtain first gps reading
+[ INFO] [1739562127.575093465]: Waiting to obtain first gps reading
+[ INFO] [1739562127.675303007]: Waiting to obtain first gps reading
+[ INFO] [1739562127.776299796]: Waiting to obtain first gps reading
+[ INFO] [1739562127.876710829]: Waiting to obtain first gps reading
+[ INFO] [1739562127.977339505]: Waiting to obtain first gps reading
+[ INFO] [1739562128.091220806]: Waiting to obtain first gps reading
+[ INFO] [1739562128.191637790]: Waiting to obtain first gps reading
+[ INFO] [1739562128.293004840]: Waiting to obtain first gps reading
+[ INFO] [1739562128.393551344]: Waiting to obtain first gps reading
+[ INFO] [1739562128.494091529]: Waiting to obtain first gps reading
+[ INFO] [1739562128.603265078]: Waiting to obtain first gps reading
+[ INFO] [1739562128.713191159]: Waiting to obtain first gps reading
+[ INFO] [1739562129.250888793]: Starting the FCS_Interface.
+[ INFO] [1739562130.325578182]: FCS_Interface getting ready...
+[ INFO] [1739562131.245151737]: Activated drone successfully.
+[ INFO] [1739562132.843892549]: Obtained SDK control authority successfully
+[ INFO] [1739562132.945300918]: Waiting to obtain first gps reading
+[ INFO] [1739562133.045612581]: Waiting to obtain first gps reading
+[ INFO] [1739562133.146039825]: Waiting to obtain first gps reading
+[ INFO] [1739562133.246310668]: Waiting to obtain first gps reading
+[ INFO] [1739562133.346635562]: Waiting to obtain first gps reading
+[ INFO] [1739562133.447180298]: Waiting to obtain first gps reading
+[ INFO] [1739562133.547565491]: Waiting to obtain first gps reading
+[ INFO] [1739562133.647850346]: Waiting to obtain first gps reading
+[ INFO] [1739562133.748339498]: Waiting to obtain first gps reading
+[ INFO] [1739562133.848540062]: Waiting to obtain first gps reading
+[ INFO] [1739562133.948895625]: Waiting to obtain first gps reading
+[ INFO] [1739562134.049047407]: Waiting to obtain first gps reading
+[ INFO] [1739562134.151581552]: Waiting to obtain first gps reading
+[ INFO] [1739562134.257639904]: Waiting to obtain first gps reading
+[ INFO] [1739562134.358987083]: Waiting to obtain first gps reading
+[ INFO] [1739562134.460051300]: Waiting to obtain first gps reading
+[ INFO] [1739562134.561662959]: Waiting to obtain first gps reading
+[ INFO] [1739562135.207366754]: Starting the FCS_Interface.
+[ INFO] [1739562136.410895003]: FCS_Interface getting ready...
+[ INFO] [1739562136.862245469]: Activated drone successfully.
+[ INFO] [1739562137.666430942]: Obtained SDK control authority successfully
+[ INFO] [1739562137.767636630]: Waiting to obtain first gps reading
+[ INFO] [1739562137.867969673]: Waiting to obtain first gps reading
+[ INFO] [1739562137.976013515]: Waiting to obtain first gps reading
+[ INFO] [1739562138.076284160]: Waiting to obtain first gps reading
+[ INFO] [1739562138.179563669]: Waiting to obtain first gps reading
+[ INFO] [1739562138.283830702]: Waiting to obtain first gps reading
+[ INFO] [1739562138.384702739]: Waiting to obtain first gps reading
+[ INFO] [1739562138.487135834]: Waiting to obtain first gps reading
+[ INFO] [1739562138.593822050]: Waiting to obtain first gps reading
+[ INFO] [1739562138.694598757]: Waiting to obtain first gps reading
+[ INFO] [1739562138.795428213]: Waiting to obtain first gps reading
+[ INFO] [1739562138.895644426]: Waiting to obtain first gps reading
+[ INFO] [1739562139.008467533]: Waiting to obtain first gps reading
+[ INFO] [1739562139.111723345]: Waiting to obtain first gps reading
+[ INFO] [1739562139.212718571]: Waiting to obtain first gps reading
+[ INFO] [1739562139.312868503]: Waiting to obtain first gps reading
+[ INFO] [1739562139.414439742]: Waiting to obtain first gps reading
+[ INFO] [1739562139.514911965]: Waiting to obtain first gps reading
+[ INFO] [1739562139.624894519]: Waiting to obtain first gps reading
+[ INFO] [1739562139.740412419]: Waiting to obtain first gps reading
+[ INFO] [1739562139.840936404]: Waiting to obtain first gps reading
+[ INFO] [1739562139.941048356]: Waiting to obtain first gps reading
+[ INFO] [1739562140.041392320]: Waiting to obtain first gps reading
+[ INFO] [1739562140.141593662]: Waiting to obtain first gps reading
+[ INFO] [1739562140.242147956]: Waiting to obtain first gps reading
+[ INFO] [1739562140.342948333]: Waiting to obtain first gps reading
+[ INFO] [1739562140.443314977]: Waiting to obtain first gps reading
+[ INFO] [1739562140.543414830]: Waiting to obtain first gps reading
+[ INFO] [1739562140.646986140]: Waiting to obtain first gps reading
+[ INFO] [1739562141.222141471]: Starting the FCS_Interface.
+[ INFO] [1739562142.465821930]: FCS_Interface getting ready...
+[ INFO] [1739562142.880565572]: Activated drone successfully.
+[ INFO] [1739562144.079289800]: Obtained SDK control authority successfully
+[ INFO] [1739562144.179523582]: Waiting to obtain first gps reading
+[ INFO] [1739562144.279602605]: Waiting to obtain first gps reading
+[ INFO] [1739562144.379687316]: Waiting to obtain first gps reading
+[ INFO] [1739562144.479917280]: Waiting to obtain first gps reading
+[ INFO] [1739562144.580092744]: Waiting to obtain first gps reading
+[ INFO] [1739562144.680677119]: Waiting to obtain first gps reading
+[ INFO] [1739562144.781190655]: Waiting to obtain first gps reading
+[ INFO] [1739562144.881675177]: Waiting to obtain first gps reading
+[ INFO] [1739562144.983026856]: Waiting to obtain first gps reading
+[ INFO] [1739562145.083824492]: Waiting to obtain first gps reading
+[ INFO] [1739562145.186849569]: Waiting to obtain first gps reading
+[ INFO] [1739562145.287128723]: Waiting to obtain first gps reading
+[ INFO] [1739562145.387944889]: Waiting to obtain first gps reading
+[ INFO] [1739562145.488488733]: Waiting to obtain first gps reading
+[ INFO] [1739562145.589164909]: Waiting to obtain first gps reading
+[ INFO] [1739562145.689350123]: Waiting to obtain first gps reading
+[ INFO] [1739562145.796198509]: Waiting to obtain first gps reading
+[ INFO] [1739562145.896540833]: Waiting to obtain first gps reading
+[ INFO] [1739562146.000997097]: Waiting to obtain first gps reading
+[ INFO] [1739562146.101118918]: Waiting to obtain first gps reading
+[ INFO] [1739562146.203075259]: Waiting to obtain first gps reading
+[ INFO] [1739562146.303254273]: Waiting to obtain first gps reading
+[ INFO] [1739562146.403607287]: Waiting to obtain first gps reading
+[ INFO] [1739562146.505894060]: Waiting to obtain first gps reading
+[ INFO] [1739562146.618120834]: Waiting to obtain first gps reading
+[ INFO] [1739562146.718323036]: Waiting to obtain first gps reading
+[ INFO] [1739562147.189293446]: Starting the FCS_Interface.
+[ INFO] [1739562148.396775231]: FCS_Interface getting ready...
+[ INFO] [1739562149.212333117]: Activated drone successfully.
+[ INFO] [1739562150.411499210]: Obtained SDK control authority successfully
+[ INFO] [1739562150.511827745]: Waiting to obtain first gps reading
+[ INFO] [1739562150.611970897]: Waiting to obtain first gps reading
+[ INFO] [1739562150.712652410]: Waiting to obtain first gps reading
+[ INFO] [1739562150.813019054]: Waiting to obtain first gps reading
+[ INFO] [1739562150.913264507]: Waiting to obtain first gps reading
+[ INFO] [1739562151.013621451]: Waiting to obtain first gps reading
+[ INFO] [1739562151.113784874]: Waiting to obtain first gps reading
+[ INFO] [1739562151.214114897]: Waiting to obtain first gps reading
+[ INFO] [1739562151.314328203]: Waiting to obtain first gps reading
+[ INFO] [1739562151.414616724]: Waiting to obtain first gps reading
+[ INFO] [1739562151.516577227]: Waiting to obtain first gps reading
+[ INFO] [1739562151.617157969]: Waiting to obtain first gps reading
+[ INFO] [1739562151.719402182]: Waiting to obtain first gps reading
+[ INFO] [1739562151.819859296]: Waiting to obtain first gps reading
+[ INFO] [1739562151.920135460]: Waiting to obtain first gps reading
+[ INFO] [1739562152.020595123]: Waiting to obtain first gps reading
+[ INFO] [1739562152.120958346]: Waiting to obtain first gps reading
+[ INFO] [1739562152.226336494]: Waiting to obtain first gps reading
+[ INFO] [1739562152.327024199]: Waiting to obtain first gps reading
+[ INFO] [1739562152.427353513]: Waiting to obtain first gps reading
+[ INFO] [1739562152.534214788]: Waiting to obtain first gps reading
+[ INFO] [1739562153.070071812]: Starting the FCS_Interface.
+[ INFO] [1739562154.224649761]: FCS_Interface getting ready...
+[ INFO] [1739562155.215535355]: Activated drone successfully.
+[ INFO] [1739562156.010862824]: Obtained SDK control authority successfully
+[ INFO] [1739562156.111483310]: Waiting to obtain first gps reading
+[ INFO] [1739562156.221947096]: Waiting to obtain first gps reading
+[ INFO] [1739562156.322373169]: Waiting to obtain first gps reading
+[ INFO] [1739562156.422710032]: Waiting to obtain first gps reading
+[ INFO] [1739562156.523773909]: Waiting to obtain first gps reading
+[ INFO] [1739562156.624145534]: Waiting to obtain first gps reading
+[ INFO] [1739562156.724634499]: Waiting to obtain first gps reading
+[ INFO] [1739562156.824911601]: Waiting to obtain first gps reading
+[ INFO] [1739562156.925568597]: Waiting to obtain first gps reading
+[ INFO] [1739562157.025784750]: Waiting to obtain first gps reading
+[ INFO] [1739562157.126333395]: Waiting to obtain first gps reading
+[ INFO] [1739562157.226887849]: Waiting to obtain first gps reading
+[ INFO] [1739562157.327500145]: Waiting to obtain first gps reading
+[ INFO] [1739562157.427963857]: Waiting to obtain first gps reading
+[ INFO] [1739562157.529235956]: Waiting to obtain first gps reading
+[ INFO] [1739562157.629471488]: Waiting to obtain first gps reading
+[ INFO] [1739562157.735642351]: Waiting to obtain first gps reading
+[ INFO] [1739562157.836437857]: Waiting to obtain first gps reading
+[ INFO] [1739562157.936636300]: Waiting to obtain first gps reading
+[ INFO] [1739562158.039507118]: Waiting to obtain first gps reading
+[ INFO] [1739562158.141300689]: Waiting to obtain first gps reading
+[ INFO] [1739562158.241639943]: Waiting to obtain first gps reading
+[ INFO] [1739562158.342196417]: Waiting to obtain first gps reading
+[ INFO] [1739562158.442478980]: Waiting to obtain first gps reading
+[ INFO] [1739562158.559010257]: Waiting to obtain first gps reading
+[ INFO] [1739562158.665382923]: Waiting to obtain first gps reading
+[ INFO] [1739562159.324223135]: Starting the FCS_Interface.
+[ INFO] [1739562160.524911888]: FCS_Interface getting ready...
+[ INFO] [1739562160.997362135]: Activated drone successfully.
+[ INFO] [1739562162.196792676]: Obtained SDK control authority successfully
+[ INFO] [1739562162.297106011]: Waiting to obtain first gps reading
+[ INFO] [1739562162.397512206]: Waiting to obtain first gps reading
+[ INFO] [1739562162.498052079]: Waiting to obtain first gps reading
+[ INFO] [1739562162.627163730]: Waiting to obtain first gps reading
+[ INFO] [1739562162.727895356]: Waiting to obtain first gps reading
+[ INFO] [1739562162.834316090]: Waiting to obtain first gps reading
+[ INFO] [1739562162.934799134]: Waiting to obtain first gps reading
+[ INFO] [1739562163.035067547]: Waiting to obtain first gps reading
+[ INFO] [1739562163.135554311]: Waiting to obtain first gps reading
+[ INFO] [1739562163.235717055]: Waiting to obtain first gps reading
+[ INFO] [1739562163.336410151]: Waiting to obtain first gps reading
+[ INFO] [1739562163.436629464]: Waiting to obtain first gps reading
+[ INFO] [1739562163.545122679]: Waiting to obtain first gps reading
+[ INFO] [1739562163.645335722]: Waiting to obtain first gps reading
+[ INFO] [1739562163.745588855]: Waiting to obtain first gps reading
+[ INFO] [1739562163.845780478]: Waiting to obtain first gps reading
+[ INFO] [1739562163.946192292]: Waiting to obtain first gps reading
+[ INFO] [1739562164.046295804]: Waiting to obtain first gps reading
+[ INFO] [1739562164.146654618]: Waiting to obtain first gps reading
+[ INFO] [1739562164.246775451]: Waiting to obtain first gps reading
+[ INFO] [1739562164.346962824]: Waiting to obtain first gps reading
+[ INFO] [1739562164.447117737]: Waiting to obtain first gps reading
+[ INFO] [1739562164.547442840]: Waiting to obtain first gps reading
+[ INFO] [1739562164.647592972]: Waiting to obtain first gps reading
+[ INFO] [1739562164.747759855]: Waiting to obtain first gps reading
+[ INFO] [1739562164.881906931]: Waiting to obtain first gps reading
+[ INFO] [1739562164.982222333]: Waiting to obtain first gps reading
+[ INFO] [1739562165.093978195]: Waiting to obtain first gps reading
+[ INFO] [1739562165.634037349]: Starting the FCS_Interface.
+[ INFO] [1739562166.743229635]: FCS_Interface getting ready...
+[ INFO] [1739562167.229437943]: Activated drone successfully.
+[ INFO] [1739562168.422320210]: Obtained SDK control authority successfully
+[ INFO] [1739562168.522498113]: Waiting to obtain first gps reading
+[ INFO] [1739562168.622588416]: Waiting to obtain first gps reading
+[ INFO] [1739562168.722692450]: Waiting to obtain first gps reading
+[ INFO] [1739562168.822953483]: Waiting to obtain first gps reading
+[ INFO] [1739562168.923170965]: Waiting to obtain first gps reading
+[ INFO] [1739562169.023369577]: Waiting to obtain first gps reading
+[ INFO] [1739562169.123592641]: Waiting to obtain first gps reading
+[ INFO] [1739562169.223819964]: Waiting to obtain first gps reading
+[ INFO] [1739562169.323981905]: Waiting to obtain first gps reading
+[ INFO] [1739562169.424198479]: Waiting to obtain first gps reading
+[ INFO] [1739562169.524414322]: Waiting to obtain first gps reading
+[ INFO] [1739562169.625131419]: Waiting to obtain first gps reading
+[ INFO] [1739562169.725864706]: Waiting to obtain first gps reading
+[ INFO] [1739562169.826144940]: Waiting to obtain first gps reading
+[ INFO] [1739562169.926434954]: Waiting to obtain first gps reading
+[ INFO] [1739562170.028159626]: Waiting to obtain first gps reading
+[ INFO] [1739562170.132877842]: Waiting to obtain first gps reading
+[ INFO] [1739562170.233115625]: Waiting to obtain first gps reading
+[ INFO] [1739562170.333300957]: Waiting to obtain first gps reading
+[ INFO] [1739562170.433408659]: Waiting to obtain first gps reading
+[ INFO] [1739562170.541875405]: Waiting to obtain first gps reading
+[ INFO] [1739562170.642137518]: Waiting to obtain first gps reading
+[ INFO] [1739562170.743195165]: Waiting to obtain first gps reading
+[ INFO] [1739562170.843644810]: Waiting to obtain first gps reading
+[ INFO] [1739562170.943888582]: Waiting to obtain first gps reading
+[ INFO] [1739562171.046108716]: Waiting to obtain first gps reading
+[ INFO] [1739562171.146395848]: Waiting to obtain first gps reading
+[ INFO] [1739562171.673815816]: Starting the FCS_Interface.
+[ INFO] [1739562172.831136798]: FCS_Interface getting ready...
+[ INFO] [1739562173.630208483]: Activated drone successfully.
+[ INFO] [1739562174.830507328]: Obtained SDK control authority successfully
+[ INFO] [1739562174.930927262]: Waiting to obtain first gps reading
+[ INFO] [1739562175.032789403]: Waiting to obtain first gps reading
+[ INFO] [1739562175.133225517]: Waiting to obtain first gps reading
+[ INFO] [1739562175.233413969]: Waiting to obtain first gps reading
+[ INFO] [1739562175.333672142]: Waiting to obtain first gps reading
+[ INFO] [1739562175.434310566]: Waiting to obtain first gps reading
+[ INFO] [1739562175.541430384]: Waiting to obtain first gps reading
+[ INFO] [1739562175.647323237]: Waiting to obtain first gps reading
+[ INFO] [1739562175.754267095]: Waiting to obtain first gps reading
+[ INFO] [1739562175.857355443]: Waiting to obtain first gps reading
+[ INFO] [1739562175.957816737]: Waiting to obtain first gps reading
+[ INFO] [1739562176.060934874]: Waiting to obtain first gps reading
+[ INFO] [1739562176.161460318]: Waiting to obtain first gps reading
+[ INFO] [1739562176.262379984]: Waiting to obtain first gps reading
+[ INFO] [1739562176.362890500]: Waiting to obtain first gps reading
+[ INFO] [1739562176.463229163]: Waiting to obtain first gps reading
+[ INFO] [1739562176.563569177]: Waiting to obtain first gps reading
+[ INFO] [1739562176.663727769]: Waiting to obtain first gps reading
+[ INFO] [1739562176.766990478]: Waiting to obtain first gps reading
+[ INFO] [1739562176.867899433]: Waiting to obtain first gps reading
+[ INFO] [1739562176.969541584]: Waiting to obtain first gps reading
+[ INFO] [1739562177.070555781]: Waiting to obtain first gps reading
+[ INFO] [1739562177.694983757]: Starting the FCS_Interface.
+[ INFO] [1739562178.829982375]: FCS_Interface getting ready...
+[ INFO] [1739562179.271105813]: Activated drone successfully.
+[ INFO] [1739562180.071309845]: Obtained SDK control authority successfully
+[ INFO] [1739562180.172507930]: Waiting to obtain first gps reading
+[ INFO] [1739562180.275063056]: Waiting to obtain first gps reading
+[ INFO] [1739562180.375408450]: Waiting to obtain first gps reading
+[ INFO] [1739562180.475675934]: Waiting to obtain first gps reading
+[ INFO] [1739562180.577486055]: Waiting to obtain first gps reading
+[ INFO] [1739562180.678249139]: Waiting to obtain first gps reading
+[ INFO] [1739562180.778586063]: Waiting to obtain first gps reading
+[ INFO] [1739562180.878861546]: Waiting to obtain first gps reading
+[ INFO] [1739562180.979219789]: Waiting to obtain first gps reading
+[ INFO] [1739562181.082366988]: Waiting to obtain first gps reading
+[ INFO] [1739562181.182824561]: Waiting to obtain first gps reading
+[ INFO] [1739562181.283103514]: Waiting to obtain first gps reading
+[ INFO] [1739562181.383867140]: Waiting to obtain first gps reading
+[ INFO] [1739562181.484837406]: Waiting to obtain first gps reading
+[ INFO] [1739562181.585395340]: Waiting to obtain first gps reading
+[ INFO] [1739562181.690234744]: Waiting to obtain first gps reading
+[ INFO] [1739562181.790521088]: Waiting to obtain first gps reading
+[ INFO] [1739562181.890667801]: Waiting to obtain first gps reading
+[ INFO] [1739562181.991407327]: Waiting to obtain first gps reading
+[ INFO] [1739562182.093117607]: Waiting to obtain first gps reading
+[ INFO] [1739562182.194065413]: Waiting to obtain first gps reading
+[ INFO] [1739562182.294402236]: Waiting to obtain first gps reading
+[ INFO] [1739562182.394998111]: Waiting to obtain first gps reading
+[ INFO] [1739562182.495810637]: Waiting to obtain first gps reading
+[ INFO] [1739562182.596340493]: Waiting to obtain first gps reading
+[ INFO] [1739562182.697035958]: Waiting to obtain first gps reading
+[ INFO] [1739562182.797987154]: Waiting to obtain first gps reading
+[ INFO] [1739562182.898213177]: Waiting to obtain first gps reading
+[ INFO] [1739562182.998686640]: Waiting to obtain first gps reading
+[ INFO] [1739562183.098952041]: Waiting to obtain first gps reading
+[ INFO] [1739562183.207705189]: Waiting to obtain first gps reading
+[ INFO] [1739562183.307996511]: Waiting to obtain first gps reading
+[ INFO] [1739562183.973606847]: Starting the FCS_Interface.
+[ INFO] [1739562185.222058485]: FCS_Interface getting ready...
+[ INFO] [1739562185.695246054]: Activated drone successfully.
+[ INFO] [1739562186.494597808]: Obtained SDK control authority successfully
+[ INFO] [1739562186.596394080]: Waiting to obtain first gps reading
+[ INFO] [1739562186.698310200]: Waiting to obtain first gps reading
+[ INFO] [1739562186.798831294]: Waiting to obtain first gps reading
+[ INFO] [1739562186.905939774]: Waiting to obtain first gps reading
+[ INFO] [1739562187.006681189]: Waiting to obtain first gps reading
+[ INFO] [1739562187.107048043]: Waiting to obtain first gps reading
+[ INFO] [1739562187.207366587]: Waiting to obtain first gps reading
+[ INFO] [1739562187.307532191]: Waiting to obtain first gps reading
+[ INFO] [1739562187.412559489]: Waiting to obtain first gps reading
+[ INFO] [1739562187.512774981]: Waiting to obtain first gps reading
+[ INFO] [1739562187.613935308]: Waiting to obtain first gps reading
+[ INFO] [1739562187.716890075]: Waiting to obtain first gps reading
+[ INFO] [1739562187.817151278]: Waiting to obtain first gps reading
+[ INFO] [1739562187.919921215]: Waiting to obtain first gps reading
+[ INFO] [1739562188.020323159]: Waiting to obtain first gps reading
+[ INFO] [1739562188.120894673]: Waiting to obtain first gps reading
+[ INFO] [1739562188.222775135]: Waiting to obtain first gps reading
+[ INFO] [1739562188.323013578]: Waiting to obtain first gps reading
+[ INFO] [1739562188.423361760]: Waiting to obtain first gps reading
+[ INFO] [1739562188.524582778]: Waiting to obtain first gps reading
+[ INFO] [1739562188.625592085]: Waiting to obtain first gps reading
+[ INFO] [1739562188.725802176]: Waiting to obtain first gps reading
+[ INFO] [1739562188.827044903]: Waiting to obtain first gps reading
+[ INFO] [1739562188.928802775]: Waiting to obtain first gps reading
+[ INFO] [1739562189.029133518]: Waiting to obtain first gps reading
+[ INFO] [1739562189.129385080]: Waiting to obtain first gps reading
+[ INFO] [1739562189.229902044]: Waiting to obtain first gps reading
+[ INFO] [1739562189.330296538]: Waiting to obtain first gps reading
+[ INFO] [1739562189.430814123]: Waiting to obtain first gps reading
+[ INFO] [1739562189.531087445]: Waiting to obtain first gps reading
+[ INFO] [1739562190.327869064]: Starting the FCS_Interface.
+[ INFO] [1739562191.546288093]: FCS_Interface getting ready...
+[ INFO] [1739562192.380425917]: Activated drone successfully.
+[ INFO] [1739562193.182305974]: Obtained SDK control authority successfully
+[ INFO] [1739562193.282769629]: Waiting to obtain first gps reading
+[ INFO] [1739562193.382967512]: Waiting to obtain first gps reading
+[ INFO] [1739562193.493004775]: Waiting to obtain first gps reading
+[ INFO] [1739562193.605678962]: Waiting to obtain first gps reading
+[ INFO] [1739562193.706071147]: Waiting to obtain first gps reading
+[ INFO] [1739562193.806485342]: Waiting to obtain first gps reading
+[ INFO] [1739562193.906978596]: Waiting to obtain first gps reading
+[ INFO] [1739562194.007263199]: Waiting to obtain first gps reading
+[ INFO] [1739562194.107607642]: Waiting to obtain first gps reading
+[ INFO] [1739562194.207799366]: Waiting to obtain first gps reading
+[ INFO] [1739562194.308810712]: Waiting to obtain first gps reading
+[ INFO] [1739562194.408994644]: Waiting to obtain first gps reading
+[ INFO] [1739562194.509407248]: Waiting to obtain first gps reading
+[ INFO] [1739562194.613698392]: Waiting to obtain first gps reading
+[ INFO] [1739562194.714497658]: Waiting to obtain first gps reading
+[ INFO] [1739562194.822923464]: Waiting to obtain first gps reading
+[ INFO] [1739562194.923268847]: Waiting to obtain first gps reading
+[ INFO] [1739562195.023412230]: Waiting to obtain first gps reading
+[ INFO] [1739562195.123586793]: Waiting to obtain first gps reading
+[ INFO] [1739562195.223959748]: Waiting to obtain first gps reading
+[ INFO] [1739562195.324542444]: Waiting to obtain first gps reading
+[ INFO] [1739562195.424958567]: Waiting to obtain first gps reading
+[ INFO] [1739562195.525357481]: Waiting to obtain first gps reading
+[ INFO] [1739562195.628131736]: Waiting to obtain first gps reading
+[ INFO] [1739562195.732497950]: Waiting to obtain first gps reading
+[ INFO] [1739562195.832681163]: Waiting to obtain first gps reading
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_fcsmap-1200-1299.xml
+[Testcase: testt1219] ... ok
+[Testcase: testt1220] ... ok
+[Testcase: testt1221] ... ok
+[Testcase: testt1222] ... ok
+[Testcase: testt1223] ... ok
+[Testcase: testt1224] ... ok
+[Testcase: testt1225] ... ok
+[Testcase: testt1226] ... ok
+[Testcase: testt1227] ... ok
+[Testcase: testt1228] ... ok
+[Testcase: testt1229] ... ok
+[Testcase: testt1230] ... ok
+[Testcase: testt1231] ... ok
+[Testcase: testt1232] ... ok
+[Testcase: testt1233] ... ok
+[Testcase: testt1234] ... ok
+[Testcase: testt1235] ... ok
+[Testcase: testt1236] ... ok
+[Testcase: testt1239] ... ok
+[Testcase: testt1240] ... ok
+[Testcase: testt1241] ... ok
+[Testcase: testt1242] ... ok
+[Testcase: testt1243] ... ok
+[Testcase: testt1244] ... ok
+[Testcase: testt1245] ... ok
+[Testcase: testt1246] ... ok
+[Testcase: testt1247] ... ok
+[Testcase: testt1248] ... ok
+[Testcase: testt1249] ... ok
+[Testcase: testt1250] ... ok
+[Testcase: testt1251] ... ok
+[Testcase: testt1252] ... ok
+[Testcase: testt1253] ... ok
+[Testcase: testt1254] ... ok
+[Testcase: testt1255] ... ok
+[Testcase: testt1256] ... ok
+[Testcase: testt1257] ... ok
+[Testcase: testt1258] ... ok
+[Testcase: testt1259] ... ok
+[Testcase: testt1260] ... ok
+[Testcase: testt1261] ... ok
+[Testcase: testt1262] ... ok
+[Testcase: testt1263] ... ok
+[Testcase: testt1264] ... ok
+[Testcase: testt1265] ... ok
+[Testcase: testt1266] ... ok
+[Testcase: testt1267] ... ok
+[Testcase: testt1268] ... ok
+[Testcase: testt1269] ... ok
+[Testcase: testt1270] ... ok
+[Testcase: testt1271] ... ok
+[Testcase: testt1272] ... ok
+[Testcase: testt1273] ... ok
+[Testcase: testt1274] ... ok
+[Testcase: testt1275] ... ok
+[Testcase: testt1276] ... ok
+[Testcase: testt1277] ... ok
+[Testcase: testt1278] ... ok
+[Testcase: testt1279] ... ok
+[Testcase: testt1280] ... ok
+[Testcase: testt1281] ... ok
+[Testcase: testt1282] ... ok
+[Testcase: testt1283] ... ok
+[Testcase: testt1284] ... ok
+[Testcase: testt1285] ... ok
+[Testcase: testt1286] ... ok
+[Testcase: testt1287] ... ok
+[Testcase: testt1288] ... ok
+[Testcase: testt1289] ... ok
+[Testcase: testt1290] ... ok
+[Testcase: testt1291] ... ok
+[Testcase: testt1292] ... ok
+[Testcase: testt1293] ... ok
+[Testcase: testt1294] ... ok
+[Testcase: testt1295] ... ok
+[Testcase: testt1296] ... ok
+[Testcase: testt1297] ... ok
+[Testcase: testt1298] ... ok
+[Testcase: testt1299] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[fcsmap_fcs_suite.rosunit-t1219/test][passed]
+[fcsmap_fcs_suite.rosunit-t1220/test][passed]
+[fcsmap_fcs_suite.rosunit-t1221/test][passed]
+[fcsmap_fcs_suite.rosunit-t1222/test][passed]
+[fcsmap_fcs_suite.rosunit-t1223/test][passed]
+[fcsmap_fcs_suite.rosunit-t1224/test][passed]
+[fcsmap_fcs_suite.rosunit-t1225/test][passed]
+[fcsmap_fcs_suite.rosunit-t1226/test][passed]
+[fcsmap_fcs_suite.rosunit-t1227/test][passed]
+[fcsmap_fcs_suite.rosunit-t1228/test][passed]
+[fcsmap_fcs_suite.rosunit-t1229/test][passed]
+[fcsmap_fcs_suite.rosunit-t1230/test][passed]
+[fcsmap_fcs_suite.rosunit-t1231/test][passed]
+[fcsmap_fcs_suite.rosunit-t1232/test][passed]
+[fcsmap_fcs_suite.rosunit-t1233/test][passed]
+[fcsmap_fcs_suite.rosunit-t1234/test][passed]
+[fcsmap_fcs_suite.rosunit-t1235/test][passed]
+[fcsmap_fcs_suite.rosunit-t1236/test][passed]
+[fcsmap_fcs_suite.rosunit-t1239/test][passed]
+[fcsmap_fcs_suite.rosunit-t1240/test][passed]
+[fcsmap_fcs_suite.rosunit-t1241/test][passed]
+[fcsmap_fcs_suite.rosunit-t1242/test][passed]
+[fcsmap_fcs_suite.rosunit-t1243/test][passed]
+[fcsmap_fcs_suite.rosunit-t1244/test][passed]
+[fcsmap_fcs_suite.rosunit-t1245/test][passed]
+[fcsmap_fcs_suite.rosunit-t1246/test][passed]
+[fcsmap_fcs_suite.rosunit-t1247/test][passed]
+[fcsmap_fcs_suite.rosunit-t1248/test][passed]
+[fcsmap_fcs_suite.rosunit-t1249/test][passed]
+[fcsmap_fcs_suite.rosunit-t1250/test][passed]
+[fcsmap_fcs_suite.rosunit-t1251/test][passed]
+[fcsmap_fcs_suite.rosunit-t1252/test][passed]
+[fcsmap_fcs_suite.rosunit-t1253/test][passed]
+[fcsmap_fcs_suite.rosunit-t1254/test][passed]
+[fcsmap_fcs_suite.rosunit-t1255/test][passed]
+[fcsmap_fcs_suite.rosunit-t1256/test][passed]
+[fcsmap_fcs_suite.rosunit-t1257/test][passed]
+[fcsmap_fcs_suite.rosunit-t1258/test][passed]
+[fcsmap_fcs_suite.rosunit-t1259/test][passed]
+[fcsmap_fcs_suite.rosunit-t1260/test][passed]
+[fcsmap_fcs_suite.rosunit-t1261/test][passed]
+[fcsmap_fcs_suite.rosunit-t1262/test][passed]
+[fcsmap_fcs_suite.rosunit-t1263/test][passed]
+[fcsmap_fcs_suite.rosunit-t1264/test][passed]
+[fcsmap_fcs_suite.rosunit-t1265/test][passed]
+[fcsmap_fcs_suite.rosunit-t1266/test][passed]
+[fcsmap_fcs_suite.rosunit-t1267/test][passed]
+[fcsmap_fcs_suite.rosunit-t1268/test][passed]
+[fcsmap_fcs_suite.rosunit-t1269/test][passed]
+[fcsmap_fcs_suite.rosunit-t1270/test][passed]
+[fcsmap_fcs_suite.rosunit-t1271/test][passed]
+[fcsmap_fcs_suite.rosunit-t1272/test][passed]
+[fcsmap_fcs_suite.rosunit-t1273/test][passed]
+[fcsmap_fcs_suite.rosunit-t1274/test][passed]
+[fcsmap_fcs_suite.rosunit-t1275/test][passed]
+[fcsmap_fcs_suite.rosunit-t1276/test][passed]
+[fcsmap_fcs_suite.rosunit-t1277/test][passed]
+[fcsmap_fcs_suite.rosunit-t1278/test][passed]
+[fcsmap_fcs_suite.rosunit-t1279/test][passed]
+[fcsmap_fcs_suite.rosunit-t1280/test][passed]
+[fcsmap_fcs_suite.rosunit-t1281/test][passed]
+[fcsmap_fcs_suite.rosunit-t1282/test][passed]
+[fcsmap_fcs_suite.rosunit-t1283/test][passed]
+[fcsmap_fcs_suite.rosunit-t1284/test][passed]
+[fcsmap_fcs_suite.rosunit-t1285/test][passed]
+[fcsmap_fcs_suite.rosunit-t1286/test][passed]
+[fcsmap_fcs_suite.rosunit-t1287/test][passed]
+[fcsmap_fcs_suite.rosunit-t1288/test][passed]
+[fcsmap_fcs_suite.rosunit-t1289/test][passed]
+[fcsmap_fcs_suite.rosunit-t1290/test][passed]
+[fcsmap_fcs_suite.rosunit-t1291/test][passed]
+[fcsmap_fcs_suite.rosunit-t1292/test][passed]
+[fcsmap_fcs_suite.rosunit-t1293/test][passed]
+[fcsmap_fcs_suite.rosunit-t1294/test][passed]
+[fcsmap_fcs_suite.rosunit-t1295/test][passed]
+[fcsmap_fcs_suite.rosunit-t1296/test][passed]
+[fcsmap_fcs_suite.rosunit-t1297/test][passed]
+[fcsmap_fcs_suite.rosunit-t1298/test][passed]
+[fcsmap_fcs_suite.rosunit-t1299/test][passed]
+
+SUMMARY
+ * RESULT: SUCCESS
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-800411.log

@@ -25,7 +25,7 @@ controller ArmCtrl {
 		// Current status of gimbal.
 		var angle : AngleReq, lastPitch : nat, lastYaw : nat, delay : nat
 		// Current status of pump.
-		var pstatus : PumpStatus, pumping : boolean = false
+		var pstatus : PumpCommand, pumping : boolean = false
 		
 		initial I
 		
@@ -62,8 +62,8 @@ controller ArmCtrl {
 		
 		junction HandleSpray
 		transition ReadSpray { from Idle        to HandleSpray trigger pump?pstatus }
-		transition SprayOn   { from HandleSpray to Idle        condition pstatus == PumpStatus::On  /\ not pumping action pumpOn();  pumping = true  }
-		transition SprayOff  { from HandleSpray to Idle        condition pstatus == PumpStatus::Off /\     pumping action pumpOff(); pumping = false }
+		transition SprayOn   { from HandleSpray to Idle        condition pstatus == PumpCommand::On  /\ not pumping action pumpOn();  pumping = true  }
+		transition SprayOff  { from HandleSpray to Idle        condition pstatus == PumpCommand::Off /\     pumping action pumpOff(); pumping = false }
 	}
 	
 	//

@@ -1,0 +1,47 @@
+package fcs_interface
+
+node fcs_interface { 
+	provides action fly_to_wp of type uav_msgs::FlyToWP
+	provides action special_movement of type uav_msgs::SpecialMovement
+	provides action relative_position of type uav_msgs::RelativePosition
+	
+	subscribes topic gps_position ("dji_sdk/gps_position") of type sensor_msgs::NavSatFix
+	publishes topic gps_position_accepted of type std_msgs::Time
+	
+	subscribes topic dji_battery_state ("dji_sdk/battery_state") of type sensor_msgs::BatteryState
+	publishes topic dji_battery_state_accepted of type std_msgs::Time
+	
+	subscribes topic local_position ("dji_sdk/local_position") of type geometry_msgs::PointStamped
+	subscribes topic gps_health ("dji_sdk/gps_health") of type std_msgs::UInt8
+	
+	subscribes topic height_above_takeoff ("dji_sdk/height_above_takeoff") of type std_msgs::Float32
+	publishes topic height_above_takeoff_accepted of type std_msgs::Time
+	
+	publishes topic fcs_battery_state ("fcs_interface/battery_state") of type uav_msgs::BatteryPercentage
+	
+	// Unused for testing
+	publishes topic flight_control_setpoint_ENUposition_yaw ("dji_sdk/flight_control_setpoint_ENUposition_yaw") of type sensor_msgs::Joy
+	
+	calls service sdk_control_authority ("dji_sdk/sdk_control_authority") of type dji_sdk::SDKControlAuthority
+	publishes topic sdk_control_authority_request ("fcs_interface/sdk_control_authority_request") of type std_msgs::Time
+	publishes topic sdk_control_authority_respond ("fcs_interface/sdk_control_authority_respond") of type std_msgs::Time
+	
+	calls service sdk_activation ("dji_sdk/activation") of type dji_sdk::Activation
+	publishes topic sdk_activation_request ("fcs_interface/sdk_activation_request") of type std_msgs::Time
+	publishes topic sdk_activation_respond ("fcs_interface/sdk_activation_respond") of type std_msgs::Time
+	
+	calls service drone_task_control ("dji_sdk/drone_task_control") of type dji_sdk::DroneTaskControl
+	publishes topic drone_task_control_request ("fcs_interface/drone_task_control_request") of type std_msgs::Time
+	publishes topic drone_task_control_respond ("fcs_interface/drone_task_control_respond") of type std_msgs::Time
+	
+	calls service mission_waypoint_action ("dji_sdk/mission_waypoint_action") of type dji_sdk::MissionWpAction
+	publishes topic mission_waypoint_action_request ("fcs_interface/mission_waypoint_action_request") of type std_msgs::Time
+	publishes topic mission_waypoint_action_respond ("fcs_interface/mission_waypoint_action_respond") of type std_msgs::Time
+	
+	calls service mission_waypoint_upload ("dji_sdk/mission_waypoint_upload") of type dji_sdk::MissionWpUpload
+	publishes topic mission_waypoint_upload_request ("fcs_interface/mission_waypoint_upload_request") of type std_msgs::Time
+	publishes topic mission_waypoint_upload_respond ("fcs_interface/mission_waypoint_upload_respond") of type std_msgs::Time
+	
+	// Unused for testing
+	calls service set_local_pos_ref ("dji_sdk/set_local_pos_ref") of type dji_sdk::SetLocalPosRef
+}

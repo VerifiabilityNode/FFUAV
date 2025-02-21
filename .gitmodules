@@ -1,3 +1,21 @@
 [submodule "FF_UAV_public"]
-	path = FF_UAV_public
-	url = https://github.com/uol-eps-mech-idro/FF_UAV_public.git
+	path = fire-fighting-uav
+	url = https://github.com/RealRobotics/fire-fighting-uav
+[submodule "FireFightingUAV-pd/catkin_ws/src/fire-fighting-uav"]
+	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/fire-fighting-uav"
+	url = https://github.com/RealRobotics/fire-fighting-uav
+[submodule "FireFightingUAV-pd/catkin_ws/src/Onboard-SDK-ROS"]
+	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/Onboard-SDK-ROS"
+	url = https://github.com/dji-sdk/Onboard-SDK-ROS.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/Onboard-SDK"]
+	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/Onboard-SDK"
+	url = https://github.com/dji-sdk/Onboard-SDK.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/BehaviorTree.ROS"]
+	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/BehaviorTree.ROS"
+	url = https://github.com/BehaviorTree/BehaviorTree.ROS.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/BehaviorTree.CPP"]
+	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/BehaviorTree.CPP"
+	url = https://github.com/BehaviorTree/BehaviorTree.CPP.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/timed_roslaunch"]
+	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/timed_roslaunch"
+	url = https://github.com/MoriKen254/timed_roslaunch.git

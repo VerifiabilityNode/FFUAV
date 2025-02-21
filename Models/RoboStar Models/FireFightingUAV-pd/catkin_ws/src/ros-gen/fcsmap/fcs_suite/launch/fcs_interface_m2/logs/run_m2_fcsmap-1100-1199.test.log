@@ -1,0 +1,12 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-1178766.log
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_m2_m2_fcsmap-1100-1199.xml
+[ROSTEST]-----------------------------------------------------------------------
+
+
+SUMMARY
+ * RESULT: SUCCESS
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-1178766.log

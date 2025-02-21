@@ -1,0 +1,18 @@
+[submodule "FireFightingUAV-pd/catkin_ws/src/fire-fighting-uav"]
+	path = FireFightingUAV-pd/catkin_ws/src/fire-fighting-uav
+	url = git@github.com:uol-eps-mech-idro/fire-fighting-uav.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/Onboard-SDK-ROS"]
+	path = FireFightingUAV-pd/catkin_ws/src/Onboard-SDK-ROS
+	url = https://github.com/dji-sdk/Onboard-SDK-ROS.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/Onboard-SDK"]
+	path = FireFightingUAV-pd/catkin_ws/src/Onboard-SDK
+	url = git@github.com:dji-sdk/Onboard-SDK.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/BehaviorTree.ROS"]
+	path = FireFightingUAV-pd/catkin_ws/src/BehaviorTree.ROS
+	url = git@github.com:BehaviorTree/BehaviorTree.ROS.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/BehaviorTree.CPP"]
+	path = FireFightingUAV-pd/catkin_ws/src/BehaviorTree.CPP
+	url = git@github.com:BehaviorTree/BehaviorTree.CPP.git
+[submodule "FireFightingUAV-pd/catkin_ws/src/timed_roslaunch"]
+	path = FireFightingUAV-pd/catkin_ws/src/timed_roslaunch
+	url = git@github.com:MoriKen254/timed_roslaunch.git

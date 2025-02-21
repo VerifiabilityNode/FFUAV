@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find fcs_interface)/launch/fcs_interface_m3.launch"/>
+</launch>

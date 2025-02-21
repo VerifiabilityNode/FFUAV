@@ -14,13 +14,13 @@ stm Planning {
 	uses BatteryPlanningEvents
 	uses SprayAimPlanningEvents
 	uses VisualPlanningEvents
-	uses FireStatusSubscriber
-	uses WaterSubscriber
-	uses VNavSubscriber
+	uses FireStatusEvents
+	uses WaterEvents
+	uses VNavEvents
 
 	// Publishing spray topic
-	event sprayMOut : PumpStatus
-	event spraySOut : PumpStatus
+	event sprayMOut : PumpCommand
+	event spraySOut : PumpCommand
 	
 	//
 	// Constants
@@ -157,8 +157,8 @@ stm Planning {
 				transition Init { from I to Wait }
 				
 				state Spraying {
-					entry sprayMOut!PumpStatus::On; spraySOut!PumpStatus::On; missionStatus!MissionStatus::Spraying
-					exit sprayMOut!PumpStatus::Off; spraySOut!PumpStatus::Off
+					entry sprayMOut!PumpCommand::On; spraySOut!PumpCommand::On; missionStatus!MissionStatus::Spraying
+					exit sprayMOut!PumpCommand::Off; spraySOut!PumpCommand::Off
 					
 					initial I
 					state Poll {}

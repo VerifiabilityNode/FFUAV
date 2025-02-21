@@ -1,0 +1,8 @@
+package water_monitor
+
+node water_monitor { 
+	publishes topic water_status_topic ("water_monitor_node/water_status_topic") of type uav_msgs::WaterStatus
+	publishes topic service_water_monitor_request_topic ("water_monitor_node/service_water_monitor_request_topic") of type std_msgs::Time
+	publishes topic service_water_moniter_respond_topic ("water_monitor_node/service_water_moniter_respond_topic") of type std_msgs::Time
+	provides service enable_water_monitor ("EnableWaterMonitor") of type uav_msgs::EnableWaterMonitor
+}

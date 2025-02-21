@@ -15,22 +15,22 @@ import rsd435i::*
 module FirefightingUAV {
 
 	robotic platform Platform {
-		provides M600Flight
+		provides M600Flight // 6 operations
 		
-		provides GCS
-		provides Gimbal
-		provides MLX90640
-		provides RealSenseD435i
-		provides Pump
+		//provides GCS 
+		provides Gimbal // 2 operations
+		// provides MLX90640 // 0
+		// provides RealSenseD435i // 0
+		provides Pump // 2 operations
 		
-		uses M600FlightEvents
-		uses M600TelemetryEvents
-		uses M600BatteryTelemetryEvents	
-		uses MLX90640Events
-		uses RealSenseD435iEvents
+		uses M600FlightEvents // 6 events
+		uses M600TelemetryEvents // 2 events
+		uses M600BatteryTelemetryEvents // 1 event
+		uses MLX90640Events // 1 event
+		uses RealSenseD435iEvents // 2 events
 		
-		uses GCSMissionEvents
-		uses GCSControlEvents
+		uses GCSMissionEvents // 1 event
+		// uses GCSControlEvents // 0 events
 	}
 
 	//
@@ -40,15 +40,15 @@ module FirefightingUAV {
 	cref RMainCtrl = MainCtrl
 
 	// M600FlightEvents
-	connection Platform     on fcTakeoffRet              to RMainCtrl on fcTakeoffRet              (_async)
-	connection Platform     on fcGoHomeRet               to RMainCtrl on fcGoHomeRet               (_async)
-	connection Platform     on fcLandRet                 to RMainCtrl on fcLandRet                 (_async)
-	connection Platform     on fcControlAuth             to RMainCtrl on fcControlAuth             (_async)
-	connection Platform     on fcWaypointFinishedMission to RMainCtrl on fcWaypointFinishedMission (_async)
-	connection Platform     on fcMoveRelativeRet         to RMainCtrl on fcMoveRelativeRet         (_async)
+	connection Platform     on fcMissionWPActionRet      to RMainCtrl on fcMissionWPActionRet              (_async)
+	connection Platform     on fcMoveRelativeRet         to RMainCtrl on fcMoveRelativeRet               (_async)
+	connection Platform     on fcActivationRet         	 to RMainCtrl on fcActivationRet               (_async)
+	connection Platform     on fcTaskRet                 to RMainCtrl on fcTaskRet                 (_async)
+	connection Platform     on fcControlAuthRet          to RMainCtrl on fcControlAuthRet             (_async)
+	connection Platform     on fcMissionWPUploadRet 	 to RMainCtrl on fcMissionWPUploadRet (_async)
 
 	// M600TelemetryEvents
-	connection Platform     on batteryInfo       to RMainCtrl on batteryInfo       (_async)
+	connection Platform     on batteryState       to RMainCtrl on batteryState       (_async)
 	
 	// MLX90640Events
 	connection Platform     on mlxHeatmap        to RMainCtrl on mlxHeatmap        (_async)
@@ -74,4 +74,7 @@ module FirefightingUAV {
 	connection RMainCtrl on pump           to RArmCtrl  on pump           (_async)
 	connection RMainCtrl on gimbalReq      to RArmCtrl  on gimbalReq      (_async)
 	connection RArmCtrl  on gimbalAck      to RMainCtrl on gimbalAck      (_async)
+connection Platform on gpsPosition to RMainCtrl on gpsPosition ( _async )
+	connection Platform on heightAboveTakeOff to RMainCtrl on heightAboveTakeOff ( _async )
 }
+
