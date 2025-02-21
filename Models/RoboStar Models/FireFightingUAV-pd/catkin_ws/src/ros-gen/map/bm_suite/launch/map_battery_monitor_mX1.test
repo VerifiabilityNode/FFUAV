@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <include file="$(find battery_monitor_m01)/launch/battery_monitor.launch" />
+  <test test-name="t135" pkg="map_bm_suite_t135" type="node" />
+  <test test-name="t136" pkg="map_bm_suite_t136" type="node" />
+  <test test-name="t137" pkg="map_bm_suite_t137" type="node" />
+  <test test-name="t139" pkg="map_bm_suite_t139" type="node" />
+  <test test-name="t138" pkg="map_bm_suite_t138" type="node" />
+</launch>

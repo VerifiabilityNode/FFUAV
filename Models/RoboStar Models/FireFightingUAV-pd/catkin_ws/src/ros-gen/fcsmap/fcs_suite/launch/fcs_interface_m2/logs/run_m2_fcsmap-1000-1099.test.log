@@ -1,0 +1,505 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-1148271.log
+[ WARN] [1739729264.325682970]: Failed to obtain SDK control authority
+[ INFO] [1739729262.026088274]: Starting the FCS_Interface.
+[ INFO] [1739729263.080222675]: FCS_Interface getting ready...
+[ INFO] [1739729263.525456808]: Activated drone successfully.
+[ WARN] [1739729270.448721364]: Failed to obtain SDK control authority
+[ INFO] [1739729267.757124479]: Starting the FCS_Interface.
+[ INFO] [1739729268.829142983]: FCS_Interface getting ready...
+[ INFO] [1739729269.248956938]: Activated drone successfully.
+[ WARN] [1739729276.733530127]: Failed to obtain SDK control authority
+[ INFO] [1739729273.571396951]: Starting the FCS_Interface.
+[ INFO] [1739729274.699591101]: FCS_Interface getting ready...
+[ INFO] [1739729275.133574236]: Activated drone successfully.
+[ WARN] [1739729282.293401540]: Failed to obtain SDK control authority
+[ INFO] [1739729279.560807275]: Starting the FCS_Interface.
+[ INFO] [1739729280.660951142]: FCS_Interface getting ready...
+[ INFO] [1739729281.093205098]: Activated drone successfully.
+[ WARN] [1739729288.524714914]: Failed to obtain SDK control authority
+[ INFO] [1739729285.409849353]: Starting the FCS_Interface.
+[ INFO] [1739729286.476958992]: FCS_Interface getting ready...
+[ INFO] [1739729287.324845919]: Activated drone successfully.
+[ WARN] [1739729293.960445917]: Failed to obtain SDK control authority
+[ INFO] [1739729291.257964997]: Starting the FCS_Interface.
+[ INFO] [1739729292.329324177]: FCS_Interface getting ready...
+[ INFO] [1739729293.160683100]: Activated drone successfully.
+[ WARN] [1739729299.638135770]: Failed to obtain SDK control authority
+[ INFO] [1739729296.915882031]: Starting the FCS_Interface.
+[ INFO] [1739729297.951392841]: FCS_Interface getting ready...
+[ INFO] [1739729298.444129181]: Activated drone successfully.
+[ WARN] [1739729305.563111959]: Failed to obtain SDK control authority
+[ INFO] [1739729302.773597737]: Starting the FCS_Interface.
+[ INFO] [1739729303.937301874]: FCS_Interface getting ready...
+[ INFO] [1739729304.360988955]: Activated drone successfully.
+[ WARN] [1739729311.764477117]: Failed to obtain SDK control authority
+[ INFO] [1739729308.671282863]: Starting the FCS_Interface.
+[ INFO] [1739729309.735855790]: FCS_Interface getting ready...
+[ INFO] [1739729310.170970065]: Activated drone successfully.
+[ WARN] [1739729316.767656552]: Failed to obtain SDK control authority
+[ INFO] [1739729314.436852112]: Starting the FCS_Interface.
+[ INFO] [1739729315.533379062]: FCS_Interface getting ready...
+[ INFO] [1739729315.968344625]: Activated drone successfully.
+[ WARN] [1739729322.930000147]: Failed to obtain SDK control authority
+[ INFO] [1739729320.150851984]: Starting the FCS_Interface.
+[ INFO] [1739729321.247236357]: FCS_Interface getting ready...
+[ INFO] [1739729321.729998992]: Activated drone successfully.
+[ WARN] [1739729328.215499506]: Failed to obtain SDK control authority
+[ INFO] [1739729325.860905442]: Starting the FCS_Interface.
+[ INFO] [1739729326.934122043]: FCS_Interface getting ready...
+[ INFO] [1739729327.412652015]: Activated drone successfully.
+[ WARN] [1739729334.661651565]: Failed to obtain SDK control authority
+[ INFO] [1739729331.837345122]: Starting the FCS_Interface.
+[ INFO] [1739729333.004818224]: FCS_Interface getting ready...
+[ INFO] [1739729333.461306099]: Activated drone successfully.
+[ WARN] [1739729340.479457986]: Failed to obtain SDK control authority
+[ INFO] [1739729337.693605976]: Starting the FCS_Interface.
+[ INFO] [1739729338.821360735]: FCS_Interface getting ready...
+[ INFO] [1739729339.278718124]: Activated drone successfully.
+[ WARN] [1739729346.267458366]: Failed to obtain SDK control authority
+[ INFO] [1739729343.562539327]: Starting the FCS_Interface.
+[ INFO] [1739729344.603608623]: FCS_Interface getting ready...
+[ INFO] [1739729345.078521627]: Activated drone successfully.
+[ WARN] [1739729351.590811130]: Failed to obtain SDK control authority
+[ INFO] [1739729349.240588658]: Starting the FCS_Interface.
+[ INFO] [1739729350.354204249]: FCS_Interface getting ready...
+[ INFO] [1739729350.791177435]: Activated drone successfully.
+[ WARN] [1739729357.944198960]: Failed to obtain SDK control authority
+[ INFO] [1739729355.161235928]: Starting the FCS_Interface.
+[ INFO] [1739729356.286943374]: FCS_Interface getting ready...
+[ INFO] [1739729356.742056260]: Activated drone successfully.
+[ WARN] [1739729364.598202892]: Failed to obtain SDK control authority
+[ INFO] [1739729361.061551222]: Starting the FCS_Interface.
+[ INFO] [1739729362.122808377]: FCS_Interface getting ready...
+[ INFO] [1739729362.996911341]: Activated drone successfully.
+[ WARN] [1739729369.958716078]: Failed to obtain SDK control authority
+[ INFO] [1739729366.807447270]: Starting the FCS_Interface.
+[ INFO] [1739729367.894642765]: FCS_Interface getting ready...
+[ INFO] [1739729368.758786574]: Activated drone successfully.
+[ WARN] [1739729375.341635938]: Failed to obtain SDK control authority
+[ INFO] [1739729372.491631537]: Starting the FCS_Interface.
+[ INFO] [1739729373.665246207]: FCS_Interface getting ready...
+[ INFO] [1739729374.141250510]: Activated drone successfully.
+[ WARN] [1739729381.524022352]: Failed to obtain SDK control authority
+[ INFO] [1739729378.665817995]: Starting the FCS_Interface.
+[ INFO] [1739729379.833455078]: FCS_Interface getting ready...
+[ INFO] [1739729380.324796764]: Activated drone successfully.
+[ WARN] [1739729387.587497848]: Failed to obtain SDK control authority
+[ INFO] [1739729384.734694266]: Starting the FCS_Interface.
+[ INFO] [1739729385.928091657]: FCS_Interface getting ready...
+[ INFO] [1739729386.390690950]: Activated drone successfully.
+[ WARN] [1739729393.417142880]: Failed to obtain SDK control authority
+[ INFO] [1739729390.669597802]: Starting the FCS_Interface.
+[ INFO] [1739729391.740171284]: FCS_Interface getting ready...
+[ INFO] [1739729392.212292365]: Activated drone successfully.
+[ WARN] [1739729399.373523487]: Failed to obtain SDK control authority
+[ INFO] [1739729396.653666600]: Starting the FCS_Interface.
+[ INFO] [1739729397.693909367]: FCS_Interface getting ready...
+[ INFO] [1739729398.172307490]: Activated drone successfully.
+[ WARN] [1739729404.850282051]: Failed to obtain SDK control authority
+[ INFO] [1739729402.481208349]: Starting the FCS_Interface.
+[ INFO] [1739729403.537234557]: FCS_Interface getting ready...
+[ INFO] [1739729404.050396397]: Activated drone successfully.
+[ WARN] [1739729411.235408197]: Failed to obtain SDK control authority
+[ INFO] [1739729408.429172965]: Starting the FCS_Interface.
+[ INFO] [1739729409.598747454]: FCS_Interface getting ready...
+[ INFO] [1739729410.034567117]: Activated drone successfully.
+[ WARN] [1739729416.845032086]: Failed to obtain SDK control authority
+[ INFO] [1739729414.475651680]: Starting the FCS_Interface.
+[ INFO] [1739729415.559281024]: FCS_Interface getting ready...
+[ INFO] [1739729416.043880614]: Activated drone successfully.
+[ WARN] [1739729422.821068539]: Failed to obtain SDK control authority
+[ INFO] [1739729420.460286828]: Starting the FCS_Interface.
+[ INFO] [1739729421.574068481]: FCS_Interface getting ready...
+[ INFO] [1739729422.015100583]: Activated drone successfully.
+[ WARN] [1739729428.538015597]: Failed to obtain SDK control authority
+[ INFO] [1739729426.220523841]: Starting the FCS_Interface.
+[ INFO] [1739729427.269626062]: FCS_Interface getting ready...
+[ INFO] [1739729427.739197785]: Activated drone successfully.
+[ WARN] [1739729434.917112436]: Failed to obtain SDK control authority
+[ INFO] [1739729432.125915499]: Starting the FCS_Interface.
+[ INFO] [1739729433.232997733]: FCS_Interface getting ready...
+[ INFO] [1739729433.712530866]: Activated drone successfully.
+[ WARN] [1739729441.520905726]: Failed to obtain SDK control authority
+[ INFO] [1739729437.990715320]: Starting the FCS_Interface.
+[ INFO] [1739729439.050017020]: FCS_Interface getting ready...
+[ INFO] [1739729439.920392977]: Activated drone successfully.
+[ WARN] [1739729446.166803007]: Failed to obtain SDK control authority
+[ INFO] [1739729443.827695506]: Starting the FCS_Interface.
+[ INFO] [1739729444.926094261]: FCS_Interface getting ready...
+[ INFO] [1739729445.365543960]: Activated drone successfully.
+[ WARN] [1739729452.357797111]: Failed to obtain SDK control authority
+[ INFO] [1739729449.634270958]: Starting the FCS_Interface.
+[ INFO] [1739729450.709003206]: FCS_Interface getting ready...
+[ INFO] [1739729451.557485117]: Activated drone successfully.
+[ WARN] [1739729458.370092188]: Failed to obtain SDK control authority
+[ INFO] [1739729455.653824201]: Starting the FCS_Interface.
+[ INFO] [1739729456.728766996]: FCS_Interface getting ready...
+[ INFO] [1739729457.170451887]: Activated drone successfully.
+[ WARN] [1739729464.172442521]: Failed to obtain SDK control authority
+[ INFO] [1739729461.471180930]: Starting the FCS_Interface.
+[ INFO] [1739729462.532341362]: FCS_Interface getting ready...
+[ INFO] [1739729462.992000372]: Activated drone successfully.
+[ WARN] [1739729470.350005347]: Failed to obtain SDK control authority
+[ INFO] [1739729467.170897860]: Starting the FCS_Interface.
+[ INFO] [1739729468.311185233]: FCS_Interface getting ready...
+[ INFO] [1739729469.148921132]: Activated drone successfully.
+[ WARN] [1739729475.392735248]: Failed to obtain SDK control authority
+[ INFO] [1739729473.042456585]: Starting the FCS_Interface.
+[ INFO] [1739729474.079426872]: FCS_Interface getting ready...
+[ INFO] [1739729474.592956769]: Activated drone successfully.
+[ WARN] [1739729481.234639559]: Failed to obtain SDK control authority
+[ INFO] [1739729478.926184036]: Starting the FCS_Interface.
+[ INFO] [1739729480.008347164]: FCS_Interface getting ready...
+[ INFO] [1739729480.434598778]: Activated drone successfully.
+[ WARN] [1739729487.519023807]: Failed to obtain SDK control authority
+[ INFO] [1739729484.718519288]: Starting the FCS_Interface.
+[ INFO] [1739729485.844420703]: FCS_Interface getting ready...
+[ INFO] [1739729486.323328853]: Activated drone successfully.
+[ WARN] [1739729493.732981532]: Failed to obtain SDK control authority
+[ INFO] [1739729490.626455089]: Starting the FCS_Interface.
+[ INFO] [1739729491.695357685]: FCS_Interface getting ready...
+[ INFO] [1739729492.532853555]: Activated drone successfully.
+[ WARN] [1739729499.232860306]: Failed to obtain SDK control authority
+[ INFO] [1739729496.411498304]: Starting the FCS_Interface.
+[ INFO] [1739729497.562608881]: FCS_Interface getting ready...
+[ INFO] [1739729498.033361407]: Activated drone successfully.
+[ WARN] [1739729504.754633459]: Failed to obtain SDK control authority
+[ INFO] [1739729502.449342803]: Starting the FCS_Interface.
+[ INFO] [1739729503.515765222]: FCS_Interface getting ready...
+[ INFO] [1739729503.959103344]: Activated drone successfully.
+[ WARN] [1739729510.830934288]: Failed to obtain SDK control authority
+[ INFO] [1739729508.130295255]: Starting the FCS_Interface.
+[ INFO] [1739729509.190695523]: FCS_Interface getting ready...
+[ INFO] [1739729510.033989743]: Activated drone successfully.
+[ WARN] [1739729516.632275064]: Failed to obtain SDK control authority
+[ INFO] [1739729513.906826999]: Starting the FCS_Interface.
+[ INFO] [1739729514.995198838]: FCS_Interface getting ready...
+[ INFO] [1739729515.434804313]: Activated drone successfully.
+[ WARN] [1739729522.939243335]: Failed to obtain SDK control authority
+[ INFO] [1739729519.826358689]: Starting the FCS_Interface.
+[ INFO] [1739729520.875671252]: FCS_Interface getting ready...
+[ INFO] [1739729521.743234130]: Activated drone successfully.
+[ WARN] [1739729528.180841126]: Failed to obtain SDK control authority
+[ INFO] [1739729525.484891276]: Starting the FCS_Interface.
+[ INFO] [1739729526.553965233]: FCS_Interface getting ready...
+[ INFO] [1739729526.979855388]: Activated drone successfully.
+[ WARN] [1739729533.908566598]: Failed to obtain SDK control authority
+[ INFO] [1739729531.189016798]: Starting the FCS_Interface.
+[ INFO] [1739729532.275353526]: FCS_Interface getting ready...
+[ INFO] [1739729533.111118450]: Activated drone successfully.
+[ WARN] [1739729539.449645167]: Failed to obtain SDK control authority
+[ INFO] [1739729537.089550916]: Starting the FCS_Interface.
+[ INFO] [1739729538.129678327]: FCS_Interface getting ready...
+[ INFO] [1739729538.649586247]: Activated drone successfully.
+[ WARN] [1739729546.168672353]: Failed to obtain SDK control authority
+[ INFO] [1739729543.015515264]: Starting the FCS_Interface.
+[ INFO] [1739729544.054863336]: FCS_Interface getting ready...
+[ INFO] [1739729544.939780017]: Activated drone successfully.
+[ WARN] [1739729552.340773639]: Failed to obtain SDK control authority
+[ INFO] [1739729548.777011814]: Starting the FCS_Interface.
+[ INFO] [1739729549.927553409]: FCS_Interface getting ready...
+[ INFO] [1739729550.743220100]: Activated drone successfully.
+[ WARN] [1739729557.109415506]: Failed to obtain SDK control authority
+[ INFO] [1739729554.729461008]: Starting the FCS_Interface.
+[ INFO] [1739729555.770494792]: FCS_Interface getting ready...
+[ INFO] [1739729556.308444228]: Activated drone successfully.
+[ WARN] [1739729563.405489320]: Failed to obtain SDK control authority
+[ INFO] [1739729560.674051612]: Starting the FCS_Interface.
+[ INFO] [1739729561.751459981]: FCS_Interface getting ready...
+[ INFO] [1739729562.206188533]: Activated drone successfully.
+[ WARN] [1739729569.572649526]: Failed to obtain SDK control authority
+[ INFO] [1739729566.463278644]: Starting the FCS_Interface.
+[ INFO] [1739729567.496669874]: FCS_Interface getting ready...
+[ INFO] [1739729567.972169778]: Activated drone successfully.
+[ WARN] [1739729574.780872732]: Failed to obtain SDK control authority
+[ INFO] [1739729572.086749511]: Starting the FCS_Interface.
+[ INFO] [1739729573.132127493]: FCS_Interface getting ready...
+[ INFO] [1739729573.577908961]: Activated drone successfully.
+[ WARN] [1739729580.294934554]: Failed to obtain SDK control authority
+[ INFO] [1739729577.993628462]: Starting the FCS_Interface.
+[ INFO] [1739729579.059552368]: FCS_Interface getting ready...
+[ INFO] [1739729579.495452933]: Activated drone successfully.
+[ WARN] [1739729586.510601974]: Failed to obtain SDK control authority
+[ INFO] [1739729583.797591842]: Starting the FCS_Interface.
+[ INFO] [1739729584.878723960]: FCS_Interface getting ready...
+[ INFO] [1739729585.310569120]: Activated drone successfully.
+[ WARN] [1739729592.451577637]: Failed to obtain SDK control authority
+[ INFO] [1739729589.752747238]: Starting the FCS_Interface.
+[ INFO] [1739729590.814682613]: FCS_Interface getting ready...
+[ INFO] [1739729591.253150705]: Activated drone successfully.
+[ WARN] [1739729598.074163436]: Failed to obtain SDK control authority
+[ INFO] [1739729595.773585714]: Starting the FCS_Interface.
+[ INFO] [1739729596.826947514]: FCS_Interface getting ready...
+[ INFO] [1739729597.274681300]: Activated drone successfully.
+[ WARN] [1739729603.820684133]: Failed to obtain SDK control authority
+[ INFO] [1739729601.523988190]: Starting the FCS_Interface.
+[ INFO] [1739729602.555699322]: FCS_Interface getting ready...
+[ INFO] [1739729603.020440746]: Activated drone successfully.
+[ WARN] [1739729609.551751389]: Failed to obtain SDK control authority
+[ INFO] [1739729607.194613357]: Starting the FCS_Interface.
+[ INFO] [1739729608.263531820]: FCS_Interface getting ready...
+[ INFO] [1739729608.745812448]: Activated drone successfully.
+[ WARN] [1739729615.343400897]: Failed to obtain SDK control authority
+[ INFO] [1739729613.017656721]: Starting the FCS_Interface.
+[ INFO] [1739729614.093651225]: FCS_Interface getting ready...
+[ INFO] [1739729614.546759873]: Activated drone successfully.
+[ WARN] [1739729621.701456497]: Failed to obtain SDK control authority
+[ INFO] [1739729618.980933479]: Starting the FCS_Interface.
+[ INFO] [1739729620.039057823]: FCS_Interface getting ready...
+[ INFO] [1739729620.500748071]: Activated drone successfully.
+[ WARN] [1739729627.661283270]: Failed to obtain SDK control authority
+[ INFO] [1739729624.940484174]: Starting the FCS_Interface.
+[ INFO] [1739729626.038760754]: FCS_Interface getting ready...
+[ INFO] [1739729626.464114796]: Activated drone successfully.
+[ WARN] [1739729633.554547049]: Failed to obtain SDK control authority
+[ INFO] [1739729630.800897271]: Starting the FCS_Interface.
+[ INFO] [1739729631.878185085]: FCS_Interface getting ready...
+[ INFO] [1739729632.354753244]: Activated drone successfully.
+[ WARN] [1739729639.531430890]: Failed to obtain SDK control authority
+[ INFO] [1739729636.781006320]: Starting the FCS_Interface.
+[ INFO] [1739729637.865638410]: FCS_Interface getting ready...
+[ INFO] [1739729638.331698575]: Activated drone successfully.
+[ WARN] [1739729645.017579550]: Failed to obtain SDK control authority
+[ INFO] [1739729642.717720998]: Starting the FCS_Interface.
+[ INFO] [1739729643.779582355]: FCS_Interface getting ready...
+[ INFO] [1739729644.216471510]: Activated drone successfully.
+[ WARN] [1739729651.198619439]: Failed to obtain SDK control authority
+[ INFO] [1739729648.498319299]: Starting the FCS_Interface.
+[ INFO] [1739729649.567114469]: FCS_Interface getting ready...
+[ INFO] [1739729650.002190516]: Activated drone successfully.
+[ WARN] [1739729657.047679993]: Failed to obtain SDK control authority
+[ INFO] [1739729654.320026565]: Starting the FCS_Interface.
+[ INFO] [1739729655.375925931]: FCS_Interface getting ready...
+[ INFO] [1739729655.828444199]: Activated drone successfully.
+[ WARN] [1739729662.789853083]: Failed to obtain SDK control authority
+[ INFO] [1739729660.082754367]: Starting the FCS_Interface.
+[ INFO] [1739729661.147142633]: FCS_Interface getting ready...
+[ INFO] [1739729661.588944581]: Activated drone successfully.
+[ WARN] [1739729668.668536017]: Failed to obtain SDK control authority
+[ INFO] [1739729665.923077970]: Starting the FCS_Interface.
+[ INFO] [1739729667.019565138]: FCS_Interface getting ready...
+[ INFO] [1739729667.470415810]: Activated drone successfully.
+[ WARN] [1739729674.242030159]: Failed to obtain SDK control authority
+[ INFO] [1739729671.909257162]: Starting the FCS_Interface.
+[ INFO] [1739729672.992622188]: FCS_Interface getting ready...
+[ INFO] [1739729673.429185869]: Activated drone successfully.
+[ WARN] [1739729680.513360407]: Failed to obtain SDK control authority
+[ INFO] [1739729677.815765718]: Starting the FCS_Interface.
+[ INFO] [1739729678.872793335]: FCS_Interface getting ready...
+[ INFO] [1739729679.314182429]: Activated drone successfully.
+[ WARN] [1739729686.163393007]: Failed to obtain SDK control authority
+[ INFO] [1739729683.783429092]: Starting the FCS_Interface.
+[ INFO] [1739729684.934842788]: FCS_Interface getting ready...
+[ INFO] [1739729685.363316179]: Activated drone successfully.
+[ WARN] [1739729691.895120211]: Failed to obtain SDK control authority
+[ INFO] [1739729689.578288841]: Starting the FCS_Interface.
+[ INFO] [1739729690.677651616]: FCS_Interface getting ready...
+[ INFO] [1739729691.132728293]: Activated drone successfully.
+[ WARN] [1739729698.212811317]: Failed to obtain SDK control authority
+[ INFO] [1739729695.495576874]: Starting the FCS_Interface.
+[ INFO] [1739729696.537948505]: FCS_Interface getting ready...
+[ INFO] [1739729697.012421916]: Activated drone successfully.
+[ WARN] [1739729704.288513761]: Failed to obtain SDK control authority
+[ INFO] [1739729701.157038780]: Starting the FCS_Interface.
+[ INFO] [1739729702.227860307]: FCS_Interface getting ready...
+[ INFO] [1739729702.688645703]: Activated drone successfully.
+[ WARN] [1739729709.772838650]: Failed to obtain SDK control authority
+[ INFO] [1739729707.037864356]: Starting the FCS_Interface.
+[ INFO] [1739729708.133216800]: FCS_Interface getting ready...
+[ INFO] [1739729708.572602742]: Activated drone successfully.
+[ WARN] [1739729715.685731409]: Failed to obtain SDK control authority
+[ INFO] [1739729712.978737086]: Starting the FCS_Interface.
+[ INFO] [1739729714.039218469]: FCS_Interface getting ready...
+[ INFO] [1739729714.485845155]: Activated drone successfully.
+[ WARN] [1739729721.244999655]: Failed to obtain SDK control authority
+[ INFO] [1739729718.870094789]: Starting the FCS_Interface.
+[ INFO] [1739729719.984715244]: FCS_Interface getting ready...
+[ INFO] [1739729720.445865928]: Activated drone successfully.
+[ WARN] [1739729727.507651163]: Failed to obtain SDK control authority
+[ INFO] [1739729724.794261163]: Starting the FCS_Interface.
+[ INFO] [1739729725.870026067]: FCS_Interface getting ready...
+[ INFO] [1739729726.315828654]: Activated drone successfully.
+[ WARN] [1739729733.401934633]: Failed to obtain SDK control authority
+[ INFO] [1739729730.538190165]: Starting the FCS_Interface.
+[ INFO] [1739729731.679252972]: FCS_Interface getting ready...
+[ INFO] [1739729732.190318388]: Activated drone successfully.
+[ WARN] [1739729739.645533312]: Failed to obtain SDK control authority
+[ INFO] [1739729736.441231828]: Starting the FCS_Interface.
+[ INFO] [1739729737.534679976]: FCS_Interface getting ready...
+[ INFO] [1739729738.445188914]: Activated drone successfully.
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_m2_m2_fcsmap-1000-1099.xml
+[Testcase: testt1000] ... ok
+[Testcase: testt1001] ... ok
+[Testcase: testt1002] ... ok
+[Testcase: testt1003] ... ok
+[Testcase: testt1004] ... ok
+[Testcase: testt1005] ... ok
+[Testcase: testt1006] ... ok
+[Testcase: testt1007] ... ok
+[Testcase: testt1008] ... ok
+[Testcase: testt1009] ... ok
+[Testcase: testt1010] ... ok
+[Testcase: testt1011] ... ok
+[Testcase: testt1012] ... ok
+[Testcase: testt1013] ... ok
+[Testcase: testt1014] ... ok
+[Testcase: testt1015] ... ok
+[Testcase: testt1016] ... ok
+[Testcase: testt1017] ... ok
+[Testcase: testt1018] ... ok
+[Testcase: testt1019] ... ok
+[Testcase: testt1020] ... ok
+[Testcase: testt1021] ... ok
+[Testcase: testt1022] ... ok
+[Testcase: testt1023] ... ok
+[Testcase: testt1024] ... ok
+[Testcase: testt1025] ... ok
+[Testcase: testt1026] ... ok
+[Testcase: testt1027] ... ok
+[Testcase: testt1028] ... ok
+[Testcase: testt1029] ... ok
+[Testcase: testt1030] ... ok
+[Testcase: testt1031] ... ok
+[Testcase: testt1032] ... ok
+[Testcase: testt1033] ... ok
+[Testcase: testt1034] ... ok
+[Testcase: testt1035] ... ok
+[Testcase: testt1036] ... ok
+[Testcase: testt1037] ... ok
+[Testcase: testt1038] ... ok
+[Testcase: testt1039] ... ok
+[Testcase: testt1040] ... ok
+[Testcase: testt1041] ... ok
+[Testcase: testt1042] ... ok
+[Testcase: testt1043] ... ok
+[Testcase: testt1044] ... ok
+[Testcase: testt1045] ... ok
+[Testcase: testt1046] ... ok
+[Testcase: testt1047] ... ok
+[Testcase: testt1048] ... ok
+[Testcase: testt1049] ... ok
+[Testcase: testt1050] ... ok
+[Testcase: testt1051] ... ok
+[Testcase: testt1052] ... ok
+[Testcase: testt1053] ... ok
+[Testcase: testt1054] ... ok
+[Testcase: testt1055] ... ok
+[Testcase: testt1056] ... ok
+[Testcase: testt1057] ... ok
+[Testcase: testt1058] ... ok
+[Testcase: testt1059] ... ok
+[Testcase: testt1060] ... ok
+[Testcase: testt1061] ... ok
+[Testcase: testt1062] ... ok
+[Testcase: testt1063] ... ok
+[Testcase: testt1064] ... ok
+[Testcase: testt1065] ... ok
+[Testcase: testt1066] ... ok
+[Testcase: testt1067] ... ok
+[Testcase: testt1068] ... ok
+[Testcase: testt1069] ... ok
+[Testcase: testt1070] ... ok
+[Testcase: testt1071] ... ok
+[Testcase: testt1072] ... ok
+[Testcase: testt1073] ... ok
+[Testcase: testt1074] ... ok
+[Testcase: testt1075] ... ok
+[Testcase: testt1076] ... ok
+[Testcase: testt1077] ... ok
+[Testcase: testt1078] ... ok
+[Testcase: testt1079] ... ok
+[Testcase: testt1080] ... ok
+[Testcase: testt1081] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[fcsmap_fcs_suite.rosunit-t1000/test][passed]
+[fcsmap_fcs_suite.rosunit-t1001/test][passed]
+[fcsmap_fcs_suite.rosunit-t1002/test][passed]
+[fcsmap_fcs_suite.rosunit-t1003/test][passed]
+[fcsmap_fcs_suite.rosunit-t1004/test][passed]
+[fcsmap_fcs_suite.rosunit-t1005/test][passed]
+[fcsmap_fcs_suite.rosunit-t1006/test][passed]
+[fcsmap_fcs_suite.rosunit-t1007/test][passed]
+[fcsmap_fcs_suite.rosunit-t1008/test][passed]
+[fcsmap_fcs_suite.rosunit-t1009/test][passed]
+[fcsmap_fcs_suite.rosunit-t1010/test][passed]
+[fcsmap_fcs_suite.rosunit-t1011/test][passed]
+[fcsmap_fcs_suite.rosunit-t1012/test][passed]
+[fcsmap_fcs_suite.rosunit-t1013/test][passed]
+[fcsmap_fcs_suite.rosunit-t1014/test][passed]
+[fcsmap_fcs_suite.rosunit-t1015/test][passed]
+[fcsmap_fcs_suite.rosunit-t1016/test][passed]
+[fcsmap_fcs_suite.rosunit-t1017/test][passed]
+[fcsmap_fcs_suite.rosunit-t1018/test][passed]
+[fcsmap_fcs_suite.rosunit-t1019/test][passed]
+[fcsmap_fcs_suite.rosunit-t1020/test][passed]
+[fcsmap_fcs_suite.rosunit-t1021/test][passed]
+[fcsmap_fcs_suite.rosunit-t1022/test][passed]
+[fcsmap_fcs_suite.rosunit-t1023/test][passed]
+[fcsmap_fcs_suite.rosunit-t1024/test][passed]
+[fcsmap_fcs_suite.rosunit-t1025/test][passed]
+[fcsmap_fcs_suite.rosunit-t1026/test][passed]
+[fcsmap_fcs_suite.rosunit-t1027/test][passed]
+[fcsmap_fcs_suite.rosunit-t1028/test][passed]
+[fcsmap_fcs_suite.rosunit-t1029/test][passed]
+[fcsmap_fcs_suite.rosunit-t1030/test][passed]
+[fcsmap_fcs_suite.rosunit-t1031/test][passed]
+[fcsmap_fcs_suite.rosunit-t1032/test][passed]
+[fcsmap_fcs_suite.rosunit-t1033/test][passed]
+[fcsmap_fcs_suite.rosunit-t1034/test][passed]
+[fcsmap_fcs_suite.rosunit-t1035/test][passed]
+[fcsmap_fcs_suite.rosunit-t1036/test][passed]
+[fcsmap_fcs_suite.rosunit-t1037/test][passed]
+[fcsmap_fcs_suite.rosunit-t1038/test][passed]
+[fcsmap_fcs_suite.rosunit-t1039/test][passed]
+[fcsmap_fcs_suite.rosunit-t1040/test][passed]
+[fcsmap_fcs_suite.rosunit-t1041/test][passed]
+[fcsmap_fcs_suite.rosunit-t1042/test][passed]
+[fcsmap_fcs_suite.rosunit-t1043/test][passed]
+[fcsmap_fcs_suite.rosunit-t1044/test][passed]
+[fcsmap_fcs_suite.rosunit-t1045/test][passed]
+[fcsmap_fcs_suite.rosunit-t1046/test][passed]
+[fcsmap_fcs_suite.rosunit-t1047/test][passed]
+[fcsmap_fcs_suite.rosunit-t1048/test][passed]
+[fcsmap_fcs_suite.rosunit-t1049/test][passed]
+[fcsmap_fcs_suite.rosunit-t1050/test][passed]
+[fcsmap_fcs_suite.rosunit-t1051/test][passed]
+[fcsmap_fcs_suite.rosunit-t1052/test][passed]
+[fcsmap_fcs_suite.rosunit-t1053/test][passed]
+[fcsmap_fcs_suite.rosunit-t1054/test][passed]
+[fcsmap_fcs_suite.rosunit-t1055/test][passed]
+[fcsmap_fcs_suite.rosunit-t1056/test][passed]
+[fcsmap_fcs_suite.rosunit-t1057/test][passed]
+[fcsmap_fcs_suite.rosunit-t1058/test][passed]
+[fcsmap_fcs_suite.rosunit-t1059/test][passed]
+[fcsmap_fcs_suite.rosunit-t1060/test][passed]
+[fcsmap_fcs_suite.rosunit-t1061/test][passed]
+[fcsmap_fcs_suite.rosunit-t1062/test][passed]
+[fcsmap_fcs_suite.rosunit-t1063/test][passed]
+[fcsmap_fcs_suite.rosunit-t1064/test][passed]
+[fcsmap_fcs_suite.rosunit-t1065/test][passed]
+[fcsmap_fcs_suite.rosunit-t1066/test][passed]
+[fcsmap_fcs_suite.rosunit-t1067/test][passed]
+[fcsmap_fcs_suite.rosunit-t1068/test][passed]
+[fcsmap_fcs_suite.rosunit-t1069/test][passed]
+[fcsmap_fcs_suite.rosunit-t1070/test][passed]
+[fcsmap_fcs_suite.rosunit-t1071/test][passed]
+[fcsmap_fcs_suite.rosunit-t1072/test][passed]
+[fcsmap_fcs_suite.rosunit-t1073/test][passed]
+[fcsmap_fcs_suite.rosunit-t1074/test][passed]
+[fcsmap_fcs_suite.rosunit-t1075/test][passed]
+[fcsmap_fcs_suite.rosunit-t1076/test][passed]
+[fcsmap_fcs_suite.rosunit-t1077/test][passed]
+[fcsmap_fcs_suite.rosunit-t1078/test][passed]
+[fcsmap_fcs_suite.rosunit-t1079/test][passed]
+[fcsmap_fcs_suite.rosunit-t1080/test][passed]
+[fcsmap_fcs_suite.rosunit-t1081/test][passed]
+
+SUMMARY
+ * RESULT: SUCCESS
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-1148271.log

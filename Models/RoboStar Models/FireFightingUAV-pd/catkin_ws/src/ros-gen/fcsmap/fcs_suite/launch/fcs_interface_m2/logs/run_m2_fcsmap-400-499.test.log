@@ -1,0 +1,48 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-1493492.log
+[ WARN] [1739744315.454644900]: activate failed.
+[ WARN] [1739744315.454730800]: ack.info: set = 0 id = 0
+[ WARN] [1739744315.454746740]: ack.data: 0
+[ INFO] [1739744313.946703254]: Starting the FCS_Interface.
+[ INFO] [1739744315.022578632]: FCS_Interface getting ready...
+[ WARN] [1739744320.277045139]: activate failed.
+[ WARN] [1739744320.277156199]: ack.info: set = 0 id = 0
+[ WARN] [1739744320.277171759]: ack.data: 0
+[ INFO] [1739744318.759154205]: Starting the FCS_Interface.
+[ INFO] [1739744319.825339601]: FCS_Interface getting ready...
+[ WARN] [1739744325.115893933]: activate failed.
+[ WARN] [1739744325.116065383]: ack.info: set = 0 id = 0
+[ WARN] [1739744325.116082473]: ack.data: 0
+[ INFO] [1739744323.589439317]: Starting the FCS_Interface.
+[ INFO] [1739744324.668838114]: FCS_Interface getting ready...
+[ WARN] [1739744330.013517377]: activate failed.
+[ WARN] [1739744330.013650638]: ack.info: set = 0 id = 0
+[ WARN] [1739744330.013666948]: ack.data: 0
+[ INFO] [1739744328.500481986]: Starting the FCS_Interface.
+[ INFO] [1739744329.579998592]: FCS_Interface getting ready...
+[ WARN] [1739744335.282192242]: activate failed.
+[ WARN] [1739744335.282364202]: ack.info: set = 0 id = 0
+[ WARN] [1739744335.282403403]: ack.data: 0
+[ INFO] [1739744333.404638433]: Starting the FCS_Interface.
+[ INFO] [1739744334.456762442]: FCS_Interface getting ready...
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_m2_m2_fcsmap-400-499.xml
+[Testcase: testt400] ... ok
+[Testcase: testt401] ... ok
+[Testcase: testt402] ... ok
+[Testcase: testt403] ... ok
+[Testcase: testt404] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[fcsmap_fcs_suite.rosunit-t400/test][passed]
+[fcsmap_fcs_suite.rosunit-t401/test][passed]
+[fcsmap_fcs_suite.rosunit-t402/test][passed]
+[fcsmap_fcs_suite.rosunit-t403/test][passed]
+[fcsmap_fcs_suite.rosunit-t404/test][passed]
+
+SUMMARY
+ * RESULT: SUCCESS
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-1493492.log

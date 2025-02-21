@@ -81,25 +81,25 @@ interface BatteryPlanningEvents {
 // Topic subscriptions
 //
 
-interface FireSubscriber {
+interface FireEvents {
 	// Receives fire information.
 	event fireIn : FireTarget
 }
 // Added 2023-02-03.
 // In the implementation, this may be merged with FireSubscriber.
-interface FireStatusSubscriber {
+interface FireStatusEvents {
 	// Receives fire status information.
 	event fireStatusIn : FireStatus
 }
-interface SpraySubscriber {
+interface SprayEvents {
 	// Receives spray commands.
-	event sprayIn : PumpStatus
+	event sprayIn : PumpCommand
 }
-interface WaterSubscriber {
+interface WaterEvents {
 	// Receives the current status of the water monitor.
 	event waterIn : WaterStatus
 }
-interface VNavSubscriber {
+interface VNavEvents {
 	// Receives the current output of the visual navigator.
 	event vnavIn : VNavOutput
 }
@@ -117,7 +117,7 @@ interface InterCtrlSprayAimEvents {
 	//
 
 	// Requests that the pump goes on or off.
-	event pump : PumpStatus
+	event pump : PumpCommand
 	// Requests that the gimbal move to the given angle.
 	event gimbalReq : AngleReq
 	

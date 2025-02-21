@@ -1,0 +1,12 @@
+BuilderConfiguration.is_project_specific=true
+autobuilding=true
+eclipse.preferences.version=1
+outlet.circus.robocalc.robotest.rostest.generator.cleanDirectory=false
+outlet.circus.robocalc.robotest.rostest.generator.cleanupDerived=true
+outlet.circus.robocalc.robotest.rostest.generator.createDirectory=true
+outlet.circus.robocalc.robotest.rostest.generator.derived=true
+outlet.circus.robocalc.robotest.rostest.generator.directory=catkin_ws/src/ros-gen
+outlet.circus.robocalc.robotest.rostest.generator.hideLocalSyntheticVariables=true
+outlet.circus.robocalc.robotest.rostest.generator.installDslAsPrimarySource=false
+outlet.circus.robocalc.robotest.rostest.generator.keepLocalHistory=true
+outlet.circus.robocalc.robotest.rostest.generator.override=true

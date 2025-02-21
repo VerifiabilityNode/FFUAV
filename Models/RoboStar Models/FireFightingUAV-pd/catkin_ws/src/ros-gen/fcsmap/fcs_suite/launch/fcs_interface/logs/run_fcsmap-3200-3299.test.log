@@ -1,0 +1,1515 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-962431.log
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_fcsmap-3200-3299.xml
+[Testcase: testt3200] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3200] for test node [fcsmap_fcs_suite_t3200/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3201] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3201] for test node [fcsmap_fcs_suite_t3201/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3202] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3202] for test node [fcsmap_fcs_suite_t3202/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3203] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3203] for test node [fcsmap_fcs_suite_t3203/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3204] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3204] for test node [fcsmap_fcs_suite_t3204/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3205] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3205] for test node [fcsmap_fcs_suite_t3205/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3206] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3206] for test node [fcsmap_fcs_suite_t3206/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3207] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3207] for test node [fcsmap_fcs_suite_t3207/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3208] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3208] for test node [fcsmap_fcs_suite_t3208/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3209] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3209] for test node [fcsmap_fcs_suite_t3209/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3210] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3210] for test node [fcsmap_fcs_suite_t3210/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3211] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3211] for test node [fcsmap_fcs_suite_t3211/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3212] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3212] for test node [fcsmap_fcs_suite_t3212/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3213] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3213] for test node [fcsmap_fcs_suite_t3213/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3214] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3214] for test node [fcsmap_fcs_suite_t3214/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3215] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3215] for test node [fcsmap_fcs_suite_t3215/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3216] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3216] for test node [fcsmap_fcs_suite_t3216/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3217] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3217] for test node [fcsmap_fcs_suite_t3217/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3218] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3218] for test node [fcsmap_fcs_suite_t3218/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3219] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3219] for test node [fcsmap_fcs_suite_t3219/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3220] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3220] for test node [fcsmap_fcs_suite_t3220/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3221] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3221] for test node [fcsmap_fcs_suite_t3221/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3222] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3222] for test node [fcsmap_fcs_suite_t3222/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3223] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3223] for test node [fcsmap_fcs_suite_t3223/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3224] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3224] for test node [fcsmap_fcs_suite_t3224/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3225] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3225] for test node [fcsmap_fcs_suite_t3225/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3226] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3226] for test node [fcsmap_fcs_suite_t3226/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3227] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3227] for test node [fcsmap_fcs_suite_t3227/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3228] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3228] for test node [fcsmap_fcs_suite_t3228/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3229] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3229] for test node [fcsmap_fcs_suite_t3229/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3230] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3230] for test node [fcsmap_fcs_suite_t3230/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3231] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3231] for test node [fcsmap_fcs_suite_t3231/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3232] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3232] for test node [fcsmap_fcs_suite_t3232/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3233] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3233] for test node [fcsmap_fcs_suite_t3233/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3234] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3234] for test node [fcsmap_fcs_suite_t3234/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3235] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3235] for test node [fcsmap_fcs_suite_t3235/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3236] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3236] for test node [fcsmap_fcs_suite_t3236/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3237] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3237] for test node [fcsmap_fcs_suite_t3237/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3238] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3238] for test node [fcsmap_fcs_suite_t3238/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3239] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3239] for test node [fcsmap_fcs_suite_t3239/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3240] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3240] for test node [fcsmap_fcs_suite_t3240/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3241] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3241] for test node [fcsmap_fcs_suite_t3241/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3242] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3242] for test node [fcsmap_fcs_suite_t3242/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3243] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3243] for test node [fcsmap_fcs_suite_t3243/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3244] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3244] for test node [fcsmap_fcs_suite_t3244/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3245] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3245] for test node [fcsmap_fcs_suite_t3245/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3246] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3246] for test node [fcsmap_fcs_suite_t3246/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3247] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3247] for test node [fcsmap_fcs_suite_t3247/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3248] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3248] for test node [fcsmap_fcs_suite_t3248/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3249] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3249] for test node [fcsmap_fcs_suite_t3249/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3250] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3250] for test node [fcsmap_fcs_suite_t3250/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3251] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3251] for test node [fcsmap_fcs_suite_t3251/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3252] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3252] for test node [fcsmap_fcs_suite_t3252/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3253] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3253] for test node [fcsmap_fcs_suite_t3253/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3254] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3254] for test node [fcsmap_fcs_suite_t3254/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3255] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3255] for test node [fcsmap_fcs_suite_t3255/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3256] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3256] for test node [fcsmap_fcs_suite_t3256/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3257] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3257] for test node [fcsmap_fcs_suite_t3257/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3258] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3258] for test node [fcsmap_fcs_suite_t3258/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3259] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3259] for test node [fcsmap_fcs_suite_t3259/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3260] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3260] for test node [fcsmap_fcs_suite_t3260/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3261] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3261] for test node [fcsmap_fcs_suite_t3261/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3262] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3262] for test node [fcsmap_fcs_suite_t3262/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3263] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3263] for test node [fcsmap_fcs_suite_t3263/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3264] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3264] for test node [fcsmap_fcs_suite_t3264/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3265] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3265] for test node [fcsmap_fcs_suite_t3265/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3266] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3266] for test node [fcsmap_fcs_suite_t3266/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3267] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3267] for test node [fcsmap_fcs_suite_t3267/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3268] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3268] for test node [fcsmap_fcs_suite_t3268/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3269] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3269] for test node [fcsmap_fcs_suite_t3269/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3270] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3270] for test node [fcsmap_fcs_suite_t3270/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3271] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3271] for test node [fcsmap_fcs_suite_t3271/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3272] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3272] for test node [fcsmap_fcs_suite_t3272/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3273] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3273] for test node [fcsmap_fcs_suite_t3273/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3274] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3274] for test node [fcsmap_fcs_suite_t3274/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3275] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3275] for test node [fcsmap_fcs_suite_t3275/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3276] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3276] for test node [fcsmap_fcs_suite_t3276/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3277] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3277] for test node [fcsmap_fcs_suite_t3277/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3278] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3278] for test node [fcsmap_fcs_suite_t3278/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3279] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3279] for test node [fcsmap_fcs_suite_t3279/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3280] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3280] for test node [fcsmap_fcs_suite_t3280/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3281] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3281] for test node [fcsmap_fcs_suite_t3281/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3282] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3282] for test node [fcsmap_fcs_suite_t3282/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3283] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3283] for test node [fcsmap_fcs_suite_t3283/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3284] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3284] for test node [fcsmap_fcs_suite_t3284/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3285] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3285] for test node [fcsmap_fcs_suite_t3285/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3286] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3286] for test node [fcsmap_fcs_suite_t3286/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3287] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3287] for test node [fcsmap_fcs_suite_t3287/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3288] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3288] for test node [fcsmap_fcs_suite_t3288/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3289] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3289] for test node [fcsmap_fcs_suite_t3289/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3290] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3290] for test node [fcsmap_fcs_suite_t3290/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3291] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3291] for test node [fcsmap_fcs_suite_t3291/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3292] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3292] for test node [fcsmap_fcs_suite_t3292/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3293] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3293] for test node [fcsmap_fcs_suite_t3293/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3294] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3294] for test node [fcsmap_fcs_suite_t3294/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3295] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3295] for test node [fcsmap_fcs_suite_t3295/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3296] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3296] for test node [fcsmap_fcs_suite_t3296/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3297] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3297] for test node [fcsmap_fcs_suite_t3297/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3298] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3298] for test node [fcsmap_fcs_suite_t3298/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+[Testcase: testt3299] ... FAILURE!
+FAILURE: Package [fcsmap_fcs_suite_t3299] for test node [fcsmap_fcs_suite_t3299/node] does not exist
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 93, in fn
+    self.fail(message)
+  File "/usr/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[testt3200][failed]
+[testt3201][failed]
+[testt3202][failed]
+[testt3203][failed]
+[testt3204][failed]
+[testt3205][failed]
+[testt3206][failed]
+[testt3207][failed]
+[testt3208][failed]
+[testt3209][failed]
+[testt3210][failed]
+[testt3211][failed]
+[testt3212][failed]
+[testt3213][failed]
+[testt3214][failed]
+[testt3215][failed]
+[testt3216][failed]
+[testt3217][failed]
+[testt3218][failed]
+[testt3219][failed]
+[testt3220][failed]
+[testt3221][failed]
+[testt3222][failed]
+[testt3223][failed]
+[testt3224][failed]
+[testt3225][failed]
+[testt3226][failed]
+[testt3227][failed]
+[testt3228][failed]
+[testt3229][failed]
+[testt3230][failed]
+[testt3231][failed]
+[testt3232][failed]
+[testt3233][failed]
+[testt3234][failed]
+[testt3235][failed]
+[testt3236][failed]
+[testt3237][failed]
+[testt3238][failed]
+[testt3239][failed]
+[testt3240][failed]
+[testt3241][failed]
+[testt3242][failed]
+[testt3243][failed]
+[testt3244][failed]
+[testt3245][failed]
+[testt3246][failed]
+[testt3247][failed]
+[testt3248][failed]
+[testt3249][failed]
+[testt3250][failed]
+[testt3251][failed]
+[testt3252][failed]
+[testt3253][failed]
+[testt3254][failed]
+[testt3255][failed]
+[testt3256][failed]
+[testt3257][failed]
+[testt3258][failed]
+[testt3259][failed]
+[testt3260][failed]
+[testt3261][failed]
+[testt3262][failed]
+[testt3263][failed]
+[testt3264][failed]
+[testt3265][failed]
+[testt3266][failed]
+[testt3267][failed]
+[testt3268][failed]
+[testt3269][failed]
+[testt3270][failed]
+[testt3271][failed]
+[testt3272][failed]
+[testt3273][failed]
+[testt3274][failed]
+[testt3275][failed]
+[testt3276][failed]
+[testt3277][failed]
+[testt3278][failed]
+[testt3279][failed]
+[testt3280][failed]
+[testt3281][failed]
+[testt3282][failed]
+[testt3283][failed]
+[testt3284][failed]
+[testt3285][failed]
+[testt3286][failed]
+[testt3287][failed]
+[testt3288][failed]
+[testt3289][failed]
+[testt3290][failed]
+[testt3291][failed]
+[testt3292][failed]
+[testt3293][failed]
+[testt3294][failed]
+[testt3295][failed]
+[testt3296][failed]
+[testt3297][failed]
+[testt3298][failed]
+[testt3299][failed]
+
+SUMMARY
+ * RESULT: FAIL
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 100
+
+ERROR: The following tests failed to run:
+ * testt3200
+ * testt3201
+ * testt3202
+ * testt3203
+ * testt3204
+ * testt3205
+ * testt3206
+ * testt3207
+ * testt3208
+ * testt3209
+ * testt3210
+ * testt3211
+ * testt3212
+ * testt3213
+ * testt3214
+ * testt3215
+ * testt3216
+ * testt3217
+ * testt3218
+ * testt3219
+ * testt3220
+ * testt3221
+ * testt3222
+ * testt3223
+ * testt3224
+ * testt3225
+ * testt3226
+ * testt3227
+ * testt3228
+ * testt3229
+ * testt3230
+ * testt3231
+ * testt3232
+ * testt3233
+ * testt3234
+ * testt3235
+ * testt3236
+ * testt3237
+ * testt3238
+ * testt3239
+ * testt3240
+ * testt3241
+ * testt3242
+ * testt3243
+ * testt3244
+ * testt3245
+ * testt3246
+ * testt3247
+ * testt3248
+ * testt3249
+ * testt3250
+ * testt3251
+ * testt3252
+ * testt3253
+ * testt3254
+ * testt3255
+ * testt3256
+ * testt3257
+ * testt3258
+ * testt3259
+ * testt3260
+ * testt3261
+ * testt3262
+ * testt3263
+ * testt3264
+ * testt3265
+ * testt3266
+ * testt3267
+ * testt3268
+ * testt3269
+ * testt3270
+ * testt3271
+ * testt3272
+ * testt3273
+ * testt3274
+ * testt3275
+ * testt3276
+ * testt3277
+ * testt3278
+ * testt3279
+ * testt3280
+ * testt3281
+ * testt3282
+ * testt3283
+ * testt3284
+ * testt3285
+ * testt3286
+ * testt3287
+ * testt3288
+ * testt3289
+ * testt3290
+ * testt3291
+ * testt3292
+ * testt3293
+ * testt3294
+ * testt3295
+ * testt3296
+ * testt3297
+ * testt3298
+ * testt3299
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-962431.log

@@ -8,26 +8,11 @@ import fire::*
 
 
 // Checks whether a positive/negative delta is within a tolerance value.
-function deltaInTolerance(d: real, tol: real): boolean {
-	precondition
-		0 <= tol
-	postcondition
-		result == (-tol <= d < tol)
-}
-
-// Checks whether a motion delta is within tolerance values.
-function motionInTolerance(m: RelativeMotion, vec_tol: real, yaw_tol: real): boolean {
-	precondition
-		0 <= vec_tol /\ 0 <= yaw_tol
-	postcondition
-		result == deltaInTolerance(m.dx, vec_tol) /\ deltaInTolerance(m.dy, vec_tol) /\ deltaInTolerance(m.dz, vec_tol) /\ deltaInTolerance(m.dyaw, yaw_tol)
-}
-
 stm VisualNav {
 	// We rely on the fire STM performing all of the image processing, and just
 	// handle the translation from points to commands. 
 	uses FireVisualEvents
-	uses FireSubscriber
+	uses FireEvents
 	uses VisualPlanningEvents
 	
 	// 2022-09-05 : make visual navigation a multi-subscriber publisher
@@ -116,4 +101,17 @@ stm VisualNav {
 		// 2022-09-05.  Assuming we don't need to poll while handling vnav.
 		transition APoll { from Poll to Poll trigger vnavEnable?enabled }
 	}
+}function deltaInTolerance(d: real, tol: real): boolean {
+	precondition
+		0 <= tol
+	postcondition
+		result == (-tol <= d < tol)
+}
+
+// Checks whether a motion delta is within tolerance values.
+function motionInTolerance(m: RelativeMotion, vec_tol: real, yaw_tol: real): boolean {
+	precondition
+		0 <= vec_tol /\ 0 <= yaw_tol
+	postcondition
+		result == deltaInTolerance(m.dx, vec_tol) /\ deltaInTolerance(m.dy, vec_tol) /\ deltaInTolerance(m.dz, vec_tol) /\ deltaInTolerance(m.dyaw, yaw_tol)
 }

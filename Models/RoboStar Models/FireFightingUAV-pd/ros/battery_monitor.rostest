@@ -1,0 +1,7 @@
+package battery_monitor
+
+node battery_monitor {
+	publishes topic input_accepted of type uav_msgs::InputAccepted
+	publishes topic battery_status of type uav_msgs::BatteryStatus
+	subscribes topic battery_state ("fcs_interface/battery_state") of type uav_msgs::BatteryPercentage
+}

@@ -1,0 +1,1918 @@
+... logging to /home/pedro/.ros/log/rostest-newnoetic-205045.log
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/map_wm_suite/rostest-launch_map_water_monitor_m5.xml
+[Testcase: testt0] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t0] of type [map_wm_suite_t0/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt1] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t1] of type [map_wm_suite_t1/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt10] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t10] of type [map_wm_suite_t10/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt100] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t100] of type [map_wm_suite_t100/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt101] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t101] of type [map_wm_suite_t101/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt102] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t102] of type [map_wm_suite_t102/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt103] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t103] of type [map_wm_suite_t103/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt104] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t104] of type [map_wm_suite_t104/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt105] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t105] of type [map_wm_suite_t105/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt106] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t106] of type [map_wm_suite_t106/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt107] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t107] of type [map_wm_suite_t107/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt108] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t108] of type [map_wm_suite_t108/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt109] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t109] of type [map_wm_suite_t109/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt11] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t11] of type [map_wm_suite_t11/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt110] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t110] of type [map_wm_suite_t110/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt111] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t111] of type [map_wm_suite_t111/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt112] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t112] of type [map_wm_suite_t112/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt113] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t113] of type [map_wm_suite_t113/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt114] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t114] of type [map_wm_suite_t114/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt115] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t115] of type [map_wm_suite_t115/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt116] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t116] of type [map_wm_suite_t116/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt117] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t117] of type [map_wm_suite_t117/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt118] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t118] of type [map_wm_suite_t118/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt119] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t119] of type [map_wm_suite_t119/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt12] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t12] of type [map_wm_suite_t12/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt120] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t120] of type [map_wm_suite_t120/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt121] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t121] of type [map_wm_suite_t121/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt122] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t122] of type [map_wm_suite_t122/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt123] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t123] of type [map_wm_suite_t123/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt124] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t124] of type [map_wm_suite_t124/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt125] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t125] of type [map_wm_suite_t125/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt126] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t126] of type [map_wm_suite_t126/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt13] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t13] of type [map_wm_suite_t13/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt14] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t14] of type [map_wm_suite_t14/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt15] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t15] of type [map_wm_suite_t15/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt16] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t16] of type [map_wm_suite_t16/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt17] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t17] of type [map_wm_suite_t17/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt18] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t18] of type [map_wm_suite_t18/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt19] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t19] of type [map_wm_suite_t19/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt2] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t2] of type [map_wm_suite_t2/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt20] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t20] of type [map_wm_suite_t20/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt21] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t21] of type [map_wm_suite_t21/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt22] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t22] of type [map_wm_suite_t22/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt23] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t23] of type [map_wm_suite_t23/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt24] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t24] of type [map_wm_suite_t24/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt25] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t25] of type [map_wm_suite_t25/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt26] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t26] of type [map_wm_suite_t26/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt27] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t27] of type [map_wm_suite_t27/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt28] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t28] of type [map_wm_suite_t28/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt29] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t29] of type [map_wm_suite_t29/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt3] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t3] of type [map_wm_suite_t3/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt30] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t30] of type [map_wm_suite_t30/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt31] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t31] of type [map_wm_suite_t31/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt32] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t32] of type [map_wm_suite_t32/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt33] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t33] of type [map_wm_suite_t33/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt34] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t34] of type [map_wm_suite_t34/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt35] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t35] of type [map_wm_suite_t35/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt36] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t36] of type [map_wm_suite_t36/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt37] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t37] of type [map_wm_suite_t37/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt38] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t38] of type [map_wm_suite_t38/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt39] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t39] of type [map_wm_suite_t39/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt4] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t4] of type [map_wm_suite_t4/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt40] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t40] of type [map_wm_suite_t40/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt41] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t41] of type [map_wm_suite_t41/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt42] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t42] of type [map_wm_suite_t42/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt43] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t43] of type [map_wm_suite_t43/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt44] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t44] of type [map_wm_suite_t44/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt45] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t45] of type [map_wm_suite_t45/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt46] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t46] of type [map_wm_suite_t46/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt47] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t47] of type [map_wm_suite_t47/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt48] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t48] of type [map_wm_suite_t48/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt49] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t49] of type [map_wm_suite_t49/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt5] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t5] of type [map_wm_suite_t5/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt50] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t50] of type [map_wm_suite_t50/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt51] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t51] of type [map_wm_suite_t51/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt52] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t52] of type [map_wm_suite_t52/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt53] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t53] of type [map_wm_suite_t53/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt54] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t54] of type [map_wm_suite_t54/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt55] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t55] of type [map_wm_suite_t55/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt56] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t56] of type [map_wm_suite_t56/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt57] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t57] of type [map_wm_suite_t57/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt58] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t58] of type [map_wm_suite_t58/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt59] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t59] of type [map_wm_suite_t59/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt6] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t6] of type [map_wm_suite_t6/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt60] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t60] of type [map_wm_suite_t60/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt61] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t61] of type [map_wm_suite_t61/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt62] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t62] of type [map_wm_suite_t62/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt63] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t63] of type [map_wm_suite_t63/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt64] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t64] of type [map_wm_suite_t64/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt65] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t65] of type [map_wm_suite_t65/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt66] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t66] of type [map_wm_suite_t66/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt67] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t67] of type [map_wm_suite_t67/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt68] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t68] of type [map_wm_suite_t68/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt69] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t69] of type [map_wm_suite_t69/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt7] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t7] of type [map_wm_suite_t7/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt70] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t70] of type [map_wm_suite_t70/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt71] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t71] of type [map_wm_suite_t71/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt72] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t72] of type [map_wm_suite_t72/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt73] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t73] of type [map_wm_suite_t73/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt74] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t74] of type [map_wm_suite_t74/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt75] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t75] of type [map_wm_suite_t75/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt76] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t76] of type [map_wm_suite_t76/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt77] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t77] of type [map_wm_suite_t77/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt78] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t78] of type [map_wm_suite_t78/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt79] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t79] of type [map_wm_suite_t79/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt8] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t8] of type [map_wm_suite_t8/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt80] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t80] of type [map_wm_suite_t80/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt81] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t81] of type [map_wm_suite_t81/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt82] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t82] of type [map_wm_suite_t82/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt83] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t83] of type [map_wm_suite_t83/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt84] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t84] of type [map_wm_suite_t84/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt85] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t85] of type [map_wm_suite_t85/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt86] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t86] of type [map_wm_suite_t86/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt87] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t87] of type [map_wm_suite_t87/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt88] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t88] of type [map_wm_suite_t88/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt89] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t89] of type [map_wm_suite_t89/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt9] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t9] of type [map_wm_suite_t9/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt90] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t90] of type [map_wm_suite_t90/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt91] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t91] of type [map_wm_suite_t91/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt92] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t92] of type [map_wm_suite_t92/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt93] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t93] of type [map_wm_suite_t93/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt94] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t94] of type [map_wm_suite_t94/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt95] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t95] of type [map_wm_suite_t95/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt96] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t96] of type [map_wm_suite_t96/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt97] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t97] of type [map_wm_suite_t97/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt98] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t98] of type [map_wm_suite_t98/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+[Testcase: testt99] ... ERROR!
+ERROR: max time [60.0s] allotted for test [t99] of type [map_wm_suite_t99/node]
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/launch.py", line 701, in run_test
+    raise RLTestTimeoutException(
+--------------------------------------------------------------------------------
+
+[ROSTEST]-----------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 0
+[1;31m * ERRORS: 127[0m
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-newnoetic-205045.log

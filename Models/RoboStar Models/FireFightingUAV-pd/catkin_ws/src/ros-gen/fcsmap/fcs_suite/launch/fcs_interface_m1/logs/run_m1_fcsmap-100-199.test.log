@@ -1,0 +1,757 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-1157632.log
+[ WARN] [1739729689.804759680]: activate failed.
+[ WARN] [1739729689.804840390]: ack.info: set = 0 id = 0
+[ WARN] [1739729689.804866310]: ack.data: 0
+[ INFO] [1739729686.924890299]: Starting the FCS_Interface.
+[ INFO] [1739729688.002842974]: FCS_Interface getting ready...
+[ WARN] [1739729693.747028858]: activate failed.
+[ WARN] [1739729693.747100808]: ack.info: set = 0 id = 0
+[ WARN] [1739729693.747123518]: ack.data: 0
+[ INFO] [1739729690.883253954]: Starting the FCS_Interface.
+[ INFO] [1739729691.958350923]: FCS_Interface getting ready...
+[ WARN] [1739729697.521115273]: activate failed.
+[ WARN] [1739729697.521245073]: ack.info: set = 0 id = 0
+[ WARN] [1739729697.521277923]: ack.data: 0
+[ INFO] [1739729694.637453788]: Starting the FCS_Interface.
+[ INFO] [1739729695.767273030]: FCS_Interface getting ready...
+[ WARN] [1739729701.271390539]: activate failed.
+[ WARN] [1739729701.271511880]: ack.info: set = 0 id = 0
+[ WARN] [1739729701.271532160]: ack.data: 0
+[ INFO] [1739729698.409413372]: Starting the FCS_Interface.
+[ INFO] [1739729699.477778528]: FCS_Interface getting ready...
+[ WARN] [1739729705.003679979]: activate failed.
+[ WARN] [1739729705.003816530]: ack.info: set = 0 id = 0
+[ WARN] [1739729705.003833770]: ack.data: 0
+[ INFO] [1739729702.149179229]: Starting the FCS_Interface.
+[ INFO] [1739729703.248384407]: FCS_Interface getting ready...
+[ WARN] [1739729709.097184354]: activate failed.
+[ WARN] [1739729709.097337775]: ack.info: set = 0 id = 0
+[ WARN] [1739729709.097369065]: ack.data: 0
+[ INFO] [1739729706.131658900]: Starting the FCS_Interface.
+[ INFO] [1739729707.222298202]: FCS_Interface getting ready...
+[ WARN] [1739729712.751401794]: activate failed.
+[ WARN] [1739729712.751520005]: ack.info: set = 0 id = 0
+[ WARN] [1739729712.751614705]: ack.data: 0
+[ INFO] [1739729709.845868021]: Starting the FCS_Interface.
+[ INFO] [1739729710.994999853]: FCS_Interface getting ready...
+[ WARN] [1739729716.546520434]: activate failed.
+[ WARN] [1739729716.546626325]: ack.info: set = 0 id = 0
+[ WARN] [1739729716.546659735]: ack.data: 0
+[ INFO] [1739729713.678031385]: Starting the FCS_Interface.
+[ INFO] [1739729714.761290077]: FCS_Interface getting ready...
+[ WARN] [1739729720.208465308]: activate failed.
+[ WARN] [1739729720.208575869]: ack.info: set = 0 id = 0
+[ WARN] [1739729720.208607079]: ack.data: 0
+[ INFO] [1739729717.363287928]: Starting the FCS_Interface.
+[ INFO] [1739729718.421937324]: FCS_Interface getting ready...
+[ WARN] [1739729723.911214863]: activate failed.
+[ WARN] [1739729723.911453904]: ack.info: set = 0 id = 0
+[ WARN] [1739729723.911516455]: ack.data: 0
+[ INFO] [1739729721.051279125]: Starting the FCS_Interface.
+[ INFO] [1739729722.144550375]: FCS_Interface getting ready...
+[ WARN] [1739729727.768580616]: activate failed.
+[ WARN] [1739729727.768665867]: ack.info: set = 0 id = 0
+[ WARN] [1739729727.768683057]: ack.data: 0
+[ INFO] [1739729724.921143012]: Starting the FCS_Interface.
+[ INFO] [1739729725.973445443]: FCS_Interface getting ready...
+[ WARN] [1739729731.465583716]: activate failed.
+[ WARN] [1739729731.466026298]: ack.info: set = 0 id = 0
+[ WARN] [1739729731.466112489]: ack.data: 0
+[ INFO] [1739729728.556894400]: Starting the FCS_Interface.
+[ INFO] [1739729729.685941521]: FCS_Interface getting ready...
+[ WARN] [1739729735.416710771]: activate failed.
+[ WARN] [1739729735.416848632]: ack.info: set = 0 id = 0
+[ WARN] [1739729735.416879952]: ack.data: 0
+[ INFO] [1739729732.501446240]: Starting the FCS_Interface.
+[ INFO] [1739729733.640403607]: FCS_Interface getting ready...
+[ WARN] [1739729739.123091915]: activate failed.
+[ WARN] [1739729739.123166316]: ack.info: set = 0 id = 0
+[ WARN] [1739729739.123181196]: ack.data: 0
+[ INFO] [1739729736.266228308]: Starting the FCS_Interface.
+[ INFO] [1739729737.347033715]: FCS_Interface getting ready...
+[ WARN] [1739729742.997164800]: activate failed.
+[ WARN] [1739729742.997253980]: ack.info: set = 0 id = 0
+[ WARN] [1739729742.997307130]: ack.data: 0
+[ INFO] [1739729740.255212279]: Starting the FCS_Interface.
+[ INFO] [1739729741.310380373]: FCS_Interface getting ready...
+[ WARN] [1739729747.338477037]: activate failed.
+[ WARN] [1739729747.338571907]: ack.info: set = 0 id = 0
+[ WARN] [1739729747.338588437]: ack.data: 0
+[ INFO] [1739729744.116640421]: Starting the FCS_Interface.
+[ INFO] [1739729745.424426395]: FCS_Interface getting ready...
+[ WARN] [1739729751.281856796]: activate failed.
+[ WARN] [1739729751.281935347]: ack.info: set = 0 id = 0
+[ WARN] [1739729751.281959647]: ack.data: 0
+[ INFO] [1739729748.345114536]: Starting the FCS_Interface.
+[ INFO] [1739729749.495397329]: FCS_Interface getting ready...
+[ WARN] [1739729754.993534866]: activate failed.
+[ WARN] [1739729754.993630176]: ack.info: set = 0 id = 0
+[ WARN] [1739729754.993656397]: ack.data: 0
+[ INFO] [1739729752.151965567]: Starting the FCS_Interface.
+[ INFO] [1739729753.230522718]: FCS_Interface getting ready...
+[ WARN] [1739729758.705414499]: activate failed.
+[ WARN] [1739729758.705512070]: ack.info: set = 0 id = 0
+[ WARN] [1739729758.705528350]: ack.data: 0
+[ INFO] [1739729755.838172689]: Starting the FCS_Interface.
+[ INFO] [1739729756.895350237]: FCS_Interface getting ready...
+[ WARN] [1739729762.600720385]: activate failed.
+[ WARN] [1739729762.600833706]: ack.info: set = 0 id = 0
+[ WARN] [1739729762.600851126]: ack.data: 0
+[ INFO] [1739729759.754041289]: Starting the FCS_Interface.
+[ INFO] [1739729760.830731244]: FCS_Interface getting ready...
+[ WARN] [1739729766.338822570]: activate failed.
+[ WARN] [1739729766.338921170]: ack.info: set = 0 id = 0
+[ WARN] [1739729766.338945511]: ack.data: 0
+[ INFO] [1739729763.466793368]: Starting the FCS_Interface.
+[ INFO] [1739729764.535334721]: FCS_Interface getting ready...
+[ WARN] [1739729770.123054044]: activate failed.
+[ WARN] [1739729770.123168544]: ack.info: set = 0 id = 0
+[ WARN] [1739729770.123186454]: ack.data: 0
+[ INFO] [1739729767.261431195]: Starting the FCS_Interface.
+[ INFO] [1739729768.339378443]: FCS_Interface getting ready...
+[ WARN] [1739729773.874751148]: activate failed.
+[ WARN] [1739729773.874850088]: ack.info: set = 0 id = 0
+[ WARN] [1739729773.874884179]: ack.data: 0
+[ INFO] [1739729771.052022410]: Starting the FCS_Interface.
+[ INFO] [1739729772.142696827]: FCS_Interface getting ready...
+[ WARN] [1739729777.677539682]: activate failed.
+[ WARN] [1739729777.677618842]: ack.info: set = 0 id = 0
+[ WARN] [1739729777.677645372]: ack.data: 0
+[ INFO] [1739729774.819071335]: Starting the FCS_Interface.
+[ INFO] [1739729775.881769936]: FCS_Interface getting ready...
+[ WARN] [1739729781.342931502]: activate failed.
+[ WARN] [1739729781.343077783]: ack.info: set = 0 id = 0
+[ WARN] [1739729781.343140983]: ack.data: 0
+[ INFO] [1739729778.482495379]: Starting the FCS_Interface.
+[ INFO] [1739729779.547652646]: FCS_Interface getting ready...
+[ WARN] [1739729785.036732034]: activate failed.
+[ WARN] [1739729785.036817455]: ack.info: set = 0 id = 0
+[ WARN] [1739729785.036840855]: ack.data: 0
+[ INFO] [1739729782.174579396]: Starting the FCS_Interface.
+[ INFO] [1739729783.231737202]: FCS_Interface getting ready...
+[ WARN] [1739729788.717422328]: activate failed.
+[ WARN] [1739729788.717504749]: ack.info: set = 0 id = 0
+[ WARN] [1739729788.717531289]: ack.data: 0
+[ INFO] [1739729785.881532260]: Starting the FCS_Interface.
+[ INFO] [1739729786.960510470]: FCS_Interface getting ready...
+[ WARN] [1739729792.566664754]: activate failed.
+[ WARN] [1739729792.566748234]: ack.info: set = 0 id = 0
+[ WARN] [1739729792.566773405]: ack.data: 0
+[ INFO] [1739729789.732097116]: Starting the FCS_Interface.
+[ INFO] [1739729790.784411975]: FCS_Interface getting ready...
+[ WARN] [1739729796.385594764]: activate failed.
+[ WARN] [1739729796.385683545]: ack.info: set = 0 id = 0
+[ WARN] [1739729796.385702115]: ack.data: 0
+[ INFO] [1739729793.521792759]: Starting the FCS_Interface.
+[ INFO] [1739729794.591331512]: FCS_Interface getting ready...
+[ WARN] [1739729800.250185937]: activate failed.
+[ WARN] [1739729800.250260947]: ack.info: set = 0 id = 0
+[ WARN] [1739729800.250277937]: ack.data: 0
+[ INFO] [1739729797.389246670]: Starting the FCS_Interface.
+[ INFO] [1739729798.458163377]: FCS_Interface getting ready...
+[ WARN] [1739729803.936562834]: activate failed.
+[ WARN] [1739729803.936636645]: ack.info: set = 0 id = 0
+[ WARN] [1739729803.936654935]: ack.data: 0
+[ INFO] [1739729801.079294107]: Starting the FCS_Interface.
+[ INFO] [1739729802.176890572]: FCS_Interface getting ready...
+[ WARN] [1739729807.572331238]: activate failed.
+[ WARN] [1739729807.572412268]: ack.info: set = 0 id = 0
+[ WARN] [1739729807.572425789]: ack.data: 0
+[ INFO] [1739729804.757425564]: Starting the FCS_Interface.
+[ INFO] [1739729805.839257613]: FCS_Interface getting ready...
+[ WARN] [1739729811.221924779]: activate failed.
+[ WARN] [1739729811.222014099]: ack.info: set = 0 id = 0
+[ WARN] [1739729811.224485131]: ack.data: 0
+[ INFO] [1739729808.371847316]: Starting the FCS_Interface.
+[ INFO] [1739729809.429031636]: FCS_Interface getting ready...
+[ WARN] [1739729814.887402121]: activate failed.
+[ WARN] [1739729814.887492722]: ack.info: set = 0 id = 0
+[ WARN] [1739729814.887508742]: ack.data: 0
+[ INFO] [1739729812.039162341]: Starting the FCS_Interface.
+[ INFO] [1739729813.100058378]: FCS_Interface getting ready...
+[ WARN] [1739729818.690546529]: activate failed.
+[ WARN] [1739729818.690633099]: ack.info: set = 0 id = 0
+[ WARN] [1739729818.690671449]: ack.data: 0
+[ INFO] [1739729815.836741144]: Starting the FCS_Interface.
+[ INFO] [1739729816.905418359]: FCS_Interface getting ready...
+[ WARN] [1739729822.955685664]: activate failed.
+[ WARN] [1739729822.955773324]: ack.info: set = 0 id = 0
+[ WARN] [1739729822.955787594]: ack.data: 0
+[ INFO] [1739729819.600731895]: Starting the FCS_Interface.
+[ INFO] [1739729820.669216755]: FCS_Interface getting ready...
+[ WARN] [1739729827.133613190]: activate failed.
+[ WARN] [1739729827.133720881]: ack.info: set = 0 id = 0
+[ WARN] [1739729827.133788291]: ack.data: 0
+[ INFO] [1739729823.772715742]: Starting the FCS_Interface.
+[ INFO] [1739729824.833735338]: FCS_Interface getting ready...
+[ WARN] [1739729831.204708373]: activate failed.
+[ WARN] [1739729831.204858284]: ack.info: set = 0 id = 0
+[ WARN] [1739729831.204913094]: ack.data: 0
+[ INFO] [1739729827.832903426]: Starting the FCS_Interface.
+[ INFO] [1739729828.895310058]: FCS_Interface getting ready...
+[ WARN] [1739729835.541054379]: activate failed.
+[ WARN] [1739729835.541166960]: ack.info: set = 0 id = 0
+[ WARN] [1739729835.541192100]: ack.data: 0
+[ INFO] [1739729832.153641441]: Starting the FCS_Interface.
+[ INFO] [1739729833.272416071]: FCS_Interface getting ready...
+[ WARN] [1739729839.767488127]: activate failed.
+[ WARN] [1739729839.767583878]: ack.info: set = 0 id = 0
+[ WARN] [1739729839.767599328]: ack.data: 0
+[ INFO] [1739729836.492310958]: Starting the FCS_Interface.
+[ INFO] [1739729837.594890920]: FCS_Interface getting ready...
+[ WARN] [1739729844.129940264]: activate failed.
+[ WARN] [1739729844.130034284]: ack.info: set = 0 id = 0
+[ WARN] [1739729844.130050184]: ack.data: 0
+[ INFO] [1739729840.776394219]: Starting the FCS_Interface.
+[ INFO] [1739729841.852909848]: FCS_Interface getting ready...
+[ WARN] [1739729848.444798068]: activate failed.
+[ WARN] [1739729848.444876208]: ack.info: set = 0 id = 0
+[ WARN] [1739729848.444892158]: ack.data: 0
+[ INFO] [1739729845.074907920]: Starting the FCS_Interface.
+[ INFO] [1739729846.155140854]: FCS_Interface getting ready...
+[ WARN] [1739729852.721126419]: activate failed.
+[ WARN] [1739729852.721224809]: ack.info: set = 0 id = 0
+[ WARN] [1739729852.721244069]: ack.data: 0
+[ INFO] [1739729849.385543615]: Starting the FCS_Interface.
+[ INFO] [1739729850.450481317]: FCS_Interface getting ready...
+[ WARN] [1739729856.819550114]: activate failed.
+[ WARN] [1739729856.819635764]: ack.info: set = 0 id = 0
+[ WARN] [1739729856.819660394]: ack.data: 0
+[ INFO] [1739729853.467334124]: Starting the FCS_Interface.
+[ INFO] [1739729854.543545736]: FCS_Interface getting ready...
+[ WARN] [1739729861.014235620]: activate failed.
+[ WARN] [1739729861.014328900]: ack.info: set = 0 id = 0
+[ WARN] [1739729861.014348091]: ack.data: 0
+[ INFO] [1739729857.647988953]: Starting the FCS_Interface.
+[ INFO] [1739729858.722109117]: FCS_Interface getting ready...
+[ WARN] [1739729865.216775789]: activate failed.
+[ WARN] [1739729865.216859129]: ack.info: set = 0 id = 0
+[ WARN] [1739729865.216875269]: ack.data: 0
+[ INFO] [1739729861.860411463]: Starting the FCS_Interface.
+[ INFO] [1739729862.926125815]: FCS_Interface getting ready...
+[ WARN] [1739729869.271617467]: activate failed.
+[ WARN] [1739729869.271724477]: ack.info: set = 0 id = 0
+[ WARN] [1739729869.271740497]: ack.data: 0
+[ INFO] [1739729865.916442771]: Starting the FCS_Interface.
+[ INFO] [1739729866.983339757]: FCS_Interface getting ready...
+[ WARN] [1739729873.720566246]: activate failed.
+[ WARN] [1739729873.720665907]: ack.info: set = 0 id = 0
+[ WARN] [1739729873.720681087]: ack.data: 0
+[ INFO] [1739729870.369770694]: Starting the FCS_Interface.
+[ INFO] [1739729871.430312559]: FCS_Interface getting ready...
+[ WARN] [1739729877.873788631]: activate failed.
+[ WARN] [1739729877.874134882]: ack.info: set = 0 id = 0
+[ WARN] [1739729877.874152122]: ack.data: 0
+[ INFO] [1739729874.517707383]: Starting the FCS_Interface.
+[ INFO] [1739729875.594446656]: FCS_Interface getting ready...
+[ WARN] [1739729881.953509312]: activate failed.
+[ WARN] [1739729881.953596152]: ack.info: set = 0 id = 0
+[ WARN] [1739729881.953611202]: ack.data: 0
+[ INFO] [1739729878.606987971]: Starting the FCS_Interface.
+[ INFO] [1739729879.669328605]: FCS_Interface getting ready...
+[ WARN] [1739729886.221647631]: activate failed.
+[ WARN] [1739729886.221735131]: ack.info: set = 0 id = 0
+[ WARN] [1739729886.221751801]: ack.data: 0
+[ INFO] [1739729882.869261685]: Starting the FCS_Interface.
+[ INFO] [1739729883.953193740]: FCS_Interface getting ready...
+[ WARN] [1739729890.329710520]: activate failed.
+[ WARN] [1739729890.329840571]: ack.info: set = 0 id = 0
+[ WARN] [1739729890.329894891]: ack.data: 0
+[ INFO] [1739729886.948677412]: Starting the FCS_Interface.
+[ INFO] [1739729888.091856667]: FCS_Interface getting ready...
+[ WARN] [1739729894.711537726]: activate failed.
+[ WARN] [1739729894.712104839]: ack.info: set = 0 id = 0
+[ WARN] [1739729894.712140829]: ack.data: 0
+[ INFO] [1739729891.306969925]: Starting the FCS_Interface.
+[ INFO] [1739729892.394255455]: FCS_Interface getting ready...
+[ WARN] [1739729899.219690682]: activate failed.
+[ WARN] [1739729899.219776683]: ack.info: set = 0 id = 0
+[ WARN] [1739729899.219804853]: ack.data: 0
+[ INFO] [1739729895.728806470]: Starting the FCS_Interface.
+[ INFO] [1739729896.924749400]: FCS_Interface getting ready...
+[ WARN] [1739729903.673660299]: activate failed.
+[ WARN] [1739729903.673750350]: ack.info: set = 0 id = 0
+[ WARN] [1739729903.673956961]: ack.data: 0
+[ INFO] [1739729900.212379009]: Starting the FCS_Interface.
+[ INFO] [1739729901.325221149]: FCS_Interface getting ready...
+[ WARN] [1739729908.131851699]: activate failed.
+[ WARN] [1739729908.131941419]: ack.info: set = 0 id = 0
+[ WARN] [1739729908.131955749]: ack.data: 0
+[ INFO] [1739729904.744483597]: Starting the FCS_Interface.
+[ INFO] [1739729905.866702563]: FCS_Interface getting ready...
+[ WARN] [1739729912.426737509]: activate failed.
+[ WARN] [1739729912.426837550]: ack.info: set = 0 id = 0
+[ WARN] [1739729912.426882140]: ack.data: 0
+[ INFO] [1739729909.106586409]: Starting the FCS_Interface.
+[ INFO] [1739729910.260207164]: FCS_Interface getting ready...
+[ WARN] [1739729916.722726612]: activate failed.
+[ WARN] [1739729916.722879673]: ack.info: set = 0 id = 0
+[ WARN] [1739729916.722941433]: ack.data: 0
+[ INFO] [1739729913.402721156]: Starting the FCS_Interface.
+[ INFO] [1739729914.442462816]: FCS_Interface getting ready...
+[ WARN] [1739729920.979741537]: activate failed.
+[ WARN] [1739729920.981174254]: ack.info: set = 0 id = 0
+[ WARN] [1739729920.981289675]: ack.data: 0
+[ INFO] [1739729917.628575244]: Starting the FCS_Interface.
+[ INFO] [1739729918.665005437]: FCS_Interface getting ready...
+[ WARN] [1739729925.262191150]: activate failed.
+[ WARN] [1739729925.262280341]: ack.info: set = 0 id = 0
+[ WARN] [1739729925.262299331]: ack.data: 0
+[ INFO] [1739729921.833780292]: Starting the FCS_Interface.
+[ INFO] [1739729922.988087226]: FCS_Interface getting ready...
+[ WARN] [1739729929.775626671]: activate failed.
+[ WARN] [1739729929.775709302]: ack.info: set = 0 id = 0
+[ WARN] [1739729929.775725142]: ack.data: 0
+[ INFO] [1739729926.430484331]: Starting the FCS_Interface.
+[ INFO] [1739729927.482740389]: FCS_Interface getting ready...
+[ WARN] [1739729934.124776217]: activate failed.
+[ WARN] [1739729934.124905258]: ack.info: set = 0 id = 0
+[ WARN] [1739729934.125021028]: ack.data: 0
+[ INFO] [1739729930.751828456]: Starting the FCS_Interface.
+[ INFO] [1739729931.849580500]: FCS_Interface getting ready...
+[ WARN] [1739729938.163276389]: activate failed.
+[ WARN] [1739729938.163359849]: ack.info: set = 0 id = 0
+[ WARN] [1739729938.163389040]: ack.data: 0
+[ INFO] [1739729934.883560954]: Starting the FCS_Interface.
+[ INFO] [1739729935.945123795]: FCS_Interface getting ready...
+[ WARN] [1739729942.541595790]: activate failed.
+[ WARN] [1739729942.541837851]: ack.info: set = 0 id = 0
+[ WARN] [1739729942.541867321]: ack.data: 0
+[ INFO] [1739729939.192452496]: Starting the FCS_Interface.
+[ INFO] [1739729940.257429242]: FCS_Interface getting ready...
+[ WARN] [1739729947.083081905]: activate failed.
+[ WARN] [1739729947.083274356]: ack.info: set = 0 id = 0
+[ WARN] [1739729947.083331706]: ack.data: 0
+[ INFO] [1739729943.761528923]: Starting the FCS_Interface.
+[ INFO] [1739729944.800205946]: FCS_Interface getting ready...
+[ WARN] [1739729951.343294316]: activate failed.
+[ WARN] [1739729951.343393016]: ack.info: set = 0 id = 0
+[ WARN] [1739729951.343427126]: ack.data: 0
+[ INFO] [1739729947.928855703]: Starting the FCS_Interface.
+[ INFO] [1739729949.066769578]: FCS_Interface getting ready...
+[ WARN] [1739729955.698639854]: activate failed.
+[ WARN] [1739729955.698812325]: ack.info: set = 0 id = 0
+[ WARN] [1739729955.698899766]: ack.data: 0
+[ WARN] [1739729955.763675925]: droneTaskControl failed.
+[ WARN] [1739729955.763792285]: ack.info: set = 0 id = 0
+[ WARN] [1739729955.763822175]: ack.data: 0
+[ INFO] [1739729952.246580309]: Starting the FCS_Interface.
+[ INFO] [1739729953.378798213]: FCS_Interface getting ready...
+[ INFO] [1739729955.699124427]: Taking off...
+[ WARN] [1739729960.000414548]: activate failed.
+[ WARN] [1739729960.000655349]: ack.info: set = 0 id = 0
+[ WARN] [1739729960.000721279]: ack.data: 0
+[ WARN] [1739729960.107811630]: droneTaskControl failed.
+[ WARN] [1739729960.107898480]: ack.info: set = 0 id = 0
+[ WARN] [1739729960.108865085]: ack.data: 0
+[ WARN] [1739729960.108888305]: Request for special movement has failed
+[ INFO] [1739729956.543705301]: Starting the FCS_Interface.
+[ INFO] [1739729957.686178254]: FCS_Interface getting ready...
+[ INFO] [1739729960.000848710]: Returning home...
+[ WARN] [1739729964.548819197]: activate failed.
+[ WARN] [1739729964.549038758]: ack.info: set = 0 id = 0
+[ WARN] [1739729964.549096118]: ack.data: 0
+[ WARN] [1739729964.729569787]: droneTaskControl failed.
+[ WARN] [1739729964.729755118]: ack.info: set = 0 id = 0
+[ WARN] [1739729964.729812628]: ack.data: 0
+[ WARN] [1739729964.729859668]: Request for special movement has failed
+[ INFO] [1739729961.110761467]: Starting the FCS_Interface.
+[ INFO] [1739729962.146526263]: FCS_Interface getting ready...
+[ INFO] [1739729964.550488015]: Landing...
+[ WARN] [1739729968.891260654]: activate failed.
+[ WARN] [1739729968.891408175]: ack.info: set = 0 id = 0
+[ WARN] [1739729968.891492125]: ack.data: 0
+[ WARN] [1739729969.066558769]: Failed sending mission upload command
+[ WARN] [1739729969.066754070]: ack.info: set = 0 id = 0
+[ WARN] [1739729969.066863421]: ack.data: 0
+[ WARN] [1739729969.066966711]: Request to fly to WP has failed
+[ INFO] [1739729965.505877645]: Starting the FCS_Interface.
+[ INFO] [1739729966.557527885]: FCS_Interface getting ready...
+[ INFO] [1739729968.892690201]: Sending waypoint: 0.000000, 0.000000, 0.000000
+[ INFO] [1739729968.892743051]: Waypoint created at: 1.000000 	0.000000 	0.000000
+ 
+[ INFO] [1739729968.892794882]: Waypoint created at: 0.999946 	-0.000054 	0.000000
+ 
+[ INFO] [1739729968.892811912]: Waypoint created at: 1.000054 	0.000054 	0.000000
+ 
+[ WARN] [1739729973.251320809]: activate failed.
+[ WARN] [1739729973.251417999]: ack.info: set = 0 id = 0
+[ WARN] [1739729973.251437239]: ack.data: 0
+[ WARN] [1739729973.414450985]: Failed sending mission upload command
+[ WARN] [1739729973.414537346]: ack.info: set = 0 id = 0
+[ WARN] [1739729973.414567106]: ack.data: 0
+[ WARN] [1739729973.414583816]: Request to fly to WP has failed
+[ INFO] [1739729969.860963381]: Starting the FCS_Interface.
+[ INFO] [1739729971.038619370]: FCS_Interface getting ready...
+[ INFO] [1739729973.251715140]: Sending waypoint: 53.946952, -1.032447, 10.000000
+[ INFO] [1739729973.251776391]: Waypoint created at: 54.946952 	-1.032447 	10.000000
+ 
+[ INFO] [1739729973.251815411]: Waypoint created at: 27.973422 	-0.516284 	5.000000
+ 
+[ INFO] [1739729973.251839341]: Waypoint created at: 27.973530 	-0.516163 	5.000000
+ 
+[ WARN] [1739729977.399277332]: activate failed.
+[ WARN] [1739729977.399431563]: ack.info: set = 0 id = 0
+[ WARN] [1739729977.399449023]: ack.data: 0
+[ WARN] [1739729977.476395660]: Failed sending mission upload command
+[ WARN] [1739729977.476508211]: ack.info: set = 0 id = 0
+[ WARN] [1739729977.476570451]: ack.data: 0
+[ WARN] [1739729977.476608171]: Request to fly to WP has failed
+[ INFO] [1739729974.054121613]: Starting the FCS_Interface.
+[ INFO] [1739729975.124342710]: FCS_Interface getting ready...
+[ INFO] [1739729977.401131401]: Sending waypoint: 53.946870, -1.030864, 10.000000
+[ INFO] [1739729977.401205612]: Waypoint created at: 54.946870 	-1.030864 	10.000000
+ 
+[ INFO] [1739729977.401278222]: Waypoint created at: 27.973381 	-0.515492 	5.000000
+ 
+[ INFO] [1739729977.401329732]: Waypoint created at: 27.973489 	-0.515371 	5.000000
+ 
+[ WARN] [1739729981.595963929]: activate failed.
+[ WARN] [1739729981.596704512]: ack.info: set = 0 id = 0
+[ WARN] [1739729981.596734433]: ack.data: 0
+[ WARN] [1739729981.730567299]: Failed sending mission upload command
+[ WARN] [1739729981.730682429]: ack.info: set = 0 id = 0
+[ WARN] [1739729981.730700329]: ack.data: 0
+[ WARN] [1739729981.730750740]: Request to fly to WP has failed
+[ INFO] [1739729978.171883673]: Starting the FCS_Interface.
+[ INFO] [1739729979.224159444]: FCS_Interface getting ready...
+[ INFO] [1739729981.597847188]: Sending waypoint: 53.947278, -1.029738, 10.000000
+[ INFO] [1739729981.597958798]: Waypoint created at: 54.947278 	-1.029738 	10.000000
+ 
+[ INFO] [1739729981.598033549]: Waypoint created at: 27.973585 	-0.514929 	5.000000
+ 
+[ INFO] [1739729981.598061389]: Waypoint created at: 27.973693 	-0.514808 	5.000000
+ 
+[ WARN] [1739729986.050867269]: activate failed.
+[ WARN] [1739729986.050978240]: ack.info: set = 0 id = 0
+[ WARN] [1739729986.051004760]: ack.data: 0
+[ INFO] [1739729982.665916635]: Starting the FCS_Interface.
+[ INFO] [1739729983.789132412]: FCS_Interface getting ready...
+[ WARN] [1739729990.239660142]: activate failed.
+[ WARN] [1739729990.239787092]: ack.info: set = 0 id = 0
+[ WARN] [1739729990.239847823]: ack.data: 0
+[ INFO] [1739729986.879930108]: Starting the FCS_Interface.
+[ INFO] [1739729987.939376602]: FCS_Interface getting ready...
+[ WARN] [1739729994.731669747]: activate failed.
+[ WARN] [1739729994.731774718]: ack.info: set = 0 id = 0
+[ WARN] [1739729994.731789578]: ack.data: 0
+[ INFO] [1739729991.319450943]: Starting the FCS_Interface.
+[ INFO] [1739729992.448662309]: FCS_Interface getting ready...
+[ WARN] [1739729998.915405082]: activate failed.
+[ WARN] [1739729998.915589633]: ack.info: set = 0 id = 0
+[ WARN] [1739729998.915623663]: ack.data: 0
+[ INFO] [1739729995.585753132]: Starting the FCS_Interface.
+[ INFO] [1739729996.685864069]: FCS_Interface getting ready...
+[ WARN] [1739730003.201905641]: activate failed.
+[ WARN] [1739730003.202083212]: ack.info: set = 0 id = 0
+[ WARN] [1739730003.202225603]: ack.data: 0
+[ INFO] [1739729999.862387950]: Starting the FCS_Interface.
+[ INFO] [1739730000.945571943]: FCS_Interface getting ready...
+[ WARN] [1739730007.530552413]: activate failed.
+[ WARN] [1739730007.530662223]: ack.info: set = 0 id = 0
+[ WARN] [1739730007.530678343]: ack.data: 0
+[ INFO] [1739730004.099137070]: Starting the FCS_Interface.
+[ INFO] [1739730005.217125251]: FCS_Interface getting ready...
+[ WARN] [1739730011.756488500]: activate failed.
+[ WARN] [1739730011.756627541]: ack.info: set = 0 id = 0
+[ WARN] [1739730011.756645701]: ack.data: 0
+[ INFO] [1739730008.412945740]: Starting the FCS_Interface.
+[ INFO] [1739730009.454297026]: FCS_Interface getting ready...
+[ WARN] [1739730016.381907187]: activate failed.
+[ WARN] [1739730016.382089697]: ack.info: set = 0 id = 0
+[ WARN] [1739730016.382189868]: ack.data: 0
+[ INFO] [1739730013.021824211]: Starting the FCS_Interface.
+[ INFO] [1739730014.129858351]: FCS_Interface getting ready...
+[ WARN] [1739730020.763153020]: activate failed.
+[ WARN] [1739730020.763275561]: ack.info: set = 0 id = 0
+[ WARN] [1739730020.763291621]: ack.data: 0
+[ INFO] [1739730017.347359158]: Starting the FCS_Interface.
+[ INFO] [1739730018.462986217]: FCS_Interface getting ready...
+[ WARN] [1739730025.226392100]: activate failed.
+[ WARN] [1739730025.226632092]: ack.info: set = 0 id = 0
+[ WARN] [1739730025.226706852]: ack.data: 0
+[ INFO] [1739730021.809675528]: Starting the FCS_Interface.
+[ INFO] [1739730022.910138573]: FCS_Interface getting ready...
+[ WARN] [1739730029.565045508]: activate failed.
+[ WARN] [1739730029.565152618]: ack.info: set = 0 id = 0
+[ WARN] [1739730029.565169288]: ack.data: 0
+[ INFO] [1739730026.249247607]: Starting the FCS_Interface.
+[ INFO] [1739730027.281919419]: FCS_Interface getting ready...
+[ WARN] [1739730033.801117135]: activate failed.
+[ WARN] [1739730033.801293556]: ack.info: set = 0 id = 0
+[ WARN] [1739730033.801349866]: ack.data: 0
+[ INFO] [1739730030.398308312]: Starting the FCS_Interface.
+[ INFO] [1739730031.488042574]: FCS_Interface getting ready...
+[ WARN] [1739730038.100694627]: activate failed.
+[ WARN] [1739730038.100870417]: ack.info: set = 0 id = 0
+[ WARN] [1739730038.100932408]: ack.data: 0
+[ INFO] [1739730034.659787818]: Starting the FCS_Interface.
+[ INFO] [1739730035.785699311]: FCS_Interface getting ready...
+[ WARN] [1739730042.201535445]: activate failed.
+[ WARN] [1739730042.201700876]: ack.info: set = 0 id = 0
+[ WARN] [1739730042.201779596]: ack.data: 0
+[ INFO] [1739730038.852590832]: Starting the FCS_Interface.
+[ INFO] [1739730039.907737466]: FCS_Interface getting ready...
+[ WARN] [1739730046.451812421]: activate failed.
+[ WARN] [1739730046.452673065]: ack.info: set = 0 id = 0
+[ WARN] [1739730046.452724896]: ack.data: 0
+[ INFO] [1739730043.159281839]: Starting the FCS_Interface.
+[ INFO] [1739730044.198829219]: FCS_Interface getting ready...
+[ WARN] [1739730050.732632233]: activate failed.
+[ WARN] [1739730050.732776744]: ack.info: set = 0 id = 0
+[ WARN] [1739730050.732795684]: ack.data: 0
+[ INFO] [1739730047.445626416]: Starting the FCS_Interface.
+[ INFO] [1739730048.496055691]: FCS_Interface getting ready...
+[ WARN] [1739730054.933434631]: activate failed.
+[ WARN] [1739730054.933548201]: ack.info: set = 0 id = 0
+[ WARN] [1739730054.933562541]: ack.data: 0
+[ INFO] [1739730051.625930188]: Starting the FCS_Interface.
+[ INFO] [1739730052.689834655]: FCS_Interface getting ready...
+[ WARN] [1739730059.194981844]: activate failed.
+[ WARN] [1739730059.195091094]: ack.info: set = 0 id = 0
+[ WARN] [1739730059.195111944]: ack.data: 0
+[ INFO] [1739730055.785118718]: Starting the FCS_Interface.
+[ INFO] [1739730056.900044635]: FCS_Interface getting ready...
+[ WARN] [1739730063.563537646]: activate failed.
+[ WARN] [1739730063.563688267]: ack.info: set = 0 id = 0
+[ WARN] [1739730063.563720427]: ack.data: 0
+[ INFO] [1739730060.148048893]: Starting the FCS_Interface.
+[ INFO] [1739730061.273804774]: FCS_Interface getting ready...
+[ WARN] [1739730068.018607267]: activate failed.
+[ WARN] [1739730068.018869498]: ack.info: set = 0 id = 0
+[ WARN] [1739730068.018933498]: ack.data: 0
+[ INFO] [1739730064.600406334]: Starting the FCS_Interface.
+[ INFO] [1739730065.710913042]: FCS_Interface getting ready...
+[ WARN] [1739730072.595258273]: activate failed.
+[ WARN] [1739730072.595486505]: ack.info: set = 0 id = 0
+[ WARN] [1739730072.595614345]: ack.data: 0
+[ INFO] [1739730069.153354989]: Starting the FCS_Interface.
+[ INFO] [1739730070.326243892]: FCS_Interface getting ready...
+[ WARN] [1739730076.935110761]: activate failed.
+[ WARN] [1739730076.935348422]: ack.info: set = 0 id = 0
+[ WARN] [1739730076.935421122]: ack.data: 0
+[ INFO] [1739730073.622864897]: Starting the FCS_Interface.
+[ INFO] [1739730074.674954892]: FCS_Interface getting ready...
+[ WARN] [1739730081.008878753]: activate failed.
+[ WARN] [1739730081.009063894]: ack.info: set = 0 id = 0
+[ WARN] [1739730081.009116354]: ack.data: 0
+[ INFO] [1739730077.719574409]: Starting the FCS_Interface.
+[ INFO] [1739730078.769617036]: FCS_Interface getting ready...
+[ WARN] [1739730085.139222361]: activate failed.
+[ WARN] [1739730085.139378252]: ack.info: set = 0 id = 0
+[ WARN] [1739730085.139405832]: ack.data: 0
+[ INFO] [1739730081.825660132]: Starting the FCS_Interface.
+[ INFO] [1739730082.933055631]: FCS_Interface getting ready...
+[ WARN] [1739730089.682069697]: activate failed.
+[ WARN] [1739730089.682177178]: ack.info: set = 0 id = 0
+[ WARN] [1739730089.682198918]: ack.data: 0
+[ INFO] [1739730086.285433006]: Starting the FCS_Interface.
+[ INFO] [1739730087.386313383]: FCS_Interface getting ready...
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_m1_m1_fcsmap-100-199.xml
+[Testcase: testt100] ... ok
+[Testcase: testt101] ... ok
+[Testcase: testt102] ... ok
+[Testcase: testt103] ... ok
+[Testcase: testt104] ... ok
+[Testcase: testt105] ... ok
+[Testcase: testt106] ... ok
+[Testcase: testt107] ... ok
+[Testcase: testt108] ... ok
+[Testcase: testt109] ... ok
+[Testcase: testt110] ... ok
+[Testcase: testt111] ... ok
+[Testcase: testt112] ... ok
+[Testcase: testt113] ... ok
+[Testcase: testt114] ... ok
+[Testcase: testt115] ... ok
+[Testcase: testt116] ... ok
+[Testcase: testt117] ... ok
+[Testcase: testt118] ... ok
+[Testcase: testt119] ... ok
+[Testcase: testt120] ... ok
+[Testcase: testt121] ... ok
+[Testcase: testt122] ... ok
+[Testcase: testt123] ... ok
+[Testcase: testt124] ... ok
+[Testcase: testt125] ... ok
+[Testcase: testt126] ... ok
+[Testcase: testt127] ... ok
+[Testcase: testt128] ... ok
+[Testcase: testt129] ... ok
+[Testcase: testt130] ... ok
+[Testcase: testt131] ... ok
+[Testcase: testt132] ... ok
+[Testcase: testt133] ... ok
+[Testcase: testt134] ... ok
+[Testcase: testt135] ... ok
+[Testcase: testt136] ... ok
+[Testcase: testt137] ... ok
+[Testcase: testt138] ... ok
+[Testcase: testt139] ... ok
+[Testcase: testt140] ... ok
+[Testcase: testt141] ... ok
+[Testcase: testt142] ... ok
+[Testcase: testt143] ... ok
+[Testcase: testt144] ... ok
+[Testcase: testt145] ... ok
+[Testcase: testt146] ... ok
+[Testcase: testt147] ... ok
+[Testcase: testt148] ... ok
+[Testcase: testt149] ... ok
+[Testcase: testt150] ... ok
+[Testcase: testt151] ... ok
+[Testcase: testt152] ... ok
+[Testcase: testt153] ... ok
+[Testcase: testt154] ... ok
+[Testcase: testt155] ... ok
+[Testcase: testt156] ... ok
+[Testcase: testt159] ... ok
+[Testcase: testt160] ... ok
+[Testcase: testt161] ... ok
+[Testcase: testt162] ... ok
+[Testcase: testt163] ... ok
+[Testcase: testt164] ... ok
+[Testcase: testt165] ... ok
+[Testcase: testt166] ... ok
+[Testcase: testt167] ... ok
+[Testcase: testt168] ... ok
+[Testcase: testt169] ... ok
+[Testcase: testt170] ... ok
+[Testcase: testt171] ... ok
+[Testcase: testt172] ... ok
+[Testcase: testt173] ... ok
+[Testcase: testt174] ... ok
+[Testcase: testt175] ... ok
+[Testcase: testt176] ... ok
+[Testcase: testt177] ... ok
+[Testcase: testt178] ... ok
+[Testcase: testt179] ... ok
+[Testcase: testt180] ... ok
+[Testcase: testt181] ... ok
+[Testcase: testt182] ... ok
+[Testcase: testt183] ... ok
+[Testcase: testt184] ... ok
+[Testcase: testt185] ... ok
+[Testcase: testt186] ... ok
+[Testcase: testt187] ... ok
+[Testcase: testt188] ... ok
+[Testcase: testt189] ... ok
+[Testcase: testt190] ... ok
+[Testcase: testt191] ... ok
+[Testcase: testt192] ... ok
+[Testcase: testt193] ... ok
+[Testcase: testt194] ... ok
+[Testcase: testt195] ... ok
+[Testcase: testt196] ... ok
+[Testcase: testt197] ... ok
+[Testcase: testt198] ... ok
+[Testcase: testt199] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[fcsmap_fcs_suite.rosunit-t100/test][passed]
+[fcsmap_fcs_suite.rosunit-t101/test][passed]
+[fcsmap_fcs_suite.rosunit-t102/test][passed]
+[fcsmap_fcs_suite.rosunit-t103/test][passed]
+[fcsmap_fcs_suite.rosunit-t104/test][passed]
+[fcsmap_fcs_suite.rosunit-t105/test][passed]
+[fcsmap_fcs_suite.rosunit-t106/test][passed]
+[fcsmap_fcs_suite.rosunit-t107/test][passed]
+[fcsmap_fcs_suite.rosunit-t108/test][passed]
+[fcsmap_fcs_suite.rosunit-t109/test][passed]
+[fcsmap_fcs_suite.rosunit-t110/test][passed]
+[fcsmap_fcs_suite.rosunit-t111/test][passed]
+[fcsmap_fcs_suite.rosunit-t112/test][passed]
+[fcsmap_fcs_suite.rosunit-t113/test][passed]
+[fcsmap_fcs_suite.rosunit-t114/test][passed]
+[fcsmap_fcs_suite.rosunit-t115/test][passed]
+[fcsmap_fcs_suite.rosunit-t116/test][passed]
+[fcsmap_fcs_suite.rosunit-t117/test][passed]
+[fcsmap_fcs_suite.rosunit-t118/test][passed]
+[fcsmap_fcs_suite.rosunit-t119/test][passed]
+[fcsmap_fcs_suite.rosunit-t120/test][passed]
+[fcsmap_fcs_suite.rosunit-t121/test][passed]
+[fcsmap_fcs_suite.rosunit-t122/test][passed]
+[fcsmap_fcs_suite.rosunit-t123/test][passed]
+[fcsmap_fcs_suite.rosunit-t124/test][passed]
+[fcsmap_fcs_suite.rosunit-t125/test][passed]
+[fcsmap_fcs_suite.rosunit-t126/test][passed]
+[fcsmap_fcs_suite.rosunit-t127/test][passed]
+[fcsmap_fcs_suite.rosunit-t128/test][passed]
+[fcsmap_fcs_suite.rosunit-t129/test][passed]
+[fcsmap_fcs_suite.rosunit-t130/test][passed]
+[fcsmap_fcs_suite.rosunit-t131/test][passed]
+[fcsmap_fcs_suite.rosunit-t132/test][passed]
+[fcsmap_fcs_suite.rosunit-t133/test][passed]
+[fcsmap_fcs_suite.rosunit-t134/test][passed]
+[fcsmap_fcs_suite.rosunit-t135/test][passed]
+[fcsmap_fcs_suite.rosunit-t136/test][passed]
+[fcsmap_fcs_suite.rosunit-t137/test][passed]
+[fcsmap_fcs_suite.rosunit-t138/test][passed]
+[fcsmap_fcs_suite.rosunit-t139/test][passed]
+[fcsmap_fcs_suite.rosunit-t140/test][passed]
+[fcsmap_fcs_suite.rosunit-t141/test][passed]
+[fcsmap_fcs_suite.rosunit-t142/test][passed]
+[fcsmap_fcs_suite.rosunit-t143/test][passed]
+[fcsmap_fcs_suite.rosunit-t144/test][passed]
+[fcsmap_fcs_suite.rosunit-t145/test][passed]
+[fcsmap_fcs_suite.rosunit-t146/test][passed]
+[fcsmap_fcs_suite.rosunit-t147/test][passed]
+[fcsmap_fcs_suite.rosunit-t148/test][passed]
+[fcsmap_fcs_suite.rosunit-t149/test][passed]
+[fcsmap_fcs_suite.rosunit-t150/test][passed]
+[fcsmap_fcs_suite.rosunit-t151/test][passed]
+[fcsmap_fcs_suite.rosunit-t152/test][passed]
+[fcsmap_fcs_suite.rosunit-t153/test][passed]
+[fcsmap_fcs_suite.rosunit-t154/test][passed]
+[fcsmap_fcs_suite.rosunit-t155/test][passed]
+[fcsmap_fcs_suite.rosunit-t156/test][passed]
+[fcsmap_fcs_suite.rosunit-t159/test][passed]
+[fcsmap_fcs_suite.rosunit-t160/test][passed]
+[fcsmap_fcs_suite.rosunit-t161/test][passed]
+[fcsmap_fcs_suite.rosunit-t162/test][passed]
+[fcsmap_fcs_suite.rosunit-t163/test][passed]
+[fcsmap_fcs_suite.rosunit-t164/test][passed]
+[fcsmap_fcs_suite.rosunit-t165/test][passed]
+[fcsmap_fcs_suite.rosunit-t166/test][passed]
+[fcsmap_fcs_suite.rosunit-t167/test][passed]
+[fcsmap_fcs_suite.rosunit-t168/test][passed]
+[fcsmap_fcs_suite.rosunit-t169/test][passed]
+[fcsmap_fcs_suite.rosunit-t170/test][passed]
+[fcsmap_fcs_suite.rosunit-t171/test][passed]
+[fcsmap_fcs_suite.rosunit-t172/test][passed]
+[fcsmap_fcs_suite.rosunit-t173/test][passed]
+[fcsmap_fcs_suite.rosunit-t174/test][passed]
+[fcsmap_fcs_suite.rosunit-t175/test][passed]
+[fcsmap_fcs_suite.rosunit-t176/test][passed]
+[fcsmap_fcs_suite.rosunit-t177/test][passed]
+[fcsmap_fcs_suite.rosunit-t178/test][passed]
+[fcsmap_fcs_suite.rosunit-t179/test][passed]
+[fcsmap_fcs_suite.rosunit-t180/test][passed]
+[fcsmap_fcs_suite.rosunit-t181/test][passed]
+[fcsmap_fcs_suite.rosunit-t182/test][passed]
+[fcsmap_fcs_suite.rosunit-t183/test][passed]
+[fcsmap_fcs_suite.rosunit-t184/test][passed]
+[fcsmap_fcs_suite.rosunit-t185/test][passed]
+[fcsmap_fcs_suite.rosunit-t186/test][passed]
+[fcsmap_fcs_suite.rosunit-t187/test][passed]
+[fcsmap_fcs_suite.rosunit-t188/test][passed]
+[fcsmap_fcs_suite.rosunit-t189/test][passed]
+[fcsmap_fcs_suite.rosunit-t190/test][passed]
+[fcsmap_fcs_suite.rosunit-t191/test][passed]
+[fcsmap_fcs_suite.rosunit-t192/test][passed]
+[fcsmap_fcs_suite.rosunit-t193/test][passed]
+[fcsmap_fcs_suite.rosunit-t194/test][passed]
+[fcsmap_fcs_suite.rosunit-t195/test][passed]
+[fcsmap_fcs_suite.rosunit-t196/test][passed]
+[fcsmap_fcs_suite.rosunit-t197/test][passed]
+[fcsmap_fcs_suite.rosunit-t198/test][passed]
+[fcsmap_fcs_suite.rosunit-t199/test][passed]
+
+SUMMARY
+ * RESULT: SUCCESS
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-1157632.log

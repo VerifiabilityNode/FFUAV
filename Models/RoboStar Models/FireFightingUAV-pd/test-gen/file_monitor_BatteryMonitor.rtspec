@@ -1,0 +1,308 @@
+// Tests for RoboChart component 'BatteryMonitor' with length up to 4
+// Format: t0, ..., tn, fevent
+// <t0,...,tn> is a valid trace followed by a 'fevent' that is forbidden
+cspm BMOriginal associated to BatteryMonitor {
+t0: BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t1: BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t2: BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t3: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t4: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t5: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.0
+t6: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.1
+t7: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.2
+t8: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.3
+t9: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.4
+t10: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t11: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t12: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t13: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t14: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t15: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.0
+t16: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.1
+t17: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.2
+t18: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.3
+t19: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.4
+t20: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t21: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t22: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t23: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t24: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t25: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.0
+t26: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.1
+t27: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.2
+t28: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.3
+t29: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.4
+t30: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t31: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t32: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t33: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t34: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t35: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.0
+t36: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.1
+t37: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.2
+t38: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.3
+t39: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.4
+t40: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t41: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t42: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t43: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t44: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t45: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.0
+t46: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.1
+t47: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.2
+t48: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.3
+t49: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.4
+t50: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t51: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t52: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t53: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t54: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t55: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.0
+t56: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.1
+t57: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.2
+t58: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.3
+t59: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.4
+t60: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t61: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t62: BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t63: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t64: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t65: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.0
+t66: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.1
+t67: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.2
+t68: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.3
+t69: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.4
+t70: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t71: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t72: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t73: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t74: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t75: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.0
+t76: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.1
+t77: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.2
+t78: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.3
+t79: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.4
+t80: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t81: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t82: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t83: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t84: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t85: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.0
+t86: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.1
+t87: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.2
+t88: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.3
+t89: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.4
+t90: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t91: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t92: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t93: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t94: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t95: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.0
+t96: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.1
+t97: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.2
+t98: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.3
+t99: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.4
+t100: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t101: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t102: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t103: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t104: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t105: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.0
+t106: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.1
+t107: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.2
+t108: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.3
+t109: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.4
+t110: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t111: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t112: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t113: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t114: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t115: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.0
+t116: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.1
+t117: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.2
+t118: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.3
+t119: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.4
+t120: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t121: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t122: BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t123: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t124: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t125: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.0
+t126: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.1
+t127: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.2
+t128: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.3
+t129: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.4
+t130: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t131: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t132: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t133: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t134: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t135: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.0
+t136: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.1
+t137: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.2
+t138: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.3
+t139: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.4
+t140: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t141: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t142: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t143: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t144: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t145: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.0
+t146: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.1
+t147: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.2
+t148: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.3
+t149: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.4
+t150: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t151: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t152: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t153: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t154: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t155: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.0
+t156: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.1
+t157: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.2
+t158: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.3
+t159: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.4
+t160: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t161: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t162: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t163: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t164: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t165: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.0
+t166: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.1
+t167: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.2
+t168: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.3
+t169: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.4
+t170: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t171: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t172: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t173: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t174: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t175: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.0
+t176: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.1
+t177: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.2
+t178: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.3
+t179: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.4
+t180: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t181: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t182: BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t183: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t184: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t185: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.0
+t186: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.1
+t187: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.2
+t188: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.3
+t189: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.4
+t190: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t191: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t192: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t193: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t194: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t195: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.0
+t196: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.1
+t197: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.2
+t198: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.3
+t199: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.4
+t200: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t201: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t202: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t203: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t204: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t205: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.0
+t206: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.1
+t207: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.2
+t208: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.3
+t209: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.4
+t210: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t211: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t212: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t213: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t214: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t215: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.0
+t216: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.1
+t217: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.2
+t218: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.3
+t219: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.4
+t220: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t221: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t222: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t223: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t224: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t225: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.0
+t226: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.1
+t227: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.2
+t228: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.3
+t229: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.4
+t230: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t231: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t232: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t233: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t234: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t235: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.0
+t236: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.1
+t237: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.2
+t238: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.3
+t239: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.4
+t240: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t241: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t242: BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t243: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t244: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t245: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.0
+t246: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.1
+t247: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.2
+t248: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.3
+t249: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.4
+t250: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t251: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t252: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t253: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t254: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t255: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.0
+t256: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.1
+t257: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.2
+t258: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.3
+t259: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryState.in.4
+t260: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t261: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t262: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.0, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t263: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t264: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t265: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.0
+t266: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.1
+t267: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.2
+t268: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.3
+t269: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryState.in.4
+t270: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t271: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t272: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.1, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t273: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t274: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t275: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.0
+t276: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.1
+t277: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.2
+t278: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.3
+t279: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryState.in.4
+t280: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t281: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t282: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.2, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t283: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t284: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t285: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.0
+t286: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.1
+t287: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.2
+t288: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.3
+t289: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryState.in.4
+t290: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t291: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t292: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.3, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t293: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t294: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+t295: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.0
+t296: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.1
+t297: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.2
+t298: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.3
+t299: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryState.in.4
+t300: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok
+t301: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_MissionCritical
+t302: BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryState.in.4, BatteryMonitor::batteryStatus.out.BatteryStatus_Ok, BatteryMonitor::batteryStatus.out.BatteryStatus_SafetyCritical
+}

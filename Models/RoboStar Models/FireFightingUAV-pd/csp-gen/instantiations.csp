@@ -1,0 +1,314 @@
+-- generate nat not
+nametype core_nat = {0..4}
+
+-- generate const_WaterMonitor_INITIAL_WATER_LEVEL not
+const_WaterMonitor_INITIAL_WATER_LEVEL = 30
+
+-- generate Position not
+nametype Position = {0,1,2,3}
+
+-- generate midPoint not
+midPoint(0,0) = 0
+midPoint(0,1) = 0
+midPoint(1,0) = midPoint(0,1)
+midPoint(0,2) = 0
+midPoint(2,0) = midPoint(0,2)
+midPoint(0,3) = 0
+midPoint(3,0) = midPoint(0,3)
+midPoint(1,1) = 1
+midPoint(1,2) = 1
+midPoint(1,3) = 2
+midPoint(2,1) = 2
+midPoint(2,2) = 2
+midPoint(2,3) = 2
+midPoint(3,1) = 2
+midPoint(3,2) = 3
+midPoint(3,3) = 3
+
+-- generate const_MainCtrl_CBatteryMonitor_BATTERY_SAFETY_THRESHOLD not
+const_MainCtrl_CBatteryMonitor_BATTERY_SAFETY_THRESHOLD = 1
+
+-- generate tracked not
+tracked(FireInfo_Tracked.x__) = true
+tracked(_) = false
+
+-- generate const_BatteryMonitor_BATTERY_SAFETY_THRESHOLD not
+const_BatteryMonitor_BATTERY_SAFETY_THRESHOLD = 1
+
+-- generate real not
+nametype core_real = { -1..3}
+
+-- VECTOR TYPES AND OPERATIONS
+
+
+-- CLOCKS
+
+-- generate withinRadius not
+withinRadius(radius,desired,pos) = (positionDistance(desired,pos) <= radius)
+-- for position assume P1--P2--P3
+positionDistance(0,0) = 0
+positionDistance(0,1) = 0
+positionDistance(1,0) = positionDistance(0,1)
+positionDistance(0,2) = 0
+positionDistance(2,0) = positionDistance(0,2)
+positionDistance(0,3) = 0
+positionDistance(3,0) = positionDistance(0,3)
+positionDistance(1,2) = 1
+positionDistance(2,1) = positionDistance(1,2)
+positionDistance(1,3) = 2
+positionDistance(3,1) = positionDistance(1,3)
+positionDistance(2,3) = 1
+positionDistance(3,2) = positionDistance(2,3)
+positionDistance(1,1) = 0
+positionDistance(2,2) = 0
+positionDistance(3,3) = 0
+
+-- generate const_MainCtrl_CBatteryMonitor_BATTERY_MISSION_THRESHOLD not
+const_MainCtrl_CBatteryMonitor_BATTERY_MISSION_THRESHOLD = 3
+
+-- generate int not
+nametype core_int = {0..1}
+
+-- generate target not
+target(FireInfo_Tracked.(x__,y__,z__)) = (x__,y__,z__)
+target(_) = (0,0,0)
+
+-- generate withinAltitude not
+withinAltitude(precision__,tgt__,altitude__) = (absdiff(tgt__,altitude__) <= precision__)
+absdiff(x__,y__) = if x__ - y__ < 0 then y__ - x__ else x__ - y__
+
+-- generate const_BatteryMonitor_BATTERY_MISSION_THRESHOLD not
+const_BatteryMonitor_BATTERY_MISSION_THRESHOLD = 3
+
+-- generate const_WaterMonitor_WATER_FLOW not
+const_WaterMonitor_WATER_FLOW = 1
+
+-- generate const_MainCtrl_CVisualNav_SCAN_DIST
+const_MainCtrl_CVisualNav_SCAN_DIST = 0
+
+-- generate const_MainCtrl_CPlanning_WALL_WP
+const_MainCtrl_CPlanning_WALL_WP = 0
+
+-- generate deltaInTolerance
+deltaInTolerance(d,tol) = true
+
+-- generate const_MainCtrl_CPlanning_FIRE_TO
+const_MainCtrl_CPlanning_FIRE_TO = 0
+
+-- generate const_Planning_WALL_WP
+const_Planning_WALL_WP = 0
+
+-- generate superimpose
+superimpose(rgb,d,t) = (0)
+
+-- generate const_FireDetect_CENTRE_Y
+const_FireDetect_CENTRE_Y = 0
+
+-- generate const_ArmCtrl_ArmProg_GIMBAL_BASE_DELAY
+const_ArmCtrl_ArmProg_GIMBAL_BASE_DELAY = 0
+
+-- generate const_Planning_FIRE_TO
+const_Planning_FIRE_TO = 0
+
+-- generate const_FireDetect_CENTRE_X
+const_FireDetect_CENTRE_X = 0
+
+-- generate calcGimbalAxis
+calcGimbalAxis(wallDist,normalDist) = 0
+
+-- generate const_Flight_CLIMB_LIFT
+const_Flight_CLIMB_LIFT = 0
+
+-- generate const_Flight_DELAY_DISARM
+const_Flight_DELAY_DISARM = 0
+
+-- generate const_MainCtrl_CFlight_CLIMB_LIFT
+const_MainCtrl_CFlight_CLIMB_LIFT = 0
+
+-- generate const_MainCtrl_CPlanning_NUM_SEARCH_WPS
+const_MainCtrl_CPlanning_NUM_SEARCH_WPS = 0
+
+-- generate Plus
+Plus(e1,e2,T) = if member(e1+e2,T) then e1+e2 else e1
+
+-- generate const_FireDetect_RIGHT_X
+const_FireDetect_RIGHT_X = 0
+
+-- generate clamp
+clamp(n,dz) = 0
+
+-- generate const_MainCtrl_CVisualNav_YAW_TOL
+const_MainCtrl_CVisualNav_YAW_TOL = 0
+
+-- generate --
+
+-- generate const_MainCtrl_CFlight_TAKEOFF_HEIGHT
+const_MainCtrl_CFlight_TAKEOFF_HEIGHT = 0
+
+-- generate core_clock_type
+nametype core_clock_type = {0..10}
+
+-- BASIC FUNCTIONS
+
+-- generate const_SprayAim_TRACK_DIST
+const_SprayAim_TRACK_DIST = 0
+
+-- generate const_Planning_NUM_SEARCH_WPS
+const_Planning_NUM_SEARCH_WPS = 0
+
+-- generate const_VisualNav_YAW_TOL
+const_VisualNav_YAW_TOL = 0
+
+-- generate const_MainCtrl_CWaterMonitor_WATER_FLOW
+const_MainCtrl_CWaterMonitor_WATER_FLOW = 0
+
+-- OPERATION CONSTANTS
+
+-- generate const_Flight_TAKEOFF_HEIGHT
+const_Flight_TAKEOFF_HEIGHT = 0
+
+-- generate calcYawDelta
+calcYawDelta(wm) = 0
+
+-- generate gimbalWritePan_BOUND
+gimbalWritePan_BOUND = 2
+
+-- generate motionInTolerance
+motionInTolerance(m,vec_tol,yaw_tol) = true
+
+-- generate const_gimbalAct_YAW_DEAD_ZONE
+const_gimbalAct_YAW_DEAD_ZONE = 0
+
+-- generate Modulus
+Modulus(e1,e2,T) = if member(e1%e2,T) then e1%e2 else e1
+
+-- generate const_MainCtrl_CPlanning_SEARCH_WPS
+const_MainCtrl_CPlanning_SEARCH_WPS = <>
+
+-- generate gimbalWriteTilt_BOUND
+gimbalWriteTilt_BOUND = 2
+
+-- generate const_MainCtrl_CFlight_DELAY_DISARM
+const_MainCtrl_CFlight_DELAY_DISARM = 0
+
+-- generate Minus
+Minus(e1,e2,T) = if member(e1-e2,T) then e1-e2 else e1
+
+-- generate const_MainCtrl_CSprayAim_TRACK_DIST
+const_MainCtrl_CSprayAim_TRACK_DIST = 0
+
+-- generate fcGoHomeCall_BOUND
+fcGoHomeCall_BOUND = 2
+
+-- generate string
+nametype core_string = LSeq(Char,2)
+
+-- generate pumpOn_BOUND
+pumpOn_BOUND = 2
+
+-- generate const_MainCtrl_CVisualNav_TRACK_DIST
+const_MainCtrl_CVisualNav_TRACK_DIST = 0
+
+-- generate const_Flight_PRECISION_ERROR
+const_Flight_PRECISION_ERROR = 0
+
+-- generate angleDelay
+angleDelay(lastAngle,thisAngle,scale) = 0
+
+-- generate fcTakeoffCall_BOUND
+fcTakeoffCall_BOUND = 2
+
+-- generate -- OPERATION BOUNDS
+
+-- generate const_Planning_INIT_TO
+const_Planning_INIT_TO = 0
+
+-- generate const_Planning_SEARCH_WPS
+const_Planning_SEARCH_WPS = <>
+
+-- generate const_MainCtrl_CFireDetect_LEFT_X
+const_MainCtrl_CFireDetect_LEFT_X = 0
+
+-- generate const_MainCtrl_CBatteryMonitor_BATTERY_POLL_DELAY
+const_MainCtrl_CBatteryMonitor_BATTERY_POLL_DELAY = 0
+
+-- generate const_MainCtrl_CFlight_HOME
+const_MainCtrl_CFlight_HOME = 0
+
+-- generate const_FireDetect_LEFT_X
+const_FireDetect_LEFT_X = 0
+
+-- generate const_MainCtrl_CWaterMonitor_INITIAL_WATER_LEVEL
+const_MainCtrl_CWaterMonitor_INITIAL_WATER_LEVEL = 0
+
+-- generate const_MainCtrl_CFlight_PRECISION_ERROR
+const_MainCtrl_CFlight_PRECISION_ERROR = 0
+
+-- generate const_MainCtrl_CFireDetect_CENTRE_Y
+const_MainCtrl_CFireDetect_CENTRE_Y = 0
+
+-- generate const_MainCtrl_CFireDetect_CENTRE_X
+const_MainCtrl_CFireDetect_CENTRE_X = 0
+
+-- generate const_MainCtrl_CPlanning_INIT_TO
+const_MainCtrl_CPlanning_INIT_TO = 0
+
+-- generate const_BatteryMonitor_BATTERY_POLL_DELAY
+const_BatteryMonitor_BATTERY_POLL_DELAY = 0
+
+-- generate const_MainCtrl_CFireDetect_RIGHT_X
+const_MainCtrl_CFireDetect_RIGHT_X = 0
+
+-- generate fcMoveRelativeCall_BOUND
+fcMoveRelativeCall_BOUND = 2
+
+-- generate const_MainCtrl_CVisualNav_CENTRE_TOL
+const_MainCtrl_CVisualNav_CENTRE_TOL = 0
+
+-- generate calcFireTarget
+calcFireTarget(f) = (FireStatus_NoFire,0,0,0)
+
+-- generate fcLandCall_BOUND
+fcLandCall_BOUND = 2
+
+-- generate Div
+Div(e1,e2,T) = if member(e1/e2,T) then e1/e2 else e1
+
+-- generate Neg
+Neg(e1,T) = if member(-e1,T) then -e1 else e1
+
+-- generate fcWaypointCall_BOUND
+fcWaypointCall_BOUND = 2
+
+-- generate boolean
+nametype core_boolean = Bool
+
+-- generate Mult
+Mult(e1,e2,T) = if member(e1*e2,T) then e1*e2 else e1
+
+-- generate const_Flight_HOME
+const_Flight_HOME = 0
+
+-- generate const_VisualNav_CENTRE_TOL
+const_VisualNav_CENTRE_TOL = 0
+
+-- generate const_VisualNav_SCAN_DIST
+const_VisualNav_SCAN_DIST = 0
+
+-- generate const_gimbalAct_PITCH_DEAD_ZONE
+const_gimbalAct_PITCH_DEAD_ZONE = 0
+
+-- BASIC TYPES
+
+-- generate pumpOff_BOUND
+pumpOff_BOUND = 2
+
+-- MODULE CONSTANTS
+
+-- CONTROLLER CONSTANTS
+
+-- STATEMACHINE CONSTANTS
+
+-- generate const_VisualNav_TRACK_DIST
+const_VisualNav_TRACK_DIST = 0
+

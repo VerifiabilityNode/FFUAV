@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find fcs_interface)/launch/fcs_interface_m1.launch"/>
+  <test test-name="t677" pkg="fcsmap_fcs_suite_t677" type="node"/>
+  <test test-name="t678" pkg="fcsmap_fcs_suite_t678" type="node"/>
+  <test test-name="t679" pkg="fcsmap_fcs_suite_t679" type="node"/>
+  <test test-name="t680" pkg="fcsmap_fcs_suite_t680" type="node"/>
+  <test test-name="t681" pkg="fcsmap_fcs_suite_t681" type="node"/>
+  <test test-name="t682" pkg="fcsmap_fcs_suite_t682" type="node"/>
+  <test test-name="t683" pkg="fcsmap_fcs_suite_t683" type="node"/>
+  <test test-name="t684" pkg="fcsmap_fcs_suite_t684" type="node"/>
+  <test test-name="t685" pkg="fcsmap_fcs_suite_t685" type="node"/>
+  <test test-name="t686" pkg="fcsmap_fcs_suite_t686" type="node"/>
+  <test test-name="t687" pkg="fcsmap_fcs_suite_t687" type="node"/>
+  <test test-name="t688" pkg="fcsmap_fcs_suite_t688" type="node"/>
+  <test test-name="t689" pkg="fcsmap_fcs_suite_t689" type="node"/>
+  <test test-name="t690" pkg="fcsmap_fcs_suite_t690" type="node"/>
+  <test test-name="t691" pkg="fcsmap_fcs_suite_t691" type="node"/>
+  <test test-name="t692" pkg="fcsmap_fcs_suite_t692" type="node"/>
+  <test test-name="t693" pkg="fcsmap_fcs_suite_t693" type="node"/>
+  <test test-name="t694" pkg="fcsmap_fcs_suite_t694" type="node"/>
+  <test test-name="t695" pkg="fcsmap_fcs_suite_t695" type="node"/>
+  <test test-name="t696" pkg="fcsmap_fcs_suite_t696" type="node"/>
+  <test test-name="t697" pkg="fcsmap_fcs_suite_t697" type="node"/>
+  <test test-name="t698" pkg="fcsmap_fcs_suite_t698" type="node"/>
+  <test test-name="t699" pkg="fcsmap_fcs_suite_t699" type="node"/>
+</launch>

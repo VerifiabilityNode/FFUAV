@@ -1,0 +1,1 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-227157.log

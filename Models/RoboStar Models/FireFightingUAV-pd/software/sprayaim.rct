@@ -1,11 +1,233 @@
 // Spray/Aim state machine, on the main controller.
-diagram sprayaim
+diagram sprayaim interface GimbalVars {
+	var id : nat
+}
+
+interface GimbalActOperations {
+gimbalAct ( distance : real , dx : real , dy : real )
+}
 
 // Calculates yaw or pitch.
 //
 // One way to calculate this might be to let wallDist be the adjacent, and
 // normalDist the opposite, of a right-angled triangle; then, the yaw is
 // 90 + arctan(dx/distance) as expressed in degrees.
+stm SprayAim {
+	initial I
+	
+	uses InterCtrlSprayAimEvents
+	uses SprayAimPlanningEvents
+	uses FireEvents
+	uses SprayEvents
+	uses WaterEvents
+	
+	var id : nat
+
+	var tgt : FireTarget
+	var spray : PumpCommand = PumpCommand :: Off , water : WaterStatus = WaterStatus :: Ok
+	requires GimbalActOperations
+	//
+	// Handling fire information
+	//
+	//
+	// Handling spray information
+	//
+	state PumpOff {
+		initial i0
+		junction j0
+		state s0 {
+		}
+		transition t4 {
+			from j0
+			to s0
+			condition tgt . stat == FireStatus :: Tracked
+			action gimbalAct ( tgt . distance , tgt . dx , tgt . dy )
+		}
+		transition t1 {
+			from s0
+			to s0
+			trigger 
+		waterIn ? water
+		}
+		transition t3 {
+			from j0
+			to s0
+			condition tgt . stat != FireStatus :: Tracked
+			action gimbalStatus ! GimbalStatus :: Idle
+		}
+		transition t2 {
+			from s0
+			to j0
+			trigger 
+		fireIn ? tgt
+		}
+		transition t0 {
+			from i0
+			to s0
+		}
+	}
+	
+	//
+	// Handling fire information
+	//
+	//
+	// Handling fire information
+	//
+	
+	transition Init { from I to PumpOff action tgt . stat = FireStatus :: NoFire }
+	//
+	// Handling fire information
+	//
+	//
+	// Handling spray information
+	//
+	state PumpOn {
+		initial i0
+		state s0 {
+		}
+		junction j0
+		transition t0 {
+			from i0
+			to s0
+		}
+		transition t1 {
+			from s0
+			to s0
+			trigger 
+		waterIn ? water
+		}
+		transition t2 {
+			from s0
+			to j0
+			trigger 
+		fireIn ? tgt
+		}
+		transition t3 {
+			from j0
+			to s0
+			condition tgt . stat != FireStatus :: Tracked
+			action gimbalStatus ! GimbalStatus :: Idle
+		}
+		transition t4 {
+			from j0
+			to s0
+			condition tgt . stat == FireStatus :: Tracked
+			action gimbalAct ( tgt . distance , tgt . dx , tgt . dy )
+		}
+	}
+
+	transition t2 {
+		from PumpOff
+		to j1
+		trigger 
+	sprayIn ? spray
+	}
+	junction j1
+
+	transition t3 {
+		from PumpOn
+		to j3
+		trigger 
+	sprayIn ? spray
+	}
+	junction j3
+
+	transition t4 {
+		from j1
+		to PumpOn
+		condition spray == PumpCommand :: On /\ water == WaterStatus :: Ok
+		action pump ! spray
+	}
+	transition t5 {
+		from j3
+		to PumpOff
+		condition spray == PumpCommand :: Off
+		action pump ! spray
+	}
+	transition t6 {
+		from j3
+		to PumpOn
+		condition spray == PumpCommand :: On
+	}
+	transition t7 {
+		from j1
+		to PumpOff
+		condition not ( spray == PumpCommand :: On /\ water == WaterStatus :: Ok )
+	}
+}
+
+operation gimbalAct ( distance : real
+, dx : real
+, dy : real
+) {
+	requires GimbalVars var yaw : nat , pitch : nat
+	event gimbalReq : AngleReq
+	event gimbalAck : nat
+	initial i0
+	state Yaw {
+		initial i0
+		state s0 {
+		}
+		transition t0 {
+			from i0
+			to s0
+		}
+		transition t1 {
+			from s0
+			to s0
+		trigger gimbalAck ? ackID
+		}
+		entry id = id + 1 ; gimbalReq ! AngleReq (| id = id , angle = yaw , typ = AngleType :: Yaw |)
+	}
+	transition t0 {
+		from i0
+		to Yaw
+		action yaw = calcGimbalAxis ( distance , dx ) ; pitch = calcGimbalAxis ( distance , dy )
+	}
+var ackID : nat
+	const YAW_DEAD_ZONE : nat , PITCH_DEAD_ZONE : nat
+	event gimbalStatus : GimbalStatus
+	state s0 {
+		initial i0
+		state s0 {
+		}
+		transition t0 {
+			from i0
+			to s0
+		}
+		transition t1 {
+			from s0
+			to s0
+			trigger gimbalAck ? ackID
+		}
+		entry id = id + 1 ; gimbalReq ! AngleReq (| id = id , angle = pitch , typ = AngleType :: Pitch |)
+	}
+	junction j0
+	final f0
+	transition t1 {
+		from Yaw
+		to s0
+		condition ackID == id
+	}
+	transition t2 {
+		from s0
+		to j0
+		condition ackID == id
+	}
+	transition t3 {
+		from j0
+		to f0
+		condition clamp ( yaw , YAW_DEAD_ZONE ) == yaw /\ clamp ( pitch , PITCH_DEAD_ZONE ) == pitch
+		action gimbalStatus ! GimbalStatus :: Tracking
+	}
+	transition t4 {
+		from j0
+		to f0
+		condition clamp ( yaw , YAW_DEAD_ZONE ) != yaw \/ clamp ( pitch , PITCH_DEAD_ZONE ) != pitch
+		action gimbalStatus ! GimbalStatus :: OOB
+	}
+}
+
 function calcGimbalAxis(wallDist: real, normalDist: real): nat {
 	// NOTE(@MattWindsor91 2022-05-20): discussion with Shival:
 	// we model the spray as a straight line, so this function works for yaw
@@ -35,93 +257,4 @@ function clamp(n: nat, dz: nat): nat {
 		(n < dz => result == dz) /\
 		(180 - dz < n => result == 180 - dz) /\
 		(dz <= n <= 180 - dz) => result == n
-}
-
-stm SprayAim {
-	initial I
-	
-	uses InterCtrlSprayAimEvents
-	uses SprayAimPlanningEvents
-	uses FireSubscriber
-	uses SpraySubscriber
-	uses WaterSubscriber
-	
-	var tgt: FireTarget, ackID : nat, greq : AngleReq, yaw : nat, pitch : nat, tracking : boolean = false
-	// added 2022-05-25: clamping
-	var cYaw: nat, cPitch: nat, YAW_DEAD_ZONE: nat, PITCH_DEAD_ZONE: nat
-	// added 2022-09-05: spray handling
-	var sprayLast : PumpStatus = PumpStatus::Off, spray : PumpStatus = PumpStatus::Off, water : WaterStatus = WaterStatus::Ok
-	
-	// This should be the same as TRACK_DIST in VisualNav
-	const TRACK_DIST: real
-	
-	transition Init { from I to Waiting action tgt.stat = FireStatus::NoFire }
-	
-	state Waiting {
-	}
-	
-	//
-	// Handling fire information
-	//
-	
-	transition GotFire { from Waiting to IsValid trigger fireIn?tgt }
-	
-	state Calculate {
-		entry yaw = calcGimbalAxis(tgt.distance, tgt.dx); pitch = calcGimbalAxis(tgt.distance, tgt.dy)
-	}
-	
-	transition CalcYaw { from Calculate to Clamp }
-
-	state Yaw {
-		entry greq.id = greq.id + 1; greq.angle = yaw; greq.typ = AngleType::Yaw; gimbalReq!greq
-		
-		initial I
-		state Poll {
-		}
-		transition Init    { from I    to Poll }
-		transition PollAck { from Poll to Poll trigger gimbalAck?ackID }
-	}
-
-	transition YP { from Yaw to Pitch condition ackID == greq.id }
-			
-	state Pitch {
-		entry greq.id = greq.id + 1; greq.angle = yaw; greq.typ = AngleType::Pitch; gimbalReq!greq
-		
-		initial I
-		state Poll {
-		}
-		transition Init    { from I    to Poll }
-		transition PollAck { from Poll to Poll trigger gimbalAck?ackID }
-	}
-
-	transition PW { from Pitch to MaybeAimed condition ackID == greq.id }
-	
-	// added 2022-05-20: validity checking in visual nav
-	junction IsValid
-	transition Valid    { from IsValid to Calculate condition tgt.stat == FireStatus::Tracked }
-	transition NotValid { from IsValid to Waiting   condition tgt.stat != FireStatus::Tracked action gimbalStatus!GimbalStatus::Idle }
-	
-	// added 2022-05-25: clamping
-	state Clamp {
-		entry cYaw = clamp(yaw, YAW_DEAD_ZONE); cPitch = clamp(pitch, PITCH_DEAD_ZONE)
-	}
-	transition Clamped { from Clamp to Yaw }
-	
-	junction MaybeAimed
-	transition DidAim { from MaybeAimed to Waiting condition cYaw == yaw /\ cPitch == pitch action gimbalStatus!GimbalStatus::Tracking }
-	transition DidNotAim { from MaybeAimed to Waiting condition cYaw != yaw \/ cPitch != pitch action gimbalStatus!GimbalStatus::OOB }
-	
-	//
-	// Handling spray information
-	//
-	
-	transition PollW { from Waiting to Waiting trigger waterIn?water }
-	
-	junction NewSpray
-	transition PollS { from Waiting to NewSpray trigger sprayIn?spray }
-	transition SprayOk { from NewSpray to MaybeSpray condition spray != sprayLast  }
-	transition SprayNo { from NewSpray to Waiting    condition spray == sprayLast }
-	junction MaybeSpray
-	transition MaybeSprayOk { from MaybeSpray to Waiting condition spray == PumpStatus::Off \/ water == WaterStatus::Ok action pump!spray; sprayLast = spray }
-	transition MaybeSprayNo { from MaybeSpray to Waiting condition spray == PumpStatus::On  /\ water == WaterStatus::Low }
 }

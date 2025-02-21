@@ -1,0 +1,41 @@
+Traceback (most recent call last):
+  File "/opt/ros/noetic/bin/rostest", line 71, in <module>
+    rostestmain()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/__init__.py", line 279, in rostestmain
+    _main()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/rostest_main.py", line 159, in rostestmain
+    testCase = rostest.runner.createUnitTest(pkg, test_file, options.reuse_master, options.clear, options.results_base_dir)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rostest/runner.py", line 229, in createUnitTest
+    config = roslaunch.parent.load_config_default([test_file], None)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/config.py", line 461, in load_config_default
+    loader.load(f, config, argv=args, verbose=verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 763, in load
+    self._load_launch(launch, ros_config, is_core=core, filename=filename, argv=argv, verbose=verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 735, in _load_launch
+    self._recurse_load(ros_config, launch.childNodes, self.root_context, None, is_core, verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 701, in _recurse_load
+    val = self._include_tag(tag, context, ros_config, default_machine, is_core, verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 96, in call
+    return f(*args, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 596, in _include_tag
+    inc_filename = self.resolve_args(tag.attributes['file'].value, context)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 189, in resolve_args
+    return substitution_args.resolve_args(args, context=context.resolve_dict, resolve_anon=self.resolve_anon)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 392, in resolve_args
+    resolved = _resolve_args(resolved, context, resolve_anon, commands)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 405, in _resolve_args
+    resolved = commands[command](resolved, a, args, context)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 164, in _find
+    res = _find_executable(
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 212, in _find_executable
+    full_path = _get_executable_path(rp.get_path(args[0]), path)
+  File "/usr/lib/python3/dist-packages/rospkg/rospack.py", line 207, in get_path
+    raise ResourceNotFound(name, ros_paths=self._ros_paths)
+rospkg.common.ResourceNotFound: battery_monitor_m14
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/home/pedro/git/UAV-firefighting/FireFightingUAV-pd/catkin_ws/src
+ROS path [2]=/opt/ros/noetic/share
+
+real	0m0.563s
+user	0m0.509s
+sys	0m0.142s

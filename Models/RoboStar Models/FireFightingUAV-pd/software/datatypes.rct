@@ -33,11 +33,18 @@ datatype WallMetrics {
 }
 
 // Latitude/longitude/altitude/heading position, used for waypoints.
-datatype Position {
+type Position  
+//{
+//	lat: real
+//	lon: real
+//	alt: real
+//	heading: real //FIXME:Currently no heading in implementation.
+//}
+
+datatype PositionWithPrecision {
 	lat: real
 	lon: real
-	alt: real
-	heading: real
+	precision: real
 }
 
 // A RGB pixel.
@@ -91,7 +98,7 @@ enumeration FireStatus {
 }
 
 // Statuses of the pump.
-enumeration PumpStatus {
+enumeration PumpCommand {
 	Off // Pump is off, or should be off.
 	On  // Pump is on, or should be on.
 }
@@ -145,22 +152,30 @@ enumeration GimbalStatus {
 enumeration AircraftStatus {
 	// The UAV is connected.
 	Connected
+	// Error connecting
+	ConnectedError
 	// Takeoff has succeeded, but we have not yet climbed to the initial altitude.
 	TakenOff
 	// We failed to take off.
 	TakeoffError
 	// Takeoff has succeeded and we are at the initial altitude.
 	AtAltitude
+	// Takeoff has not succeeded.
+	AtAltitudeError
 	// We are within tolerance of the requested waypoint.
 	AtWaypoint
+	// Going to waypoint failed
+	AtWaypointError
 	// We are within tolerance of the home position.
 	AtHome
+	// Going home failed
+	GoHomeError
 	// We have landed.
 	Landed
 	// We failed to land.
 	LandError
 	// We have disconnected from the UAV.
-	Disarmed
+	Disarmed // FIXME: To be removed
 }
 
 // Interface for top-level navigation commands.
