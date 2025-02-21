@@ -1,0 +1,18 @@
+package dji_sdk
+
+srv SDKControlAuthority
+srv Activation
+srv DroneTaskControl
+srv MissionWpAction
+srv MissionWpUpload
+srv SetLocalPosRef
+
+msg NavSatFix
+msg BatteryState
+
+// Also uses (from geometry_msgs):
+// PointStamped
+// QuaternionStamped
+
+// Also uses (from sensor_msgs):
+// Joy

@@ -1,0 +1,873 @@
+... logging to /home/pedro/.ros/log/rostest-newnoetic-211515.log
+[INFO] [1712522572.182407]: Water Monitor Node Running
+[INFO] [1712522576.825893]: Water Monitor Node Running
+[INFO] [1712522581.850332]: Water Monitor Node Running
+[INFO] [1712522584.631253]: Pump status changed: Previous=0, New=1
+[INFO] [1712522584.632358]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522584.632783]: Publishing current time for request: 1712522584632744073
+[INFO] [1712522584.633498]: Publishing current time for respond 1712522584633450508
+[INFO] [1712522586.634442]: Counter Value: 29
+[INFO] [1712522588.390104]: Water Monitor Node Running
+[INFO] [1712522589.157061]: Pump status changed: Previous=0, New=1
+[INFO] [1712522589.157680]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522589.158107]: Publishing current time for request: 1712522589158071994
+[INFO] [1712522589.158762]: Publishing current time for respond 1712522589158716917
+[INFO] [1712522591.160933]: Counter Value: 29
+[INFO] [1712522593.159389]: Counter Value: 28
+[INFO] [1712522594.507195]: Water Monitor Node Running
+[INFO] [1712522595.269123]: Pump status changed: Previous=0, New=1
+[INFO] [1712522595.269756]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522595.270148]: Publishing current time for request: 1712522595270114421
+[INFO] [1712522595.270749]: Publishing current time for respond 1712522595270703315
+[INFO] [1712522597.279482]: Counter Value: 29
+[INFO] [1712522599.273232]: Counter Value: 28
+[INFO] [1712522600.636997]: Water Monitor Node Running
+[INFO] [1712522601.404298]: Pump status changed: Previous=0, New=1
+[INFO] [1712522601.404922]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522601.405361]: Publishing current time for request: 1712522601405323743
+[INFO] [1712522601.405980]: Publishing current time for respond 1712522601405935764
+[INFO] [1712522603.408977]: Counter Value: 29
+[INFO] [1712522605.409392]: Counter Value: 28
+[INFO] [1712522606.719629]: Water Monitor Node Running
+[INFO] [1712522607.389211]: Pump status changed: Previous=0, New=1
+[INFO] [1712522607.389804]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522607.390200]: Publishing current time for request: 1712522607390167236
+[INFO] [1712522607.390797]: Publishing current time for respond 1712522607390752077
+[INFO] [1712522609.394198]: Counter Value: 29
+[INFO] [1712522611.397344]: Counter Value: 28
+[INFO] [1712522613.254137]: Water Monitor Node Running
+[INFO] [1712522614.019681]: Pump status changed: Previous=0, New=1
+[INFO] [1712522614.020379]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522614.020790]: Publishing current time for request: 1712522614020756721
+[INFO] [1712522614.021417]: Publishing current time for respond 1712522614021327257
+[INFO] [1712522616.024206]: Counter Value: 29
+[INFO] [1712522618.028228]: Counter Value: 28
+[INFO] [1712522619.895799]: Water Monitor Node Running
+[INFO] [1712522620.665899]: Pump status changed: Previous=0, New=1
+[INFO] [1712522620.666520]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522620.667056]: Publishing current time for request: 1712522620667020320
+[INFO] [1712522620.667774]: Publishing current time for respond 1712522620667700529
+[INFO] [1712522622.671662]: Counter Value: 29
+[INFO] [1712522624.671488]: Counter Value: 28
+[INFO] [1712522626.616842]: Water Monitor Node Running
+[INFO] [1712522627.389466]: Pump status changed: Previous=0, New=1
+[INFO] [1712522627.390065]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522627.390481]: Publishing current time for request: 1712522627390444993
+[INFO] [1712522627.391084]: Publishing current time for respond 1712522627391047000
+[INFO] [1712522629.393080]: Counter Value: 29
+[INFO] [1712522631.391606]: Counter Value: 28
+[INFO] [1712522633.141810]: Water Monitor Node Running
+[INFO] [1712522633.921138]: Pump status changed: Previous=0, New=1
+[INFO] [1712522633.921731]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522633.922115]: Publishing current time for request: 1712522633922083854
+[INFO] [1712522633.922691]: Publishing current time for respond 1712522633922655344
+[INFO] [1712522635.925604]: Counter Value: 29
+[INFO] [1712522637.925047]: Counter Value: 28
+[INFO] [1712522639.868918]: Water Monitor Node Running
+[INFO] [1712522640.639133]: Pump status changed: Previous=0, New=1
+[INFO] [1712522640.639810]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522640.640222]: Publishing current time for request: 1712522640640186786
+[INFO] [1712522640.640842]: Publishing current time for respond 1712522640640803337
+[INFO] [1712522642.649193]: Counter Value: 29
+[INFO] [1712522644.644284]: Counter Value: 28
+[INFO] [1712522646.405317]: Water Monitor Node Running
+[INFO] [1712522647.176655]: Pump status changed: Previous=0, New=1
+[INFO] [1712522647.177235]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522647.177656]: Publishing current time for request: 1712522647177622079
+[INFO] [1712522647.178259]: Publishing current time for respond 1712522647178220510
+[INFO] [1712522649.178749]: Counter Value: 29
+[INFO] [1712522651.180420]: Counter Value: 28
+[INFO] [1712522653.009195]: Water Monitor Node Running
+[INFO] [1712522655.299586]: Pump status changed: Previous=0, New=1
+[INFO] [1712522655.301624]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522655.302588]: Publishing current time for request: 1712522655302504301
+[INFO] [1712522655.304020]: Publishing current time for respond 1712522655303923368
+[INFO] [1712522657.307453]: Counter Value: 29
+[INFO] [1712522659.581093]: Water Monitor Node Running
+[INFO] [1712522660.349455]: Pump status changed: Previous=0, New=1
+[INFO] [1712522660.350031]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522660.350483]: Publishing current time for request: 1712522660350445270
+[INFO] [1712522660.351083]: Publishing current time for respond 1712522660351034402
+[INFO] [1712522662.357822]: Counter Value: 29
+[INFO] [1712522664.357907]: Counter Value: 28
+[INFO] [1712522666.217074]: Water Monitor Node Running
+[INFO] [1712522666.887328]: Pump status changed: Previous=0, New=1
+[INFO] [1712522666.887843]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522666.888261]: Publishing current time for request: 1712522666888227939
+[INFO] [1712522666.888865]: Publishing current time for respond 1712522666888829946
+[INFO] [1712522668.897773]: Counter Value: 29
+[INFO] [1712522670.901200]: Counter Value: 28
+[INFO] [1712522672.739271]: Water Monitor Node Running
+[INFO] [1712522673.507616]: Pump status changed: Previous=0, New=1
+[INFO] [1712522673.508352]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522673.508902]: Publishing current time for request: 1712522673508867740
+[INFO] [1712522673.509591]: Publishing current time for respond 1712522673509545803
+[INFO] [1712522675.514599]: Counter Value: 29
+[INFO] [1712522677.510155]: Counter Value: 28
+[INFO] [1712522679.371352]: Water Monitor Node Running
+[INFO] [1712522680.029836]: Pump status changed: Previous=0, New=1
+[INFO] [1712522680.030686]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522680.031301]: Publishing current time for request: 1712522680031240224
+[INFO] [1712522680.032016]: Publishing current time for respond 1712522680031965494
+[INFO] [1712522682.036643]: Counter Value: 29
+[INFO] [1712522684.034603]: Counter Value: 28
+[INFO] [1712522685.729186]: Water Monitor Node Running
+[INFO] [1712522686.488006]: Pump status changed: Previous=0, New=1
+[INFO] [1712522686.488563]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522686.488975]: Publishing current time for request: 1712522686488940954
+[INFO] [1712522686.489655]: Publishing current time for respond 1712522686489589929
+[INFO] [1712522688.493096]: Counter Value: 29
+[INFO] [1712522690.494567]: Counter Value: 28
+[INFO] [1712522692.358201]: Water Monitor Node Running
+[INFO] [1712522693.023350]: Pump status changed: Previous=0, New=1
+[INFO] [1712522693.023859]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522693.024261]: Publishing current time for request: 1712522693024228096
+[INFO] [1712522693.024811]: Publishing current time for respond 1712522693024769067
+[INFO] [1712522695.026598]: Counter Value: 29
+[INFO] [1712522697.028613]: Counter Value: 28
+[INFO] [1712522698.380659]: Water Monitor Node Running
+[INFO] [1712522699.156739]: Pump status changed: Previous=0, New=1
+[INFO] [1712522699.157544]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522699.157974]: Publishing current time for request: 1712522699157937526
+[INFO] [1712522699.158638]: Publishing current time for respond 1712522699158599615
+[INFO] [1712522701.158829]: Counter Value: 29
+[INFO] [1712522703.161825]: Counter Value: 28
+[INFO] [1712522704.521309]: Water Monitor Node Running
+[INFO] [1712522705.276604]: Pump status changed: Previous=0, New=1
+[INFO] [1712522705.277110]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522705.277498]: Publishing current time for request: 1712522705277466535
+[INFO] [1712522705.278075]: Publishing current time for respond 1712522705278040409
+[INFO] [1712522707.284908]: Counter Value: 29
+[INFO] [1712522709.280305]: Counter Value: 28
+[INFO] [1712522710.676491]: Water Monitor Node Running
+[INFO] [1712522711.427181]: Pump status changed: Previous=0, New=1
+[INFO] [1712522711.427858]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522711.428285]: Publishing current time for request: 1712522711428248882
+[INFO] [1712522711.428946]: Publishing current time for respond 1712522711428905010
+[INFO] [1712522713.430232]: Counter Value: 29
+[INFO] [1712522715.434396]: Counter Value: 28
+[INFO] [1712522717.179195]: Water Monitor Node Running
+[INFO] [1712522717.962695]: Pump status changed: Previous=0, New=1
+[INFO] [1712522717.963506]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522717.963933]: Publishing current time for request: 1712522717963894128
+[INFO] [1712522717.964535]: Publishing current time for respond 1712522717964495182
+[INFO] [1712522719.967196]: Counter Value: 29
+[INFO] [1712522721.966611]: Counter Value: 28
+[INFO] [1712522723.826057]: Water Monitor Node Running
+[INFO] [1712522725.110375]: Pump OFF send by client and Water is full.
+[INFO] [1712522729.367001]: Water Monitor Node Running
+[INFO] [1712522730.120191]: Pump status changed: Previous=0, New=1
+[INFO] [1712522730.120757]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522730.121114]: Publishing current time for request: 1712522730121083498
+[INFO] [1712522730.121663]: Publishing current time for respond 1712522730121627569
+[INFO] [1712522732.122672]: Counter Value: 29
+[INFO] [1712522734.124544]: Counter Value: 28
+[INFO] [1712522735.881837]: Water Monitor Node Running
+[INFO] [1712522736.657199]: Pump status changed: Previous=0, New=1
+[INFO] [1712522736.657785]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522736.658247]: Publishing current time for request: 1712522736658190250
+[INFO] [1712522736.658855]: Publishing current time for respond 1712522736658810853
+[INFO] [1712522738.660209]: Counter Value: 29
+[INFO] [1712522740.659644]: Counter Value: 28
+[INFO] [1712522742.422266]: Water Monitor Node Running
+[INFO] [1712522743.192336]: Pump status changed: Previous=0, New=1
+[INFO] [1712522743.192888]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522743.193296]: Publishing current time for request: 1712522743193262577
+[INFO] [1712522743.193906]: Publishing current time for respond 1712522743193864345
+[INFO] [1712522745.196229]: Counter Value: 29
+[INFO] [1712522747.198369]: Counter Value: 28
+[INFO] [1712522749.074174]: Water Monitor Node Running
+[INFO] [1712522749.837294]: Pump status changed: Previous=0, New=1
+[INFO] [1712522749.837950]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522749.838391]: Publishing current time for request: 1712522749838353157
+[INFO] [1712522749.839047]: Publishing current time for respond 1712522749839003562
+[INFO] [1712522751.843537]: Counter Value: 29
+[INFO] [1712522753.841157]: Counter Value: 28
+[INFO] [1712522755.727030]: Water Monitor Node Running
+[INFO] [1712522756.493339]: Pump status changed: Previous=0, New=1
+[INFO] [1712522756.493965]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522756.494403]: Publishing current time for request: 1712522756494369983
+[INFO] [1712522756.494986]: Publishing current time for respond 1712522756494940042
+[INFO] [1712522758.497255]: Counter Value: 29
+[INFO] [1712522760.500303]: Counter Value: 28
+[INFO] [1712522762.383561]: Water Monitor Node Running
+[INFO] [1712522763.141016]: Pump status changed: Previous=0, New=1
+[INFO] [1712522763.141602]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522763.142014]: Publishing current time for request: 1712522763141981124
+[INFO] [1712522763.142842]: Publishing current time for respond 1712522763142793416
+[INFO] [1712522765.145751]: Counter Value: 29
+[INFO] [1712522767.146217]: Counter Value: 28
+[INFO] [1712522769.109212]: Water Monitor Node Running
+[INFO] [1712522769.870381]: Pump status changed: Previous=0, New=1
+[INFO] [1712522769.871021]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522769.871445]: Publishing current time for request: 1712522769871411085
+[INFO] [1712522769.872049]: Publishing current time for respond 1712522769872005224
+[INFO] [1712522771.874477]: Counter Value: 29
+[INFO] [1712522773.884490]: Counter Value: 28
+[INFO] [1712522775.511566]: Water Monitor Node Running
+[INFO] [1712522776.799462]: Pump OFF send by client and Water is full.
+[INFO] [1712522781.473723]: Water Monitor Node Running
+[INFO] [1712522782.760266]: Pump OFF send by client and Water is full.
+[INFO] [1712522788.085068]: Water Monitor Node Running
+[INFO] [1712522789.366613]: Pump OFF send by client and Water is full.
+[INFO] [1712522794.723339]: Water Monitor Node Running
+[INFO] [1712522796.007978]: Pump OFF send by client and Water is full.
+[INFO] [1712522800.850084]: Water Monitor Node Running
+[INFO] [1712522802.136856]: Pump OFF send by client and Water is full.
+[INFO] [1712522807.409886]: Water Monitor Node Running
+[INFO] [1712522808.700074]: Pump OFF send by client and Water is full.
+[INFO] [1712522814.055109]: Water Monitor Node Running
+[INFO] [1712522815.333879]: Pump OFF send by client and Water is full.
+[INFO] [1712522820.575431]: Water Monitor Node Running
+[INFO] [1712522826.236465]: Water Monitor Node Running
+[INFO] [1712522827.515448]: Pump OFF send by client and Water is full.
+[INFO] [1712522832.772713]: Water Monitor Node Running
+[INFO] [1712522834.155869]: Pump OFF send by client and Water is full.
+[INFO] [1712522839.374736]: Water Monitor Node Running
+[INFO] [1712522840.664475]: Pump status changed: Previous=0, New=1
+[INFO] [1712522840.666526]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522840.667615]: Publishing current time for request: 1712522840667520284
+[INFO] [1712522840.669055]: Publishing current time for respond 1712522840668967247
+[INFO] [1712522842.672869]: Counter Value: 29
+[INFO] [1712522844.670859]: Counter Value: 28
+[INFO] [1712522845.912641]: Water Monitor Node Running
+[INFO] [1712522847.196203]: Pump status changed: Previous=0, New=1
+[INFO] [1712522847.197945]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522847.199663]: Publishing current time for request: 1712522847199536800
+[INFO] [1712522847.201525]: Publishing current time for respond 1712522847201392889
+[INFO] [1712522849.204862]: Counter Value: 29
+[INFO] [1712522851.202395]: Counter Value: 28
+[INFO] [1712522852.578395]: Water Monitor Node Running
+[INFO] [1712522853.865573]: Pump status changed: Previous=0, New=1
+[INFO] [1712522853.867725]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522853.868875]: Publishing current time for request: 1712522853868791341
+[INFO] [1712522853.870314]: Publishing current time for respond 1712522853870186567
+[INFO] [1712522855.873485]: Counter Value: 29
+[INFO] [1712522857.873503]: Counter Value: 28
+[INFO] [1712522859.141796]: Water Monitor Node Running
+[INFO] [1712522860.426307]: Pump status changed: Previous=0, New=1
+[INFO] [1712522860.428413]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522860.429509]: Publishing current time for request: 1712522860429410457
+[INFO] [1712522860.430980]: Publishing current time for respond 1712522860430869579
+[INFO] [1712522862.434818]: Counter Value: 29
+[INFO] [1712522864.434920]: Counter Value: 28
+[INFO] [1712522865.291298]: Water Monitor Node Running
+[INFO] [1712522866.577607]: Pump status changed: Previous=0, New=1
+[INFO] [1712522866.579689]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522866.580749]: Publishing current time for request: 1712522866580664873
+[INFO] [1712522866.582146]: Publishing current time for respond 1712522866582048416
+[INFO] [1712522868.582410]: Counter Value: 29
+[INFO] [1712522870.584468]: Counter Value: 28
+[INFO] [1712522871.323524]: Water Monitor Node Running
+[INFO] [1712522872.615917]: Pump status changed: Previous=0, New=1
+[INFO] [1712522872.617980]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522872.619161]: Publishing current time for request: 1712522872619074106
+[INFO] [1712522872.620605]: Publishing current time for respond 1712522872620510101
+[INFO] [1712522874.632401]: Counter Value: 29
+[INFO] [1712522876.626974]: Counter Value: 28
+[INFO] [1712522877.384330]: Water Monitor Node Running
+[INFO] [1712522878.670694]: Pump status changed: Previous=0, New=1
+[INFO] [1712522878.672788]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522878.673864]: Publishing current time for request: 1712522878673783302
+[INFO] [1712522878.675255]: Publishing current time for respond 1712522878675158023
+[INFO] [1712522880.681691]: Counter Value: 29
+[INFO] [1712522882.680930]: Counter Value: 28
+[INFO] [1712522884.023801]: Water Monitor Node Running
+[INFO] [1712522885.305427]: Pump status changed: Previous=0, New=1
+[INFO] [1712522885.307264]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522885.307719]: Publishing current time for request: 1712522885307679176
+[INFO] [1712522885.308347]: Publishing current time for respond 1712522885308300495
+[INFO] [1712522887.312680]: Counter Value: 29
+[INFO] [1712522889.312189]: Counter Value: 28
+[INFO] [1712522890.587174]: Water Monitor Node Running
+[INFO] [1712522896.607885]: Water Monitor Node Running
+[INFO] [1712522897.999901]: Pump status changed: Previous=0, New=1
+[INFO] [1712522898.002150]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522898.003233]: Publishing current time for request: 1712522898003143072
+[INFO] [1712522898.004752]: Publishing current time for respond 1712522898004661560
+[INFO] [1712522900.006456]: Counter Value: 29
+[INFO] [1712522902.006371]: Counter Value: 28
+[INFO] [1712522903.233072]: Water Monitor Node Running
+[INFO] [1712522904.516358]: Pump status changed: Previous=0, New=1
+[INFO] [1712522904.518674]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522904.519732]: Publishing current time for request: 1712522904519652128
+[INFO] [1712522904.521130]: Publishing current time for respond 1712522904521032333
+[INFO] [1712522906.524456]: Counter Value: 29
+[INFO] [1712522908.524611]: Counter Value: 28
+[INFO] [1712522909.804033]: Water Monitor Node Running
+[INFO] [1712522911.088748]: Pump status changed: Previous=0, New=1
+[INFO] [1712522911.090754]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522911.091841]: Publishing current time for request: 1712522911091746330
+[INFO] [1712522911.093235]: Publishing current time for respond 1712522911093123674
+[INFO] [1712522913.099297]: Counter Value: 29
+[INFO] [1712522915.098153]: Counter Value: 28
+[INFO] [1712522916.285349]: Water Monitor Node Running
+[INFO] [1712522917.572464]: Pump status changed: Previous=0, New=1
+[INFO] [1712522917.573250]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522917.573890]: Publishing current time for request: 1712522917573839902
+[INFO] [1712522917.574803]: Publishing current time for respond 1712522917574740886
+[INFO] [1712522919.579518]: Counter Value: 29
+[INFO] [1712522921.577163]: Counter Value: 28
+[INFO] [1712522922.899570]: Water Monitor Node Running
+[INFO] [1712522924.182822]: Pump status changed: Previous=0, New=1
+[INFO] [1712522924.186435]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522924.187488]: Publishing current time for request: 1712522924187402725
+[INFO] [1712522924.188893]: Publishing current time for respond 1712522924188798189
+[INFO] [1712522926.189964]: Counter Value: 29
+[INFO] [1712522928.195658]: Counter Value: 28
+[INFO] [1712522929.480389]: Water Monitor Node Running
+[INFO] [1712522930.769544]: Pump status changed: Previous=0, New=1
+[INFO] [1712522930.771722]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522930.773004]: Publishing current time for request: 1712522930772917270
+[INFO] [1712522930.774745]: Publishing current time for respond 1712522930774474859
+[INFO] [1712522932.777949]: Counter Value: 29
+[INFO] [1712522934.778445]: Counter Value: 28
+[INFO] [1712522935.883295]: Water Monitor Node Running
+[INFO] [1712522937.176726]: Pump status changed: Previous=0, New=1
+[INFO] [1712522937.178838]: Pump is ON from OFF. Down counter started.
+[INFO] [1712522937.179904]: Publishing current time for request: 1712522937179821729
+[INFO] [1712522937.181280]: Publishing current time for respond 1712522937181184291
+[INFO] [1712522939.183910]: Counter Value: 29
+[INFO] [1712522941.185538]: Counter Value: 28
+[INFO] [1712522942.531607]: Water Monitor Node Running
+[INFO] [1712522943.307829]: Pump OFF send by client and Water is full.
+[INFO] [1712522947.635710]: Water Monitor Node Running
+[INFO] [1712522948.392011]: Pump OFF send by client and Water is full.
+[INFO] [1712522953.237532]: Water Monitor Node Running
+[INFO] [1712522953.994639]: Pump OFF send by client and Water is full.
+[INFO] [1712522959.352171]: Water Monitor Node Running
+[INFO] [1712522965.948521]: Water Monitor Node Running
+[INFO] [1712522966.706839]: Pump OFF send by client and Water is full.
+[INFO] [1712522972.447392]: Water Monitor Node Running
+[INFO] [1712522973.217175]: Pump OFF send by client and Water is full.
+[INFO] [1712522978.945191]: Water Monitor Node Running
+[INFO] [1712522979.708302]: Pump OFF send by client and Water is full.
+[INFO] [1712522985.073468]: Water Monitor Node Running
+[INFO] [1712522985.833884]: Pump OFF send by client and Water is full.
+[INFO] [1712522991.718609]: Water Monitor Node Running
+[INFO] [1712522992.478076]: Pump OFF send by client and Water is full.
+[INFO] [1712522998.372129]: Water Monitor Node Running
+[INFO] [1712522999.136559]: Pump OFF send by client and Water is full.
+[INFO] [1712523004.992669]: Water Monitor Node Running
+[INFO] [1712523005.760724]: Pump OFF send by client and Water is full.
+[INFO] [1712523011.499808]: Water Monitor Node Running
+[INFO] [1712523012.284701]: Pump OFF send by client and Water is full.
+[INFO] [1712523018.128696]: Water Monitor Node Running
+[INFO] [1712523018.904832]: Pump OFF send by client and Water is full.
+[INFO] [1712523023.763800]: Water Monitor Node Running
+[INFO] [1712523024.527795]: Pump OFF send by client and Water is full.
+[INFO] [1712523029.880450]: Water Monitor Node Running
+[INFO] [1712523033.161084]: Pump OFF send by client and Water is full.
+[INFO] [1712523036.460643]: Water Monitor Node Running
+[INFO] [1712523037.224054]: Pump OFF send by client and Water is full.
+[INFO] [1712523043.088786]: Water Monitor Node Running
+[INFO] [1712523043.855923]: Pump OFF send by client and Water is full.
+[INFO] [1712523049.589839]: Water Monitor Node Running
+[INFO] [1712523050.364313]: Pump OFF send by client and Water is full.
+[INFO] [1712523055.730607]: Water Monitor Node Running
+[INFO] [1712523056.483650]: Pump OFF send by client and Water is full.
+[INFO] [1712523062.231436]: Water Monitor Node Running
+[INFO] [1712523062.995995]: Pump OFF send by client and Water is full.
+[INFO] [1712523068.855703]: Water Monitor Node Running
+[INFO] [1712523069.618368]: Pump OFF send by client and Water is full.
+[INFO] [1712523075.482328]: Water Monitor Node Running
+[INFO] [1712523076.235396]: Pump OFF send by client and Water is full.
+[INFO] [1712523082.094351]: Water Monitor Node Running
+[INFO] [1712523082.855357]: Pump OFF send by client and Water is full.
+[INFO] [1712523088.710377]: Water Monitor Node Running
+[INFO] [1712523089.476922]: Pump OFF send by client and Water is full.
+[INFO] [1712523095.338612]: Water Monitor Node Running
+[INFO] [1712523095.978305]: Pump OFF send by client and Water is full.
+[INFO] [1712523101.837475]: Water Monitor Node Running
+[INFO] [1712523104.137317]: Pump OFF send by client and Water is full.
+[INFO] [1712523107.891769]: Water Monitor Node Running
+[INFO] [1712523108.646854]: Pump OFF send by client and Water is full.
+[INFO] [1712523114.492380]: Water Monitor Node Running
+[INFO] [1712523115.250772]: Pump OFF send by client and Water is full.
+[INFO] [1712523120.582477]: Water Monitor Node Running
+[INFO] [1712523121.351079]: Pump OFF send by client and Water is full.
+[INFO] [1712523126.568311]: Water Monitor Node Running
+[INFO] [1712523127.338486]: Pump OFF send by client and Water is full.
+[INFO] [1712523132.703175]: Water Monitor Node Running
+[INFO] [1712523133.440831]: Pump OFF send by client and Water is full.
+[INFO] [1712523139.312534]: Water Monitor Node Running
+[INFO] [1712523140.074948]: Pump OFF send by client and Water is full.
+[INFO] [1712523145.916130]: Water Monitor Node Running
+[INFO] [1712523146.572510]: Pump OFF send by client and Water is full.
+[INFO] [1712523152.424893]: Water Monitor Node Running
+[INFO] [1712523153.182054]: Pump OFF send by client and Water is full.
+[INFO] [1712523159.035784]: Water Monitor Node Running
+[INFO] [1712523159.793039]: Pump OFF send by client and Water is full.
+[INFO] [1712523165.668346]: Water Monitor Node Running
+[INFO] [1712523166.414569]: Pump OFF send by client and Water is full.
+[INFO] [1712523172.275324]: Water Monitor Node Running
+[INFO] [1712523174.555148]: Pump OFF send by client and Water is full.
+[INFO] [1712523178.812130]: Water Monitor Node Running
+[INFO] [1712523179.577066]: Pump OFF send by client and Water is full.
+[INFO] [1712523185.446534]: Water Monitor Node Running
+[INFO] [1712523186.197303]: Pump OFF send by client and Water is full.
+[INFO] [1712523192.062761]: Water Monitor Node Running
+[INFO] [1712523192.821841]: Pump OFF send by client and Water is full.
+[INFO] [1712523198.471158]: Water Monitor Node Running
+[INFO] [1712523199.239845]: Pump status changed: Previous=0, New=1
+[INFO] [1712523199.240448]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523199.240857]: Publishing current time for request: 1712523199240822553
+[INFO] [1712523199.241450]: Publishing current time for respond 1712523199241405248
+[INFO] [1712523201.241996]: Counter Value: 29
+[INFO] [1712523203.243003]: Counter Value: 28
+[INFO] [1712523205.098823]: Water Monitor Node Running
+[INFO] [1712523205.856247]: Pump status changed: Previous=0, New=1
+[INFO] [1712523205.856806]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523205.857215]: Publishing current time for request: 1712523205857181549
+[INFO] [1712523205.857802]: Publishing current time for respond 1712523205857762098
+[INFO] [1712523207.858477]: Counter Value: 29
+[INFO] [1712523209.863267]: Counter Value: 28
+[INFO] [1712523211.535240]: Water Monitor Node Running
+[INFO] [1712523212.313296]: Pump status changed: Previous=0, New=1
+[INFO] [1712523212.313835]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523212.314240]: Publishing current time for request: 1712523212314188957
+[INFO] [1712523212.314894]: Publishing current time for respond 1712523212314852952
+[INFO] [1712523214.320627]: Counter Value: 29
+[INFO] [1712523216.324659]: Counter Value: 28
+[INFO] [1712523218.077505]: Water Monitor Node Running
+[INFO] [1712523218.845313]: Pump status changed: Previous=0, New=1
+[INFO] [1712523218.845860]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523218.846292]: Publishing current time for request: 1712523218846253871
+[INFO] [1712523218.846932]: Publishing current time for respond 1712523218846888542
+[INFO] [1712523220.849222]: Counter Value: 29
+[INFO] [1712523222.850910]: Counter Value: 28
+[INFO] [1712523224.210542]: Water Monitor Node Running
+[INFO] [1712523224.957152]: Pump status changed: Previous=0, New=1
+[INFO] [1712523224.957796]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523224.958238]: Publishing current time for request: 1712523224958181142
+[INFO] [1712523224.958845]: Publishing current time for respond 1712523224958799362
+[INFO] [1712523226.963218]: Counter Value: 29
+[INFO] [1712523228.963021]: Counter Value: 28
+[INFO] [1712523230.361408]: Water Monitor Node Running
+[INFO] [1712523231.122193]: Pump status changed: Previous=0, New=1
+[INFO] [1712523231.122756]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523231.123162]: Publishing current time for request: 1712523231123126268
+[INFO] [1712523231.123745]: Publishing current time for respond 1712523231123701095
+[INFO] [1712523233.123924]: Counter Value: 29
+[INFO] [1712523235.126085]: Counter Value: 28
+[INFO] [1712523236.406545]: Water Monitor Node Running
+[INFO] [1712523237.166659]: Pump status changed: Previous=0, New=1
+[INFO] [1712523237.167485]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523237.167923]: Publishing current time for request: 1712523237167885780
+[INFO] [1712523237.168701]: Publishing current time for respond 1712523237168661594
+[INFO] [1712523239.171818]: Counter Value: 29
+[INFO] [1712523241.170874]: Counter Value: 28
+[INFO] [1712523243.038881]: Water Monitor Node Running
+[INFO] [1712523245.328954]: Pump OFF send by client and Water is full.
+[INFO] [1712523249.695895]: Water Monitor Node Running
+[INFO] [1712523250.456398]: Pump status changed: Previous=0, New=1
+[INFO] [1712523250.456985]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523250.457420]: Publishing current time for request: 1712523250457385778
+[INFO] [1712523250.458038]: Publishing current time for respond 1712523250457937240
+[INFO] [1712523252.463507]: Counter Value: 29
+[INFO] [1712523254.458428]: Counter Value: 28
+[INFO] [1712523256.286297]: Water Monitor Node Running
+[INFO] [1712523256.938566]: Pump status changed: Previous=0, New=1
+[INFO] [1712523256.939171]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523256.939605]: Publishing current time for request: 1712523256939566850
+[INFO] [1712523256.940176]: Publishing current time for respond 1712523256940131664
+[INFO] [1712523258.942305]: Counter Value: 29
+[INFO] [1712523260.947184]: Counter Value: 28
+[INFO] [1712523262.801704]: Water Monitor Node Running
+[INFO] [1712523263.559541]: Pump status changed: Previous=0, New=1
+[INFO] [1712523263.560151]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523263.560732]: Publishing current time for request: 1712523263560681581
+[INFO] [1712523263.561380]: Publishing current time for respond 1712523263561336040
+[INFO] [1712523265.565916]: Counter Value: 29
+[INFO] [1712523267.562805]: Counter Value: 28
+[INFO] [1712523269.238330]: Water Monitor Node Running
+[INFO] [1712523269.998999]: Pump status changed: Previous=0, New=1
+[INFO] [1712523269.999612]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523270.000029]: Publishing current time for request: 1712523269999996423
+[INFO] [1712523270.000618]: Publishing current time for respond 1712523270000576019
+[INFO] [1712523272.009120]: Counter Value: 29
+[INFO] [1712523274.004234]: Counter Value: 28
+[INFO] [1712523275.665400]: Water Monitor Node Running
+[INFO] [1712523276.432846]: Pump status changed: Previous=0, New=1
+[INFO] [1712523276.433435]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523276.433833]: Publishing current time for request: 1712523276433799505
+[INFO] [1712523276.434471]: Publishing current time for respond 1712523276434426546
+[INFO] [1712523278.436814]: Counter Value: 29
+[INFO] [1712523280.438269]: Counter Value: 28
+[INFO] [1712523282.342758]: Water Monitor Node Running
+[INFO] [1712523283.095858]: Pump status changed: Previous=0, New=1
+[INFO] [1712523283.096554]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523283.097087]: Publishing current time for request: 1712523283097043991
+[INFO] [1712523283.097753]: Publishing current time for respond 1712523283097713470
+[INFO] [1712523285.101918]: Counter Value: 29
+[INFO] [1712523287.102037]: Counter Value: 28
+[INFO] [1712523289.002420]: Water Monitor Node Running
+[INFO] [1712523289.750722]: Pump status changed: Previous=0, New=1
+[INFO] [1712523289.751346]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523289.751763]: Publishing current time for request: 1712523289751728057
+[INFO] [1712523289.752373]: Publishing current time for respond 1712523289752330541
+[INFO] [1712523291.756151]: Counter Value: 29
+[INFO] [1712523293.755695]: Counter Value: 28
+[INFO] [1712523295.570755]: Water Monitor Node Running
+[INFO] [1712523296.218144]: Pump status changed: Previous=0, New=1
+[INFO] [1712523296.218752]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523296.219165]: Publishing current time for request: 1712523296219131708
+[INFO] [1712523296.219760]: Publishing current time for respond 1712523296219716787
+[INFO] [1712523298.221944]: Counter Value: 29
+[INFO] [1712523300.222002]: Counter Value: 28
+[INFO] [1712523302.117423]: Water Monitor Node Running
+[INFO] [1712523302.869093]: Pump status changed: Previous=0, New=1
+[INFO] [1712523302.869718]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523302.870321]: Publishing current time for request: 1712523302870272874
+[INFO] [1712523302.870979]: Publishing current time for respond 1712523302870933532
+[INFO] [1712523304.871410]: Counter Value: 29
+[INFO] [1712523306.874586]: Counter Value: 28
+[INFO] [1712523307.736843]: Water Monitor Node Running
+[INFO] [1712523308.497490]: Pump status changed: Previous=0, New=1
+[INFO] [1712523308.498134]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523308.498570]: Publishing current time for request: 1712523308498535394
+[INFO] [1712523308.499210]: Publishing current time for respond 1712523308499170780
+[INFO] [1712523310.502875]: Counter Value: 29
+[INFO] [1712523312.501973]: Counter Value: 28
+[INFO] [1712523313.239607]: Water Monitor Node Running
+[INFO] [1712523315.635411]: Pump status changed: Previous=0, New=1
+[INFO] [1712523315.637502]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523315.638659]: Publishing current time for request: 1712523315638576269
+[INFO] [1712523315.640021]: Publishing current time for respond 1712523315639928817
+[INFO] [1712523317.640914]: Counter Value: 29
+[INFO] [1712523319.746390]: Water Monitor Node Running
+[INFO] [1712523320.510081]: Pump status changed: Previous=0, New=1
+[INFO] [1712523320.510668]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523320.511072]: Publishing current time for request: 1712523320511033535
+[INFO] [1712523320.511642]: Publishing current time for respond 1712523320511605978
+[INFO] [1712523322.514147]: Counter Value: 29
+[INFO] [1712523324.514891]: Counter Value: 28
+[INFO] [1712523325.380862]: Water Monitor Node Running
+[INFO] [1712523326.136963]: Pump status changed: Previous=0, New=1
+[INFO] [1712523326.137492]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523326.137907]: Publishing current time for request: 1712523326137872457
+[INFO] [1712523326.138533]: Publishing current time for respond 1712523326138488054
+[INFO] [1712523328.144038]: Counter Value: 29
+[INFO] [1712523330.140888]: Counter Value: 28
+[INFO] [1712523331.730522]: Water Monitor Node Running
+[INFO] [1712523332.517831]: Pump status changed: Previous=0, New=1
+[INFO] [1712523332.518488]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523332.518895]: Publishing current time for request: 1712523332518858194
+[INFO] [1712523332.519520]: Publishing current time for respond 1712523332519475460
+[INFO] [1712523334.521627]: Counter Value: 29
+[INFO] [1712523336.522444]: Counter Value: 28
+[INFO] [1712523337.769937]: Water Monitor Node Running
+[INFO] [1712523338.512511]: Pump status changed: Previous=0, New=1
+[INFO] [1712523338.513088]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523338.513501]: Publishing current time for request: 1712523338513467788
+[INFO] [1712523338.514108]: Publishing current time for respond 1712523338514072656
+[INFO] [1712523340.517314]: Counter Value: 29
+[INFO] [1712523342.517510]: Counter Value: 28
+[INFO] [1712523343.955196]: Water Monitor Node Running
+[INFO] [1712523344.706329]: Pump status changed: Previous=0, New=1
+[INFO] [1712523344.706985]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523344.707416]: Publishing current time for request: 1712523344707380294
+[INFO] [1712523344.708047]: Publishing current time for respond 1712523344708008289
+[INFO] [1712523346.710586]: Counter Value: 29
+[INFO] [1712523348.713708]: Counter Value: 28
+[INFO] [1712523350.593641]: Water Monitor Node Running
+[INFO] [1712523351.357167]: Pump status changed: Previous=0, New=1
+[INFO] [1712523351.357733]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523351.358123]: Publishing current time for request: 1712523351358091592
+[INFO] [1712523351.358712]: Publishing current time for respond 1712523351358675241
+[INFO] [1712523353.362161]: Counter Value: 29
+[INFO] [1712523355.361006]: Counter Value: 28
+[INFO] [1712523357.156595]: Water Monitor Node Running
+[INFO] [1712523357.913908]: Pump status changed: Previous=0, New=1
+[INFO] [1712523357.916290]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523357.917465]: Publishing current time for request: 1712523357917409420
+[INFO] [1712523357.921040]: Publishing current time for respond 1712523357920941829
+[INFO] [1712523359.919966]: Counter Value: 29
+[INFO] [1712523361.921146]: Counter Value: 28
+[INFO] [1712523363.774424]: Water Monitor Node Running
+[INFO] [1712523364.533254]: Pump status changed: Previous=0, New=1
+[INFO] [1712523364.533842]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523364.534276]: Publishing current time for request: 1712523364534233808
+[INFO] [1712523364.534914]: Publishing current time for respond 1712523364534876823
+[INFO] [1712523366.538624]: Counter Value: 29
+[INFO] [1712523368.538331]: Counter Value: 28
+[INFO] [1712523370.415624]: Water Monitor Node Running
+[INFO] [1712523371.167914]: Pump status changed: Previous=0, New=1
+[INFO] [1712523371.168592]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523371.168993]: Publishing current time for request: 1712523371168961048
+[INFO] [1712523371.169573]: Publishing current time for respond 1712523371169536828
+[INFO] [1712523373.171856]: Counter Value: 29
+[INFO] [1712523375.171139]: Counter Value: 28
+[INFO] [1712523377.029439]: Water Monitor Node Running
+[INFO] [1712523377.681470]: Pump status changed: Previous=0, New=1
+[INFO] [1712523377.682039]: Pump is ON from OFF. Down counter started.
+[INFO] [1712523377.682465]: Publishing current time for request: 1712523377682430505
+[INFO] [1712523377.683036]: Publishing current time for respond 1712523377682999610
+[INFO] [1712523379.685747]: Counter Value: 29
+[INFO] [1712523381.684303]: Counter Value: 28
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/map_wm_suite/rostest-launch_map_water_monitor_m6.xml
+[Testcase: testt0] ... ok
+[Testcase: testt1] ... ok
+[Testcase: testt10] ... ok
+[Testcase: testt100] ... ok
+[Testcase: testt101] ... ok
+[Testcase: testt102] ... ok
+[Testcase: testt103] ... ok
+[Testcase: testt104] ... ok
+[Testcase: testt105] ... ok
+[Testcase: testt106] ... ok
+[Testcase: testt107] ... ok
+[Testcase: testt108] ... ok
+[Testcase: testt109] ... ok
+[Testcase: testt11] ... ok
+[Testcase: testt110] ... ok
+[Testcase: testt111] ... ok
+[Testcase: testt112] ... ok
+[Testcase: testt113] ... ok
+[Testcase: testt114] ... ok
+[Testcase: testt115] ... ok
+[Testcase: testt116] ... ok
+[Testcase: testt117] ... ok
+[Testcase: testt118] ... ok
+[Testcase: testt119] ... ok
+[Testcase: testt12] ... ok
+[Testcase: testt120] ... ok
+[Testcase: testt121] ... ok
+[Testcase: testt122] ... ok
+[Testcase: testt123] ... ok
+[Testcase: testt124] ... ok
+[Testcase: testt125] ... ok
+[Testcase: testt126] ... ok
+[Testcase: testt13] ... ok
+[Testcase: testt14] ... ok
+[Testcase: testt15] ... ok
+[Testcase: testt16] ... ok
+[Testcase: testt17] ... ok
+[Testcase: testt18] ... ok
+[Testcase: testt19] ... ok
+[Testcase: testt2] ... ok
+[Testcase: testt20] ... ok
+[Testcase: testt21] ... ok
+[Testcase: testt22] ... ok
+[Testcase: testt23] ... ok
+[Testcase: testt24] ... ok
+[Testcase: testt25] ... ok
+[Testcase: testt26] ... ok
+[Testcase: testt27] ... ok
+[Testcase: testt28] ... ok
+[Testcase: testt29] ... ok
+[Testcase: testt3] ... ok
+[Testcase: testt30] ... ok
+[Testcase: testt31] ... ok
+[Testcase: testt32] ... ok
+[Testcase: testt33] ... ok
+[Testcase: testt34] ... ok
+[Testcase: testt35] ... ok
+[Testcase: testt36] ... ok
+[Testcase: testt37] ... ok
+[Testcase: testt38] ... ok
+[Testcase: testt39] ... ok
+[Testcase: testt4] ... ok
+[Testcase: testt40] ... ok
+[Testcase: testt41] ... ok
+[Testcase: testt42] ... ok
+[Testcase: testt43] ... ok
+[Testcase: testt44] ... ok
+[Testcase: testt45] ... ok
+[Testcase: testt46] ... ok
+[Testcase: testt47] ... ok
+[Testcase: testt48] ... ok
+[Testcase: testt49] ... ok
+[Testcase: testt5] ... ok
+[Testcase: testt50] ... ok
+[Testcase: testt51] ... ok
+[Testcase: testt52] ... ok
+[Testcase: testt53] ... ok
+[Testcase: testt54] ... ok
+[Testcase: testt55] ... ok
+[Testcase: testt56] ... ok
+[Testcase: testt57] ... ok
+[Testcase: testt58] ... ok
+[Testcase: testt59] ... ok
+[Testcase: testt6] ... ok
+[Testcase: testt60] ... ok
+[Testcase: testt61] ... ok
+[Testcase: testt62] ... ok
+[Testcase: testt63] ... ok
+[Testcase: testt64] ... ok
+[Testcase: testt65] ... ok
+[Testcase: testt66] ... ok
+[Testcase: testt67] ... ok
+[Testcase: testt68] ... ok
+[Testcase: testt69] ... ok
+[Testcase: testt7] ... ok
+[Testcase: testt70] ... ok
+[Testcase: testt71] ... ok
+[Testcase: testt72] ... ok
+[Testcase: testt73] ... ok
+[Testcase: testt74] ... ok
+[Testcase: testt75] ... ok
+[Testcase: testt76] ... ok
+[Testcase: testt77] ... ok
+[Testcase: testt78] ... ok
+[Testcase: testt79] ... ok
+[Testcase: testt8] ... ok
+[Testcase: testt80] ... ok
+[Testcase: testt81] ... ok
+[Testcase: testt82] ... ok
+[Testcase: testt83] ... ok
+[Testcase: testt84] ... ok
+[Testcase: testt85] ... ok
+[Testcase: testt86] ... ok
+[Testcase: testt87] ... ok
+[Testcase: testt88] ... ok
+[Testcase: testt89] ... ok
+[Testcase: testt9] ... ok
+[Testcase: testt90] ... ok
+[Testcase: testt91] ... ok
+[Testcase: testt92] ... ok
+[Testcase: testt93] ... ok
+[Testcase: testt94] ... ok
+[Testcase: testt95] ... ok
+[Testcase: testt96] ... ok
+[Testcase: testt97] ... ok
+[Testcase: testt98] ... ok
+[Testcase: testt99] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[map_wm_suite.rosunit-t0/test][passed]
+[map_wm_suite.rosunit-t1/test][passed]
+[map_wm_suite.rosunit-t10/test][passed]
+[map_wm_suite.rosunit-t100/test][passed]
+[map_wm_suite.rosunit-t101/test][passed]
+[map_wm_suite.rosunit-t102/test][passed]
+[map_wm_suite.rosunit-t103/test][passed]
+[map_wm_suite.rosunit-t104/test][passed]
+[map_wm_suite.rosunit-t105/test][passed]
+[map_wm_suite.rosunit-t106/test][passed]
+[map_wm_suite.rosunit-t107/test][passed]
+[map_wm_suite.rosunit-t108/test][passed]
+[map_wm_suite.rosunit-t109/test][passed]
+[map_wm_suite.rosunit-t11/test][passed]
+[map_wm_suite.rosunit-t110/test][passed]
+[map_wm_suite.rosunit-t111/test][passed]
+[map_wm_suite.rosunit-t112/test][passed]
+[map_wm_suite.rosunit-t113/test][passed]
+[map_wm_suite.rosunit-t114/test][passed]
+[map_wm_suite.rosunit-t115/test][passed]
+[map_wm_suite.rosunit-t116/test][passed]
+[map_wm_suite.rosunit-t117/test][passed]
+[map_wm_suite.rosunit-t118/test][passed]
+[map_wm_suite.rosunit-t119/test][passed]
+[map_wm_suite.rosunit-t12/test][passed]
+[map_wm_suite.rosunit-t120/test][passed]
+[map_wm_suite.rosunit-t121/test][passed]
+[map_wm_suite.rosunit-t122/test][passed]
+[map_wm_suite.rosunit-t123/test][passed]
+[map_wm_suite.rosunit-t124/test][passed]
+[map_wm_suite.rosunit-t125/test][passed]
+[map_wm_suite.rosunit-t126/test][passed]
+[map_wm_suite.rosunit-t13/test][passed]
+[map_wm_suite.rosunit-t14/test][passed]
+[map_wm_suite.rosunit-t15/test][passed]
+[map_wm_suite.rosunit-t16/test][passed]
+[map_wm_suite.rosunit-t17/test][passed]
+[map_wm_suite.rosunit-t18/test][passed]
+[map_wm_suite.rosunit-t19/test][passed]
+[map_wm_suite.rosunit-t2/test][passed]
+[map_wm_suite.rosunit-t20/test][passed]
+[map_wm_suite.rosunit-t21/test][passed]
+[map_wm_suite.rosunit-t22/test][passed]
+[map_wm_suite.rosunit-t23/test][passed]
+[map_wm_suite.rosunit-t24/test][passed]
+[map_wm_suite.rosunit-t25/test][passed]
+[map_wm_suite.rosunit-t26/test][passed]
+[map_wm_suite.rosunit-t27/test][passed]
+[map_wm_suite.rosunit-t28/test][passed]
+[map_wm_suite.rosunit-t29/test][passed]
+[map_wm_suite.rosunit-t3/test][passed]
+[map_wm_suite.rosunit-t30/test][passed]
+[map_wm_suite.rosunit-t31/test][passed]
+[map_wm_suite.rosunit-t32/test][passed]
+[map_wm_suite.rosunit-t33/test][passed]
+[map_wm_suite.rosunit-t34/test][passed]
+[map_wm_suite.rosunit-t35/test][passed]
+[map_wm_suite.rosunit-t36/test][passed]
+[map_wm_suite.rosunit-t37/test][passed]
+[map_wm_suite.rosunit-t38/test][passed]
+[map_wm_suite.rosunit-t39/test][passed]
+[map_wm_suite.rosunit-t4/test][passed]
+[map_wm_suite.rosunit-t40/test][passed]
+[map_wm_suite.rosunit-t41/test][passed]
+[map_wm_suite.rosunit-t42/test][passed]
+[map_wm_suite.rosunit-t43/test][passed]
+[map_wm_suite.rosunit-t44/test][passed]
+[map_wm_suite.rosunit-t45/test][passed]
+[map_wm_suite.rosunit-t46/test][passed]
+[map_wm_suite.rosunit-t47/test][passed]
+[map_wm_suite.rosunit-t48/test][passed]
+[map_wm_suite.rosunit-t49/test][passed]
+[map_wm_suite.rosunit-t5/test][passed]
+[map_wm_suite.rosunit-t50/test][passed]
+[map_wm_suite.rosunit-t51/test][passed]
+[map_wm_suite.rosunit-t52/test][passed]
+[map_wm_suite.rosunit-t53/test][passed]
+[map_wm_suite.rosunit-t54/test][passed]
+[map_wm_suite.rosunit-t55/test][passed]
+[map_wm_suite.rosunit-t56/test][passed]
+[map_wm_suite.rosunit-t57/test][passed]
+[map_wm_suite.rosunit-t58/test][passed]
+[map_wm_suite.rosunit-t59/test][passed]
+[map_wm_suite.rosunit-t6/test][passed]
+[map_wm_suite.rosunit-t60/test][passed]
+[map_wm_suite.rosunit-t61/test][passed]
+[map_wm_suite.rosunit-t62/test][passed]
+[map_wm_suite.rosunit-t63/test][passed]
+[map_wm_suite.rosunit-t64/test][passed]
+[map_wm_suite.rosunit-t65/test][passed]
+[map_wm_suite.rosunit-t66/test][passed]
+[map_wm_suite.rosunit-t67/test][passed]
+[map_wm_suite.rosunit-t68/test][passed]
+[map_wm_suite.rosunit-t69/test][passed]
+[map_wm_suite.rosunit-t7/test][passed]
+[map_wm_suite.rosunit-t70/test][passed]
+[map_wm_suite.rosunit-t71/test][passed]
+[map_wm_suite.rosunit-t72/test][passed]
+[map_wm_suite.rosunit-t73/test][passed]
+[map_wm_suite.rosunit-t74/test][passed]
+[map_wm_suite.rosunit-t75/test][passed]
+[map_wm_suite.rosunit-t76/test][passed]
+[map_wm_suite.rosunit-t77/test][passed]
+[map_wm_suite.rosunit-t78/test][passed]
+[map_wm_suite.rosunit-t79/test][passed]
+[map_wm_suite.rosunit-t8/test][passed]
+[map_wm_suite.rosunit-t80/test][passed]
+[map_wm_suite.rosunit-t81/test][passed]
+[map_wm_suite.rosunit-t82/test][passed]
+[map_wm_suite.rosunit-t83/test][passed]
+[map_wm_suite.rosunit-t84/test][passed]
+[map_wm_suite.rosunit-t85/test][passed]
+[map_wm_suite.rosunit-t86/test][passed]
+[map_wm_suite.rosunit-t87/test][passed]
+[map_wm_suite.rosunit-t88/test][passed]
+[map_wm_suite.rosunit-t89/test][passed]
+[map_wm_suite.rosunit-t9/test][passed]
+[map_wm_suite.rosunit-t90/test][passed]
+[map_wm_suite.rosunit-t91/test][passed]
+[map_wm_suite.rosunit-t92/test][passed]
+[map_wm_suite.rosunit-t93/test][passed]
+[map_wm_suite.rosunit-t94/test][passed]
+[map_wm_suite.rosunit-t95/test][passed]
+[map_wm_suite.rosunit-t96/test][passed]
+[map_wm_suite.rosunit-t97/test][passed]
+[map_wm_suite.rosunit-t98/test][passed]
+[map_wm_suite.rosunit-t99/test][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-newnoetic-211515.log

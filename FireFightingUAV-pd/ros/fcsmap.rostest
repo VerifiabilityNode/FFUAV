@@ -1,0 +1,55 @@
+package fcsmap 
+
+test mapping FCS {
+	node fcs_interface::fcs_interface
+	component MainCtrl::CFlight // in the context of the operations of that controller
+	
+	// Inputs
+	action fly_to_wp goal corresponds to waypoint
+		with result as WPSucceeded
+		
+	action special_movement goal corresponds to navCommand
+		with result as NavSucceeded
+		
+	//action relative_position goal corresponds to vnavIn
+	
+	topic gps_position implements gpsPosition with acceptance as gps_position_accepted where { stamp as "data" }
+	topic dji_battery_state implements batteryStateIn with acceptance as dji_battery_state_accepted where { stamp as "data" }
+	topic height_above_takeoff implements heightAboveTakeOff with acceptance as height_above_takeoff_accepted where { stamp as "data" }
+	 
+	// Outputs
+	service sdk_activation call corresponds to calling fcActivation 
+			with instrumentation as sdk_activation_request where { stamp as "data" }
+		and return corresponds to fcActivationRet 
+			with instrumentation as sdk_activation_respond where { stamp as "data" } 
+		
+	service sdk_control_authority call corresponds to calling fcControlAuth
+			with instrumentation as sdk_control_authority_request where { stamp as "data" }
+		and return corresponds to fcControlAuthRet
+			with instrumentation as sdk_control_authority_respond where { stamp as "data" }
+		
+	service drone_task_control call corresponds to calling fcDroneTaskControl
+			with instrumentation as drone_task_control_request where { stamp as "data" }
+		and return corresponds to fcTaskRet
+			with instrumentation as drone_task_control_respond where { stamp as "data" }
+		
+	service mission_waypoint_action call corresponds to calling fcMissionWPAction
+			with instrumentation as mission_waypoint_action_request where { stamp as "data" }
+		and return corresponds to fcMissionWPActionRet
+			with instrumentation as mission_waypoint_action_respond where { stamp as "data" }
+	
+	service mission_waypoint_upload call corresponds to calling fcMissionWPUpload
+			with instrumentation as mission_waypoint_upload_request where { stamp as "data" }
+		and return corresponds to fcMissionWPUploadRet
+			with instrumentation as mission_waypoint_upload_respond where { stamp as "data" }
+			  
+	topic fcs_battery_state implements batteryStateOut // has time stamp
+}                                                  
+          
+for FCS generate suite fcs_suite of tests {
+//	FCS::t60 through FCS::t66    
+//	FCS::t154   
+//	FCS::t307    
+//	FCS::t926
+	FCS::t0 through FCS::t2879
+}

@@ -1,0 +1,2 @@
+*.csp
+!instantiations.csp # Exclude instantiations

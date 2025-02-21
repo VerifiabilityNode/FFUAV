@@ -1,0 +1,5 @@
+package sensor_msgs
+
+msg NavSatFix
+msg BatteryState
+msg Joy

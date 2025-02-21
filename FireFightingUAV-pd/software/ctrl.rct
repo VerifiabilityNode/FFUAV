@@ -64,6 +64,13 @@ controller MainCtrl {
 	sref CWaterMonitor = WaterMonitor
 	
 	//
+	// Operations
+	//
+	
+	opref OGimbalAct = gimbalAct
+	opref OMonitorBattery = monitorBattery
+	
+	//
 	// Bus connections
 	//
 	// These represent a static encoding of 1-to-many pub-sub connections.
@@ -79,11 +86,9 @@ controller MainCtrl {
     // Spray
     connection CPlanning       on sprayMOut                 to CWaterMonitor   on sprayIn        (_async)
     connection CPlanning       on spraySOut                 to CSprayAim       on sprayIn        (_async)
-    // Water low
-    connection CWaterMonitor   on waterLowPOut              to CPlanning       on waterIn        (_async)
-    connection CWaterMonitor   on waterLowSOut              to CSprayAim       on waterIn        (_async)
-    // Visual nav
-    connection CVisualNav      on vnavFOut                  to CFlight         on vnavIn         (_async)
+
+	// Visual nav
+    //connection CVisualNav      on vnavFOut                  to CFlight         on vnavIn         (_async)
     connection CVisualNav      on vnavPOut                  to CPlanning       on vnavIn         (_async)
 	
 	//
@@ -97,7 +102,7 @@ controller MainCtrl {
 	// FlightPlanningEvents
 	connection CPlanning       on navCommand                to CFlight         on navCommand     (_async)
 	connection CPlanning       on waypoint                  to CFlight         on waypoint       (_async)
-	connection CFlight         on uavStatus                 to CPlanning       on uavStatus      (_async)
+
 	// GimbalPlanningEvents
 	connection CSprayAim       on gimbalStatus              to CPlanning       on gimbalStatus   (_async)	
 	// BatteryPlanningEvents
@@ -117,15 +122,15 @@ controller MainCtrl {
 	//
 
 	// M600FlightEvents
-	connection MainCtrl        on fcTakeoffRet              to CFlight         on fcTakeoffRet
-	connection MainCtrl        on fcGoHomeRet               to CFlight         on fcGoHomeRet
-	connection MainCtrl        on fcLandRet                 to CFlight         on fcLandRet
-	connection MainCtrl        on fcControlAuth             to CFlight         on fcControlAuth
-	connection MainCtrl        on fcWaypointFinishedMission to CFlight         on fcWaypointFinishedMission
-	connection MainCtrl        on fcMoveRelativeRet         to CFlight         on fcMoveRelativeRet
+	connection MainCtrl        on fcActivationRet              to CFlight         on fcActivationRet
+	connection MainCtrl        on fcMissionWPActionRet               to CFlight         on fcMissionWPActionRet
+	connection MainCtrl        on fcMoveRelativeRet                 to CFlight         on fcMoveRelativeRet
+	connection MainCtrl        on fcControlAuthRet             to CFlight         on fcControlAuthRet
+	connection MainCtrl        on fcTaskRet to CFlight         on fcTaskRet
+	connection MainCtrl        on fcMissionWPUploadRet         to CFlight         on fcMissionWPUploadRet
 	// M600TelemetryEvents (empty)
 	// M600BatteryTelemetryEvents
-	connection MainCtrl        on batteryInfo               to CBatteryMonitor on batteryInfo
+	connection CFlight         on batteryStateOut           to CBatteryMonitor on batteryState
 	// MLX90640Events
 	connection MainCtrl        on mlxHeatmap                to CFireDetect     on mlxHeatmap
 	// RealSenseD435iEvents
@@ -133,4 +138,12 @@ controller MainCtrl {
 	connection MainCtrl        on rsRgbFrame                to CFireDetect     on rsRgbFrame
 	// GCSMissionEvents
 	connection CPlanning       on missionStatus             to MainCtrl        on missionStatus
+connection MainCtrl on batteryState to CFlight on batteryStateIn
+	connection MainCtrl on gpsPosition to CFlight on gpsPosition
+	connection MainCtrl on heightAboveTakeOff to CFlight on heightAboveTakeOff
+sref stm_ref0 = WMRelay
+	connection CWaterMonitor on waterStatusOut to stm_ref0 on waterIn
+	connection stm_ref0 on waterOut1 to CSprayAim on waterIn ( _async )
+	connection stm_ref0 on waterOut2 to CPlanning on waterIn ( _async )
 }
+

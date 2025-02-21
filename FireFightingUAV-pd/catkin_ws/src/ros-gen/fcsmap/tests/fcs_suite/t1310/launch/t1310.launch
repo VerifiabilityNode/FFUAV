@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="t1310" pkg="fcsmap_fcs_suite_t1310" type="node" output="screen"/>
+</launch>

@@ -23,7 +23,7 @@ stm BatteryMonitor {
 	junction CheckS
 	junction Waiting
 	
-	transition Polled { from Polling to CheckM trigger batteryInfo?battery }
+	transition Polled { from Polling to CheckM trigger batteryState?battery }
 	
 	transition BatteryMO { from CheckM to Waiting condition battery.percentage >  BATTERY_MISSION_THRESHOLD
 		                                          action batteryStatus!BatteryStatus::Ok
@@ -47,16 +47,15 @@ stm BatteryMonitor {
 // states.  While 'on' it periodically drains a water amount; when it goes to
 // zero, it publishes the fact that the water level has gone low and finishes.
 stm WaterMonitor {
-	uses SpraySubscriber
+	uses SprayEvents
 	
 	// Publishing water topic (added 2022-08-31, refined 2022-09-05)
-	event waterLowPOut : WaterStatus
-	event waterLowSOut : WaterStatus
+	event waterStatusOut : WaterStatus
 	
 	const INITIAL_WATER_LEVEL: real, WATER_FLOW: real
 	const TIME_PER_UNIT: nat = 1
 
-	var pstatus : PumpStatus
+	var pstatus : PumpCommand
 	var water: real = INITIAL_WATER_LEVEL
 	
 	initial I
@@ -66,32 +65,55 @@ stm WaterMonitor {
 	
 		state Off {
 			initial I
-			state Check {}
+			state OffCheck {}
 			
-			transition Init { from I to Check }
-			transition Read { from Check to Check trigger sprayIn?pstatus }
+			transition Init { from I to OffCheck }
+			transition Read { from OffCheck to OffCheck trigger sprayIn?pstatus }
+		transition t0 {
+				from OffCheck
+				to OffCheck
+				condition sinceEntry ( Active::Off::OffCheck ) >= 1
+				action 
+			waterStatusOut ! WaterStatus :: Ok
+			}
 		}
 		
 		state On {
 			initial I
-			state Check {}
+			state OnCheck {}
 			
-			transition Init { from I to Check }
-			transition Read { from Check to Check trigger sprayIn?pstatus }
+			transition Init { from I to OnCheck }
+			transition Read { from OnCheck to OnCheck trigger sprayIn?pstatus }
+		transition t0 {
+				from OnCheck
+				to OnCheck
+				condition sinceEntry ( Active::On::OnCheck ) >= 1
+				action waterStatusOut ! WaterStatus :: Ok
+			}
 		}
 
-		transition Init { from I to Off action waterLowPOut!WaterStatus::Ok; waterLowSOut!WaterStatus::Ok }
+		transition Init { from I to Off }
 
 	
-		transition SwitchOn { from Off to On condition pstatus == PumpStatus::On /\ 0 < water }
-		transition SwitchOff { from On to Off condition pstatus == PumpStatus::Off /\ sinceEntry(On) < TIME_PER_UNIT /\ 0 < water }
+		transition SwitchOn { from Off to On condition pstatus == PumpCommand::On /\ 0 < water }
+		transition SwitchOff { from On to Off condition pstatus == PumpCommand::Off /\ sinceEntry(On) < TIME_PER_UNIT /\ 0 < water }
 		
 		transition Tick { from On to On condition TIME_PER_UNIT <= sinceEntry(On) /\ 0 < water action water = water - WATER_FLOW }
-	}	
-
-	final F
+	}
+	state s0 {
+	}
 	
 	transition Init { from I to Active }
 
-	transition Out { from Active to F condition water <= 0 action waterLowPOut!WaterStatus::Low; waterLowSOut!WaterStatus::Low }
+	transition Out { from Active to s0 condition water <= 0
+	}
+	transition t0 {
+		from s0
+		to s0
+		condition sinceEntry ( s0 ) >= 1
+		action 
+	
+	waterStatusOut ! WaterStatus :: Low
+	}
 }
+

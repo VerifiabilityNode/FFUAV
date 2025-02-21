@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find fcs_interface)/launch/fcs_interface.launch"/>
+  <test test-name="t3600" pkg="fcsmap_fcs_suite_t3600" type="node"/>
+  <test test-name="t3601" pkg="fcsmap_fcs_suite_t3601" type="node"/>
+  <test test-name="t3602" pkg="fcsmap_fcs_suite_t3602" type="node"/>
+  <test test-name="t3603" pkg="fcsmap_fcs_suite_t3603" type="node"/>
+  <test test-name="t3604" pkg="fcsmap_fcs_suite_t3604" type="node"/>
+  <test test-name="t3605" pkg="fcsmap_fcs_suite_t3605" type="node"/>
+</launch>

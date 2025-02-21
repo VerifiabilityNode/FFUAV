@@ -1,0 +1,77 @@
+package map 
+  
+test mapping BM {    
+	node battery_monitor::battery_monitor       
+	component BatteryMonitor
+	 
+	// Inputs
+	topic battery_state implements batteryState with acceptance as input_accepted
+	 
+	// Outputs
+	topic battery_status implements batteryStatus
+} 
+ 
+test mapping WM {
+	node water_monitor::water_monitor
+	component WaterMonitor
+	 
+	// Inputs    
+	service enable_water_monitor call corresponds to sprayIn with instrumentation as service_water_monitor_request_topic 
+	where { stamp as "data" }
+	 
+	// Outputs  
+	topic water_status_topic where { stamp as "header.stamp" } implements waterStatusOut
+}
+
+//test mapping FCS {
+//	node fcs_interface::fcs_interface
+//	component MainCtrl::CFlight // in the context of the operations of that controller
+//	
+//	// Inputs
+//	action fly_to_wp goal corresponds to waypoint
+//		with result as uavStatus
+//		
+//	action special_movement goal corresponds to navCommand
+//		with result as uavStatus
+//		
+//	//action relative_position goal corresponds to vnavIn
+//	
+//	topic gps_position implements gpsPosition with acceptance as gps_position_accepted
+//	topic dji_battery_state implements batteryStateIn with acceptance as dji_battery_state_accepted
+//	topic height_above_takeoff implements heightAboveTakeOff with acceptance as height_above_takeoff_accepted
+//	
+//	// Outputs
+//	service sdk_activation call corresponds to calling fcActivation 
+//			with instrumentation as sdk_activation_request 
+//		and return corresponds to fcActivationRet 
+//			with instrumentation as sdk_activation_respond 
+//		
+//	service sdk_control_authority call corresponds to calling fcControlAuth
+//			with instrumentation as sdk_control_authority_request
+//		and return corresponds to fcControlAuthRet
+//			with instrumentation as sdk_control_authority_respond
+//		
+//	service drone_task_control call corresponds to calling fcDroneTaskControl
+//			with instrumentation as drone_task_control_request
+//		and return corresponds to fcTaskRet
+//			with instrumentation as drone_task_control_respond
+//		
+//	service mission_waypoint_action call corresponds to calling fcMissionWPAction
+//			with instrumentation as mission_waypoint_upload_request
+//		and return corresponds to fcMissionWPActionRet
+//			with instrumentation as mission_waypoint_upload_respond
+//			
+//	topic fcs_battery_state implements batteryStateOut // has time stamp
+//}
+     
+for BM generate suite bm_suite of tests {
+	BM::t0 through BM::t302 
+}
+ 
+for WM generate suite wm_suite of tests {
+	WM::t0 through WM::t126 
+}
+
+//for FCS generate suite fcs_suite of tests {
+//	FCS::t60 through FCS::t66  
+//}

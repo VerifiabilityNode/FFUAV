@@ -1,0 +1,18 @@
+
+
+stm WMRelay {
+	initial I
+	state S0 { }
+	transition T0 { from I to S0 }
+	var ws : WaterStatus
+	event waterIn : WaterStatus
+	event waterOut1 : WaterStatus
+	event waterOut2 : WaterStatus
+	transition t0 {
+		from S0
+		to S0
+		trigger waterIn ? ws
+		action ( waterOut1 ! ws ; waterOut2 ! ws ) <{ 0 }
+	}
+}
+

@@ -1,0 +1,151 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-969679.log
+[ WARN] [1739576275.706782240]: Failed to obtain SDK control authority
+[ INFO] [1739576271.842194287]: Starting the FCS_Interface.
+[ INFO] [1739576272.944785916]: FCS_Interface getting ready...
+[ INFO] [1739576273.364064321]: Activated drone successfully.
+[ WARN] [1739576280.620078276]: Failed to obtain SDK control authority
+[ INFO] [1739576276.697425529]: Starting the FCS_Interface.
+[ INFO] [1739576277.865541149]: FCS_Interface getting ready...
+[ INFO] [1739576278.684401525]: Activated drone successfully.
+[ WARN] [1739576285.567536262]: Failed to obtain SDK control authority
+[ INFO] [1739576281.583065261]: Starting the FCS_Interface.
+[ INFO] [1739576282.800333134]: FCS_Interface getting ready...
+[ INFO] [1739576283.229888860]: Activated drone successfully.
+[ WARN] [1739576290.444666057]: Failed to obtain SDK control authority
+[ INFO] [1739576286.567656438]: Starting the FCS_Interface.
+[ INFO] [1739576287.658576981]: FCS_Interface getting ready...
+[ INFO] [1739576288.071697773]: Activated drone successfully.
+[ WARN] [1739576295.470993068]: Failed to obtain SDK control authority
+[ INFO] [1739576291.519447541]: Starting the FCS_Interface.
+[ INFO] [1739576292.716563338]: FCS_Interface getting ready...
+[ INFO] [1739576293.525737394]: Activated drone successfully.
+[ WARN] [1739576300.528692907]: Failed to obtain SDK control authority
+[ INFO] [1739576296.505684199]: Starting the FCS_Interface.
+[ INFO] [1739576297.719404354]: FCS_Interface getting ready...
+[ INFO] [1739576298.175761411]: Activated drone successfully.
+[ WARN] [1739576305.646691988]: Failed to obtain SDK control authority
+[ INFO] [1739576301.633752652]: Starting the FCS_Interface.
+[ INFO] [1739576302.875236239]: FCS_Interface getting ready...
+[ INFO] [1739576303.719018508]: Activated drone successfully.
+[ WARN] [1739576310.504070248]: Failed to obtain SDK control authority
+[ INFO] [1739576306.570988724]: Starting the FCS_Interface.
+[ INFO] [1739576307.742139324]: FCS_Interface getting ready...
+[ INFO] [1739576308.194406497]: Activated drone successfully.
+[ WARN] [1739576315.255585741]: Failed to obtain SDK control authority
+[ INFO] [1739576311.226872996]: Starting the FCS_Interface.
+[ INFO] [1739576312.490790815]: FCS_Interface getting ready...
+[ INFO] [1739576313.328462085]: Activated drone successfully.
+[ WARN] [1739576320.176618328]: Failed to obtain SDK control authority
+[ INFO] [1739576316.186224893]: Starting the FCS_Interface.
+[ INFO] [1739576317.431230617]: FCS_Interface getting ready...
+[ INFO] [1739576317.856505740]: Activated drone successfully.
+[ WARN] [1739576324.980269786]: Failed to obtain SDK control authority
+[ INFO] [1739576321.136954850]: Starting the FCS_Interface.
+[ INFO] [1739576322.303856245]: FCS_Interface getting ready...
+[ INFO] [1739576323.148671261]: Activated drone successfully.
+[ WARN] [1739576329.813972446]: Failed to obtain SDK control authority
+[ INFO] [1739576325.827175881]: Starting the FCS_Interface.
+[ INFO] [1739576327.077071729]: FCS_Interface getting ready...
+[ INFO] [1739576327.678377495]: Activated drone successfully.
+[ WARN] [1739576334.748707032]: Failed to obtain SDK control authority
+[ INFO] [1739576330.802536379]: Starting the FCS_Interface.
+[ INFO] [1739576331.979682438]: FCS_Interface getting ready...
+[ INFO] [1739576332.405118487]: Activated drone successfully.
+[ WARN] [1739576339.766201696]: Failed to obtain SDK control authority
+[ INFO] [1739576335.758493759]: Starting the FCS_Interface.
+[ INFO] [1739576337.005019569]: FCS_Interface getting ready...
+[ INFO] [1739576337.437401740]: Activated drone successfully.
+[ WARN] [1739576344.671369914]: Failed to obtain SDK control authority
+[ INFO] [1739576340.617755081]: Starting the FCS_Interface.
+[ INFO] [1739576341.881683109]: FCS_Interface getting ready...
+[ INFO] [1739576342.696589129]: Activated drone successfully.
+[ WARN] [1739576349.757997127]: Failed to obtain SDK control authority
+[ INFO] [1739576345.817886635]: Starting the FCS_Interface.
+[ INFO] [1739576346.984253960]: FCS_Interface getting ready...
+[ INFO] [1739576347.408199187]: Activated drone successfully.
+[ WARN] [1739576354.687280962]: Failed to obtain SDK control authority
+[ INFO] [1739576350.679117005]: Starting the FCS_Interface.
+[ INFO] [1739576351.925411228]: FCS_Interface getting ready...
+[ INFO] [1739576352.367585154]: Activated drone successfully.
+[ WARN] [1739576359.457344831]: Failed to obtain SDK control authority
+[ INFO] [1739576355.509003107]: Starting the FCS_Interface.
+[ INFO] [1739576356.659610912]: FCS_Interface getting ready...
+[ INFO] [1739576357.087371498]: Activated drone successfully.
+[ WARN] [1739576364.094238694]: Failed to obtain SDK control authority
+[ INFO] [1739576360.152733246]: Starting the FCS_Interface.
+[ INFO] [1739576361.293464786]: FCS_Interface getting ready...
+[ INFO] [1739576361.738602886]: Activated drone successfully.
+[ WARN] [1739576368.644255487]: Failed to obtain SDK control authority
+[ INFO] [1739576364.795845999]: Starting the FCS_Interface.
+[ INFO] [1739576365.906107742]: FCS_Interface getting ready...
+[ INFO] [1739576366.383264610]: Activated drone successfully.
+[ WARN] [1739576373.352654420]: Failed to obtain SDK control authority
+[ INFO] [1739576369.502196886]: Starting the FCS_Interface.
+[ INFO] [1739576370.584950792]: FCS_Interface getting ready...
+[ INFO] [1739576371.389351051]: Activated drone successfully.
+[ WARN] [1739576378.410301589]: Failed to obtain SDK control authority
+[ INFO] [1739576374.457565994]: Starting the FCS_Interface.
+[ INFO] [1739576375.606933671]: FCS_Interface getting ready...
+[ INFO] [1739576376.027347630]: Activated drone successfully.
+[ WARN] [1739576383.061506073]: Failed to obtain SDK control authority
+[ INFO] [1739576379.205921594]: Starting the FCS_Interface.
+[ INFO] [1739576380.302965890]: FCS_Interface getting ready...
+[ INFO] [1739576380.722629857]: Activated drone successfully.
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/fcsmap_fcs_suite/rostest-launch_fcsmap-600-699.xml
+[Testcase: testt677] ... ok
+[Testcase: testt678] ... ok
+[Testcase: testt679] ... ok
+[Testcase: testt680] ... ok
+[Testcase: testt681] ... ok
+[Testcase: testt682] ... ok
+[Testcase: testt683] ... ok
+[Testcase: testt684] ... ok
+[Testcase: testt685] ... ok
+[Testcase: testt686] ... ok
+[Testcase: testt687] ... ok
+[Testcase: testt688] ... ok
+[Testcase: testt689] ... ok
+[Testcase: testt690] ... ok
+[Testcase: testt691] ... ok
+[Testcase: testt692] ... ok
+[Testcase: testt693] ... ok
+[Testcase: testt694] ... ok
+[Testcase: testt695] ... ok
+[Testcase: testt696] ... ok
+[Testcase: testt697] ... ok
+[Testcase: testt698] ... ok
+[Testcase: testt699] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[fcsmap_fcs_suite.rosunit-t677/test][passed]
+[fcsmap_fcs_suite.rosunit-t678/test][passed]
+[fcsmap_fcs_suite.rosunit-t679/test][passed]
+[fcsmap_fcs_suite.rosunit-t680/test][passed]
+[fcsmap_fcs_suite.rosunit-t681/test][passed]
+[fcsmap_fcs_suite.rosunit-t682/test][passed]
+[fcsmap_fcs_suite.rosunit-t683/test][passed]
+[fcsmap_fcs_suite.rosunit-t684/test][passed]
+[fcsmap_fcs_suite.rosunit-t685/test][passed]
+[fcsmap_fcs_suite.rosunit-t686/test][passed]
+[fcsmap_fcs_suite.rosunit-t687/test][passed]
+[fcsmap_fcs_suite.rosunit-t688/test][passed]
+[fcsmap_fcs_suite.rosunit-t689/test][passed]
+[fcsmap_fcs_suite.rosunit-t690/test][passed]
+[fcsmap_fcs_suite.rosunit-t691/test][passed]
+[fcsmap_fcs_suite.rosunit-t692/test][passed]
+[fcsmap_fcs_suite.rosunit-t693/test][passed]
+[fcsmap_fcs_suite.rosunit-t694/test][passed]
+[fcsmap_fcs_suite.rosunit-t695/test][passed]
+[fcsmap_fcs_suite.rosunit-t696/test][passed]
+[fcsmap_fcs_suite.rosunit-t697/test][passed]
+[fcsmap_fcs_suite.rosunit-t698/test][passed]
+[fcsmap_fcs_suite.rosunit-t699/test][passed]
+
+SUMMARY
+ * RESULT: SUCCESS
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-969679.log

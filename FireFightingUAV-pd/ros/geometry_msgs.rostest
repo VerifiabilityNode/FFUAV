@@ -1,0 +1,3 @@
+package geometry_msgs
+
+msg PointStamped

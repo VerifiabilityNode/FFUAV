@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find fcs_interface)/launch/fcs_interface_m1.launch"/>
+  <test test-name="t400" pkg="fcsmap_fcs_suite_t400" type="node"/>
+  <test test-name="t401" pkg="fcsmap_fcs_suite_t401" type="node"/>
+  <test test-name="t402" pkg="fcsmap_fcs_suite_t402" type="node"/>
+  <test test-name="t403" pkg="fcsmap_fcs_suite_t403" type="node"/>
+  <test test-name="t404" pkg="fcsmap_fcs_suite_t404" type="node"/>
+</launch>

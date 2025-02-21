@@ -1,0 +1,28 @@
+package uav_msgs
+
+msg BatteryPercentage
+msg BatteryStatus
+msg FireTarget
+msg GimbalStatus
+msg GpsLocationWithPrecision
+msg iafiretarget
+msg iapumpstatus
+msg iawaterstatus
+msg InputAccepted
+msg PumpStatus
+//msg RelativePosition
+//msg SpecialMovement
+msg VisualNavigation
+msg WallMetrics
+msg WaterStatus
+
+srv DisableMission
+srv DisableVisualNavigation
+srv EnableMission
+srv EnableVisualNavigation
+srv EnableWaterMonitor
+
+action FlyToWP
+action RelativePosition
+action SpecialMovement
+action Sprayx

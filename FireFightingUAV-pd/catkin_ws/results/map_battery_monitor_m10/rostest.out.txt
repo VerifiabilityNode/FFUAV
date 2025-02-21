@@ -1,0 +1,1528 @@
+... logging to /home/pedro/.ros/log/rostest-noetic-165634.log
+[0m[ INFO] [1710739240.405254861]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739240.405988942]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739240.407559520]: Battery monitor is running[0m
+[0m[ INFO] [1710739244.009585872]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739244.010297702]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739244.012982234]: Battery monitor is running[0m
+[0m[ INFO] [1710739247.487053299]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739247.487791801]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739247.490575936]: Battery monitor is running[0m
+[0m[ INFO] [1710739252.085122107]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739252.085646025]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739252.087459739]: Battery monitor is running[0m
+[0m[ INFO] [1710739257.850430699]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739257.851147493]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739257.853602250]: Battery monitor is running[0m
+[0m[ INFO] [1710739263.240029180]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739263.240534389]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739263.242217852]: Battery monitor is running[0m
+[0m[ INFO] [1710739269.032433693]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739269.033152445]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739269.035415992]: Battery monitor is running[0m
+[0m[ INFO] [1710739274.062506167]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739274.063149252]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739274.065428591]: Battery monitor is running[0m
+[0m[ INFO] [1710739278.874966934]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739278.875533269]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739278.877206397]: Battery monitor is running[0m
+[0m[ INFO] [1710739283.806622863]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739283.807404739]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739283.809683494]: Battery monitor is running[0m
+[0m[ INFO] [1710739288.831288048]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739288.831869257]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739288.833900094]: Battery monitor is running[0m
+[0m[ INFO] [1710739293.972714887]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739293.973379055]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739293.975258058]: Battery monitor is running[0m
+[0m[ INFO] [1710739298.981448719]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739298.982079720]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739298.984005098]: Battery monitor is running[0m
+[0m[ INFO] [1710739303.927800018]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739303.928556810]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739303.931223480]: Battery monitor is running[0m
+[0m[ INFO] [1710739308.506658760]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739308.507165094]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739308.508479637]: Battery monitor is running[0m
+[0m[ INFO] [1710739314.144260099]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739314.144868683]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739314.146317060]: Battery monitor is running[0m
+[0m[ INFO] [1710739319.704422904]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739319.705070280]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739319.707666948]: Battery monitor is running[0m
+[0m[ INFO] [1710739325.075600433]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739325.076284100]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739325.077690101]: Battery monitor is running[0m
+[0m[ INFO] [1710739330.137420022]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739330.137977231]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739330.139257315]: Battery monitor is running[0m
+[0m[ INFO] [1710739335.264936547]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739335.265459756]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739335.266720006]: Battery monitor is running[0m
+[0m[ INFO] [1710739340.382425323]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739340.382957615]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739340.384229782]: Battery monitor is running[0m
+[0m[ INFO] [1710739345.614465894]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739345.615077186]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739345.616440270]: Battery monitor is running[0m
+[0m[ INFO] [1710739350.495306813]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739350.495814063]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739350.497013897]: Battery monitor is running[0m
+[0m[ INFO] [1710739355.636465425]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739355.637062216]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739355.638469424]: Battery monitor is running[0m
+[0m[ INFO] [1710739360.639688066]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739360.640235525]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739360.641533649]: Battery monitor is running[0m
+[0m[ INFO] [1710739365.238826660]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739365.239460618]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739365.240843534]: Battery monitor is running[0m
+[0m[ INFO] [1710739370.685317441]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739370.685975066]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739370.687531899]: Battery monitor is running[0m
+[0m[ INFO] [1710739376.344212679]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739376.344893553]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739376.346377053]: Battery monitor is running[0m
+[0m[ INFO] [1710739381.809749765]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739381.810247223]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739381.811643764]: Battery monitor is running[0m
+[0m[ INFO] [1710739385.971322708]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739385.971830041]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739385.973086415]: Battery monitor is running[0m
+[0m[ INFO] [1710739389.832602576]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739389.833171325]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739389.834467408]: Battery monitor is running[0m
+[0m[ INFO] [1710739393.896017525]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739393.896614692]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739393.898502190]: Battery monitor is running[0m
+[0m[ INFO] [1710739397.959326478]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739397.959761936]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739397.960701769]: Battery monitor is running[0m
+[0m[ INFO] [1710739401.883931267]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739401.884712475]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739401.886549390]: Battery monitor is running[0m
+[0m[ INFO] [1710739405.830423237]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739405.830946986]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739405.832236443]: Battery monitor is running[0m
+[0m[ INFO] [1710739409.905625456]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739409.906265163]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739409.907425329]: Battery monitor is running[0m
+[0m[ INFO] [1710739415.020548776]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739415.021105692]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739415.022369024]: Battery monitor is running[0m
+[0m[ INFO] [1710739419.388256987]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739419.388843611]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739419.390115610]: Battery monitor is running[0m
+[0m[ INFO] [1710739423.884434321]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739423.884999529]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739423.886396611]: Battery monitor is running[0m
+[0m[ INFO] [1710739428.492184618]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739428.492774950]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739428.494050657]: Battery monitor is running[0m
+[0m[ INFO] [1710739433.504300505]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739433.504800296]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739433.505873253]: Battery monitor is running[0m
+[0m[ INFO] [1710739438.282089421]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739438.282595670]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739438.284034293]: Battery monitor is running[0m
+[0m[ INFO] [1710739443.356122281]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739443.356640780]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739443.357924070]: Battery monitor is running[0m
+[0m[ INFO] [1710739448.123523641]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739448.124022182]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739448.125237722]: Battery monitor is running[0m
+[0m[ INFO] [1710739453.240950400]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739453.241566316]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739453.243038439]: Battery monitor is running[0m
+[0m[ INFO] [1710739458.183641340]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739458.184166298]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739458.185440004]: Battery monitor is running[0m
+[0m[ INFO] [1710739463.222128037]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739463.222775995]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739463.224480575]: Battery monitor is running[0m
+[0m[ INFO] [1710739468.168236411]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739468.168752285]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739468.169956616]: Battery monitor is running[0m
+[0m[ INFO] [1710739473.719482227]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739473.720155726]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739473.721499765]: Battery monitor is running[0m
+[0m[ INFO] [1710739479.102432577]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739479.102966617]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739479.104193532]: Battery monitor is running[0m
+[0m[ INFO] [1710739484.664786024]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739484.665278231]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739484.666567646]: Battery monitor is running[0m
+[0m[ INFO] [1710739489.671576752]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739489.672104793]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739489.673377832]: Battery monitor is running[0m
+[0m[ INFO] [1710739494.556148020]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739494.556643644]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739494.557927350]: Battery monitor is running[0m
+[0m[ INFO] [1710739499.454080185]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739499.454824433]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739499.456629972]: Battery monitor is running[0m
+[0m[ INFO] [1710739504.477350047]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739504.477981712]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739504.479874959]: Battery monitor is running[0m
+[0m[ INFO] [1710739509.399486897]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739509.400041854]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739509.401464893]: Battery monitor is running[0m
+[0m[ INFO] [1710739514.535425821]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739514.536000153]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739514.538521607]: Battery monitor is running[0m
+[0m[ INFO] [1710739519.487258071]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739519.487790945]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739519.489002984]: Battery monitor is running[0m
+[0m[ INFO] [1710739524.436986772]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739524.437568687]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739524.438979226]: Battery monitor is running[0m
+[0m[ INFO] [1710739529.982211163]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739529.982746912]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739529.984096159]: Battery monitor is running[0m
+[0m[ INFO] [1710739535.563330531]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739535.563838905]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739535.565100569]: Battery monitor is running[0m
+[0m[ INFO] [1710739541.206765912]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739541.207364119]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739541.208734992]: Battery monitor is running[0m
+[0m[ INFO] [1710739546.165193137]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739546.165719386]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739546.166944926]: Battery monitor is running[0m
+[0m[ INFO] [1710739551.165948913]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739551.166566495]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739551.168026992]: Battery monitor is running[0m
+[0m[ INFO] [1710739556.110947281]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739556.111487863]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739556.113416275]: Battery monitor is running[0m
+[0m[ INFO] [1710739561.179786491]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739561.180427781]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739561.181954403]: Battery monitor is running[0m
+[0m[ INFO] [1710739566.432635578]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739566.433298035]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739566.434874699]: Battery monitor is running[0m
+[0m[ INFO] [1710739571.551873224]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739571.552499056]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739571.554021927]: Battery monitor is running[0m
+[0m[ INFO] [1710739576.537865396]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739576.538436144]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739576.539798100]: Battery monitor is running[0m
+[0m[ INFO] [1710739581.887448638]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739581.888053095]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739581.889410092]: Battery monitor is running[0m
+[0m[ INFO] [1710739587.489695180]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739587.490231637]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739587.491551009]: Battery monitor is running[0m
+[0m[ INFO] [1710739592.979690245]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739592.980440785]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739592.982094823]: Battery monitor is running[0m
+[0m[ INFO] [1710739598.448771388]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739598.449277304]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739598.450550176]: Battery monitor is running[0m
+[0m[ INFO] [1710739603.645619225]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739603.646105766]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739603.647682137]: Battery monitor is running[0m
+[0m[ INFO] [1710739608.573749056]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739608.574352472]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739608.575831635]: Battery monitor is running[0m
+[0m[ INFO] [1710739613.465074696]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739613.465485987]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739613.466438734]: Battery monitor is running[0m
+[0m[ INFO] [1710739618.363950963]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739618.364480461]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739618.365747125]: Battery monitor is running[0m
+[0m[ INFO] [1710739623.314731506]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739623.315448629]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739623.316893626]: Battery monitor is running[0m
+[0m[ INFO] [1710739628.150953880]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739628.151455212]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739628.153842207]: Battery monitor is running[0m
+[0m[ INFO] [1710739633.212271880]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739633.212986295]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739633.214633207]: Battery monitor is running[0m
+[0m[ INFO] [1710739638.145506956]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739638.146062246]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739638.147554617]: Battery monitor is running[0m
+[0m[ INFO] [1710739643.474999665]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739643.475634205]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739643.477210035]: Battery monitor is running[0m
+[0m[ INFO] [1710739648.868104164]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739648.869114620]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739648.870813283]: Battery monitor is running[0m
+[0m[ INFO] [1710739654.370639051]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739654.371185299]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739654.372611463]: Battery monitor is running[0m
+[0m[ INFO] [1710739659.234929910]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739659.235767658]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739659.237638611]: Battery monitor is running[0m
+[0m[ INFO] [1710739664.259409089]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739664.259993879]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739664.261324876]: Battery monitor is running[0m
+[0m[ INFO] [1710739669.312943736]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739669.313528109]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739669.314992439]: Battery monitor is running[0m
+[0m[ INFO] [1710739674.224031059]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739674.224627349]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739674.225972471]: Battery monitor is running[0m
+[0m[ INFO] [1710739679.350990818]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739679.351598691]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739679.352979396]: Battery monitor is running[0m
+[0m[ INFO] [1710739684.371006587]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739684.371613377]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739684.373047498]: Battery monitor is running[0m
+[0m[ INFO] [1710739689.317145873]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739689.317644663]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739689.318953618]: Battery monitor is running[0m
+[0m[ INFO] [1710739694.216014698]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739694.216630446]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739694.218104067]: Battery monitor is running[0m
+[0m[ INFO] [1710739699.753745290]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739699.754300956]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739699.755569577]: Battery monitor is running[0m
+[0m[ INFO] [1710739705.480646082]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739705.481192539]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739705.482489953]: Battery monitor is running[0m
+[0m[ INFO] [1710739711.099092726]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739711.099692058]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739711.101006304]: Battery monitor is running[0m
+[0m[ INFO] [1710739715.271820087]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739715.272443210]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739715.273858623]: Battery monitor is running[0m
+[0m[ INFO] [1710739719.365374832]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739719.365947663]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739719.367404451]: Battery monitor is running[0m
+[0m[ INFO] [1710739723.395017341]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739723.395553590]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739723.396819795]: Battery monitor is running[0m
+[0m[ INFO] [1710739727.486124971]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739727.486638470]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739727.487904050]: Battery monitor is running[0m
+[0m[ INFO] [1710739731.573751300]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739731.574426631]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739731.575888378]: Battery monitor is running[0m
+[0m[ INFO] [1710739735.595139568]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739735.595880066]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739735.597272354]: Battery monitor is running[0m
+[0m[ INFO] [1710739739.571854140]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739739.572627638]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739739.574259051]: Battery monitor is running[0m
+[0m[ INFO] [1710739744.422676833]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739744.423307540]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739744.428808151]: Battery monitor is running[0m
+[0m[ INFO] [1710739748.927079210]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739748.927669375]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739748.928993038]: Battery monitor is running[0m
+[0m[ INFO] [1710739753.431650733]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739753.432212565]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739753.433555604]: Battery monitor is running[0m
+[0m[ INFO] [1710739757.804156198]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739757.804650696]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739757.805858735]: Battery monitor is running[0m
+[0m[ INFO] [1710739762.878414734]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739762.879434236]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739762.881248489]: Battery monitor is running[0m
+[0m[ INFO] [1710739767.704383262]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739767.704879137]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739767.706042890]: Battery monitor is running[0m
+[0m[ INFO] [1710739772.834220962]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739772.834780338]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739772.836165507]: Battery monitor is running[0m
+[0m[ INFO] [1710739777.679182495]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739777.679755996]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739777.680995498]: Battery monitor is running[0m
+[0m[ INFO] [1710739782.598173465]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739782.598748674]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739782.600185927]: Battery monitor is running[0m
+[0m[ INFO] [1710739787.514616078]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739787.515164829]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739787.516389831]: Battery monitor is running[0m
+[0m[ INFO] [1710739792.344295594]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739792.344853095]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739792.345803138]: Battery monitor is running[0m
+[0m[ INFO] [1710739796.122576100]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739796.123304685]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739796.124818145]: Battery monitor is running[0m
+[0m[ INFO] [1710739801.674450127]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739801.675044252]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739801.676432504]: Battery monitor is running[0m
+[0m[ INFO] [1710739807.001753581]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739807.002242040]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739807.003734333]: Battery monitor is running[0m
+[0m[ INFO] [1710739812.638290523]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739812.639082649]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739812.640515276]: Battery monitor is running[0m
+[0m[ INFO] [1710739817.982679271]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739817.983213355]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739817.984519482]: Battery monitor is running[0m
+[0m[ INFO] [1710739822.914434220]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739822.914946345]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739822.916181597]: Battery monitor is running[0m
+[0m[ INFO] [1710739828.104181039]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739828.104842873]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739828.106118499]: Battery monitor is running[0m
+[0m[ INFO] [1710739833.062148897]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739833.066296609]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739833.068871862]: Battery monitor is running[0m
+[0m[ INFO] [1710739838.112624166]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739838.113395167]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739838.115175210]: Battery monitor is running[0m
+[0m[ INFO] [1710739842.943690832]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739842.944271708]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739842.945662834]: Battery monitor is running[0m
+[0m[ INFO] [1710739847.980926678]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739847.981529470]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739847.983056263]: Battery monitor is running[0m
+[0m[ INFO] [1710739853.020985323]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739853.021495240]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739853.022752907]: Battery monitor is running[0m
+[0m[ INFO] [1710739858.561347216]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739858.561906508]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739858.563156634]: Battery monitor is running[0m
+[0m[ INFO] [1710739863.918730005]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739863.919434422]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739863.920676881]: Battery monitor is running[0m
+[0m[ INFO] [1710739869.575336271]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739869.576069938]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739869.577296855]: Battery monitor is running[0m
+[0m[ INFO] [1710739875.211089113]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739875.211618280]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739875.213059114]: Battery monitor is running[0m
+[0m[ INFO] [1710739880.121951832]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739880.122620874]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739880.123917541]: Battery monitor is running[0m
+[0m[ INFO] [1710739885.157776814]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739885.158286606]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739885.159516315]: Battery monitor is running[0m
+[0m[ INFO] [1710739890.215058097]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739890.215641514]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739890.216932265]: Battery monitor is running[0m
+[0m[ INFO] [1710739895.096001297]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739895.096658047]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739895.098179964]: Battery monitor is running[0m
+[0m[ INFO] [1710739900.074836211]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739900.075410461]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739900.076740461]: Battery monitor is running[0m
+[0m[ INFO] [1710739904.960219838]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739904.960698421]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739904.962043171]: Battery monitor is running[0m
+[0m[ INFO] [1710739910.086271074]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739910.087051699]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739910.088426741]: Battery monitor is running[0m
+[0m[ INFO] [1710739915.651198825]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739915.651773158]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739915.653252533]: Battery monitor is running[0m
+[0m[ INFO] [1710739921.018892759]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739921.019635384]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739921.021130009]: Battery monitor is running[0m
+[0m[ INFO] [1710739926.565988113]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739926.566517529]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739926.567994113]: Battery monitor is running[0m
+[0m[ INFO] [1710739932.254490747]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739932.255061372]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739932.256613080]: Battery monitor is running[0m
+[0m[ INFO] [1710739937.269072973]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739937.269590764]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739937.271082306]: Battery monitor is running[0m
+[0m[ INFO] [1710739942.231190672]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739942.231735172]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739942.237715546]: Battery monitor is running[0m
+[0m[ INFO] [1710739947.163628893]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739947.164344726]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739947.165646768]: Battery monitor is running[0m
+[0m[ INFO] [1710739952.137867918]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739952.138411127]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739952.139819626]: Battery monitor is running[0m
+[0m[ INFO] [1710739956.863829985]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739956.864375235]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739956.865920943]: Battery monitor is running[0m
+[0m[ INFO] [1710739961.801962161]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739961.802638494]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739961.804429577]: Battery monitor is running[0m
+[0m[ INFO] [1710739966.931366268]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739966.932011768]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739966.933464309]: Battery monitor is running[0m
+[0m[ INFO] [1710739971.848135804]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739971.848705678]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739971.850250345]: Battery monitor is running[0m
+[0m[ INFO] [1710739977.422496626]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739977.424477292]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739977.425771250]: Battery monitor is running[0m
+[0m[ INFO] [1710739982.799559114]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739982.800163489]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739982.801507488]: Battery monitor is running[0m
+[0m[ INFO] [1710739988.366503446]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739988.367061071]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739988.368303528]: Battery monitor is running[0m
+[0m[ INFO] [1710739993.366393356]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739993.367053897]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739993.368517480]: Battery monitor is running[0m
+[0m[ INFO] [1710739998.387973512]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710739998.388502637]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710739998.389871261]: Battery monitor is running[0m
+[0m[ INFO] [1710740003.430801206]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740003.431428164]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740003.432962955]: Battery monitor is running[0m
+[0m[ INFO] [1710740008.368788264]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740008.369321389]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740008.370732971]: Battery monitor is running[0m
+[0m[ INFO] [1710740013.615689151]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740013.616266443]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740013.617805275]: Battery monitor is running[0m
+[0m[ INFO] [1710740018.526770093]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740018.529217550]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740018.530526507]: Battery monitor is running[0m
+[0m[ INFO] [1710740023.570163973]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740023.570715097]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740023.572202013]: Battery monitor is running[0m
+[0m[ INFO] [1710740028.465540853]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740028.466216520]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740028.468037227]: Battery monitor is running[0m
+[0m[ INFO] [1710740033.919487151]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740033.920319692]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740033.921917233]: Battery monitor is running[0m
+[0m[ INFO] [1710740039.165920986]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740039.166521069]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740039.167909943]: Battery monitor is running[0m
+[0m[ INFO] [1710740044.578770959]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740044.579355041]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740044.580600249]: Battery monitor is running[0m
+[0m[ INFO] [1710740048.466539477]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740048.467108726]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740048.468416683]: Battery monitor is running[0m
+[0m[ INFO] [1710740052.407395082]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740052.407927456]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740052.409242163]: Battery monitor is running[0m
+[0m[ INFO] [1710740056.264529429]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740056.265079678]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740056.266322261]: Battery monitor is running[0m
+[0m[ INFO] [1710740060.256251043]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740060.256835209]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740060.258156083]: Battery monitor is running[0m
+[0m[ INFO] [1710740064.053859751]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740064.054361000]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740064.056123207]: Battery monitor is running[0m
+[0m[ INFO] [1710740068.052130832]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740068.052687540]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740068.054033372]: Battery monitor is running[0m
+[0m[ INFO] [1710740072.212167895]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740072.212736728]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740072.214077935]: Battery monitor is running[0m
+[0m[ INFO] [1710740077.195414973]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740077.196014889]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740077.197499679]: Battery monitor is running[0m
+[0m[ INFO] [1710740081.679905961]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740081.680473377]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740081.681818168]: Battery monitor is running[0m
+[0m[ INFO] [1710740086.053326761]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740086.053830302]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740086.055098218]: Battery monitor is running[0m
+[0m[ INFO] [1710740090.629163354]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740090.629910395]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740090.631774727]: Battery monitor is running[0m
+[0m[ INFO] [1710740095.638128952]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740095.638674118]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740095.639925658]: Battery monitor is running[0m
+[0m[ INFO] [1710740100.653026394]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740100.653567477]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740100.655010684]: Battery monitor is running[0m
+[0m[ INFO] [1710740105.383098994]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740105.383635994]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740105.384900534]: Battery monitor is running[0m
+[0m[ INFO] [1710740110.316560864]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740110.317156822]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740110.318628695]: Battery monitor is running[0m
+[0m[ INFO] [1710740115.279285227]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740115.279818602]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740115.281094434]: Battery monitor is running[0m
+[0m[ INFO] [1710740120.282982280]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740120.283630863]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740120.285231277]: Battery monitor is running[0m
+[0m[ INFO] [1710740125.087074882]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740125.087700506]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740125.089164796]: Battery monitor is running[0m
+[0m[ INFO] [1710740129.919472654]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740129.919997153]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740129.921335027]: Battery monitor is running[0m
+[0m[ INFO] [1710740135.539660486]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740135.540189777]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740135.541464984]: Battery monitor is running[0m
+[0m[ INFO] [1710740140.979917212]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740140.980460545]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740140.981770751]: Battery monitor is running[0m
+[0m[ INFO] [1710740146.284155581]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740146.284705497]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740146.286055579]: Battery monitor is running[0m
+[0m[ INFO] [1710740151.240424494]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740151.240969660]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740151.242351325]: Battery monitor is running[0m
+[0m[ INFO] [1710740156.232305444]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740156.232863068]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740156.234411316]: Battery monitor is running[0m
+[0m[ INFO] [1710740161.138430711]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740161.139012502]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740161.140383209]: Battery monitor is running[0m
+[0m[ INFO] [1710740166.165774575]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740166.166342491]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740166.167850572]: Battery monitor is running[0m
+[0m[ INFO] [1710740171.191915899]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740171.192406982]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740171.193600522]: Battery monitor is running[0m
+[0m[ INFO] [1710740176.298226995]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740176.298844953]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740176.300250284]: Battery monitor is running[0m
+[0m[ INFO] [1710740181.329093028]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740181.329565861]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740181.330986900]: Battery monitor is running[0m
+[0m[ INFO] [1710740186.344941545]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740186.345485044]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740186.346981959]: Battery monitor is running[0m
+[0m[ INFO] [1710740191.973696728]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740191.974220477]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740191.975506725]: Battery monitor is running[0m
+[0m[ INFO] [1710740197.507851990]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740197.508404531]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740197.509694863]: Battery monitor is running[0m
+[0m[ INFO] [1710740203.196006532]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740203.196593448]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740203.197981988]: Battery monitor is running[0m
+[0m[ INFO] [1710740208.133303884]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740208.134845090]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740208.136774795]: Battery monitor is running[0m
+[0m[ INFO] [1710740213.122378844]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740213.123024468]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740213.124432132]: Battery monitor is running[0m
+[0m[ INFO] [1710740218.061596809]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740218.062124266]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740218.068194257]: Battery monitor is running[0m
+[0m[ INFO] [1710740223.077719596]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740223.078261887]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740223.079661052]: Battery monitor is running[0m
+[0m[ INFO] [1710740228.179504151]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740228.180042358]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740228.181287690]: Battery monitor is running[0m
+[0m[ INFO] [1710740233.009343835]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740233.009885084]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740233.011243332]: Battery monitor is running[0m
+[0m[ INFO] [1710740238.034865167]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740238.035429083]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740238.036777206]: Battery monitor is running[0m
+[0m[ INFO] [1710740242.939518954]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740242.940129411]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740242.941472784]: Battery monitor is running[0m
+[0m[ INFO] [1710740248.238332873]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740248.243405824]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740248.249096357]: Battery monitor is running[0m
+[0m[ INFO] [1710740253.744248909]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740253.744826450]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740253.746088739]: Battery monitor is running[0m
+[0m[ INFO] [1710740259.326208257]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740259.326752089]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740259.328138171]: Battery monitor is running[0m
+[0m[ INFO] [1710740264.229971426]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740264.230487384]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740264.231780507]: Battery monitor is running[0m
+[0m[ INFO] [1710740269.078927337]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740269.079615003]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740269.080912001]: Battery monitor is running[0m
+[0m[ INFO] [1710740273.968453507]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740273.968978923]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740273.970191629]: Battery monitor is running[0m
+[0m[ INFO] [1710740279.299916423]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740279.300446797]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740279.301754961]: Battery monitor is running[0m
+[0m[ INFO] [1710740284.335921294]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740284.336490335]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740284.337933958]: Battery monitor is running[0m
+[0m[ INFO] [1710740289.172153020]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740289.172724727]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740289.174132683]: Battery monitor is running[0m
+[0m[ INFO] [1710740294.142790688]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740294.143361854]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740294.144887435]: Battery monitor is running[0m
+[0m[ INFO] [1710740299.146169546]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740299.146702379]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740299.147987585]: Battery monitor is running[0m
+[0m[ INFO] [1710740304.505463147]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740304.506017687]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740304.507433393]: Battery monitor is running[0m
+[0m[ INFO] [1710740309.974783386]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740309.975566093]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740309.976836591]: Battery monitor is running[0m
+[0m[ INFO] [1710740315.398177021]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740315.398720853]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740315.400017810]: Battery monitor is running[0m
+[0m[ INFO] [1710740320.520848439]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740320.521386105]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740320.522737269]: Battery monitor is running[0m
+[0m[ INFO] [1710740325.512268156]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740325.512698239]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740325.513677320]: Battery monitor is running[0m
+[0m[ INFO] [1710740330.552196373]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740330.552696122]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740330.553914370]: Battery monitor is running[0m
+[0m[ INFO] [1710740335.460243437]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740335.460798144]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740335.462050558]: Battery monitor is running[0m
+[0m[ INFO] [1710740340.486681050]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740340.487724590]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740340.489184254]: Battery monitor is running[0m
+[0m[ INFO] [1710740345.508265296]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740345.508818754]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740345.510133585]: Battery monitor is running[0m
+[0m[ INFO] [1710740350.636337486]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740350.638016358]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740350.639885730]: Battery monitor is running[0m
+[0m[ INFO] [1710740354.950129334]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740354.950662166]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740354.951982039]: Battery monitor is running[0m
+[0m[ INFO] [1710740360.495836430]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740360.496380804]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740360.497656885]: Battery monitor is running[0m
+[0m[ INFO] [1710740366.005044001]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740366.005624042]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740366.006890165]: Battery monitor is running[0m
+[0m[ INFO] [1710740371.638407018]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740371.638964142]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740371.640249432]: Battery monitor is running[0m
+[0m[ INFO] [1710740376.893169198]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740376.893678906]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740376.894952903]: Battery monitor is running[0m
+[0m[ INFO] [1710740382.489518526]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740382.490055275]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740382.491454022]: Battery monitor is running[0m
+[0m[ INFO] [1710740387.810305549]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740387.810852757]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740387.812127004]: Battery monitor is running[0m
+[0m[ INFO] [1710740392.847074833]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740392.847603748]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740392.848852079]: Battery monitor is running[0m
+[0m[ INFO] [1710740397.665646056]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740397.666218263]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740397.667480302]: Battery monitor is running[0m
+[0m[ INFO] [1710740402.595335090]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740402.596819754]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740402.598428085]: Battery monitor is running[0m
+[0m[ INFO] [1710740407.518182773]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740407.518696939]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740407.519966811]: Battery monitor is running[0m
+[0m[ INFO] [1710740412.554382720]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740412.554897177]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740412.556124508]: Battery monitor is running[0m
+[0m[ INFO] [1710740417.607499729]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740417.608032270]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740417.609356018]: Battery monitor is running[0m
+[0m[ INFO] [1710740422.565676131]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740422.566373880]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740422.567741752]: Battery monitor is running[0m
+[0m[ INFO] [1710740426.403379466]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740426.403911340]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740426.405452671]: Battery monitor is running[0m
+[0m[ INFO] [1710740431.908077357]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740431.908635481]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740431.909930854]: Battery monitor is running[0m
+[0m[ INFO] [1710740437.437607334]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740437.438147499]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740437.439469497]: Battery monitor is running[0m
+[0m[ INFO] [1710740443.017973932]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740443.018602931]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740443.020057262]: Battery monitor is running[0m
+[0m[ INFO] [1710740447.923402954]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740447.923952453]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740447.925186242]: Battery monitor is running[0m
+[0m[ INFO] [1710740453.295282167]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740453.295823625]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740453.297080414]: Battery monitor is running[0m
+[0m[ INFO] [1710740458.357535468]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740458.358081009]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740458.359476256]: Battery monitor is running[0m
+[0m[ INFO] [1710740463.321800759]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740463.322348758]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740463.323630422]: Battery monitor is running[0m
+[0m[ INFO] [1710740468.267899141]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740468.268421515]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740468.269718430]: Battery monitor is running[0m
+[0m[ INFO] [1710740473.320196384]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740473.320711300]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740473.322000672]: Battery monitor is running[0m
+[0m[ INFO] [1710740478.407829368]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740478.408687825]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740478.410478155]: Battery monitor is running[0m
+[0m[ INFO] [1710740482.389035622]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740482.389678788]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740482.391293868]: Battery monitor is running[0m
+[0m[ INFO] [1710740487.828054857]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740487.828624981]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740487.829929979]: Battery monitor is running[0m
+[0m[ INFO] [1710740493.383901760]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740493.384442384]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740493.385781340]: Battery monitor is running[0m
+[0m[ INFO] [1710740498.977333480]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740498.978032729]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740498.979585226]: Battery monitor is running[0m
+[0m[ INFO] [1710740503.887746432]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740503.888451431]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740503.890172177]: Battery monitor is running[0m
+[0m[ INFO] [1710740508.859330038]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740508.859857953]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740508.861223284]: Battery monitor is running[0m
+[0m[ INFO] [1710740513.721095458]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740513.721930164]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740513.723178162]: Battery monitor is running[0m
+[0m[ INFO] [1710740518.767317462]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740518.767978878]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740518.769317959]: Battery monitor is running[0m
+[0m[ INFO] [1710740523.593945243]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740523.594552034]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740523.596002198]: Battery monitor is running[0m
+[0m[ INFO] [1710740528.570118134]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740528.571097174]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740528.572680629]: Battery monitor is running[0m
+[0m[ INFO] [1710740533.670314142]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740533.670866307]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740533.672160888]: Battery monitor is running[0m
+[0m[ INFO] [1710740537.640439729]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740537.641117436]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740537.642656600]: Battery monitor is running[0m
+[0m[ INFO] [1710740543.232587540]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740543.233117164]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740543.234444704]: Battery monitor is running[0m
+[0m[ INFO] [1710740548.857625848]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740548.858154472]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740548.859464886]: Battery monitor is running[0m
+[0m[ INFO] [1710740554.479002473]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740554.479537306]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740554.480937303]: Battery monitor is running[0m
+[0m[ INFO] [1710740558.621795497]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740558.622318454]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740558.623600494]: Battery monitor is running[0m
+[0m[ INFO] [1710740562.647389987]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740562.647951611]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740562.649189609]: Battery monitor is running[0m
+[0m[ INFO] [1710740566.600601816]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740566.601135565]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740566.602348229]: Battery monitor is running[0m
+[0m[ INFO] [1710740570.570570018]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740570.571144475]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740570.572438723]: Battery monitor is running[0m
+[0m[ INFO] [1710740574.572784105]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740574.573733228]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740574.575693807]: Battery monitor is running[0m
+[0m[ INFO] [1710740578.768857801]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740578.769394008]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740578.770671381]: Battery monitor is running[0m
+[0m[ INFO] [1710740582.838164943]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740582.838757359]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740582.840391522]: Battery monitor is running[0m
+[0m[ INFO] [1710740586.790174013]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740586.790716262]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740586.793735715]: Battery monitor is running[0m
+[0m[ INFO] [1710740591.207434117]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740591.208068907]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740591.209348821]: Battery monitor is running[0m
+[0m[ INFO] [1710740595.726093799]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740595.726657507]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740595.727979296]: Battery monitor is running[0m
+[0m[ INFO] [1710740600.207776001]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740600.208358334]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740600.209773623]: Battery monitor is running[0m
+[0m[ INFO] [1710740605.006784398]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740605.007331896]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740605.008644186]: Battery monitor is running[0m
+[0m[ INFO] [1710740610.219753586]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740610.220294543]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740610.221582124]: Battery monitor is running[0m
+[0m[ INFO] [1710740615.186665455]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740615.187256245]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740615.188531701]: Battery monitor is running[0m
+[0m[ INFO] [1710740620.156253513]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740620.156758095]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740620.166949116]: Battery monitor is running[0m
+[0m[ INFO] [1710740625.163026692]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740625.163562649]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740625.164770480]: Battery monitor is running[0m
+[0m[ INFO] [1710740630.215642016]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740630.217205429]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740630.221765420]: Battery monitor is running[0m
+[0m[ INFO] [1710740634.877324522]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740634.877862563]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740634.879181352]: Battery monitor is running[0m
+[0m[ INFO] [1710740638.942918748]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740638.943478039]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740638.944856870]: Battery monitor is running[0m
+[0m[ INFO] [1710740644.372588700]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740644.373157282]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740644.374546988]: Battery monitor is running[0m
+[0m[ INFO] [1710740649.988885638]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740649.989461887]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740649.990762384]: Battery monitor is running[0m
+[0m[ INFO] [1710740655.527257300]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740655.527775591]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740655.529081213]: Battery monitor is running[0m
+[0m[ INFO] [1710740660.521125832]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740660.521654539]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740660.523045828]: Battery monitor is running[0m
+[0m[ INFO] [1710740665.588550037]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740665.589123702]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740665.590384242]: Battery monitor is running[0m
+[0m[ INFO] [1710740670.575117810]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740670.575660600]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740670.576969556]: Battery monitor is running[0m
+[0m[ INFO] [1710740675.401778976]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740675.402335142]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740675.403810180]: Battery monitor is running[0m
+[0m[ INFO] [1710740680.299797947]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740680.300319821]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740680.301574027]: Battery monitor is running[0m
+[0m[ INFO] [1710740685.430613438]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740685.431209479]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740685.432488559]: Battery monitor is running[0m
+[0m[ INFO] [1710740690.457542669]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740690.458093001]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740690.459400540]: Battery monitor is running[0m
+[0m[ INFO] [1710740694.479243588]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740694.479773670]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740694.481071751]: Battery monitor is running[0m
+[0m[ INFO] [1710740700.185198802]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740700.188639961]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740700.190829332]: Battery monitor is running[0m
+[0m[ INFO] [1710740705.655095855]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740705.655627313]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740705.656888018]: Battery monitor is running[0m
+[0m[ INFO] [1710740711.152755966]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740711.153302632]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740711.154549629]: Battery monitor is running[0m
+[0m[ INFO] [1710740716.320694734]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740716.321269941]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740716.322599439]: Battery monitor is running[0m
+[0m[ INFO] [1710740721.094558626]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740721.098202494]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740721.099639782]: Battery monitor is running[0m
+[0m[ INFO] [1710740726.230493607]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740726.232227061]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740726.234376974]: Battery monitor is running[0m
+[0m[ INFO] [1710740731.129516476]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740731.130111100]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740731.131483556]: Battery monitor is running[0m
+[0m[ INFO] [1710740736.011962288]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740736.012574870]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740736.013914493]: Battery monitor is running[0m
+[0m[ INFO] [1710740741.195263770]: safety_threshold is going to be set to 30 percent[0m
+[0m[ INFO] [1710740741.195772019]: mission_threshold is going to be set to 40 percent[0m
+[0m[ INFO] [1710740741.197080350]: Battery monitor is running[0m
+[ROSUNIT] Outputting test results to /home/pedro/.ros/test_results/map_bm_suite/rostest-launch_map_battery_monitor_m10.xml
+[Testcase: testt0] ... ok
+[Testcase: testt1] ... ok
+[Testcase: testt10] ... ok
+[Testcase: testt100] ... ok
+[Testcase: testt101] ... ok
+[Testcase: testt102] ... ok
+[Testcase: testt103] ... ok
+[Testcase: testt104] ... ok
+[Testcase: testt105] ... ok
+[Testcase: testt106] ... ok
+[Testcase: testt107] ... ok
+[Testcase: testt108] ... ok
+[Testcase: testt109] ... ok
+[Testcase: testt11] ... ok
+[Testcase: testt110] ... ok
+[Testcase: testt111] ... ok
+[Testcase: testt112] ... ok
+[Testcase: testt113] ... ok
+[Testcase: testt114] ... ok
+[Testcase: testt115] ... ok
+[Testcase: testt116] ... ok
+[Testcase: testt117] ... ok
+[Testcase: testt118] ... ok
+[Testcase: testt119] ... ok
+[Testcase: testt12] ... ok
+[Testcase: testt120] ... ok
+[Testcase: testt121] ... ok
+[Testcase: testt122] ... ok
+[Testcase: testt123] ... ok
+[Testcase: testt124] ... ok
+[Testcase: testt125] ... ok
+[Testcase: testt126] ... ok
+[Testcase: testt127] ... ok
+[Testcase: testt128] ... ok
+[Testcase: testt129] ... ok
+[Testcase: testt13] ... ok
+[Testcase: testt130] ... ok
+[Testcase: testt131] ... ok
+[Testcase: testt132] ... ok
+[Testcase: testt133] ... ok
+[Testcase: testt134] ... ok
+[Testcase: testt135] ... ok
+[Testcase: testt136] ... ok
+[Testcase: testt137] ... ok
+[Testcase: testt138] ... ok
+[Testcase: testt139] ... ok
+[Testcase: testt14] ... ok
+[Testcase: testt140] ... ok
+[Testcase: testt141] ... ok
+[Testcase: testt142] ... ok
+[Testcase: testt143] ... ok
+[Testcase: testt144] ... ok
+[Testcase: testt145] ... ok
+[Testcase: testt146] ... ok
+[Testcase: testt147] ... ok
+[Testcase: testt148] ... ok
+[Testcase: testt149] ... ok
+[Testcase: testt15] ... ok
+[Testcase: testt150] ... ok
+[Testcase: testt151] ... ok
+[Testcase: testt152] ... ok
+[Testcase: testt153] ... ok
+[Testcase: testt154] ... ok
+[Testcase: testt155] ... ok
+[Testcase: testt156] ... ok
+[Testcase: testt157] ... ok
+[Testcase: testt158] ... ok
+[Testcase: testt159] ... ok
+[Testcase: testt16] ... ok
+[Testcase: testt160] ... ok
+[Testcase: testt161] ... ok
+[Testcase: testt162] ... ok
+[Testcase: testt163] ... ok
+[Testcase: testt164] ... ok
+[Testcase: testt165] ... ok
+[Testcase: testt166] ... ok
+[Testcase: testt167] ... ok
+[Testcase: testt168] ... ok
+[Testcase: testt169] ... ok
+[Testcase: testt17] ... ok
+[Testcase: testt170] ... ok
+[Testcase: testt171] ... ok
+[Testcase: testt172] ... ok
+[Testcase: testt173] ... ok
+[Testcase: testt174] ... ok
+[Testcase: testt175] ... ok
+[Testcase: testt176] ... ok
+[Testcase: testt177] ... ok
+[Testcase: testt178] ... ok
+[Testcase: testt179] ... ok
+[Testcase: testt18] ... ok
+[Testcase: testt180] ... ok
+[Testcase: testt181] ... ok
+[Testcase: testt182] ... ok
+[Testcase: testt183] ... ok
+[Testcase: testt184] ... ok
+[Testcase: testt185] ... ok
+[Testcase: testt186] ... ok
+[Testcase: testt187] ... ok
+[Testcase: testt188] ... ok
+[Testcase: testt189] ... ok
+[Testcase: testt19] ... ok
+[Testcase: testt190] ... ok
+[Testcase: testt191] ... ok
+[Testcase: testt192] ... ok
+[Testcase: testt193] ... ok
+[Testcase: testt194] ... ok
+[Testcase: testt195] ... ok
+[Testcase: testt196] ... ok
+[Testcase: testt197] ... ok
+[Testcase: testt198] ... ok
+[Testcase: testt199] ... ok
+[Testcase: testt2] ... ok
+[Testcase: testt20] ... ok
+[Testcase: testt200] ... ok
+[Testcase: testt201] ... ok
+[Testcase: testt202] ... ok
+[Testcase: testt203] ... ok
+[Testcase: testt204] ... ok
+[Testcase: testt205] ... ok
+[Testcase: testt206] ... ok
+[Testcase: testt207] ... ok
+[Testcase: testt208] ... ok
+[Testcase: testt209] ... ok
+[Testcase: testt21] ... ok
+[Testcase: testt210] ... ok
+[Testcase: testt211] ... ok
+[Testcase: testt212] ... ok
+[Testcase: testt213] ... ok
+[Testcase: testt214] ... ok
+[Testcase: testt215] ... ok
+[Testcase: testt216] ... ok
+[Testcase: testt217] ... ok
+[Testcase: testt218] ... ok
+[Testcase: testt219] ... ok
+[Testcase: testt22] ... ok
+[Testcase: testt220] ... ok
+[Testcase: testt221] ... ok
+[Testcase: testt222] ... ok
+[Testcase: testt223] ... ok
+[Testcase: testt224] ... ok
+[Testcase: testt225] ... ok
+[Testcase: testt226] ... ok
+[Testcase: testt227] ... ok
+[Testcase: testt228] ... ok
+[Testcase: testt229] ... ok
+[Testcase: testt23] ... ok
+[Testcase: testt230] ... ok
+[Testcase: testt231] ... ok
+[Testcase: testt232] ... ok
+[Testcase: testt233] ... ok
+[Testcase: testt234] ... ok
+[Testcase: testt235] ... ok
+[Testcase: testt236] ... ok
+[Testcase: testt237] ... ok
+[Testcase: testt238] ... ok
+[Testcase: testt239] ... ok
+[Testcase: testt24] ... ok
+[Testcase: testt240] ... ok
+[Testcase: testt241] ... ok
+[Testcase: testt242] ... ok
+[Testcase: testt243] ... ok
+[Testcase: testt244] ... ok
+[Testcase: testt245] ... ok
+[Testcase: testt246] ... ok
+[Testcase: testt247] ... ok
+[Testcase: testt248] ... ok
+[Testcase: testt249] ... ok
+[Testcase: testt25] ... ok
+[Testcase: testt250] ... ok
+[Testcase: testt251] ... ok
+[Testcase: testt252] ... ok
+[Testcase: testt253] ... ok
+[Testcase: testt254] ... ok
+[Testcase: testt255] ... ok
+[Testcase: testt256] ... ok
+[Testcase: testt257] ... ok
+[Testcase: testt258] ... ok
+[Testcase: testt259] ... ok
+[Testcase: testt26] ... ok
+[Testcase: testt260] ... ok
+[Testcase: testt261] ... ok
+[Testcase: testt262] ... ok
+[Testcase: testt263] ... ok
+[Testcase: testt264] ... ok
+[Testcase: testt265] ... ok
+[Testcase: testt266] ... ok
+[Testcase: testt267] ... ok
+[Testcase: testt268] ... ok
+[Testcase: testt269] ... ok
+[Testcase: testt27] ... ok
+[Testcase: testt270] ... ok
+[Testcase: testt271] ... ok
+[Testcase: testt272] ... ok
+[Testcase: testt273] ... ok
+[Testcase: testt274] ... ok
+[Testcase: testt275] ... ok
+[Testcase: testt276] ... ok
+[Testcase: testt277] ... ok
+[Testcase: testt278] ... ok
+[Testcase: testt279] ... ok
+[Testcase: testt28] ... ok
+[Testcase: testt280] ... ok
+[Testcase: testt281] ... ok
+[Testcase: testt282] ... ok
+[Testcase: testt283] ... ok
+[Testcase: testt284] ... ok
+[Testcase: testt285] ... ok
+[Testcase: testt286] ... ok
+[Testcase: testt287] ... ok
+[Testcase: testt288] ... ok
+[Testcase: testt289] ... ok
+[Testcase: testt29] ... ok
+[Testcase: testt290] ... ok
+[Testcase: testt291] ... ok
+[Testcase: testt292] ... ok
+[Testcase: testt293] ... ok
+[Testcase: testt294] ... ok
+[Testcase: testt295] ... ok
+[Testcase: testt296] ... ok
+[Testcase: testt297] ... ok
+[Testcase: testt298] ... ok
+[Testcase: testt299] ... ok
+[Testcase: testt3] ... ok
+[Testcase: testt30] ... ok
+[Testcase: testt300] ... ok
+[Testcase: testt301] ... ok
+[Testcase: testt302] ... ok
+[Testcase: testt31] ... ok
+[Testcase: testt32] ... ok
+[Testcase: testt33] ... ok
+[Testcase: testt34] ... ok
+[Testcase: testt35] ... ok
+[Testcase: testt36] ... ok
+[Testcase: testt37] ... ok
+[Testcase: testt38] ... ok
+[Testcase: testt39] ... ok
+[Testcase: testt4] ... ok
+[Testcase: testt40] ... ok
+[Testcase: testt41] ... ok
+[Testcase: testt42] ... ok
+[Testcase: testt43] ... ok
+[Testcase: testt44] ... ok
+[Testcase: testt45] ... ok
+[Testcase: testt46] ... ok
+[Testcase: testt47] ... ok
+[Testcase: testt48] ... ok
+[Testcase: testt49] ... ok
+[Testcase: testt5] ... ok
+[Testcase: testt50] ... ok
+[Testcase: testt51] ... ok
+[Testcase: testt52] ... ok
+[Testcase: testt53] ... ok
+[Testcase: testt54] ... ok
+[Testcase: testt55] ... ok
+[Testcase: testt56] ... ok
+[Testcase: testt57] ... ok
+[Testcase: testt58] ... ok
+[Testcase: testt59] ... ok
+[Testcase: testt6] ... ok
+[Testcase: testt60] ... ok
+[Testcase: testt61] ... ok
+[Testcase: testt62] ... ok
+[Testcase: testt63] ... ok
+[Testcase: testt64] ... ok
+[Testcase: testt65] ... ok
+[Testcase: testt66] ... ok
+[Testcase: testt67] ... ok
+[Testcase: testt68] ... ok
+[Testcase: testt69] ... ok
+[Testcase: testt7] ... ok
+[Testcase: testt70] ... ok
+[Testcase: testt71] ... ok
+[Testcase: testt72] ... ok
+[Testcase: testt73] ... ok
+[Testcase: testt74] ... ok
+[Testcase: testt75] ... ok
+[Testcase: testt76] ... ok
+[Testcase: testt77] ... ok
+[Testcase: testt78] ... ok
+[Testcase: testt79] ... ok
+[Testcase: testt8] ... ok
+[Testcase: testt80] ... ok
+[Testcase: testt81] ... ok
+[Testcase: testt82] ... ok
+[Testcase: testt83] ... ok
+[Testcase: testt84] ... ok
+[Testcase: testt85] ... ok
+[Testcase: testt86] ... ok
+[Testcase: testt87] ... ok
+[Testcase: testt88] ... ok
+[Testcase: testt89] ... ok
+[Testcase: testt9] ... ok
+[Testcase: testt90] ... ok
+[Testcase: testt91] ... ok
+[Testcase: testt92] ... ok
+[Testcase: testt93] ... ok
+[Testcase: testt94] ... ok
+[Testcase: testt95] ... ok
+[Testcase: testt96] ... ok
+[Testcase: testt97] ... ok
+[Testcase: testt98] ... ok
+[Testcase: testt99] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[map_bm_suite.rosunit-t0/test][passed]
+[map_bm_suite.rosunit-t1/test][passed]
+[map_bm_suite.rosunit-t10/test][passed]
+[map_bm_suite.rosunit-t100/test][passed]
+[map_bm_suite.rosunit-t101/test][passed]
+[map_bm_suite.rosunit-t102/test][passed]
+[map_bm_suite.rosunit-t103/test][passed]
+[map_bm_suite.rosunit-t104/test][passed]
+[map_bm_suite.rosunit-t105/test][passed]
+[map_bm_suite.rosunit-t106/test][passed]
+[map_bm_suite.rosunit-t107/test][passed]
+[map_bm_suite.rosunit-t108/test][passed]
+[map_bm_suite.rosunit-t109/test][passed]
+[map_bm_suite.rosunit-t11/test][passed]
+[map_bm_suite.rosunit-t110/test][passed]
+[map_bm_suite.rosunit-t111/test][passed]
+[map_bm_suite.rosunit-t112/test][passed]
+[map_bm_suite.rosunit-t113/test][passed]
+[map_bm_suite.rosunit-t114/test][passed]
+[map_bm_suite.rosunit-t115/test][passed]
+[map_bm_suite.rosunit-t116/test][passed]
+[map_bm_suite.rosunit-t117/test][passed]
+[map_bm_suite.rosunit-t118/test][passed]
+[map_bm_suite.rosunit-t119/test][passed]
+[map_bm_suite.rosunit-t12/test][passed]
+[map_bm_suite.rosunit-t120/test][passed]
+[map_bm_suite.rosunit-t121/test][passed]
+[map_bm_suite.rosunit-t122/test][passed]
+[map_bm_suite.rosunit-t123/test][passed]
+[map_bm_suite.rosunit-t124/test][passed]
+[map_bm_suite.rosunit-t125/test][passed]
+[map_bm_suite.rosunit-t126/test][passed]
+[map_bm_suite.rosunit-t127/test][passed]
+[map_bm_suite.rosunit-t128/test][passed]
+[map_bm_suite.rosunit-t129/test][passed]
+[map_bm_suite.rosunit-t13/test][passed]
+[map_bm_suite.rosunit-t130/test][passed]
+[map_bm_suite.rosunit-t131/test][passed]
+[map_bm_suite.rosunit-t132/test][passed]
+[map_bm_suite.rosunit-t133/test][passed]
+[map_bm_suite.rosunit-t134/test][passed]
+[map_bm_suite.rosunit-t135/test][passed]
+[map_bm_suite.rosunit-t136/test][passed]
+[map_bm_suite.rosunit-t137/test][passed]
+[map_bm_suite.rosunit-t138/test][passed]
+[map_bm_suite.rosunit-t139/test][passed]
+[map_bm_suite.rosunit-t14/test][passed]
+[map_bm_suite.rosunit-t140/test][passed]
+[map_bm_suite.rosunit-t141/test][passed]
+[map_bm_suite.rosunit-t142/test][passed]
+[map_bm_suite.rosunit-t143/test][passed]
+[map_bm_suite.rosunit-t144/test][passed]
+[map_bm_suite.rosunit-t145/test][passed]
+[map_bm_suite.rosunit-t146/test][passed]
+[map_bm_suite.rosunit-t147/test][passed]
+[map_bm_suite.rosunit-t148/test][passed]
+[map_bm_suite.rosunit-t149/test][passed]
+[map_bm_suite.rosunit-t15/test][passed]
+[map_bm_suite.rosunit-t150/test][passed]
+[map_bm_suite.rosunit-t151/test][passed]
+[map_bm_suite.rosunit-t152/test][passed]
+[map_bm_suite.rosunit-t153/test][passed]
+[map_bm_suite.rosunit-t154/test][passed]
+[map_bm_suite.rosunit-t155/test][passed]
+[map_bm_suite.rosunit-t156/test][passed]
+[map_bm_suite.rosunit-t157/test][passed]
+[map_bm_suite.rosunit-t158/test][passed]
+[map_bm_suite.rosunit-t159/test][passed]
+[map_bm_suite.rosunit-t16/test][passed]
+[map_bm_suite.rosunit-t160/test][passed]
+[map_bm_suite.rosunit-t161/test][passed]
+[map_bm_suite.rosunit-t162/test][passed]
+[map_bm_suite.rosunit-t163/test][passed]
+[map_bm_suite.rosunit-t164/test][passed]
+[map_bm_suite.rosunit-t165/test][passed]
+[map_bm_suite.rosunit-t166/test][passed]
+[map_bm_suite.rosunit-t167/test][passed]
+[map_bm_suite.rosunit-t168/test][passed]
+[map_bm_suite.rosunit-t169/test][passed]
+[map_bm_suite.rosunit-t17/test][passed]
+[map_bm_suite.rosunit-t170/test][passed]
+[map_bm_suite.rosunit-t171/test][passed]
+[map_bm_suite.rosunit-t172/test][passed]
+[map_bm_suite.rosunit-t173/test][passed]
+[map_bm_suite.rosunit-t174/test][passed]
+[map_bm_suite.rosunit-t175/test][passed]
+[map_bm_suite.rosunit-t176/test][passed]
+[map_bm_suite.rosunit-t177/test][passed]
+[map_bm_suite.rosunit-t178/test][passed]
+[map_bm_suite.rosunit-t179/test][passed]
+[map_bm_suite.rosunit-t18/test][passed]
+[map_bm_suite.rosunit-t180/test][passed]
+[map_bm_suite.rosunit-t181/test][passed]
+[map_bm_suite.rosunit-t182/test][passed]
+[map_bm_suite.rosunit-t183/test][passed]
+[map_bm_suite.rosunit-t184/test][passed]
+[map_bm_suite.rosunit-t185/test][passed]
+[map_bm_suite.rosunit-t186/test][passed]
+[map_bm_suite.rosunit-t187/test][passed]
+[map_bm_suite.rosunit-t188/test][passed]
+[map_bm_suite.rosunit-t189/test][passed]
+[map_bm_suite.rosunit-t19/test][passed]
+[map_bm_suite.rosunit-t190/test][passed]
+[map_bm_suite.rosunit-t191/test][passed]
+[map_bm_suite.rosunit-t192/test][passed]
+[map_bm_suite.rosunit-t193/test][passed]
+[map_bm_suite.rosunit-t194/test][passed]
+[map_bm_suite.rosunit-t195/test][passed]
+[map_bm_suite.rosunit-t196/test][passed]
+[map_bm_suite.rosunit-t197/test][passed]
+[map_bm_suite.rosunit-t198/test][passed]
+[map_bm_suite.rosunit-t199/test][passed]
+[map_bm_suite.rosunit-t2/test][passed]
+[map_bm_suite.rosunit-t20/test][passed]
+[map_bm_suite.rosunit-t200/test][passed]
+[map_bm_suite.rosunit-t201/test][passed]
+[map_bm_suite.rosunit-t202/test][passed]
+[map_bm_suite.rosunit-t203/test][passed]
+[map_bm_suite.rosunit-t204/test][passed]
+[map_bm_suite.rosunit-t205/test][passed]
+[map_bm_suite.rosunit-t206/test][passed]
+[map_bm_suite.rosunit-t207/test][passed]
+[map_bm_suite.rosunit-t208/test][passed]
+[map_bm_suite.rosunit-t209/test][passed]
+[map_bm_suite.rosunit-t21/test][passed]
+[map_bm_suite.rosunit-t210/test][passed]
+[map_bm_suite.rosunit-t211/test][passed]
+[map_bm_suite.rosunit-t212/test][passed]
+[map_bm_suite.rosunit-t213/test][passed]
+[map_bm_suite.rosunit-t214/test][passed]
+[map_bm_suite.rosunit-t215/test][passed]
+[map_bm_suite.rosunit-t216/test][passed]
+[map_bm_suite.rosunit-t217/test][passed]
+[map_bm_suite.rosunit-t218/test][passed]
+[map_bm_suite.rosunit-t219/test][passed]
+[map_bm_suite.rosunit-t22/test][passed]
+[map_bm_suite.rosunit-t220/test][passed]
+[map_bm_suite.rosunit-t221/test][passed]
+[map_bm_suite.rosunit-t222/test][passed]
+[map_bm_suite.rosunit-t223/test][passed]
+[map_bm_suite.rosunit-t224/test][passed]
+[map_bm_suite.rosunit-t225/test][passed]
+[map_bm_suite.rosunit-t226/test][passed]
+[map_bm_suite.rosunit-t227/test][passed]
+[map_bm_suite.rosunit-t228/test][passed]
+[map_bm_suite.rosunit-t229/test][passed]
+[map_bm_suite.rosunit-t23/test][passed]
+[map_bm_suite.rosunit-t230/test][passed]
+[map_bm_suite.rosunit-t231/test][passed]
+[map_bm_suite.rosunit-t232/test][passed]
+[map_bm_suite.rosunit-t233/test][passed]
+[map_bm_suite.rosunit-t234/test][passed]
+[map_bm_suite.rosunit-t235/test][passed]
+[map_bm_suite.rosunit-t236/test][passed]
+[map_bm_suite.rosunit-t237/test][passed]
+[map_bm_suite.rosunit-t238/test][passed]
+[map_bm_suite.rosunit-t239/test][passed]
+[map_bm_suite.rosunit-t24/test][passed]
+[map_bm_suite.rosunit-t240/test][passed]
+[map_bm_suite.rosunit-t241/test][passed]
+[map_bm_suite.rosunit-t242/test][passed]
+[map_bm_suite.rosunit-t243/test][passed]
+[map_bm_suite.rosunit-t244/test][passed]
+[map_bm_suite.rosunit-t245/test][passed]
+[map_bm_suite.rosunit-t246/test][passed]
+[map_bm_suite.rosunit-t247/test][passed]
+[map_bm_suite.rosunit-t248/test][passed]
+[map_bm_suite.rosunit-t249/test][passed]
+[map_bm_suite.rosunit-t25/test][passed]
+[map_bm_suite.rosunit-t250/test][passed]
+[map_bm_suite.rosunit-t251/test][passed]
+[map_bm_suite.rosunit-t252/test][passed]
+[map_bm_suite.rosunit-t253/test][passed]
+[map_bm_suite.rosunit-t254/test][passed]
+[map_bm_suite.rosunit-t255/test][passed]
+[map_bm_suite.rosunit-t256/test][passed]
+[map_bm_suite.rosunit-t257/test][passed]
+[map_bm_suite.rosunit-t258/test][passed]
+[map_bm_suite.rosunit-t259/test][passed]
+[map_bm_suite.rosunit-t26/test][passed]
+[map_bm_suite.rosunit-t260/test][passed]
+[map_bm_suite.rosunit-t261/test][passed]
+[map_bm_suite.rosunit-t262/test][passed]
+[map_bm_suite.rosunit-t263/test][passed]
+[map_bm_suite.rosunit-t264/test][passed]
+[map_bm_suite.rosunit-t265/test][passed]
+[map_bm_suite.rosunit-t266/test][passed]
+[map_bm_suite.rosunit-t267/test][passed]
+[map_bm_suite.rosunit-t268/test][passed]
+[map_bm_suite.rosunit-t269/test][passed]
+[map_bm_suite.rosunit-t27/test][passed]
+[map_bm_suite.rosunit-t270/test][passed]
+[map_bm_suite.rosunit-t271/test][passed]
+[map_bm_suite.rosunit-t272/test][passed]
+[map_bm_suite.rosunit-t273/test][passed]
+[map_bm_suite.rosunit-t274/test][passed]
+[map_bm_suite.rosunit-t275/test][passed]
+[map_bm_suite.rosunit-t276/test][passed]
+[map_bm_suite.rosunit-t277/test][passed]
+[map_bm_suite.rosunit-t278/test][passed]
+[map_bm_suite.rosunit-t279/test][passed]
+[map_bm_suite.rosunit-t28/test][passed]
+[map_bm_suite.rosunit-t280/test][passed]
+[map_bm_suite.rosunit-t281/test][passed]
+[map_bm_suite.rosunit-t282/test][passed]
+[map_bm_suite.rosunit-t283/test][passed]
+[map_bm_suite.rosunit-t284/test][passed]
+[map_bm_suite.rosunit-t285/test][passed]
+[map_bm_suite.rosunit-t286/test][passed]
+[map_bm_suite.rosunit-t287/test][passed]
+[map_bm_suite.rosunit-t288/test][passed]
+[map_bm_suite.rosunit-t289/test][passed]
+[map_bm_suite.rosunit-t29/test][passed]
+[map_bm_suite.rosunit-t290/test][passed]
+[map_bm_suite.rosunit-t291/test][passed]
+[map_bm_suite.rosunit-t292/test][passed]
+[map_bm_suite.rosunit-t293/test][passed]
+[map_bm_suite.rosunit-t294/test][passed]
+[map_bm_suite.rosunit-t295/test][passed]
+[map_bm_suite.rosunit-t296/test][passed]
+[map_bm_suite.rosunit-t297/test][passed]
+[map_bm_suite.rosunit-t298/test][passed]
+[map_bm_suite.rosunit-t299/test][passed]
+[map_bm_suite.rosunit-t3/test][passed]
+[map_bm_suite.rosunit-t30/test][passed]
+[map_bm_suite.rosunit-t300/test][passed]
+[map_bm_suite.rosunit-t301/test][passed]
+[map_bm_suite.rosunit-t302/test][passed]
+[map_bm_suite.rosunit-t31/test][passed]
+[map_bm_suite.rosunit-t32/test][passed]
+[map_bm_suite.rosunit-t33/test][passed]
+[map_bm_suite.rosunit-t34/test][passed]
+[map_bm_suite.rosunit-t35/test][passed]
+[map_bm_suite.rosunit-t36/test][passed]
+[map_bm_suite.rosunit-t37/test][passed]
+[map_bm_suite.rosunit-t38/test][passed]
+[map_bm_suite.rosunit-t39/test][passed]
+[map_bm_suite.rosunit-t4/test][passed]
+[map_bm_suite.rosunit-t40/test][passed]
+[map_bm_suite.rosunit-t41/test][passed]
+[map_bm_suite.rosunit-t42/test][passed]
+[map_bm_suite.rosunit-t43/test][passed]
+[map_bm_suite.rosunit-t44/test][passed]
+[map_bm_suite.rosunit-t45/test][passed]
+[map_bm_suite.rosunit-t46/test][passed]
+[map_bm_suite.rosunit-t47/test][passed]
+[map_bm_suite.rosunit-t48/test][passed]
+[map_bm_suite.rosunit-t49/test][passed]
+[map_bm_suite.rosunit-t5/test][passed]
+[map_bm_suite.rosunit-t50/test][passed]
+[map_bm_suite.rosunit-t51/test][passed]
+[map_bm_suite.rosunit-t52/test][passed]
+[map_bm_suite.rosunit-t53/test][passed]
+[map_bm_suite.rosunit-t54/test][passed]
+[map_bm_suite.rosunit-t55/test][passed]
+[map_bm_suite.rosunit-t56/test][passed]
+[map_bm_suite.rosunit-t57/test][passed]
+[map_bm_suite.rosunit-t58/test][passed]
+[map_bm_suite.rosunit-t59/test][passed]
+[map_bm_suite.rosunit-t6/test][passed]
+[map_bm_suite.rosunit-t60/test][passed]
+[map_bm_suite.rosunit-t61/test][passed]
+[map_bm_suite.rosunit-t62/test][passed]
+[map_bm_suite.rosunit-t63/test][passed]
+[map_bm_suite.rosunit-t64/test][passed]
+[map_bm_suite.rosunit-t65/test][passed]
+[map_bm_suite.rosunit-t66/test][passed]
+[map_bm_suite.rosunit-t67/test][passed]
+[map_bm_suite.rosunit-t68/test][passed]
+[map_bm_suite.rosunit-t69/test][passed]
+[map_bm_suite.rosunit-t7/test][passed]
+[map_bm_suite.rosunit-t70/test][passed]
+[map_bm_suite.rosunit-t71/test][passed]
+[map_bm_suite.rosunit-t72/test][passed]
+[map_bm_suite.rosunit-t73/test][passed]
+[map_bm_suite.rosunit-t74/test][passed]
+[map_bm_suite.rosunit-t75/test][passed]
+[map_bm_suite.rosunit-t76/test][passed]
+[map_bm_suite.rosunit-t77/test][passed]
+[map_bm_suite.rosunit-t78/test][passed]
+[map_bm_suite.rosunit-t79/test][passed]
+[map_bm_suite.rosunit-t8/test][passed]
+[map_bm_suite.rosunit-t80/test][passed]
+[map_bm_suite.rosunit-t81/test][passed]
+[map_bm_suite.rosunit-t82/test][passed]
+[map_bm_suite.rosunit-t83/test][passed]
+[map_bm_suite.rosunit-t84/test][passed]
+[map_bm_suite.rosunit-t85/test][passed]
+[map_bm_suite.rosunit-t86/test][passed]
+[map_bm_suite.rosunit-t87/test][passed]
+[map_bm_suite.rosunit-t88/test][passed]
+[map_bm_suite.rosunit-t89/test][passed]
+[map_bm_suite.rosunit-t9/test][passed]
+[map_bm_suite.rosunit-t90/test][passed]
+[map_bm_suite.rosunit-t91/test][passed]
+[map_bm_suite.rosunit-t92/test][passed]
+[map_bm_suite.rosunit-t93/test][passed]
+[map_bm_suite.rosunit-t94/test][passed]
+[map_bm_suite.rosunit-t95/test][passed]
+[map_bm_suite.rosunit-t96/test][passed]
+[map_bm_suite.rosunit-t97/test][passed]
+[map_bm_suite.rosunit-t98/test][passed]
+[map_bm_suite.rosunit-t99/test][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 0
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/pedro/.ros/log/rostest-noetic-165634.log

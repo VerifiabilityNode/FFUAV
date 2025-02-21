@@ -4,6 +4,18 @@ diagram m600
 // Flight controller
 //
 
+enumeration M600Task {
+	GoHome
+	Land
+	TakeOff
+}
+enumeration M600Action {
+	Start
+	Stop
+	Pause
+	Resume
+}
+
 // Drone flight controller API
 interface M600Flight {
 	//
@@ -16,18 +28,23 @@ interface M600Flight {
 	// monitor the progress of these commands, as well as errors, etc.
 	//
 	
-	fcTakeoffCall() // DJI::OSDK::Control::takeoff
-	fcGoHomeCall()  // DJI::OSDK::Control::goHome
-	fcLandCall()    // DJI::OSDK::Control::land
+	fcActivation() 						// dji_sdk::Activation via service call.
+	fcControlAuth() 					// dji_sdk::SDKControlAuthority via service call.
+	fcDroneTaskControl(task:M600Task)	// dji_sdk::DroneTaskControl
+	
+	//fcTakeoffCall() // DJI::OSDK::Control::takeoff
+	//fcGoHomeCall()  // DJI::OSDK::Control::goHome
+	//fcLandCall()    // DJI::OSDK::Control::land
 	
 	// Not sure yet exactly what this abstracts over, maybe a 1-waypoint mission?
-	fcWaypointCall(pos: Position)
+	fcMissionWPUpload(pos: Seq(Position))
+	fcMissionWPAction(act: M600Action)
 	
 	// Intended to be a RELATIVE movement.
 	//
 	// Corresponds to: https://developer.dji.com/onboard-api-reference/classDJI_1_1OSDK_1_1Control.html#a1f2c5a277f091fb5fb5b39baf6f6fa0f
 	// with the flags set as per positionAndYawCtrl modulo using FRU instead of NEU.
-	fcMoveRelativeCall(movement: RelativeMotion)
+	//fcMoveRelativeCall(movement: RelativeMotion)
 }
 
 operation fcTakeoffCall() { terminates }
@@ -61,7 +78,8 @@ interface M600FlightEvents {
 	//
 	// This corresponds to the callback from DJI::OSDK::Control,
 	// with the initial call elided.
-	event fcControlAuth
+	event fcControlAuthRet : boolean
+	event fcActivationRet : boolean
 	
 	//
 	// Return signals for navigation commands
@@ -74,9 +92,11 @@ interface M600FlightEvents {
 	// is that we need closed loops in the software.
 	//
 	
-	event fcTakeoffRet // Return from fcTakeoffCall
-	event fcGoHomeRet  // Return from fcGoHomeCall
-	event fcLandRet    // Return from fcLandCall
+	event fcTaskRet : boolean
+	
+//	event fcTakeoffRet : boolean // Return from fcTakeoffCall
+//	event fcGoHomeRet  // Return from fcGoHomeCall
+//	event fcLandRet : boolean   // Return from fcLandCall
 
 	// Waypoint has been reached.
 	//
@@ -92,7 +112,8 @@ interface M600FlightEvents {
 	// WaypointV1 correspondence to this event, but I think there's some
 	// invocation of the waypoint callbacks that can convey the 'finished'
 	// event.
-	event fcWaypointFinishedMission
+	event fcMissionWPActionRet : boolean
+	event fcMissionWPUploadRet : boolean
 	
 	// Successful return for fcMoveRelative.
 	event fcMoveRelativeRet
@@ -102,10 +123,12 @@ interface M600FlightEvents {
 interface M600TelemetryEvents {
 	// No telemetry topics are used yet.  This will likely change as we make
 	// the model more concrete.
+	event gpsPosition : Position
+	event heightAboveTakeOff : real
 }
 
 // Events corresponding to battery telemetry topics.
 interface M600BatteryTelemetryEvents {
 	// The battery ROS topic.
-	event batteryInfo: Battery
+	event batteryState: Battery
 }

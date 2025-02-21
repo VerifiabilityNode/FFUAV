@@ -1,0 +1,3 @@
+<launch>
+  <node name="water_monitor" pkg="water_monitor_m10" type="water_monitor_m10.py" output="screen"/>
+</launch>

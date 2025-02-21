@@ -4,7 +4,26 @@ diagram flight
 import comm::*
 import datatypes::*
 import m600::*
-import gcs::*
+import gcs::* interface IFlightBatteryMonitor {
+	monitorBattery ( )
+}
+
+interface FlightPlanningEvents2 {
+	//
+	// Navigation commands
+	//
+	
+	// Provides a top-level navigation command.
+	event navCommand: NavCommand
+	
+	// Provides a waypoint.
+	event waypoint: Position
+	
+	//
+	// Aircraft status and telemetry
+	//
+}
+
 
 stm Flight {
 	requires M600Flight
@@ -14,88 +33,315 @@ stm Flight {
 	uses M600FlightEvents
 	// Telemetry input
 	uses M600TelemetryEvents
+	//uses M600BatteryTelemetryEvents
+	
+	event batteryStateIn : Battery
+	event batteryStateOut : Battery
+	
 	// Override input and status output
 	uses GCSControlEvents	
 	
-	uses FlightPlanningEvents
-	uses VNavSubscriber
+	uses FlightPlanningEvents2
+	//uses VNavEvents
 
 	const CLIMB_LIFT: real // Height lift required to begin missions.
 	const DELAY_DISARM: int
-	const HOME: Position // temporary
 
-	// Temporary storage for channel inputs
-	var h : real, cmd : NavCommand, vnav : VNavOutput, wp : Position
-	var start : Position, gotStart : boolean = false
+	const HOME : Position
+	var h : real , cmd : NavCommand  , wp : Position
+	var current : Position , res : boolean = true, finished : boolean
 
 	initial I
 
 	transition II { from I to Connect }
 
-	state Connect {}
-	transition CI { from Connect to Waiting trigger fcControlAuth action uavStatus!AircraftStatus::Connected }
-
-	state Waiting {
+	state Connect {
+		entry fcActivation ( )
+	}
+	transition CI { from Connect to j0 trigger  
+		
+	
+	fcActivationRet ? res
 	}
 
-	junction ProcessingCommand
+	
+	state Monitoring {
+		initial I
+		transition T0 { from I to Waiting }
+		state Waiting {
+	}
+
+	
 	
 	//
 	// Waypoints
 	//
-	transition GotWaypoint { from Waiting to Waypoint trigger waypoint?wp }
+	transition GotWaypoint { from Waiting to Waypoint trigger  
+		
+		waypoint ? wp
+		}
 	state Waypoint {
-		entry if not gotStart then start = wp; gotStart = true end; fcWaypointCall(wp)
-	}
-	transition WaypointOff { from Waypoint to Waiting }
-	transition WaypointNotify { from Waiting to Waiting trigger fcWaypointFinishedMission action uavStatus!AircraftStatus::AtWaypoint }
-	
-	//
-	// Relative positioning
-	//
-	transition GotRelative { from Waiting to Relative trigger vnavIn?vnav }
-	state Relative {
-		entry fcMoveRelativeCall(vnav.rpos)
-	}
-	transition RelativeOff { from Relative to Waiting }
-	
-	
-	transition Command { from Waiting to ProcessingCommand trigger navCommand?cmd }
-	transition CoTO { from ProcessingCommand to TakingOff condition cmd == NavCommand::TakeOff }
-	transition CoRH { from ProcessingCommand to GoHome    condition cmd == NavCommand::GoHome  }
-	transition CoLD { from ProcessingCommand to Landing   condition cmd == NavCommand::Land    }
+			entry finished = false ; gpsPosition ? current ; fcMissionWPUpload ( < wp , current , wp > ) ; fcMissionWPUploadRet ? res
+	initial i0
 
-	state TakingOff {
-		entry fcTakeoffCall()
-	}
-	transition TakenOff { from TakingOff to Climbing trigger fcTakeoffRet action uavStatus!AircraftStatus::TakenOff }
-	
-	state Climbing {
-		// Use of HOME here is temporary
-		entry wp = HOME; wp.alt = wp.alt + CLIMB_LIFT; fcWaypointCall(wp)
-	}
-	transition Climbed { from Climbing to Waiting trigger fcWaypointFinishedMission action uavStatus!AircraftStatus::AtAltitude }
-	
-	junction GoHome
-	transition GoHomeW  { from GoHome to BackToStart condition gotStart }
-	transition GoHomeNW { from GoHome to GoingHome condition not gotStart }
-	
-	state BackToStart {
-		entry fcWaypointCall(start)
-	}
-	transition GoHomeWD { from BackToStart to GoingHome trigger fcWaypointFinishedMission }
-	
-	state Landing {
-		entry fcLandCall()
-	}
-	
-	final Disarmed
-	
-	transition Landed { from Landing to Disarmed trigger fcLandRet action uavStatus!AircraftStatus::Landed; wait(DELAY_DISARM); uavStatus!AircraftStatus::Disarmed }
+			junction j1
+			transition t0 {
+				from i0
+				to s0
+			}
+			transition t1 {
+				from s0
+				to j1
+				condition res
+				action fcMissionWPAction ( M600Action :: Start ) ; fcMissionWPActionRet ? res
+			}
+		state s0 {
+			}
+			transition t2 {
+				from j1
+				to GoingToWp
+				condition res
+			}
+			state GoingToWp {
+			}
+			state Finished {
+			entry finished = true
+			}
+			junction j0
+			transition t3 {
+				from j1
+				to Finished
+				condition 
+			
+				not res
+				action WPSucceeded ! false
+			}
+			transition t4 {
+				from j0
+				to Finished
+			condition withinRadius ( PRECISION_ERROR , current , wp )
+				action 
+			fcMissionWPAction ( M600Action :: Stop ) ; WPSucceeded ! true
+			}
+			transition t5 {
+				from j0
+				to GoingToWp
+			condition not withinRadius ( PRECISION_ERROR , current , wp )
+			}
+			transition t6 {
+				from GoingToWp
+				to j0
+				trigger gpsPosition ? current
+			}
+		}
+	transition WaypointOff { from Waypoint to Waiting condition finished /\ res
+		}
+		transition t2 {
+			from NavigatingCommand
+			to Waiting
+		condition finished /\ res
+		}
+	transition t0 {
+			from NavigatingCommand
+			to NavigatingCommand
+			trigger 
+		navCommand ? cmd
+			condition res
+		}
+	transition t1 {
+			from Waiting
+			to NavigatingCommand
+			trigger navCommand ? cmd
+		}
+	state NavigatingCommand {
+				junction j0
+			junction ProcessingCommand
 
-	state GoingHome {
-		entry fcGoHomeCall()
+			transition CoTO { from ProcessingCommand to j2 condition cmd == NavCommand :: TakeOff
+				action 
+			fcDroneTaskControl ( M600Task :: TakeOff ) ; fcTaskRet ? res
+			}
+			transition CoRH { from ProcessingCommand to GoHome    condition cmd == NavCommand :: GoHome
+				action fcDroneTaskControl ( M600Task :: GoHome ) ; fcTaskRet ? res
+			}
+			transition CoLD { from ProcessingCommand to j0   condition cmd == NavCommand :: Land
+				action 
+			fcDroneTaskControl ( M600Task :: Land ) ; fcTaskRet ? res
+			}
+		
+			state TakingOff {
+			}
+			transition GoHomeW  { from GoHome to Finished condition 
+				not res
+				action NavSucceeded ! false
+			}
+			transition GoHomeNW { from GoHome to GoingHome condition res }
+			
+			junction GoHome
+
+			transition t0 {
+			from j0
+			to Finished
+			condition 
+			not res
+			action NavSucceeded ! false
+		}
+		transition t1 {
+			from j0
+			to Landing
+			condition res
+		}
+			state GoingHome {
+			}
+			transition t2 {
+				from i0
+				to ProcessingCommand
+			}
+			state Landing {
+			}
+			transition t3 {
+				from Landing
+				to j1
+				trigger 
+			heightAboveTakeOff ? h
+			}
+			initial i0
+			transition t4 {
+				from j1
+				to Finished
+				condition withinAltitude ( PRECISION_ERROR , 0 , h )
+				action NavSucceeded ! true
+			}
+			transition t5 {
+				from j1
+				to Landing
+				condition 
+			not withinAltitude ( PRECISION_ERROR , 0 , h )
+			}
+		junction j1
+			transition t6 {
+				from j2
+				to Finished
+				condition 
+			
+				not res
+				action NavSucceeded ! false
+			}
+			transition t7 {
+				from j2
+				to TakingOff
+				condition res
+			}
+			junction j2
+			transition t8 {
+				from TakingOff
+				to j3
+				trigger heightAboveTakeOff ? h
+			}
+			junction j3
+			transition t9 {
+				from j3
+				to Finished
+				condition withinAltitude ( PRECISION_ERROR , TAKEOFF_HEIGHT , h )
+				action NavSucceeded ! true
+			}
+			transition t10 {
+				from j3
+				to TakingOff
+			condition 
+			
+			not withinAltitude ( PRECISION_ERROR , TAKEOFF_HEIGHT , h )
+			}
+			junction j4
+			transition t11 {
+				from GoingHome
+				to j4
+				trigger heightAboveTakeOff ? h
+			}
+			transition t13 {
+				from j4
+				to Finished
+			condition withinAltitude ( PRECISION_ERROR , TAKEOFF_HEIGHT , h )
+				action NavSucceeded ! true
+			}
+		entry finished = false
+		transition t14 {
+				from j4
+				to GoingHome
+				condition not withinAltitude ( PRECISION_ERROR , TAKEOFF_HEIGHT , h )
+			}
+		state Finished {
+				entry finished = true
+			}
+		} // End of NavigatingCommand
+		
+		during monitorBattery ( )
+	} // End of Monitoring
+	state GetControlAuthority {
+	entry fcControlAuth ( )
 	}
-	transition ReturnedHome { from GoingHome to Waiting trigger fcWaypointFinishedMission action uavStatus!AircraftStatus::AtHome }
+	junction j0
+	final f0
+	junction j1
+	transition t0 {
+		from j0
+		to GetControlAuthority
+		condition res
+	}
+	transition t1 {
+		from j0
+		to f0
+		condition 
+		not res
+	}
+	transition t2 {
+		from GetControlAuthority
+		to j1
+		trigger 
+	
+	
+	fcControlAuthRet ? res
+	}
+	transition t3 {
+		from j1
+		to Monitoring
+		condition res
+	}
+	transition t4 {
+		from j1
+		to f0
+		condition not res
+	}
+requires IFlightBatteryMonitor const PRECISION_ERROR : real
+const TAKEOFF_HEIGHT : real
+transition t5 {
+		from Monitoring
+		to f0
+		condition not res
+	}
+event WPSucceeded : boolean
+	event NavSucceeded : boolean
 }
 
+operation monitorBattery ( ) {
+	var batt : Battery
+	event batteryStateIn : Battery
+	event batteryStateOut : Battery 
+	initial i0
+	state s0 {
+	}
+	transition t0 {
+		from i0
+		to s0
+	}
+	transition t1 {
+		from s0
+		to s0
+		trigger batteryStateIn ? batt
+		action batteryStateOut ! batt
+	}
+}
+
+function withinRadius ( radius : real , desired : Position, pos : Position ) : boolean { } 
+function withinAltitude ( precision:real, tgt : real, altitude: real ) : boolean { } 
+function midPoint ( x : Position , y : Position ) : Position { }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="t86" pkg="fcsmap_fcs_suite_t86" type="node" output="screen"/>
+</launch>
