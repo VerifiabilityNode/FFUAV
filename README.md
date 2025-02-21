@@ -1,8 +1,7 @@
 # Firefighting UAV
 This repository contains artefacts related to modelling, design, testing, and verification of a Firefighting UAV. Because this repository uses Git submodules, when checking out make sure that the submodules are initialised, for example, using the commands:
 ```
-git submodule init
-git checkout --recurse-submodules
+git clone --recurse-submodules https://github.com/VerifiabilityNode/FFUAV.git
 ```
 
 ## Contents
