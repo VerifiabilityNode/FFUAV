@@ -1,5 +1,5 @@
 [submodule "FF_UAV_public"]
-	path = FF_UAV_public
+	path = fire-fighting-uav
 	url = https://github.com/RealRobotics/fire-fighting-uav
 [submodule "FireFightingUAV-pd/catkin_ws/src/fire-fighting-uav"]
 	path = "Models/RoboStar Models/FireFightingUAV-pd/catkin_ws/src/fire-fighting-uav"
